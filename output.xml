@@ -35,6 +35,7 @@
     <encoding>UTF-8</encoding>
     <notes>
       <note>Hola</note>
+      <note>Adios</note>
     </notes>
     <dataRules>
       <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
