@@ -34,14 +34,7 @@
     <datatype>varchar (150)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note>&lt;p&gt;HOLA &lt;strong&gt;comom&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&#13;
-&lt;p&gt;&lt;strong&gt;estas&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&#13;
-&lt;p&gt;&lt;strong&gt;bien&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&#13;
-&lt;p&gt;&lt;strong&gt;&lt;a href="Respaldo.php"&gt;http://172.16.3.63/diccionarioEditable2/diccionarioEditable/Respaldo.php&lt;/a&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;</note>
-      <note>Ejemplo&#13;
-sas</note>
-      <note>Ejemplo222</note>
-      <note>sasasa</note>
+      <note>test</note>
     </notes>
     <dataRules>
       <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
