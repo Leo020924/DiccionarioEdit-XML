@@ -33,10 +33,6 @@
     <description>País, estado y municipio o su división política equivalente, registrados para el ejemplar por el recolector u observador.</description>
     <datatype>varchar (150)</datatype>
     <encoding>UTF-8</encoding>
-    <notes>
-      <note>Hola</note>
-      <note>Adios</note>
-    </notes>
     <dataRules>
       <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
     </dataRules>
