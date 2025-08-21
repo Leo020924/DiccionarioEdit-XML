@@ -236,14 +236,14 @@
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
-      <note><![CDATA[<p>Campo disponible solo en la descarga de ejemplares del SNIB MX en</p>
-<p>&nbsp;</p>
-<p>&nbsp;<strong>https://www.snib.mx/ejemplares/descarga/</strong></p>]]></note>
-      <note><![CDATA[<div>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</div>]]></note>
-      <note><![CDATA[<p><strong>Leonardo</strong></p>
-<p>&nbsp;</p>
-<p><em>PRUEBA</em></p>]]></note>
+      <note>&lt;p&gt;Campo resultado del proceso de limpieza, estandarizaci&amp;oacute;n y compleci&amp;oacute;n realizado por la CONABIO.&lt;/p&gt;</note>
+      <note>&lt;p&gt;Campo disponible solo en la descarga de ejemplares del SNIB MX en&lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;strong&gt;https://www.snib.mx/ejemplares/descarga/&lt;/strong&gt;&lt;/p&gt;</note>
+      <note>&lt;div&gt;Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/&lt;/div&gt;</note>
+      <note>&lt;p&gt;&lt;strong&gt;Leonardo&lt;/strong&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;em&gt;PRUEBA&lt;/em&gt;&lt;/p&gt;</note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
@@ -256,6 +256,11 @@
       <campo>longitud</campo>
       <campo>latitud</campo>
     </campos>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>127d21638cc105ce290844e6abb7e870</key>
+      <key>096c765542c6bb8f65d0abfd102e9af0</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
