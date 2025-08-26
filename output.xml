@@ -279,7 +279,9 @@
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>1</orden>
+    <orden>
+      <first></first>
+    </orden>
     <fieldName>País asignado</fieldName>
     <fieldid>paismapa</fieldid>
     <dwcField>Incluido en country</dwcField>
@@ -361,7 +363,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>3</orden>
+    <orden>
+      <after>claveestadomapa</after>
+    </orden>
     <fieldName>Estado asignado</fieldName>
     <fieldid>estadomapa</fieldid>
     <dwcField>Incluido en stateProvince</dwcField>
@@ -391,7 +395,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>2</orden>
+    <orden>
+      <after>paismapa</after>
+    </orden>
     <fieldName>Clave estatal asignada</fieldName>
     <fieldid>claveestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -425,7 +431,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>5</orden>
+    <orden>
+      <after>mt24claveestadomapa</after>
+    </orden>
     <fieldName>Estado asignado como referencia para las ubicaciones en el mar</fieldName>
     <fieldid>mt24nombreestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -457,7 +465,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>4</orden>
+    <orden>
+      <after>claveestadomapa</after>
+    </orden>
     <fieldName>Clave estatal asignada como referencia para las ubicaciones en el mar </fieldName>
     <fieldid>mt24claveestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -515,7 +525,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>7</orden>
+    <orden>
+      <after>clavemunicipiomapa</after>
+    </orden>
     <fieldName>Municipio asignado</fieldName>
     <fieldid>municipiomapa</fieldid>
     <dwcField>Incluido en county</dwcField>
@@ -548,7 +560,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>6</orden>
+    <orden>
+      <after>mt24nombreestadomapa</after>
+    </orden>
     <fieldName>Clave municipal asignada</fieldName>
     <fieldid>clavemunicipiomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -583,7 +597,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>9</orden>
+    <orden>
+      <after>mt24clavemunicipiomapa</after>
+    </orden>
     <fieldName>Municipio asignado como referencia para las ubicaciones en el mar</fieldName>
     <fieldid>mt24nombremunicipiomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -613,7 +629,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>8</orden>
+    <orden>
+      <after>municipiomapa</after>
+    </orden>
     <fieldName>Clave municipal asignada como referencia para las ubicaciones en el mar  </fieldName>
     <fieldid>mt24clavemunicipiomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -680,7 +698,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>10</orden>
+    <orden>
+      <after>mt24nombremunicipiomapa</after>
+    </orden>
     <fieldName>Altitud </fieldName>
     <fieldid>altitudmapa</fieldid>
     <dwcField>minimunElevationInMeters</dwcField>
@@ -701,7 +721,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>15</orden>
+    <orden>
+      <after>cuencahidrograficamapa</after>
+    </orden>
     <fieldName>Uso de suelo y vegetación serie I del INEGI</fieldName>
     <fieldid>usvserieI</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -724,7 +746,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>16</orden>
+    <orden>
+      <after>usvserieI</after>
+    </orden>
     <fieldName>Uso de suelo y vegetación serie II del INEGI</fieldName>
     <fieldid>usvserieII</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -747,7 +771,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>17</orden>
+    <orden>
+      <after>usvserieII</after>
+    </orden>
     <fieldName>Uso de suelo y vegetación serie III del INEGI</fieldName>
     <fieldid>usvserieIII</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -770,7 +796,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>18</orden>
+    <orden>
+      <after>usvserieIII</after>
+    </orden>
     <fieldName>Uso de suelo y vegetación serie IV del INEGI</fieldName>
     <fieldid>usvserieIV</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -793,7 +821,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>19</orden>
+    <orden>
+      <after>usvserieIV</after>
+    </orden>
     <fieldName>Uso de suelo y vegetación serie V del INEGI</fieldName>
     <fieldid>usvserieV</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -815,7 +845,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>20</orden>
+    <orden>
+      <after>usvserieV</after>
+    </orden>
     <fieldName>Uso de suelo y vegetación serie VI del INEGI</fieldName>
     <fieldid>usvserieVI</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -837,7 +869,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>21</orden>
+    <orden>
+      <after>usvserieVI</after>
+    </orden>
     <fieldName>Uso de suelo y vegetación serie VII del INEGI</fieldName>
     <fieldid>usvserieVII</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -860,7 +894,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>22</orden>
+    <orden>
+      <last></last>
+    </orden>
     <fieldName>Vegetación para otros países </fieldName>
     <fieldid>vegetacionserenanalcms</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -882,7 +918,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>11</orden>
+    <orden>
+      <after>altitudmapa</after>
+    </orden>
     <fieldName>Áreas Naturales Protegidas</fieldName>
     <fieldid>anp</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -917,7 +955,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>12</orden>
+    <orden>
+      <after>anp</after>
+    </orden>
     <fieldName>Región marina </fieldName>
     <fieldid>regionmarinamapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -945,7 +985,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>13</orden>
+    <orden>
+      <after>regionmarinamapa</after>
+    </orden>
     <fieldName>Ecorregiones terrestres</fieldName>
     <fieldid>ecorregionterrestremapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -970,7 +1012,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>14</orden>
+    <orden>
+      <after>ecorregionterrestremapa</after>
+    </orden>
     <fieldName>Cuencas hidrográficas</fieldName>
     <fieldid>cuencahidrograficamapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
