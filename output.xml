@@ -1470,7 +1470,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Atributos Biológicos y Ecológicos</category>
-    <orden>3</orden>
+    <orden>
+      <after>ambiente</after>
+    </orden>
     <fieldName>Endemismo</fieldName>
     <fieldid>endemismo</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1495,7 +1497,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Atributos Biológicos y Ecológicos</category>
-    <orden>7</orden>
+    <orden>
+      <last></last>
+    </orden>
     <fieldName>Taxón extinto</fieldName>
     <fieldid>taxonextinto</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1516,7 +1520,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Atributos Biológicos y Ecológicos</category>
-    <orden>2</orden>
+    <orden>
+      <after>nombrecomun</after>
+    </orden>
     <fieldName>Ambiente</fieldName>
     <fieldid>ambiente</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1546,7 +1552,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Atributos Biológicos y Ecológicos</category>
-    <orden>1</orden>
+    <orden
+      <first></first>
+    </orden>
     <fieldName>Nombre común</fieldName>
     <fieldid>nombrecomun</fieldid>
     <dwcField>vernacularName</dwcField>
@@ -1595,7 +1603,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Atributos Biológicos y Ecológicos</category>
-    <orden>5</orden>
+    <orden>
+      <after>exoticainvasora</after>
+    </orden>
     <fieldName>Forma de crecimiento</fieldName>
     <fieldid>formadecrecimiento</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1697,7 +1707,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Atributos Biológicos y Ecológicos</category>
-    <orden>4</orden>
+    <orden>
+      <after>endemismo</after>
+    </orden>
     <fieldName>Especie exótica o exótica invasora</fieldName>
     <fieldid>exoticainvasora</fieldid>
     <dwcField>establishmentMeans</dwcField>
@@ -1800,7 +1812,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Atributos Biológicos y Ecológicos</category>
-    <orden>6</orden>
+    <orden>
+      <after>formadecrecimiento</after>
+    </orden>
     <fieldName>Residencia de aves</fieldName>
     <fieldid>categoriaresidenciaaves</fieldid>
     <dwcField>Sin equivalencia</dwcField>
