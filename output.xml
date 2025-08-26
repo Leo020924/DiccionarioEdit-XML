@@ -2,7 +2,9 @@
 <snibDictionary>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <orden>1</orden>
+    <orden>
+      <first></first>
+    </orden>
     <fieldName>Identificador único del ejemplar</fieldName>
     <fieldid>idejemplar</fieldid>
     <dwcField>occurrenceID</dwcField>
@@ -1839,7 +1841,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <orden>19</orden>
+    <orden>
+      <last></last>
+    </orden>
     <fieldName>Colección</fieldName>
     <fieldid>coleccion</fieldid>
     <dwcField>collectionCode</dwcField>
@@ -1872,7 +1876,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <orden>3</orden>
+    <orden>
+      <after>procedenciaejemplar</after>
+    </orden>
     <fieldName>Institución</fieldName>
     <fieldid>institucion</fieldid>
     <dwcField>institutionCode</dwcField>
@@ -1906,7 +1912,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <orden>18</orden>
+    <orden>
+      <after>ejemplarfosil</after>
+    </orden>
     <fieldName>País donde se localiza la colección</fieldName>
     <fieldid>paiscoleccion</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1925,7 +1933,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <orden>4</orden>
+    <orden>
+      <after>institucion</after>
+    </orden>
     <fieldName>Número de catálogo</fieldName>
     <fieldid>numcatalogo</fieldid>
     <dwcField>catalogNumber</dwcField>
@@ -1949,7 +1959,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <orden>5</orden>
+    <orden>
+      <after>numcatalogo</after>
+    </orden>
     <fieldName>Número de recolecta</fieldName>
     <fieldid>numcolecta</fieldid>
     <dwcField>recordNumber</dwcField>
@@ -1973,7 +1985,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <orden>2</orden>
+    <orden>
+      <after>idejemplar</after>
+    </orden>
     <fieldName>Procedencia del ejemplar</fieldName>
     <fieldid>procedenciaejemplar</fieldid>
     <dwcField>basisOfRecord</dwcField>
@@ -2009,7 +2023,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <orden>11</orden>
+    <orden>
+      <after>fechacolecta</after>
+    </orden>
     <fieldName>Determinador del ejemplar</fieldName>
     <fieldid>determinador</fieldid>
     <dwcField>identifiedBy</dwcField>
@@ -2027,7 +2043,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <orden>12</orden>
+    <orden>
+       <after>determinador</after>
+    </orden>
     <fieldName>Año de la determinación</fieldName>
     <fieldid>aniodeterminacion</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -2045,7 +2063,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <orden>13</orden>
+    <orden>
+      <after>aniodeterminacion</after>
+    </orden>
     <fieldName>Mes de la determinación</fieldName>
     <fieldid>mesdeterminacion</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -2063,7 +2083,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <orden>14</orden>
+    <orden>
+      <after>mesdeterminacion</after>
+    </orden>
     <fieldName>Día de la determinación</fieldName>
     <fieldid>diadeterminacion</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -2081,7 +2103,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <orden>15</orden>
+    <orden>
+      <after>diadeterminacion</after>
+    </orden>
     <fieldName>Fecha de la determinación</fieldName>
     <fieldid>fechadeterminacion</fieldid>
     <dwcField>dateIdentified</dwcField>
@@ -2116,7 +2140,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <orden>6</orden>
+    <orden>
+      <after>numcolecta</after>
+    </orden>
     <fieldName>Colector del ejemplar</fieldName>
     <fieldid>colector</fieldid>
     <dwcField>recordedBy</dwcField>
@@ -2134,7 +2160,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <orden>7</orden>
+    <orden>
+      <after>colector</after>
+    </orden>
     <fieldName>Año de recolecta</fieldName>
     <fieldid>aniocolecta</fieldid>
     <dwcField>year</dwcField>
@@ -2154,7 +2182,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <orden>8</orden>
+    <orden>
+      <after>aniocolecta</after>
+    </orden>
     <fieldName>Mes de recolecta</fieldName>
     <fieldid>mescolecta</fieldid>
     <dwcField>month</dwcField>
@@ -2174,7 +2204,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <orden>9</orden>
+    <orden>
+      <after>mescolecta</after>
+    </orden>
     <fieldName>Día de recolecta</fieldName>
     <fieldid>diacolecta</fieldid>
     <dwcField>day</dwcField>
@@ -2194,7 +2226,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <orden>10</orden>
+    <orden>
+      <after>diacolecta</after>
+    </orden>
     <fieldName>Fecha de recolecta</fieldName>
     <fieldid>fechacolecta</fieldid>
     <dwcField>eventDate</dwcField>
@@ -2215,7 +2249,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <orden>16</orden>
+    <orden>
+      <after>fechadeterminacion</after>
+    </orden>
     <fieldName>Tipo</fieldName>
     <fieldid>tipo</fieldid>
     <dwcField>typeStatus</dwcField>
@@ -2251,7 +2287,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <orden>17</orden>
+    <orden>
+      <after>tipo</after>
+    </orden>
     <fieldName>Ejemplar fósil</fieldName>
     <fieldid>ejemplarfosil</fieldid>
     <dwcField>Incluido en basisOfRecord</dwcField>
