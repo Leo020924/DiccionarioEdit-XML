@@ -170,7 +170,9 @@
   </snibTerm>
   <snibTerm>
     <category>Validación de la información geográfica</category>
-    <orden>2</orden>
+    <orden>
+      <last></last>
+    </orden>
     <fieldName>Validación de la ubicación respecto al ambiente</fieldName>
     <fieldid>validacionambiente</fieldid>
     <dwcField>Incluido en georeferenceVerificationStatus</dwcField>
@@ -194,7 +196,9 @@
   </snibTerm>
   <snibTerm>
     <category>Validación de la información geográfica</category>
-    <orden>1</orden>
+    <orden>
+      <first></first>
+    </orden>
     <fieldName>Validación de la ubicación geográfica</fieldName>
     <fieldid>geovalidacion</fieldid>
     <dwcField>Incluido en georeferenceVerificationStatus</dwcField>
