@@ -2386,7 +2386,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Metadatos y Administración SNIB</category>
-    <orden>5</orden>
+    <orden>
+      <after>licenciauso</after>
+    </orden>
     <fieldName>Proyecto</fieldName>
     <fieldid>proyecto</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -2409,7 +2411,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Metadatos y Administración SNIB</category>
-    <orden>3</orden>
+    <orden>
+      <after>formadecitar</after>
+    </orden>
     <fieldName>Fuente</fieldName>
     <fieldid>fuente</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -2433,7 +2437,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Metadatos y Administración SNIB</category>
-    <orden>2</orden>
+    <orden>
+      <after>geoportal</after>
+    </orden>
     <fieldName>Forma de citar</fieldName>
     <fieldid>formadecitar</fieldid>
     <dwcField>Incluido en bibliographicCitation</dwcField>
@@ -2447,7 +2453,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Metadatos y Administración SNIB</category>
-    <orden>4</orden>
+    <orden>
+      <after>fuente</after>
+    </orden>
     <fieldName>Licencia de uso</fieldName>
     <fieldid>licenciauso</fieldid>
     <dwcField>license</dwcField>
@@ -2490,7 +2498,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Metadatos y Administración SNIB</category>
-    <orden>8</orden>
+    <orden>
+      <after>urlorigen</after>
+    </orden>
     <fieldName>URL del proyecto</fieldName>
     <fieldid>urlproyecto</fieldid>
     <dwcField>Sin equivalencia https://dwc.tdwg.org/terms/</dwcField>
@@ -2504,7 +2514,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Metadatos y Administración SNIB</category>
-    <orden>7</orden>
+    <orden>
+      <after>urlejemplar</after>
+    </orden>
     <fieldName>URL del origen del ejemplar</fieldName>
     <fieldid>urlorigen</fieldid>
     <dwcField>Incluido en bibliographicCitation</dwcField>
@@ -2518,7 +2530,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Metadatos y Administración SNIB</category>
-    <orden>6</orden>
+    <orden>
+      <after>proyecto</after>
+    </orden>
     <fieldName>URL del ejemplar</fieldName>
     <fieldid>urlejemplar</fieldid>
     <dwcField>Incluido en bibliographicCitation</dwcField>
@@ -2532,7 +2546,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Metadatos y Administración SNIB</category>
-    <orden>1</orden>
+    <orden>
+      <first></first>
+    </orden>
     <fieldName>Descargable desde el Geoportal</fieldName>
     <fieldid>geoportal</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -2552,7 +2568,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Metadatos y Administración SNIB</category>
-    <orden>10</orden>
+    <orden>
+      <last></last>
+    </orden>
     <fieldName>Última fecha de actualización</fieldName>
     <fieldid>ultimafechaactualizacion</fieldid>
     <dwcField>modified</dwcField>
@@ -2566,7 +2584,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Metadatos y Administración SNIB</category>
-    <orden>9</orden>
+    <orden>
+      <after>urlproyecto</after>
+    </orden>
     <fieldName>Versión</fieldName>
     <fieldid>version</fieldid>
     <dwcField>Sin equivalencia</dwcField>
