@@ -3,7 +3,7 @@
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <first></first>
+      <first/>
     </orden>
     <fieldName>Identificador único del ejemplar</fieldName>
     <fieldid>idejemplar</fieldid>
@@ -12,7 +12,8 @@
     <datatype>varchar (32)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note>Dado que este identificador se genera para el ingreso del registro al SNIB, este no corresponderá al identificador del ejemplar en las fuentes originales de información del SNIB.</note>
+      <note>&lt;p&gt;Dado que este identificador se genera para el ingreso del registro al SNIB, este no corresponder&amp;aacute; al identificador del ejemplar en las fuentes originales de informaci&amp;oacute;n del SNIB.&lt;/p&gt;</note>
+      <note>&lt;p&gt;Hola&lt;/p&gt;</note>
     </notes>
     <dataRules>
       <rule>Este valor se preserva para los ejemplares registrados en el SNIB.</rule>
@@ -29,7 +30,7 @@
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <first></first>
+      <first/>
     </orden>
     <fieldName>Región de recolecta u observación</fieldName>
     <fieldid>region</fieldid>
@@ -171,7 +172,7 @@
   <snibTerm>
     <category>Validación de la información geográfica</category>
     <orden>
-      <last></last>
+      <last/>
     </orden>
     <fieldName>Validación de la ubicación respecto al ambiente</fieldName>
     <fieldid>validacionambiente</fieldid>
@@ -197,7 +198,7 @@
   <snibTerm>
     <category>Validación de la información geográfica</category>
     <orden>
-      <first></first>
+      <first/>
     </orden>
     <fieldName>Validación de la ubicación geográfica</fieldName>
     <fieldid>geovalidacion</fieldid>
@@ -284,7 +285,7 @@
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <first></first>
+      <first/>
     </orden>
     <fieldName>País asignado</fieldName>
     <fieldid>paismapa</fieldid>
@@ -669,7 +670,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <last></last>
+      <last/>
     </orden>
     <fieldName>Incertidumbre geográfica</fieldName>
     <fieldid>incertidumbrexy</fieldid>
@@ -899,7 +900,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <last></last>
+      <last/>
     </orden>
     <fieldName>Vegetación para otros países </fieldName>
     <fieldid>vegetacionserenanalcms</fieldid>
@@ -1045,7 +1046,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Taxonomía</category>
     <orden>
-      <first></first>
+      <first/>
     </orden>
     <fieldName>Grupo biológico</fieldName>
     <fieldid>grupobio</fieldid>
@@ -1570,7 +1571,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Taxonomía</category>
     <orden>
-      <last></last>
+      <last/>
     </orden>
     <fieldName>Taxón validado</fieldName>
     <fieldid>taxonvalidado</fieldid>
@@ -1616,7 +1617,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Atributos Biológicos y Ecológicos</category>
     <orden>
-      <last></last>
+      <last/>
     </orden>
     <fieldName>Taxón extinto</fieldName>
     <fieldid>taxonextinto</fieldid>
@@ -1671,7 +1672,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Atributos Biológicos y Ecológicos</category>
     <orden>
-      <first></first>
+      <first/>
     </orden>
     <fieldName>Nombre común</fieldName>
     <fieldid>nombrecomun</fieldid>
@@ -1863,7 +1864,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Estatus de Conservación y Riesgo</category>
     <orden>
-      <first></first>
+      <first/>
     </orden>
     <fieldName>Categoría de riesgo según NOM-059-SEMARNAT </fieldName>
     <fieldid>nom059</fieldid>
@@ -1912,7 +1913,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Estatus de Conservación y Riesgo</category>
     <orden>
-      <last></last>
+      <last/>
     </orden>
     <fieldName>IUCN</fieldName>
     <fieldid>iucn</fieldid>
@@ -1988,7 +1989,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <last></last>
+      <last/>
     </orden>
     <fieldName>Colección</fieldName>
     <fieldid>coleccion</fieldid>
@@ -2190,7 +2191,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-       <after>determinador</after>
+      <after>determinador</after>
     </orden>
     <fieldName>Año de la determinación</fieldName>
     <fieldid>aniodeterminacion</fieldid>
@@ -2619,7 +2620,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Metadatos y Administración SNIB</category>
     <orden>
-      <first></first>
+      <first/>
     </orden>
     <fieldName>Descargable desde el Geoportal</fieldName>
     <fieldid>geoportal</fieldid>
@@ -2641,7 +2642,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Metadatos y Administración SNIB</category>
     <orden>
-      <last></last>
+      <last/>
     </orden>
     <fieldName>Última fecha de actualización</fieldName>
     <fieldid>ultimafechaactualizacion</fieldid>
