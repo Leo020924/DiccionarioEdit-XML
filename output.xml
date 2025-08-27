@@ -13,7 +13,7 @@
     <encoding>UTF-8</encoding>
     <notes>
       <note>&lt;p&gt;Dado que este identificador se genera para el ingreso del registro al SNIB, este no corresponder&amp;aacute; al identificador del ejemplar en las fuentes originales de informaci&amp;oacute;n del SNIB.&lt;/p&gt;</note>
-      <note>&lt;p&gt;Hola&lt;/p&gt;</note>
+      <note>&lt;p&gt;&lt;strong&gt;Hola&lt;/strong&gt;&lt;/p&gt;</note>
     </notes>
     <dataRules>
       <rule>Este valor se preserva para los ejemplares registrados en el SNIB.</rule>
