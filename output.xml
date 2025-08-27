@@ -1776,7 +1776,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Estatus de Conservación y Riesgo</category>
-    <orden>3</orden>
+    <orden>
+      <after>cites</after>
+    </orden>
     <fieldName>Especie prioritaria</fieldName>
     <fieldid>prioritaria</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1801,7 +1803,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Estatus de Conservación y Riesgo</category>
-    <orden>4</orden>
+    <orden>
+      <after>prioritaria</after>
+    </orden>
     <fieldName>Nivel de prioridad de la especie</fieldName>
     <fieldid>nivelprioridad</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1858,7 +1862,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Estatus de Conservación y Riesgo</category>
-    <orden>1</orden>
+    <orden>
+      <first></first>
+    </orden>
     <fieldName>Categoría de riesgo según NOM-059-SEMARNAT </fieldName>
     <fieldid>nom059</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1879,7 +1885,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Estatus de Conservación y Riesgo</category>
-    <orden>2</orden>
+    <orden>
+      <after>nom059</after>
+    </orden>
     <fieldName>CITES </fieldName>
     <fieldid>cites</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1903,7 +1911,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Estatus de Conservación y Riesgo</category>
-    <orden>5</orden>
+    <orden>
+      <last></last>
+    </orden>
     <fieldName>IUCN</fieldName>
     <fieldid>iucn</fieldid>
     <dwcField>Sin equivalencia</dwcField>
