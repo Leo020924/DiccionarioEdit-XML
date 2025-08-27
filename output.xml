@@ -1044,7 +1044,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>1</orden>
+    <orden>
+      <first></first>
+    </orden>
     <fieldName>Grupo biológico</fieldName>
     <fieldid>grupobio</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1084,7 +1086,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>2</orden>
+    <orden>
+      <after>grupobio</after>
+    </orden>
     <fieldName>Subgrupo biológico</fieldName>
     <fieldid>subgrupobio</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1100,7 +1104,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>4</orden>
+    <orden>
+      <after>idnombrecat</after>
+    </orden>
     <fieldName>Reino</fieldName>
     <fieldid>reino</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1120,7 +1126,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>5</orden>
+    <orden>
+      <after>reino</after>
+    </orden>
     <fieldName>Phylum o división</fieldName>
     <fieldid>phylumdivision</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1140,7 +1148,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>6</orden>
+    <orden>
+      <after>phylumdivision</after>
+    </orden>
     <fieldName>Clase</fieldName>
     <fieldid>clase</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1160,7 +1170,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>7</orden>
+    <orden>
+      <after>clase</after>
+    </orden>
     <fieldName>Orden</fieldName>
     <fieldid>orden</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1180,7 +1192,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>8</orden>
+    <orden>
+      <after>orden</after>
+    </orden>
     <fieldName>Familia</fieldName>
     <fieldid>familia</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1200,7 +1214,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>9</orden>
+    <orden>
+      <after>familia</after>
+    </orden>
     <fieldName>Género</fieldName>
     <fieldid>genero</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1220,7 +1236,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>10</orden>
+    <orden>
+      <after>genero</after>
+    </orden>
     <fieldName>Especie</fieldName>
     <fieldid>especie</fieldid>
     <dwcField>scientificName</dwcField>
@@ -1238,7 +1256,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>12</orden>
+    <orden>
+      <after>calificadordeterminacion</after>
+    </orden>
     <fieldName>Categoría infraespecífica </fieldName>
     <fieldid>categoriainfraespecie</fieldid>
     <dwcField>Incluido en taxonRank</dwcField>
@@ -1252,7 +1272,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>13</orden>
+    <orden>
+      <after>categoriainfraespecie</after>
+    </orden>
     <fieldName>Categoría subinfraespecífica</fieldName>
     <fieldid>categoriainfraespecie2</fieldid>
     <dwcField>incluido en taxonRank</dwcField>
@@ -1266,7 +1288,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>14</orden>
+    <orden>
+      <after>categoriainfraespecie2</after>
+    </orden>
     <fieldName>Autoridad y año de la especie</fieldName>
     <fieldid>autor</fieldid>
     <dwcField>scientificNameAuthorship</dwcField>
@@ -1282,7 +1306,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>15</orden>
+    <orden>
+      <after>autor</after>
+    </orden>
     <fieldName>Estatus taxonómico</fieldName>
     <fieldid>estatustax</fieldid>
     <dwcField>taxonomicStatus</dwcField>
@@ -1304,7 +1330,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>16</orden>
+    <orden>
+      <after>estatustax</after>
+    </orden>
     <fieldName>Referencia taxonómica</fieldName>
     <fieldid>reftax</fieldid>
     <dwcField>nameAccordingTo</dwcField>
@@ -1320,7 +1348,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>18</orden>
+    <orden>
+      <after>idnombrecatvalido</after>
+    </orden>
     <fieldName>Reino válido</fieldName>
     <fieldid>reinovalido</fieldid>
     <dwcField>kingdom</dwcField>
@@ -1338,7 +1368,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>19</orden>
+    <orden>
+      <after>reinovalido</after>
+    </orden>
     <fieldName>Phylum o división válida</fieldName>
     <fieldid>phylumdivisionvalido</fieldid>
     <dwcField>phylum</dwcField>
@@ -1357,7 +1389,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>20</orden>
+    <orden>
+      <after>phylumdivisionvalido</after>
+    </orden>
     <fieldName>Clase válida</fieldName>
     <fieldid>clasevalida</fieldid>
     <dwcField>class</dwcField>
@@ -1376,7 +1410,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>21</orden>
+    <orden>
+      <after>clasevalida</after>
+    </orden>
     <fieldName>Orden válido</fieldName>
     <fieldid>ordenvalido</fieldid>
     <dwcField>order</dwcField>
@@ -1395,7 +1431,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>22</orden>
+    <orden>
+      <after>ordenvalido</after>
+    </orden>
     <fieldName>Familia válida</fieldName>
     <fieldid>familiavalida</fieldid>
     <dwcField>family</dwcField>
@@ -1414,7 +1452,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>23</orden>
+    <orden>
+      <after>familiavalida</after>
+    </orden>
     <fieldName>Género válido</fieldName>
     <fieldid>generovalido</fieldid>
     <dwcField>genus</dwcField>
@@ -1434,7 +1474,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>24</orden>
+    <orden>
+      <after>generovalido</after>
+    </orden>
     <fieldName>Especie válida</fieldName>
     <fieldid>especievalida</fieldid>
     <dwcField>acceptedNameUsage</dwcField>
@@ -1456,7 +1498,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>25</orden>
+    <orden>
+      <after>especievalida</after>
+    </orden>
     <fieldName>Categoría infraespecífica del nombre válido</fieldName>
     <fieldid>categoriainfraespecievalida</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1470,7 +1514,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>26</orden>
+    <orden>
+      <after>categoriainfraespecievalida</after>
+    </orden>
     <fieldName>Categoría subinfraespecífica del nombre válido</fieldName>
     <fieldid>categoriainfraespecie2valida</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1484,7 +1530,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>27</orden>
+    <orden>
+      <after>categoriainfraespecie2valida</after>
+    </orden>
     <fieldName>Autoridad y año del nombre válido</fieldName>
     <fieldid>autorvalido</fieldid>
     <dwcField>scientificNameAuthorship</dwcField>
@@ -1502,7 +1550,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>28</orden>
+    <orden>
+      <after>autorvalido</after>
+    </orden>
     <fieldName>Referencia taxonómica del nombre válido</fieldName>
     <fieldid>reftaxvalido</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1519,7 +1569,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>29</orden>
+    <orden>
+      <last></last>
+    </orden>
     <fieldName>Taxón validado</fieldName>
     <fieldid>taxonvalidado</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1641,7 +1693,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>3</orden>
+    <orden>
+      <after>subgrupobio</after>
+    </orden>
     <fieldName>Identificador del Nombre</fieldName>
     <fieldid>idnombrecat</fieldid>
     <dwcField>scientificNameID</dwcField>
@@ -1655,7 +1709,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>17</orden>
+    <orden>
+      <after>reftax</after>
+    </orden>
     <fieldName>Identificador del Nombre válido</fieldName>
     <fieldid>idnombrecatvalido</fieldid>
     <dwcField>acceptedNameUsageID</dwcField>
@@ -2204,7 +2260,9 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>11</orden>
+    <orden>
+      <after>especie</after>
+    </orden>
     <fieldName>Calificador de la determinación</fieldName>
     <fieldid>calificadordeterminacion</fieldid>
     <dwcField>identificationQualifier</dwcField>
