@@ -12,9 +12,7 @@
     <datatype>varchar (32)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note>&lt;p&gt;Dado que este identificador se genera para el ingreso del registro al SNIB, este no corresponder&amp;aacute; al identificador del ejemplar en las fuentes originales de informaci&amp;oacute;n del SNIB.&lt;/p&gt;</note>
-      <note>&lt;p&gt;&lt;strong&gt;Hola &lt;/strong&gt;&lt;em&gt;HOLA&lt;/em&gt;&lt;/p&gt;</note>
-      <note>&lt;p&gt;Ejemplo&lt;/p&gt;</note>
+      <note><![CDATA[<p>Dado que este identificador se genera para el ingreso del registro al SNIB, este no corresponder&aacute; al identificador del ejemplar en las fuentes originales de informaci&oacute;n del SNIB.</p>]]></note>
     </notes>
     <dataRules>
       <rule>Este valor se preserva para los ejemplares registrados en el SNIB.</rule>
