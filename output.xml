@@ -2725,6 +2725,10 @@ NO DISPONIBLE</subregla></rule>
     <infoRules>
       <rule>TEST</rule>
     </infoRules>
+    <campos>
+      <campo>localidad</campo>
+      <campo>longitud</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
