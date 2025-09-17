@@ -2755,24 +2755,4 @@ NO DISPONIBLE</subregla></rule>
       <rule>ejemplo 22</rule>
     </infoRules>
   </snibTerm>
-  <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
-    <orden>
-      <last/>
-    </orden>
-    <fieldName>Ejemplo del Ejemplo</fieldName>
-    <fieldid>ejem</fieldid>
-    <dwcField>ejem</dwcField>
-    <description>Ejemplo del Ejemplo</description>
-    <datatype>String</datatype>
-    <dataRules>
-      <rule>Ejemplo del Ejemplo</rule>
-    </dataRules>
-    <syntaxRules>
-      <rule>Ejemplo del Ejemplo</rule>
-    </syntaxRules>
-    <infoRules>
-      <rule>Ejemplo del Ejemplo</rule>
-    </infoRules>
-  </snibTerm>
 </snibDictionary>
