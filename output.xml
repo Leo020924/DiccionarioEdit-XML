@@ -13,6 +13,7 @@
     <encoding>UTF-8</encoding>
     <notes>
       <note><![CDATA[<p>Dado que este identificador se genera para el ingreso del registro al SNIB, este no corresponder&aacute; al identificador del ejemplar en las fuentes originales de informaci&oacute;n del SNIB.</p>]]></note>
+      <note><![CDATA[<p><strong>Es una nota de ejemplo&nbsp;</strong></p>]]></note>
     </notes>
     <dataRules>
       <rule>Este valor se preserva para los ejemplares registrados en el SNIB.</rule>
@@ -2141,10 +2142,11 @@ NO DISPONIBLE</subregla></rule>
     <datatype>enum</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note>Más información del dominio de valores se encuentra en http://rs.tdwg.org/dwc/terms.htm#basisOfRecord</note>
+      <note><![CDATA[<p>M&aacute;s informaci&oacute;n del dominio de valores se encuentra en http://rs.tdwg.org/dwc/terms.htm#basisOfRecord</p>]]></note>
+      <note><![CDATA[<p><strong>Nota de ejemplo</strong></p>]]></note>
     </notes>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por:</rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>Esto es un ejemplo</subregla><subregla>Ejemplo para borrar</subregla></rule>
       <rule>HumanObservation</rule>
       <rule>PreservedSpecimen</rule>
       <rule>FossilSpecimen</rule>
@@ -2671,5 +2673,37 @@ NO DISPONIBLE</subregla></rule>
     </syntaxRules>
     <infoRules/>
     <notes/>
+  </snibTerm>
+  <snibTerm>
+    <category>Datos del Ejemplar/Observación</category>
+    <fieldName>Ejemplo</fieldName>
+    <fieldid>ejemplo</fieldid>
+    <dwcField>ejemploDwC</dwcField>
+    <description>Esto es un ejemplo de agregar</description>
+    <datatype>String</datatype>
+    <orden>
+      <after>institucion</after>
+    </orden>
+    <campos>
+      <campo>region</campo>
+      <campo>localidad</campo>
+    </campos>
+  </snibTerm>
+  <snibTerm>
+    <category>Datos del Ejemplar/Observación</category>
+    <fieldName>Prueba</fieldName>
+    <fieldid>prueba</fieldid>
+    <dwcField>pruebaDwC</dwcField>
+    <description>Es una prueba solamente</description>
+    <datatype>Varchar(100)</datatype>
+    <dataRules>
+      <rule>Regla de prueba</rule>
+    </dataRules>
+    <syntaxRules>
+      <rule>Regla de prueba</rule>
+    </syntaxRules>
+    <infoRules>
+      <rule>Regla de prueba</rule>
+    </infoRules>
   </snibTerm>
 </snibDictionary>
