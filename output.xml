@@ -2706,4 +2706,24 @@ NO DISPONIBLE</subregla></rule>
       <rule>Regla de prueba</rule>
     </infoRules>
   </snibTerm>
+  <snibTerm>
+    <category>Datos del Ejemplar/Observación</category>
+    <fieldName>TEST</fieldName>
+    <fieldid>test</fieldid>
+    <dwcField>testDwC</dwcField>
+    <description>TEST</description>
+    <datatype>Date</datatype>
+    <orden>
+      <first/>
+    </orden>
+    <dataRules>
+      <rule>TEST</rule>
+    </dataRules>
+    <syntaxRules>
+      <rule>TEST</rule>
+    </syntaxRules>
+    <infoRules>
+      <rule>TEST</rule>
+    </infoRules>
+  </snibTerm>
 </snibDictionary>
