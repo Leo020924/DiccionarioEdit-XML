@@ -2726,4 +2726,25 @@ NO DISPONIBLE</subregla></rule>
       <rule>TEST</rule>
     </infoRules>
   </snibTerm>
+  <snibTerm>
+    <category>Taxonomía</category>
+    <fieldName>Ejemplo de al final</fieldName>
+    <fieldid>alfinal</fieldid>
+    <dwcField>alfinal</dwcField>
+    <description>Ejemplo de al final</description>
+    <datatype>Boolean</datatype>
+    <campos>
+      <campo>localidad</campo>
+      <campo>longitud</campo>
+    </campos>
+    <dataRules>
+      <rule>Ejemplo de al final</rule>
+    </dataRules>
+    <syntaxRules>
+      <rule>Ejemplo de al final</rule>
+    </syntaxRules>
+    <infoRules>
+      <rule>Ejemplo de al final</rule>
+    </infoRules>
+  </snibTerm>
 </snibDictionary>
