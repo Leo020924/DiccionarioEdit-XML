@@ -1989,7 +1989,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <last/>
+      <after>prueba</after>
     </orden>
     <fieldName>Colección</fieldName>
     <fieldid>coleccion</fieldid>
@@ -2745,6 +2745,31 @@ NO DISPONIBLE</subregla></rule>
     </syntaxRules>
     <infoRules>
       <rule>Ejemplo de al final</rule>
+    </infoRules>
+  </snibTerm>
+  <snibTerm>
+    <category>Datos del Ejemplar/Observación</category>
+    <orden>
+      <last/>
+    </orden>
+    <fieldName>Ejemplo 22</fieldName>
+    <fieldid>eje</fieldid>
+    <dwcField>eje</dwcField>
+    <description>ejemplo 22</description>
+    <datatype>String</datatype>
+    <campos>
+      <campo>region</campo>
+      <campo>localidad</campo>
+      <campo>longitud</campo>
+    </campos>
+    <dataRules>
+      <rule>ejemplo 22</rule>
+    </dataRules>
+    <syntaxRules>
+      <rule>ejemplo 22</rule>
+    </syntaxRules>
+    <infoRules>
+      <rule>ejemplo 22</rule>
     </infoRules>
   </snibTerm>
 </snibDictionary>
