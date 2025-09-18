@@ -2790,4 +2790,15 @@ NO DISPONIBLE</subregla></rule>
     <description>PRUEBA</description>
     <datatype>PRUEBA</datatype>
   </snibTerm>
+  <snibTerm>
+    <category>Información geográfica por ubicación de la coordenada</category>
+    <orden>
+      <after>altitudmapa</after>
+    </orden>
+    <fieldName>PRUEBA33</fieldName>
+    <fieldid>PRUEBA33</fieldid>
+    <dwcField>PRUEBA33</dwcField>
+    <description>PRUEBA33</description>
+    <datatype>PRUEBA33</datatype>
+  </snibTerm>
 </snibDictionary>
