@@ -2812,6 +2812,16 @@ NO DISPONIBLE</subregla></rule>
     <dwcField>dasdas</dwcField>
     <description>dasdas</description>
     <datatype>dasd</datatype>
+    <dataRules>
+      <rule>dasdasd<subregla>dasd</subregla></rule>
+      <rule>dasdasd<subregla>asdads</subregla></rule>
+    </dataRules>
+    <syntaxRules>
+      <rule>dasdasd<subregla>dasdasd</subregla></rule>
+    </syntaxRules>
+    <infoRules>
+      <rule>dsadasddasdds</rule>
+    </infoRules>
     <ejemplar>
       <key>000000ac63c0559238194a1f80546a92</key>
       <key>00000103afb44e8217c0021acab57d9d</key>
