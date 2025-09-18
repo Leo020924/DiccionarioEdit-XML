@@ -3,7 +3,7 @@
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <after>ejemploalinicio</after>
+      <first/>
     </orden>
     <fieldName>Identificador único del ejemplar</fieldName>
     <fieldid>idejemplar</fieldid>
@@ -2793,32 +2793,6 @@ NO DISPONIBLE</subregla></rule>
     <dwcField>ejemplo al final</dwcField>
     <description>ejemplo al final</description>
     <datatype>Integer</datatype>
-    <campos>
-      <campo>region</campo>
-      <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
-      <key>00a1abce2041ef96e76fbb84171efd02</key>
-      <key>0019412b313d863ca6b9636a52811b46</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
-    <orden>
-      <first/>
-    </orden>
-    <fieldName>ejemplo al inicio</fieldName>
-    <fieldid>ejemploalinicio</fieldid>
-    <dwcField>ejemplo al inicio</dwcField>
-    <description>ejemplo al inicio</description>
-    <datatype>String</datatype>
-    <notes>
-      <note><![CDATA[<p>Nota de Ejemplo</p>]]></note>
-    </notes>
-    <dataRules>
-      <rule>Ejemplo de regla<subregla>Ejemplo de subregla</subregla></rule>
-    </dataRules>
     <campos>
       <campo>region</campo>
       <campo>localidad</campo>
