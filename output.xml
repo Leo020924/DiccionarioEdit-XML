@@ -2808,18 +2808,17 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <first/>
     </orden>
-    <fieldName>inicip</fieldName>
     <fieldid>id</fieldid>
     <dwcField>dasdas</dwcField>
     <description>dasdas</description>
     <datatype>dasd</datatype>
-    <campos>
-      <campo>region</campo>
-    </campos>
     <ejemplar>
       <key>000000ac63c0559238194a1f80546a92</key>
       <key>00000103afb44e8217c0021acab57d9d</key>
       <key>000001230a1687620f5ea2ff5bf433ea</key>
     </ejemplar>
+    <campos>
+      <campo>especie</campo>
+    </campos>
   </snibTerm>
 </snibDictionary>
