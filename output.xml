@@ -2719,24 +2719,25 @@ NO DISPONIBLE</subregla></rule>
     <datatype>String</datatype>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
     <orden>
       <first/>
     </orden>
-    <fieldName>Ejem</fieldName>
     <fieldid>Ejem</fieldid>
     <dwcField>Ejem</dwcField>
     <description>Ejem</description>
     <datatype>String</datatype>
-    <campos>
-      <campo>region</campo>
-      <campo>localidad</campo>
-    </campos>
+    <dataRules>
+      <rule>Regla de ejemplo<subregla>Subregla de ejemplo</subregla></rule>
+    </dataRules>
     <ejemplar>
       <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
       <key>00a1abce2041ef96e76fbb84171efd02</key>
       <key>0019412b313d863ca6b9636a52811b46</key>
     </ejemplar>
+    <campos>
+      <campo>region</campo>
+      <campo>localidad</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
