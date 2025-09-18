@@ -5,7 +5,6 @@
     <orden>
       <first/>
     </orden>
-    <fieldName>Identificador único del ejemplar</fieldName>
     <fieldid>idejemplar</fieldid>
     <dwcField>occurrenceID</dwcField>
     <description>Clave generada por la CONABIO que identifica de manera única al ejemplar. Se asigna en el momento en que el ejemplar se integra al SNIB.</description>
@@ -16,13 +15,16 @@
       <note><![CDATA[<p><strong>Es una nota de ejemplo&nbsp;</strong></p>]]></note>
     </notes>
     <dataRules>
-      <rule>Este valor se preserva para los ejemplares registrados en el SNIB.</rule>
+      <rule>Este valor se preserva para los ejemplares registrados en el SNIB.<subregla>dasdasd</subregla></rule>
     </dataRules>
     <ejemplar>
       <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
       <key>00a1abce2041ef96e76fbb84171efd02</key>
       <key>0019412b313d863ca6b9636a52811b46</key>
     </ejemplar>
+    <campos>
+      <campo>region</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
