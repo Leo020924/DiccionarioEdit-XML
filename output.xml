@@ -2768,4 +2768,15 @@ NO DISPONIBLE</subregla></rule>
       <campo>localidad</campo>
     </campos>
   </snibTerm>
+  <snibTerm>
+    <category>Información geográfica del ejemplar</category>
+    <orden>
+      <after>latitud</after>
+    </orden>
+    <fieldName>PRUEBA</fieldName>
+    <fieldid>PRUEBA</fieldid>
+    <dwcField>PRUEBA</dwcField>
+    <description>PRUEBA</description>
+    <datatype>String</datatype>
+  </snibTerm>
 </snibDictionary>
