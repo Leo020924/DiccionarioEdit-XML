@@ -2779,4 +2779,15 @@ NO DISPONIBLE</subregla></rule>
     <description>PRUEBA</description>
     <datatype>String</datatype>
   </snibTerm>
+  <snibTerm>
+    <category>Datos del Ejemplar/Observación</category>
+    <orden>
+      <after>diadeterminacion</after>
+    </orden>
+    <fieldName>PRUEBA</fieldName>
+    <fieldid>PRUEBA</fieldid>
+    <dwcField>PRUEBA</dwcField>
+    <description>PRUEBA</description>
+    <datatype>PRUEBA</datatype>
+  </snibTerm>
 </snibDictionary>
