@@ -2161,10 +2161,6 @@ NO DISPONIBLE</subregla></rule>
       <key>214d7661ad759fc508b182b911bd7f1d</key>
       <key>06a3cc6319cc7583799b89c3afb1a84c</key>
     </ejemplar>
-    <campos>
-      <campo>especievalida</campo>
-      <campo>procedenciaejemplar</campo>
-    </campos>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
