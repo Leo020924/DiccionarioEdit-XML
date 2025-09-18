@@ -2218,15 +2218,16 @@ NO DISPONIBLE</subregla></rule>
     <dwcField>Sin equivalencia</dwcField>
     <description>Indica el mes en que se realizó la determinación del ejemplar.</description>
     <datatype>tinyint (4)</datatype>
-    <encoding/>
     <dataRules>
       <rule>El valor nulo significa que no se cuenta con el mes de la determinación del ejemplar, no se capturó el dato o el valor no es válido para un mes del año.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Se muestra con el formato mm.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <campos>
+      <campo>region</campo>
+      <campo>localidad</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
