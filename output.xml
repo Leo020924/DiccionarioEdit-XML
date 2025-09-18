@@ -2169,7 +2169,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <after>PRUEBAAAA</after>
+      <after>fechacolecta</after>
     </orden>
     <fieldName>Determinador del ejemplar</fieldName>
     <fieldid>determinador</fieldid>
@@ -2695,19 +2695,5 @@ NO DISPONIBLE</subregla></rule>
     <infoRules>
       <rule>Ejemplo de al final</rule>
     </infoRules>
-  </snibTerm>
-  <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
-    <orden>
-      <after>fechacolecta</after>
-    </orden>
-    <fieldName>PRUEBAAAA</fieldName>
-    <fieldid>PRUEBAAAA</fieldid>
-    <dwcField>PRUEBAAAA</dwcField>
-    <description>PRUEBAAAA</description>
-    <datatype>String</datatype>
-    <campos>
-      <campo>localidad</campo>
-    </campos>
   </snibTerm>
 </snibDictionary>
