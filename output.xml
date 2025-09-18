@@ -1986,7 +1986,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <first/>
+      <last/>
     </orden>
     <fieldName>Colección</fieldName>
     <fieldid>coleccion</fieldid>
