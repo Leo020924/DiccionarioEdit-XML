@@ -2747,6 +2747,9 @@ NO DISPONIBLE</subregla></rule>
     <dwcField>Ejemplo al final</dwcField>
     <description>Ejemplo al final</description>
     <datatype>String</datatype>
+    <notes>
+      <note><![CDATA[<p>Nota de ejemplo</p>]]></note>
+    </notes>
     <dataRules>
       <rule>Ejemplo de regla<subregla>Ejemplo de subregla</subregla></rule>
     </dataRules>
