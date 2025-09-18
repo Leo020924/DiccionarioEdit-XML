@@ -2273,7 +2273,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Taxonomía</category>
     <orden>
-      <after>especie</after>
+      <after>scname</after>
     </orden>
     <fieldName>Calificador de la determinación</fieldName>
     <fieldid>calificadordeterminacion</fieldid>
@@ -2801,6 +2801,39 @@ NO DISPONIBLE</subregla></rule>
       <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
       <key>00a1abce2041ef96e76fbb84171efd02</key>
       <key>0019412b313d863ca6b9636a52811b46</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Taxonomía</category>
+    <orden>
+      <after>especie</after>
+    </orden>
+    <fieldName>ScientificName</fieldName>
+    <fieldid>scname</fieldid>
+    <dwcField>sc</dwcField>
+    <description>nombre de la especie con año y autor</description>
+    <datatype>String</datatype>
+    <notes>
+      <note><![CDATA[<p>peruibdajb</p>
+<p><em>gsdfd</em></p>
+<p><strong>fsdfsdsdf</strong></p>]]></note>
+    </notes>
+    <dataRules>
+      <rule>dadasdas<subregla>dasd</subregla></rule>
+    </dataRules>
+    <syntaxRules>
+      <rule>sintaxis<subregla>ssasasdasdad</subregla></rule>
+    </syntaxRules>
+    <infoRules>
+      <rule>info<subregla>dasdasdasda</subregla></rule>
+    </infoRules>
+    <campos>
+      <campo>especie</campo>
+    </campos>
+    <ejemplar>
+      <key>0000026dee8f30ceccb37b26ce4c0f8d</key>
+      <key>000000ac63c0559238194a1f80546a92</key>
+      <key>00000120181d93bd88a5746bb940290a</key>
     </ejemplar>
   </snibTerm>
 </snibDictionary>
