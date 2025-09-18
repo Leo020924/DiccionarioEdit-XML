@@ -1986,7 +1986,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <after>prueba</after>
+      <first/>
     </orden>
     <fieldName>Colección</fieldName>
     <fieldid>coleccion</fieldid>
@@ -2676,23 +2676,6 @@ NO DISPONIBLE</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
-    <fieldName>Prueba</fieldName>
-    <fieldid>prueba</fieldid>
-    <dwcField>pruebaDwC</dwcField>
-    <description>Es una prueba solamente</description>
-    <datatype>Varchar(100)</datatype>
-    <dataRules>
-      <rule>Regla de prueba</rule>
-    </dataRules>
-    <syntaxRules>
-      <rule>Regla de prueba</rule>
-    </syntaxRules>
-    <infoRules>
-      <rule>Regla de prueba</rule>
-    </infoRules>
-  </snibTerm>
-  <snibTerm>
     <category>Taxonomía</category>
     <fieldName>Ejemplo de al final</fieldName>
     <fieldid>alfinal</fieldid>
@@ -2712,42 +2695,6 @@ NO DISPONIBLE</subregla></rule>
     <infoRules>
       <rule>Ejemplo de al final</rule>
     </infoRules>
-  </snibTerm>
-  <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
-    <orden>
-      <after>prueba</after>
-    </orden>
-    <fieldName>Ejemplo 22</fieldName>
-    <fieldid>eje</fieldid>
-    <dwcField>eje</dwcField>
-    <description>ejemplo 22</description>
-    <datatype>String</datatype>
-    <campos>
-      <campo>region</campo>
-      <campo>localidad</campo>
-      <campo>longitud</campo>
-    </campos>
-    <dataRules>
-      <rule>ejemplo 22</rule>
-    </dataRules>
-    <syntaxRules>
-      <rule>ejemplo 22</rule>
-    </syntaxRules>
-    <infoRules>
-      <rule>ejemplo 22</rule>
-    </infoRules>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica del ejemplar</category>
-    <orden>
-      <after>latitud</after>
-    </orden>
-    <fieldName>PRUEBA</fieldName>
-    <fieldid>PRUEBA</fieldid>
-    <dwcField>PRUEBA</dwcField>
-    <description>PRUEBA</description>
-    <datatype>String</datatype>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
