@@ -2078,7 +2078,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <after>institucion</after>
+      <after>EJEMPLO</after>
     </orden>
     <fieldName>Número de catálogo</fieldName>
     <fieldid>numcatalogo</fieldid>
@@ -2695,5 +2695,16 @@ NO DISPONIBLE</subregla></rule>
     <infoRules>
       <rule>Ejemplo de al final</rule>
     </infoRules>
+  </snibTerm>
+  <snibTerm>
+    <category>Datos del Ejemplar/Observación</category>
+    <orden>
+      <after>institucion</after>
+    </orden>
+    <fieldName>EJEMPLO</fieldName>
+    <fieldid>EJEMPLO</fieldid>
+    <dwcField>EJEMPLO</dwcField>
+    <description>EJEMPLO</description>
+    <datatype>String</datatype>
   </snibTerm>
 </snibDictionary>
