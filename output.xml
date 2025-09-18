@@ -2753,4 +2753,19 @@ NO DISPONIBLE</subregla></rule>
       <rule>ejemplo 22</rule>
     </infoRules>
   </snibTerm>
+  <snibTerm>
+    <category>Datos del Ejemplar/Observación</category>
+    <orden>
+      <first/>
+    </orden>
+    <fieldName>test</fieldName>
+    <fieldid>test</fieldid>
+    <dwcField>test</dwcField>
+    <description>test</description>
+    <datatype>String</datatype>
+    <campos>
+      <campo>region</campo>
+      <campo>localidad</campo>
+    </campos>
+  </snibTerm>
 </snibDictionary>
