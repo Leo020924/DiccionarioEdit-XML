@@ -2677,21 +2677,6 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
-    <fieldName>Ejemplo</fieldName>
-    <fieldid>ejemplo</fieldid>
-    <dwcField>ejemploDwC</dwcField>
-    <description>Esto es un ejemplo de agregar</description>
-    <datatype>String</datatype>
-    <orden>
-      <after>institucion</after>
-    </orden>
-    <campos>
-      <campo>region</campo>
-      <campo>localidad</campo>
-    </campos>
-  </snibTerm>
-  <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
     <fieldName>Prueba</fieldName>
     <fieldid>prueba</fieldid>
     <dwcField>pruebaDwC</dwcField>
@@ -2752,21 +2737,6 @@ NO DISPONIBLE</subregla></rule>
     <infoRules>
       <rule>ejemplo 22</rule>
     </infoRules>
-  </snibTerm>
-  <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
-    <orden>
-      <first/>
-    </orden>
-    <fieldName>test</fieldName>
-    <fieldid>test</fieldid>
-    <dwcField>test</dwcField>
-    <description>test</description>
-    <datatype>String</datatype>
-    <campos>
-      <campo>region</campo>
-      <campo>localidad</campo>
-    </campos>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
