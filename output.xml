@@ -3,7 +3,7 @@
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <after>Ejem</after>
+      <first/>
     </orden>
     <fieldName>Identificador único del ejemplar</fieldName>
     <fieldid>idejemplar</fieldid>
@@ -27,7 +27,7 @@
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <after>ejemploalinicio</after>
+      <first/>
     </orden>
     <fieldName>Región de recolecta u observación</fieldName>
     <fieldid>region</fieldid>
@@ -2719,27 +2719,6 @@ NO DISPONIBLE</subregla></rule>
     <datatype>String</datatype>
   </snibTerm>
   <snibTerm>
-    <orden>
-      <first/>
-    </orden>
-    <fieldid>Ejem</fieldid>
-    <dwcField>Ejem</dwcField>
-    <description>Ejem</description>
-    <datatype>String</datatype>
-    <dataRules>
-      <rule>Regla de ejemplo<subregla>Subregla de ejemplo</subregla></rule>
-    </dataRules>
-    <ejemplar>
-      <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
-      <key>00a1abce2041ef96e76fbb84171efd02</key>
-      <key>0019412b313d863ca6b9636a52811b46</key>
-    </ejemplar>
-    <campos>
-      <campo>region</campo>
-      <campo>localidad</campo>
-    </campos>
-  </snibTerm>
-  <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
       <after>colector</after>
@@ -2778,24 +2757,6 @@ NO DISPONIBLE</subregla></rule>
       <key>00a1abce2041ef96e76fbb84171efd02</key>
       <key>0019412b313d863ca6b9636a52811b46</key>
     </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <orden>
-      <first/>
-    </orden>
-    <fieldid>ejemploalinicio</fieldid>
-    <dwcField>ejemplo al inicio</dwcField>
-    <description>ejemplo al inicio</description>
-    <datatype>String</datatype>
-    <ejemplar>
-      <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
-      <key>00a1abce2041ef96e76fbb84171efd02</key>
-      <key>0019412b313d863ca6b9636a52811b46</key>
-    </ejemplar>
-    <campos>
-      <campo>region</campo>
-      <campo>localidad</campo>
-    </campos>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
