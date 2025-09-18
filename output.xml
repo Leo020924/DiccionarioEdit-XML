@@ -2143,7 +2143,7 @@ NO DISPONIBLE</subregla></rule>
       <note><![CDATA[<p><strong>Nota de ejemplo</strong></p>]]></note>
     </notes>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por:<subregla>Esto es un ejemplo</subregla><subregla>Ejemplo para borrar</subregla></rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>Esto es un ejemplo</subregla><subregla>Ejemplo para borrar</subregla><subregla>EJEMPLO</subregla></rule>
       <rule>HumanObservation</rule>
       <rule>PreservedSpecimen</rule>
       <rule>FossilSpecimen</rule>
@@ -2161,6 +2161,10 @@ NO DISPONIBLE</subregla></rule>
       <key>214d7661ad759fc508b182b911bd7f1d</key>
       <key>06a3cc6319cc7583799b89c3afb1a84c</key>
     </ejemplar>
+    <campos>
+      <campo>localidad</campo>
+      <campo>longitud</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
