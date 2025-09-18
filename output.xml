@@ -2439,7 +2439,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <after>tipo</after>
+      <after>Ejemplo</after>
     </orden>
     <fieldName>Ejemplar fósil</fieldName>
     <fieldid>ejemplarfosil</fieldid>
@@ -2722,6 +2722,17 @@ NO DISPONIBLE</subregla></rule>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
       <after>institucion</after>
+    </orden>
+    <fieldName>Ejemplo</fieldName>
+    <fieldid>Ejemplo</fieldid>
+    <dwcField>Ejemplo</dwcField>
+    <description>Ejemplo</description>
+    <datatype>String</datatype>
+  </snibTerm>
+  <snibTerm>
+    <category>Datos del Ejemplar/Observación</category>
+    <orden>
+      <after>tipo</after>
     </orden>
     <fieldName>Ejemplo</fieldName>
     <fieldid>Ejemplo</fieldid>
