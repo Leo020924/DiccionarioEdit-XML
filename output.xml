@@ -2755,4 +2755,15 @@ NO DISPONIBLE</subregla></rule>
       <rule>ejemplo 22</rule>
     </infoRules>
   </snibTerm>
+  <snibTerm>
+    <category>Datos del Ejemplar/Observación</category>
+    <orden>
+      <after>diadeterminacion</after>
+    </orden>
+    <fieldName>test</fieldName>
+    <fieldid>test_ID</fieldid>
+    <dwcField>test_ID</dwcField>
+    <description>dmadmalksd dklasmdlkasmda msdlkasmda kalsmdlkasdmas daklsdmaskldmas </description>
+    <datatype>Integer</datatype>
+  </snibTerm>
 </snibDictionary>
