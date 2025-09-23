@@ -2486,7 +2486,7 @@ NO DISPONIBLE</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <after>licenciauso</after>
     </orden>
@@ -2511,7 +2511,7 @@ NO DISPONIBLE</subregla></rule>
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <after>formadecitar</after>
     </orden>
@@ -2537,7 +2537,7 @@ NO DISPONIBLE</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <after>geoportal</after>
     </orden>
@@ -2553,7 +2553,7 @@ NO DISPONIBLE</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <after>fuente</after>
     </orden>
@@ -2598,7 +2598,7 @@ NO DISPONIBLE</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <after>urlorigen</after>
     </orden>
@@ -2614,7 +2614,7 @@ NO DISPONIBLE</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <after>urlejemplar</after>
     </orden>
@@ -2630,7 +2630,7 @@ NO DISPONIBLE</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <after>proyecto</after>
     </orden>
@@ -2646,7 +2646,7 @@ NO DISPONIBLE</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <first/>
     </orden>
@@ -2668,7 +2668,7 @@ NO DISPONIBLE</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <last/>
     </orden>
@@ -2684,7 +2684,7 @@ NO DISPONIBLE</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <after>urlproyecto</after>
     </orden>
