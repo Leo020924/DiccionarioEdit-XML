@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <snibDictionary>
+  <metadata>
+    <titulo>Ejemplo</titulo>
+    <ultimaFechaActualizacion>12-12-2024</ultimaFechaActualizacion>
+    <version>1.1</version>
+    <abstracto>asasads</abstracto>
+    <licenciaUso>edada</licenciaUso>
+    <formaDeCitar>sdsdsds</formaDeCitar>
+    <creador>
+      <nombre>Leo</nombre>
+      <sitioWeb>Leo</sitioWeb>
+      <portalSNIB></portalSNIB>
+    </creador>
+  </metadata>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
