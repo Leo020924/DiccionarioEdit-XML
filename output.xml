@@ -1964,6 +1964,10 @@ NO DISPONIBLE</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
+    <category>Datos del Ejemplar/Observación</category>
+    <orden>
+      <last/>
+    </orden>
     <fieldName>Observaciones del uso de la información</fieldName>
     <fieldid>obsusoinfo</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -2425,6 +2429,10 @@ NO DISPONIBLE</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
+    <category>Datos del Ejemplar/Observación</category>
+    <orden>
+      <last/>
+    </orden>
     <fieldName>Tipo de vegetación</fieldName>
     <fieldid>tipovegetacion</fieldid>
     <dwcField>Sin equivalencia</dwcField>
