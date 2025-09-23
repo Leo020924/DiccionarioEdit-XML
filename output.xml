@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <snibDictionary>
   <metadata>
-    <titulo>Diccionario de ejemplares del SNIB</titulo>
+    <titulo>Ejemplo del ejemplo</titulo>
     <ultimaFechaActualizacion>Ejemplo del ejemplo</ultimaFechaActualizacion>
-    <version>1.4</version>
+    <version>2024-12</version>
     <abstracto>Ejemplo del ejemplo</abstracto>
-    <licenciaUso>Ejemplo del ejemplo</licenciaUso>
-    <formaDeCitar>Ejemplo del ejemplo</formaDeCitar>
+    <licenciaUso>Este documento se publica y distribuye bajo una licencia Creative Commons Atribución 4.0 Internacional compatible&#13;
+con la licencia LibreusoMX de datos.gob.mx</licenciaUso>
+    <formaDeCitar>CONABIO. 2025. Diccionario de datos. Ejemplares publicados en el Geoportal y el sitio del Sistema Nacional de&#13;
+Información sobre Biodiversidad, versión 2024-12 México, Disponible en:&#13;
+http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeoportal-202412.pdf</formaDeCitar>
     <creador>
       <nombre>Ejemplo del ejemplo</nombre>
       <sitioWeb>Ejemplo del ejemplo</sitioWeb>
