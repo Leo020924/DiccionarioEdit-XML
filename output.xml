@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <snibDictionary>
   <metadata>
-    <titulo>Ejemplo del ejemplo</titulo>
-    <ultimaFechaActualizacion>Ejemplo del ejemplo</ultimaFechaActualizacion>
+    <titulo>Especímenes publicados en el geoportal y el sitio del Sistema Nacional de Información sobre Biodiversidad</titulo>
+    <ultimaFechaActualizacion>2025-07-03</ultimaFechaActualizacion>
     <version>2024-12</version>
     <abstracto>Ejemplo del ejemplo</abstracto>
     <licenciaUso>Este documento se publica y distribuye bajo una licencia Creative Commons Atribución 4.0 Internacional compatible&#13;
@@ -11,9 +11,9 @@ con la licencia LibreusoMX de datos.gob.mx</licenciaUso>
 Información sobre Biodiversidad, versión 2024-12 México, Disponible en:&#13;
 http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeoportal-202412.pdf</formaDeCitar>
     <creador>
-      <nombre>Ejemplo del ejemplo</nombre>
-      <sitioWeb>Ejemplo del ejemplo</sitioWeb>
-      <portalSNIB>Ejemplo del ejemplo</portalSNIB>
+      <nombre></nombre>
+      <sitioWeb></sitioWeb>
+      <portalSNIB></portalSNIB>
     </creador>
   </metadata>
   <snibTerm>
