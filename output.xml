@@ -2109,8 +2109,8 @@ NO DISPONIBLE</subregla></rule>
     <datatype>varchar (100)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
-      <rule>El valor NO DISPONIBLE significa que el dato se desconoce.<subregla>Ejemplo</subregla><subregla>Ejemplo</subregla></rule>
-      <rule>El valor NO APLICA significa que el ejemplar proviene de una observación.<subregla>Ejemplo</subregla></rule>
+      <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
+      <rule>El valor NO APLICA significa que el ejemplar proviene de una observación.</rule>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
     <ejemplar>
