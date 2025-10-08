@@ -2166,8 +2166,8 @@ NO DISPONIBLE</subregla></rule>
       <note><![CDATA[<p><strong>Nota de ejemplo</strong></p>]]></note>
     </notes>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por:</rule>
-      <rule>HumanObservation</rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>Ejemplo</subregla><subregla>Ejemplo</subregla><subregla>Ejemplo</subregla></rule>
+      <rule>HumanObservation<subregla>Ejemplo</subregla><subregla>Ejemplo</subregla><subregla>Ejemplo</subregla></rule>
       <rule>PreservedSpecimen</rule>
       <rule>FossilSpecimen</rule>
       <rule>MaterialCitation</rule>
