@@ -2154,7 +2154,6 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>idejemplar</after>
     </orden>
-    <fieldName>Procedencia del ejemplar</fieldName>
     <fieldid>procedenciaejemplar</fieldid>
     <dwcField>basisOfRecord</dwcField>
     <description>Indica si el ejemplar proviene de un evento de recolecta, observación o de un reporte.</description>
@@ -2165,7 +2164,7 @@ NO DISPONIBLE</subregla></rule>
       <note><![CDATA[<p><strong>Nota de ejemplo</strong></p>]]></note>
     </notes>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por:<subregla>Esto es un ejemplo</subregla><subregla>Ejemplo para borrar</subregla><subregla>EJEMPLO</subregla></rule>
+      <rule>El dominio de los valores permitidos está dado por:</rule>
       <rule>HumanObservation</rule>
       <rule>PreservedSpecimen</rule>
       <rule>FossilSpecimen</rule>
