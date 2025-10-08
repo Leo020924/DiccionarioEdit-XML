@@ -32,7 +32,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
       <note><![CDATA[<p><strong>Es una nota de ejemplo&nbsp;</strong></p>]]></note>
     </notes>
     <dataRules>
-      <rule>Este valor se preserva para los ejemplares registrados en el SNIB.</rule>
+      <rule>Este valor se preserva para los ejemplares registrados en el SNIB.<subregla>Ejemplo</subregla><subregla>Ejemplo2</subregla></rule>
     </dataRules>
     <ejemplar>
       <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
