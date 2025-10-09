@@ -2126,7 +2126,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <first/>
+      <after>idejemplar</after>
     </orden>
     <fieldName>Procedencia del Ejemplar</fieldName>
     <fieldid>procedenciaejemplar</fieldid>
@@ -2795,6 +2795,24 @@ NO DISPONIBLE</subregla></rule>
       <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
       <key>00a1abce2041ef96e76fbb84171efd02</key>
       <key>0019412b313d863ca6b9636a52811b46</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Datos del Ejemplar/Observación</category>
+    <orden>
+      <first/>
+    </orden>
+    <fieldName>Id del Ejemplar</fieldName>
+    <fieldid>idejemplar</fieldid>
+    <dwcField>idejemplar</dwcField>
+    <datatype>String</datatype>
+    <campos>
+      <campo>localidad</campo>
+    </campos>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>127d21638cc105ce290844e6abb7e870</key>
+      <key>096c765542c6bb8f65d0abfd102e9af0</key>
     </ejemplar>
   </snibTerm>
 </snibDictionary>
