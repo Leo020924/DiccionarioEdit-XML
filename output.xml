@@ -2018,7 +2018,7 @@ NO DISPONIBLE</subregla></rule>
     <datatype>varchar (150)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
-      <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
+      <rule>El valor NO DISPONIBLE significa que el dato se desconoce.<subregla>afadcfadf</subregla></rule>
     </dataRules>
     <syntaxRules>
       <rule>Se escriben las siglas de la colección y/o el nombre de la colección, separadas por un espacio.</rule>
