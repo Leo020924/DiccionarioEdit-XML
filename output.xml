@@ -2009,7 +2009,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <last></last>
+      <last/>
     </orden>
     <fieldName>Colección</fieldName>
     <fieldid>coleccion</fieldid>
@@ -2448,7 +2448,6 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-     
     </orden>
     <fieldName>Tipo de vegetación</fieldName>
     <fieldid>tipovegetacion</fieldid>
@@ -2764,31 +2763,6 @@ NO DISPONIBLE</subregla></rule>
       <key>00a1abce2041ef96e76fbb84171efd02</key>
       <key>0019412b313d863ca6b9636a52811b46</key>
     </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
-    <orden>
-      <last/>
-    </orden>
-    <fieldid>Ejemploalfinal</fieldid>
-    <dwcField>Ejemplo al final</dwcField>
-    <description>Ejemplo al final</description>
-    <datatype>String</datatype>
-    <notes>
-      <note><![CDATA[<p>Nota de ejemplo</p>]]></note>
-    </notes>
-    <dataRules>
-      <rule>Ejemplo de regla<subregla>Ejemplo de subregla</subregla></rule>
-    </dataRules>
-    <ejemplar>
-      <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
-      <key>00a1abce2041ef96e76fbb84171efd02</key>
-      <key>0019412b313d863ca6b9636a52811b46</key>
-    </ejemplar>
-    <campos>
-      <campo>region</campo>
-      <campo>localidad</campo>
-    </campos>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
