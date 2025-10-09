@@ -17,33 +17,6 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     </creador>
   </metadata>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
-    <orden>
-      <first/>
-    </orden>
-    <fieldName>Id del ejemplar</fieldName>
-    <fieldid>idejemplar</fieldid>
-    <dwcField>occurrenceID</dwcField>
-    <description>Clave generada por la CONABIO que identifica de manera única al ejemplar. Se asigna en el momento en que el ejemplar se integra al SNIB.</description>
-    <datatype>varchar (32)</datatype>
-    <encoding>UTF-8</encoding>
-    <notes>
-      <note><![CDATA[<p>Dado que este identificador se genera para el ingreso del registro al SNIB, este no corresponder&aacute; al identificador del ejemplar en las fuentes originales de informaci&oacute;n del SNIB.</p>]]></note>
-      <note><![CDATA[<p><strong>Es una nota de ejemplo&nbsp;</strong></p>]]></note>
-    </notes>
-    <dataRules>
-      <rule>Este valor se preserva para los ejemplares registrados en el SNIB.</rule>
-    </dataRules>
-    <ejemplar>
-      <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
-      <key>00a1abce2041ef96e76fbb84171efd02</key>
-      <key>0019412b313d863ca6b9636a52811b46</key>
-    </ejemplar>
-    <campos>
-      <campo>urlejemplar</campo>
-    </campos>
-  </snibTerm>
-  <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
       <first/>
@@ -2153,7 +2126,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <after>idejemplar</after>
+      <first/>
     </orden>
     <fieldName>Procedencia del Ejemplar</fieldName>
     <fieldid>procedenciaejemplar</fieldid>
