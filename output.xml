@@ -496,7 +496,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <after>EJEMPLO</after>
+      <after>estadooriginal</after>
     </orden>
     <fieldName>Municipio</fieldName>
     <fieldid>municipiooriginal</fieldid>
@@ -2694,17 +2694,6 @@ NO DISPONIBLE</subregla></rule>
     <infoRules>
       <rule>Ejemplo de al final</rule>
     </infoRules>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica del ejemplar</category>
-    <orden>
-      <after>estadooriginal</after>
-    </orden>
-    <fieldName>EJEMPLO</fieldName>
-    <fieldid>EJEMPLO</fieldid>
-    <dwcField>EJEMPLO</dwcField>
-    <description>EJEMPLO</description>
-    <datatype>String</datatype>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
