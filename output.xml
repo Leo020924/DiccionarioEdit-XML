@@ -2009,7 +2009,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <after>Ejemploalfinal</after>
+      <last></last>
     </orden>
     <fieldName>Colección</fieldName>
     <fieldid>coleccion</fieldid>
