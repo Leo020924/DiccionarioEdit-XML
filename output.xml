@@ -2529,7 +2529,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <after>ejemplo12</after>
+      <after>tipo</after>
     </orden>
     <download>true</download>
     <fieldName>Ejemplar fósil</fieldName>
@@ -2772,34 +2772,6 @@ NO DISPONIBLE</subregla></rule>
     </syntaxRules>
     <infoRules/>
     <notes/>
-  </snibTerm>
-  <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
-    <orden>
-      <after>tipo</after>
-    </orden>
-    <fieldName>ejemplo12</fieldName>
-    <fieldid>ejemplo12</fieldid>
-    <dwcField>ejemplo12</dwcField>
-    <description>ejemplo12</description>
-    <category>Información geográfica del ejemplar</category>
-    <orden>
-      <after>municipiooriginal</after>
-    </orden>
-    <fieldName>ejemplo despues de </fieldName>
-    <fieldid>ejemplodespuesde</fieldid>
-    <dwcField>ejemplo despues de </dwcField>
-    <description>ejemplo despues de </description>
-    <datatype>String</datatype>
-    <campos>
-      <campo>longitud</campo>
-      <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
-      <key>00a1abce2041ef96e76fbb84171efd02</key>
-      <key>0019412b313d863ca6b9636a52811b46</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
