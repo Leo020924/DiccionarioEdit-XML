@@ -2060,7 +2060,11 @@ NO DISPONIBLE</subregla></rule>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <last/>
+=======
+      <first/>
+>>>>>>> Stashed changes
 =======
       <first/>
 >>>>>>> Stashed changes
@@ -2814,6 +2818,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <category>Datos del Ejemplar/Observación</category>
     <orden>
       <after>colector</after>
@@ -2843,6 +2848,8 @@ NO DISPONIBLE</subregla></rule>
     <dwcField>ejemplo12</dwcField>
     <description>ejemplo12</description>
 =======
+=======
+>>>>>>> Stashed changes
     <category>Información geográfica del ejemplar</category>
     <orden>
       <after>municipiooriginal</after>
@@ -2867,7 +2874,11 @@ NO DISPONIBLE</subregla></rule>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <first/>
+=======
+      <after>adada</after>
+>>>>>>> Stashed changes
 =======
       <after>adada</after>
 >>>>>>> Stashed changes
@@ -2894,6 +2905,190 @@ NO DISPONIBLE</subregla></rule>
     <campos>
       <campo>urlejemplar</campo>
     </campos>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica del ejemplar</category>
+    <orden>
+      <after>paisoriginal</after>
+    </orden>
+    <fieldName>Esto es un Ejemplo</fieldName>
+    <fieldid>EstoesunEjemplo</fieldid>
+    <dwcField>sdad</dwcField>
+    <description>adad</description>
+    <datatype>String</datatype>
+    <campos>
+      <campo>datum</campo>
+      <campo>latitud</campo>
+      <campo>longitud</campo>
+    </campos>
+    <ejemplar>
+      <key>23402a66acef5221225c450c9f2e46d2</key>
+      <key>6199aeca6523f586eaa06247f67537ca</key>
+      <key>01556c193c911035a63aaeca05f0e953</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica del ejemplar</category>
+    <orden>
+      <first/>
+    </orden>
+    <fieldName>ejemplo 22</fieldName>
+    <fieldid>ejemplo22</fieldid>
+    <dwcField>sdad</dwcField>
+    <description>asdad</description>
+    <datatype>String</datatype>
+    <campos>
+      <campo>longitud</campo>
+      <campo>localidad</campo>
+      <campo>region</campo>
+    </campos>
+    <ejemplar>
+      <key>23402a66acef5221225c450c9f2e46d2</key>
+      <key>6199aeca6523f586eaa06247f67537ca</key>
+      <key>01556c193c911035a63aaeca05f0e953</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica del ejemplar</category>
+    <orden>
+      <last/>
+    </orden>
+    <fieldName>sdad</fieldName>
+    <fieldid>adada</fieldid>
+    <dwcField>asdasd</dwcField>
+    <description>sdasd</description>
+    <datatype>String</datatype>
+    <campos>
+      <campo>region</campo>
+      <campo>longitud</campo>
+      <campo>localidad</campo>
+    </campos>
+    <ejemplar>
+      <key>23402a66acef5221225c450c9f2e46d2</key>
+      <key>6199aeca6523f586eaa06247f67537ca</key>
+      <key>01556c193c911035a63aaeca05f0e953</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Taxonomía</category>
+    <orden>
+      <first/>
+    </orden>
+    <fieldName>ededed</fieldName>
+    <fieldid>ededede</fieldid>
+    <dwcField>asasd</dwcField>
+    <description>dadasd</description>
+    <datatype>String</datatype>
+    <campos>
+      <campo>localidad</campo>
+      <campo>longitud</campo>
+      <campo>region</campo>
+    </campos>
+    <ejemplar>
+      <key>23402a66acef5221225c450c9f2e46d2</key>
+      <key>6199aeca6523f586eaa06247f67537ca</key>
+      <key>01556c193c911035a63aaeca05f0e953</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Taxonomía</category>
+    <orden>
+      <after>familia</after>
+    </orden>
+    <fieldName>ferfesd</fieldName>
+    <fieldid>feferd</fieldid>
+    <dwcField>adad</dwcField>
+    <description>adsds</description>
+    <campos>
+      <campo>localidad</campo>
+      <campo>latitud</campo>
+      <campo>longitud</campo>
+    </campos>
+    <ejemplar>
+      <key>23402a66acef5221225c450c9f2e46d2</key>
+      <key>6199aeca6523f586eaa06247f67537ca</key>
+      <key>01556c193c911035a63aaeca05f0e953</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Taxonomía</category>
+    <orden>
+      <last/>
+    </orden>
+    <fieldName>fedffer</fieldName>
+    <fieldid>feferes</fieldid>
+    <dwcField>adad</dwcField>
+    <description>dad</description>
+    <datatype>String</datatype>
+    <campos>
+      <campo>localidad</campo>
+      <campo>latitud</campo>
+      <campo>datum</campo>
+    </campos>
+    <ejemplar>
+      <key>23402a66acef5221225c450c9f2e46d2</key>
+      <key>6199aeca6523f586eaa06247f67537ca</key>
+      <key>01556c193c911035a63aaeca05f0e953</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Atributos Biológicos y Ecológicos</category>
+    <orden>
+      <first/>
+    </orden>
+    <fieldName>cecec</fieldName>
+    <fieldid>cecece</fieldid>
+    <dwcField>eadad</dwcField>
+    <description>adad</description>
+    <campos>
+      <campo>localidad</campo>
+      <campo>longitud</campo>
+      <campo>datum</campo>
+    </campos>
+    <ejemplar>
+      <key>23402a66acef5221225c450c9f2e46d2</key>
+      <key>6199aeca6523f586eaa06247f67537ca</key>
+      <key>01556c193c911035a63aaeca05f0e953</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Atributos Biológicos y Ecológicos</category>
+    <orden>
+      <after>exoticainvasora</after>
+    </orden>
+    <fieldName>ccocococ</fieldName>
+    <fieldid>cococococ</fieldid>
+    <dwcField>adad</dwcField>
+    <description>adasdas</description>
+    <campos>
+      <campo>datum</campo>
+      <campo>region</campo>
+      <campo>longitud</campo>
+    </campos>
+    <ejemplar>
+      <key>23402a66acef5221225c450c9f2e46d2</key>
+      <key>6199aeca6523f586eaa06247f67537ca</key>
+      <key>01556c193c911035a63aaeca05f0e953</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Atributos Biológicos y Ecológicos</category>
+    <orden>
+      <last/>
+    </orden>
+    <fieldName>cscscscs</fieldName>
+    <fieldid>cscscscs</fieldid>
+    <dwcField>dasds</dwcField>
+    <description>dasdas</description>
+    <campos>
+      <campo>longitud</campo>
+      <campo>region</campo>
+    </campos>
+    <ejemplar>
+      <key>23402a66acef5221225c450c9f2e46d2</key>
+      <key>6199aeca6523f586eaa06247f67537ca</key>
+      <key>01556c193c911035a63aaeca05f0e953</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
