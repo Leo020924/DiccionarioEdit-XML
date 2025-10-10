@@ -21,6 +21,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <orden>
       <first/>
     </orden>
+    <download>true</download>
     <fieldName>Región de recolecta u observación</fieldName>
     <fieldid>region</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -60,6 +61,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <orden>
       <after>ejemplodespuesde</after>
     </orden>
+    <download>true</download>
     <fieldName>Localidad de recolecta u observación</fieldName>
     <fieldid>localidad</fieldid>
     <dwcField>locality</dwcField>
@@ -78,6 +80,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <orden>
       <after>localidad</after>
     </orden>
+    <download>true</download>
     <fieldName>Longitud</fieldName>
     <fieldid>longitud</fieldid>
     <dwcField>decimalLongitude</dwcField>
@@ -108,6 +111,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <orden>
       <after>longitud</after>
     </orden>
+    <download>true</download>
     <fieldName>Latitud</fieldName>
     <fieldid>latitud</fieldid>
     <dwcField>decimalLatitude</dwcField>
@@ -138,6 +142,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <orden>
       <after>latitud</after>
     </orden>
+    <download>true</download>
     <fieldName>Datum</fieldName>
     <fieldid>datum</fieldid>
     <dwcField>geodeticDatum</dwcField>
@@ -163,6 +168,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <orden>
       <last/>
     </orden>
+    <download>true</download>
     <fieldName>Validación de la ubicación respecto al ambiente</fieldName>
     <fieldid>validacionambiente</fieldid>
     <dwcField>Incluido en georeferenceVerificationStatus</dwcField>
@@ -189,6 +195,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <orden>
       <first/>
     </orden>
+    <download>true</download>
     <fieldName>Validación de la ubicación geográfica</fieldName>
     <fieldid>geovalidacion</fieldid>
     <dwcField>Incluido en georeferenceVerificationStatus</dwcField>
@@ -238,6 +245,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <orden>
       <after>region</after>
     </orden>
+    <download>true</download>
     <fieldName>País</fieldName>
     <fieldid>paisoriginal</fieldid>
     <dwcField>Incluido en country</dwcField>
@@ -276,6 +284,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <orden>
       <first/>
     </orden>
+    <download>true</download>
     <fieldName>País asignado</fieldName>
     <fieldid>paismapa</fieldid>
     <dwcField>Incluido en country</dwcField>
@@ -320,6 +329,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>paisoriginal</after>
     </orden>
+    <download>true</download>
     <fieldName>Estado</fieldName>
     <fieldid>estadooriginal</fieldid>
     <dwcField>Incluido en stateProvince</dwcField>
@@ -360,6 +370,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>claveestadomapa</after>
     </orden>
+    <download>true</download>
     <fieldName>Estado asignado</fieldName>
     <fieldid>estadomapa</fieldid>
     <dwcField>Incluido en stateProvince</dwcField>
@@ -392,6 +403,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>paismapa</after>
     </orden>
+    <download>true</download>
     <fieldName>Clave estatal asignada</fieldName>
     <fieldid>claveestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -428,6 +440,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>mt24claveestadomapa</after>
     </orden>
+    <download>true</download>
     <fieldName>Estado asignado como referencia para las ubicaciones en el mar</fieldName>
     <fieldid>mt24nombreestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -462,6 +475,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>estadomapa</after>
     </orden>
+    <download>true</download>
     <fieldName>Clave estatal asignada como referencia para las ubicaciones en el mar </fieldName>
     <fieldid>mt24claveestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -498,6 +512,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>estadooriginal</after>
     </orden>
+    <download>true</download>
     <fieldName>Municipio</fieldName>
     <fieldid>municipiooriginal</fieldid>
     <dwcField>Incluido en county</dwcField>
@@ -522,6 +537,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>clavemunicipiomapa</after>
     </orden>
+    <download>true</download>
     <fieldName>Municipio asignado</fieldName>
     <fieldid>municipiomapa</fieldid>
     <dwcField>Incluido en county</dwcField>
@@ -557,6 +573,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>mt24nombreestadomapa</after>
     </orden>
+    <download>true</download>
     <fieldName>Clave municipal asignada</fieldName>
     <fieldid>clavemunicipiomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -594,6 +611,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>mt24clavemunicipiomapa</after>
     </orden>
+    <download>true</download>
     <fieldName>Municipio asignado como referencia para las ubicaciones en el mar</fieldName>
     <fieldid>mt24nombremunicipiomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -626,6 +644,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>municipiomapa</after>
     </orden>
+    <download>true</download>
     <fieldName>Clave municipal asignada como referencia para las ubicaciones en el mar  </fieldName>
     <fieldid>mt24clavemunicipiomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -661,6 +680,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>ejemploalfinal</after>
     </orden>
+    <download>true</download>
     <fieldName>Incertidumbre geográfica</fieldName>
     <fieldid>incertidumbrexy</fieldid>
     <dwcField>coordinateUncertaintyInMeters</dwcField>
@@ -695,6 +715,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>mt24nombremunicipiomapa</after>
     </orden>
+    <download>true</download>
     <fieldName>Altitud </fieldName>
     <fieldid>altitudmapa</fieldid>
     <dwcField>minimunElevationInMeters</dwcField>
@@ -718,6 +739,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>cuencahidrograficamapa</after>
     </orden>
+    <download>true</download>
     <fieldName>Uso de suelo y vegetación serie I del INEGI</fieldName>
     <fieldid>usvserieI</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -743,6 +765,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>usvserieI</after>
     </orden>
+    <download>true</download>
     <fieldName>Uso de suelo y vegetación serie II del INEGI</fieldName>
     <fieldid>usvserieII</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -768,6 +791,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>usvserieII</after>
     </orden>
+    <download>true</download>
     <fieldName>Uso de suelo y vegetación serie III del INEGI</fieldName>
     <fieldid>usvserieIII</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -793,6 +817,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>usvserieIII</after>
     </orden>
+    <download>true</download>
     <fieldName>Uso de suelo y vegetación serie IV del INEGI</fieldName>
     <fieldid>usvserieIV</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -818,6 +843,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>usvserieIV</after>
     </orden>
+    <download>true</download>
     <fieldName>Uso de suelo y vegetación serie V del INEGI</fieldName>
     <fieldid>usvserieV</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -842,6 +868,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>usvserieV</after>
     </orden>
+    <download>true</download>
     <fieldName>Uso de suelo y vegetación serie VI del INEGI</fieldName>
     <fieldid>usvserieVI</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -866,6 +893,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>usvserieVI</after>
     </orden>
+    <download>true</download>
     <fieldName>Uso de suelo y vegetación serie VII del INEGI</fieldName>
     <fieldid>usvserieVII</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -891,6 +919,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <last/>
     </orden>
+    <download>true</download>
     <fieldName>Vegetación para otros países </fieldName>
     <fieldid>vegetacionserenanalcms</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -915,6 +944,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>altitudmapa</after>
     </orden>
+    <download>true</download>
     <fieldName>Áreas Naturales Protegidas</fieldName>
     <fieldid>anp</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -952,6 +982,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>anp</after>
     </orden>
+    <download>true</download>
     <fieldName>Región marina </fieldName>
     <fieldid>regionmarinamapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -982,6 +1013,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>regionmarinamapa</after>
     </orden>
+    <download>true</download>
     <fieldName>Ecorregiones terrestres</fieldName>
     <fieldid>ecorregionterrestremapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1009,6 +1041,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>ecorregionterrestremapa</after>
     </orden>
+    <download>true</download>
     <fieldName>Cuencas hidrográficas</fieldName>
     <fieldid>cuencahidrograficamapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1037,6 +1070,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <first/>
     </orden>
+    <download>true</download>
     <fieldName>Grupo biológico</fieldName>
     <fieldid>grupobio</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1079,6 +1113,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>grupobio</after>
     </orden>
+    <download>true</download>
     <fieldName>Subgrupo biológico</fieldName>
     <fieldid>subgrupobio</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1097,6 +1132,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>idnombrecat</after>
     </orden>
+    <download>true</download>
     <fieldName>Reino</fieldName>
     <fieldid>reino</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1119,6 +1155,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>reino</after>
     </orden>
+    <download>true</download>
     <fieldName>Phylum o división</fieldName>
     <fieldid>phylumdivision</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1141,6 +1178,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>phylumdivision</after>
     </orden>
+    <download>true</download>
     <fieldName>Clase</fieldName>
     <fieldid>clase</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1163,6 +1201,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>clase</after>
     </orden>
+    <download>true</download>
     <fieldName>Orden</fieldName>
     <fieldid>orden</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1185,6 +1224,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>orden</after>
     </orden>
+    <download>true</download>
     <fieldName>Familia</fieldName>
     <fieldid>familia</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1207,6 +1247,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>familia</after>
     </orden>
+    <download>true</download>
     <fieldName>Género</fieldName>
     <fieldid>genero</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1229,6 +1270,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>genero</after>
     </orden>
+    <download>true</download>
     <fieldName>Especie</fieldName>
     <fieldid>especie</fieldid>
     <dwcField>scientificName</dwcField>
@@ -1249,6 +1291,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>calificadordeterminacion</after>
     </orden>
+    <download>true</download>
     <fieldName>Categoría infraespecífica </fieldName>
     <fieldid>categoriainfraespecie</fieldid>
     <dwcField>Incluido en taxonRank</dwcField>
@@ -1265,6 +1308,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>categoriainfraespecie</after>
     </orden>
+    <download>true</download>
     <fieldName>Categoría subinfraespecífica</fieldName>
     <fieldid>categoriainfraespecie2</fieldid>
     <dwcField>incluido en taxonRank</dwcField>
@@ -1281,6 +1325,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>categoriainfraespecie2</after>
     </orden>
+    <download>true</download>
     <fieldName>Autoridad y año de la especie</fieldName>
     <fieldid>autor</fieldid>
     <dwcField>scientificNameAuthorship</dwcField>
@@ -1323,6 +1368,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>TEST</after>
     </orden>
+    <download>true</download>
     <fieldName>Referencia taxonómica</fieldName>
     <fieldid>reftax</fieldid>
     <dwcField>nameAccordingTo</dwcField>
@@ -1341,6 +1387,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>idnombrecatvalido</after>
     </orden>
+    <download>true</download>
     <fieldName>Reino válido</fieldName>
     <fieldid>reinovalido</fieldid>
     <dwcField>kingdom</dwcField>
@@ -1361,6 +1408,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>reinovalido</after>
     </orden>
+    <download>true</download>
     <fieldName>Phylum o división válida</fieldName>
     <fieldid>phylumdivisionvalido</fieldid>
     <dwcField>phylum</dwcField>
@@ -2791,17 +2839,27 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <first/>
     </orden>
-    <fieldName>Id del Ejemplar</fieldName>
+    <download>true</download>
+    <fieldName>Identificador del ejemplar</fieldName>
     <fieldid>idejemplar</fieldid>
-    <dwcField>idejemplar</dwcField>
-    <datatype>String</datatype>
-    <campos>
-      <campo>localidad</campo>
-    </campos>
+    <dwcField>occurrenceID</dwcField>
+    <description>Clave generada por la CONABIO que identifica de manera única al ejemplar. Se asigna en el momento en que el ejemplar se integra al SNIB.</description>
+    <datatype>varchar (32)</datatype>
+    <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>Dado que este identificador se genera para el ingreso del registro al SNIB, este no corresponder&aacute; al identificador del ejemplar en las fuentes originales de informaci&oacute;n del SNIB.</p>]]></note>
+      <note><![CDATA[<p><strong>Es una nota de ejemplo&nbsp;</strong></p>]]></note>
+    </notes>
+    <dataRules>
+      <rule>Este valor se preserva para los ejemplares registrados en el SNIB.</rule>
+    </dataRules>
     <ejemplar>
-      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
-      <key>127d21638cc105ce290844e6abb7e870</key>
-      <key>096c765542c6bb8f65d0abfd102e9af0</key>
+      <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
+      <key>00a1abce2041ef96e76fbb84171efd02</key>
+      <key>0019412b313d863ca6b9636a52811b46</key>
     </ejemplar>
+    <campos>
+      <campo>urlejemplar</campo>
+    </campos>
   </snibTerm>
 </snibDictionary>
