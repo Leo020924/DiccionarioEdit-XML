@@ -58,7 +58,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <after>ejemplodespuesde</after>
+      <after>municipiooriginal</after>
     </orden>
     <fieldName>Localidad de recolecta u observación</fieldName>
     <fieldid>localidad</fieldid>
@@ -2715,26 +2715,6 @@ NO DISPONIBLE</subregla></rule>
     <fieldid>Ejemplodespuesde</fieldid>
     <dwcField>Ejemplo despues de</dwcField>
     <description>Ejemplo despues de</description>
-    <datatype>String</datatype>
-    <campos>
-      <campo>region</campo>
-      <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
-      <key>00a1abce2041ef96e76fbb84171efd02</key>
-      <key>0019412b313d863ca6b9636a52811b46</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica del ejemplar</category>
-    <orden>
-      <after>municipiooriginal</after>
-    </orden>
-    <fieldName>ejemplo despues de </fieldName>
-    <fieldid>ejemplodespuesde</fieldid>
-    <dwcField>ejemplo despues de </dwcField>
-    <description>ejemplo despues de </description>
     <datatype>String</datatype>
     <campos>
       <campo>region</campo>
