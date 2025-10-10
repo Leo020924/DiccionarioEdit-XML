@@ -659,7 +659,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <after>ejemploalfinal</after>
+      <first/>
     </orden>
     <fieldName>Incertidumbre geográfica</fieldName>
     <fieldid>incertidumbrexy</fieldid>
@@ -2736,26 +2736,6 @@ NO DISPONIBLE</subregla></rule>
     <dwcField>ejemplo despues de </dwcField>
     <description>ejemplo despues de </description>
     <datatype>String</datatype>
-    <campos>
-      <campo>region</campo>
-      <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
-      <key>00a1abce2041ef96e76fbb84171efd02</key>
-      <key>0019412b313d863ca6b9636a52811b46</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica del ejemplar</category>
-    <orden>
-      <last/>
-    </orden>
-    <fieldName>ejemplo al final</fieldName>
-    <fieldid>ejemploalfinal</fieldid>
-    <dwcField>ejemplo al final</dwcField>
-    <description>ejemplo al final</description>
-    <datatype>Integer</datatype>
     <campos>
       <campo>region</campo>
       <campo>localidad</campo>
