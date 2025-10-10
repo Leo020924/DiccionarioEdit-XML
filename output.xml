@@ -1617,7 +1617,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Taxonomía</category>
     <orden>
-      <after>feferes</after>
+      <first/>
     </orden>
     <download>true</download>
     <fieldName>Taxón validado</fieldName>
@@ -2800,27 +2800,6 @@ NO DISPONIBLE</subregla></rule>
     <campos>
       <campo>urlejemplar</campo>
     </campos>
-  </snibTerm>
-  <snibTerm>
-    <category>Taxonomía</category>
-    <orden>
-      <last/>
-    </orden>
-    <fieldName>fedffer</fieldName>
-    <fieldid>feferes</fieldid>
-    <dwcField>adad</dwcField>
-    <description>dad</description>
-    <datatype>String</datatype>
-    <campos>
-      <campo>localidad</campo>
-      <campo>latitud</campo>
-      <campo>datum</campo>
-    </campos>
-    <ejemplar>
-      <key>23402a66acef5221225c450c9f2e46d2</key>
-      <key>6199aeca6523f586eaa06247f67537ca</key>
-      <key>01556c193c911035a63aaeca05f0e953</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Atributos Biológicos y Ecológicos</category>
