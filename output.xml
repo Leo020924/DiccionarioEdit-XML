@@ -737,7 +737,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <after>cuencahidrograficamapa</after>
+      <after>regionmarinamapa</after>
     </orden>
     <download>true</download>
     <fieldName>Uso de suelo y vegetación serie I del INEGI</fieldName>
@@ -980,7 +980,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <after>anp</after>
+      <after>ecorregionterrestremapa</after>
     </orden>
     <download>true</download>
     <fieldName>Región marina </fieldName>
@@ -1039,7 +1039,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <after>ecorregionterrestremapa</after>
+      <after>anp</after>
     </orden>
     <download>true</download>
     <fieldName>Cuencas hidrográficas</fieldName>
