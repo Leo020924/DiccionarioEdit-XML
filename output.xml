@@ -678,11 +678,8 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-<<<<<<< HEAD
       <first/>
-=======
       <last></last>
->>>>>>> 617663855182051725cb5151fd6066b7aa197b13
     </orden>
     <download>true</download>
     <fieldName>Incertidumbre geográfica</fieldName>
@@ -2059,11 +2056,8 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-<<<<<<< Updated upstream
       <last/>
-=======
       <first/>
->>>>>>> Stashed changes
     </orden>
     <download>true</download>
     <fieldName>Colección</fieldName>
@@ -2813,7 +2807,6 @@ NO DISPONIBLE</subregla></rule>
     <datatype>String</datatype>
   </snibTerm>
   <snibTerm>
-<<<<<<< Updated upstream
     <category>Datos del Ejemplar/Observación</category>
     <orden>
       <after>colector</after>
@@ -2842,7 +2835,6 @@ NO DISPONIBLE</subregla></rule>
     <fieldid>ejemplo12</fieldid>
     <dwcField>ejemplo12</dwcField>
     <description>ejemplo12</description>
-=======
     <category>Información geográfica del ejemplar</category>
     <orden>
       <after>municipiooriginal</after>
@@ -2851,7 +2843,6 @@ NO DISPONIBLE</subregla></rule>
     <fieldid>ejemplodespuesde</fieldid>
     <dwcField>ejemplo despues de </dwcField>
     <description>ejemplo despues de </description>
->>>>>>> Stashed changes
     <datatype>String</datatype>
     <campos>
       <campo>longitud</campo>
@@ -2866,11 +2857,8 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-<<<<<<< Updated upstream
       <first/>
-=======
       <after>adada</after>
->>>>>>> Stashed changes
     </orden>
     <download>true</download>
     <fieldName>Identificador del ejemplar</fieldName>
