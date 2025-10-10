@@ -1665,7 +1665,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Atributos Biológicos y Ecológicos</category>
     <orden>
-      <after>cscscscs</after>
+      <first/>
     </orden>
     <download>true</download>
     <fieldName>Taxón extinto</fieldName>
@@ -1722,7 +1722,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Atributos Biológicos y Ecológicos</category>
     <orden>
-      <after>cecece</after>
+      <first/>
     </orden>
     <download>true</download>
     <fieldName>Nombre común</fieldName>
@@ -1780,7 +1780,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Atributos Biológicos y Ecológicos</category>
     <orden>
-      <after>cococococ</after>
+      <after>exoticainvasora</after>
     </orden>
     <download>true</download>
     <fieldName>Forma de crecimiento</fieldName>
@@ -2800,64 +2800,5 @@ NO DISPONIBLE</subregla></rule>
     <campos>
       <campo>urlejemplar</campo>
     </campos>
-  </snibTerm>
-  <snibTerm>
-    <category>Atributos Biológicos y Ecológicos</category>
-    <orden>
-      <first/>
-    </orden>
-    <fieldName>cecec</fieldName>
-    <fieldid>cecece</fieldid>
-    <dwcField>eadad</dwcField>
-    <description>adad</description>
-    <campos>
-      <campo>localidad</campo>
-      <campo>longitud</campo>
-      <campo>datum</campo>
-    </campos>
-    <ejemplar>
-      <key>23402a66acef5221225c450c9f2e46d2</key>
-      <key>6199aeca6523f586eaa06247f67537ca</key>
-      <key>01556c193c911035a63aaeca05f0e953</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Atributos Biológicos y Ecológicos</category>
-    <orden>
-      <after>exoticainvasora</after>
-    </orden>
-    <fieldName>ccocococ</fieldName>
-    <fieldid>cococococ</fieldid>
-    <dwcField>adad</dwcField>
-    <description>adasdas</description>
-    <campos>
-      <campo>datum</campo>
-      <campo>region</campo>
-      <campo>longitud</campo>
-    </campos>
-    <ejemplar>
-      <key>23402a66acef5221225c450c9f2e46d2</key>
-      <key>6199aeca6523f586eaa06247f67537ca</key>
-      <key>01556c193c911035a63aaeca05f0e953</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Atributos Biológicos y Ecológicos</category>
-    <orden>
-      <last/>
-    </orden>
-    <fieldName>cscscscs</fieldName>
-    <fieldid>cscscscs</fieldid>
-    <dwcField>dasds</dwcField>
-    <description>dasdas</description>
-    <campos>
-      <campo>longitud</campo>
-      <campo>region</campo>
-    </campos>
-    <ejemplar>
-      <key>23402a66acef5221225c450c9f2e46d2</key>
-      <key>6199aeca6523f586eaa06247f67537ca</key>
-      <key>01556c193c911035a63aaeca05f0e953</key>
-    </ejemplar>
   </snibTerm>
 </snibDictionary>
