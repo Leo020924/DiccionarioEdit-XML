@@ -1011,7 +1011,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <after>regionmarinamapa</after>
+      <after>cuencahidrograficamapa</after>
     </orden>
     <download>true</download>
     <fieldName>Ecorregiones terrestres</fieldName>
