@@ -327,7 +327,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <after>EstoesunEjemplo</after>
+      <after>paisoriginal</after>
     </orden>
     <download>true</download>
     <fieldName>Estado</fieldName>
@@ -2858,7 +2858,6 @@ NO DISPONIBLE</subregla></rule>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
       <first/>
-      <after>adada</after>
     </orden>
     <download>true</download>
     <fieldName>Identificador del ejemplar</fieldName>
@@ -2882,48 +2881,6 @@ NO DISPONIBLE</subregla></rule>
     <campos>
       <campo>urlejemplar</campo>
     </campos>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica del ejemplar</category>
-    <orden>
-      <after>paisoriginal</after>
-    </orden>
-    <fieldName>Esto es un Ejemplo</fieldName>
-    <fieldid>EstoesunEjemplo</fieldid>
-    <dwcField>sdad</dwcField>
-    <description>adad</description>
-    <datatype>String</datatype>
-    <campos>
-      <campo>datum</campo>
-      <campo>latitud</campo>
-      <campo>longitud</campo>
-    </campos>
-    <ejemplar>
-      <key>23402a66acef5221225c450c9f2e46d2</key>
-      <key>6199aeca6523f586eaa06247f67537ca</key>
-      <key>01556c193c911035a63aaeca05f0e953</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica del ejemplar</category>
-    <orden>
-      <last/>
-    </orden>
-    <fieldName>sdad</fieldName>
-    <fieldid>adada</fieldid>
-    <dwcField>asdasd</dwcField>
-    <description>sdasd</description>
-    <datatype>String</datatype>
-    <campos>
-      <campo>region</campo>
-      <campo>longitud</campo>
-      <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>23402a66acef5221225c450c9f2e46d2</key>
-      <key>6199aeca6523f586eaa06247f67537ca</key>
-      <key>01556c193c911035a63aaeca05f0e953</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
