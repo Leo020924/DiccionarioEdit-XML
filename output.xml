@@ -721,7 +721,7 @@ un dato de país en el campo país original.</subregla></rule>
     <fieldid>altitudmapa</fieldid>
     <dwcField>minimunElevationInMeters</dwcField>
     <description>Altitud donde se ubica la coordenada geográfica, es obtenida del modelo de elevación ASTER GDEM2. Tipo de dato: smallint (6)</description>
-    <datatype>Descripción: Altitud donde se ubica la coordenada geográfica, es obtenida del modelo de elevación ASTER GDEM2. Tipo de dato: smallint (6)</datatype>
+    <datatype>smallint (6)</datatype>
     <encoding/>
     <dataRules>
       <rule>El valor nulo significa que el ejemplar no tiene coordenadas geográficas; las coordenadas asociadas al ejemplar se ubican fuera del área que cubre el modelo digital de elevación o, dicho modelo no tiene el dato de altitud.</rule>
