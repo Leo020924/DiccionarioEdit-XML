@@ -1068,7 +1068,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Taxonomía</category>
     <orden>
-      <after>ededede</after>
+      <first/>
     </orden>
     <download>true</download>
     <fieldName>Grupo biológico</fieldName>
@@ -2880,27 +2880,6 @@ NO DISPONIBLE</subregla></rule>
     <campos>
       <campo>urlejemplar</campo>
     </campos>
-  </snibTerm>
-  <snibTerm>
-    <category>Taxonomía</category>
-    <orden>
-      <first/>
-    </orden>
-    <fieldName>ededed</fieldName>
-    <fieldid>ededede</fieldid>
-    <dwcField>asasd</dwcField>
-    <description>dadasd</description>
-    <datatype>String</datatype>
-    <campos>
-      <campo>localidad</campo>
-      <campo>longitud</campo>
-      <campo>region</campo>
-    </campos>
-    <ejemplar>
-      <key>23402a66acef5221225c450c9f2e46d2</key>
-      <key>6199aeca6523f586eaa06247f67537ca</key>
-      <key>01556c193c911035a63aaeca05f0e953</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
