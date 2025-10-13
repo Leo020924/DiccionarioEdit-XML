@@ -13,9 +13,9 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <anexo1>En la siguiente tabla se muestran los campos del SNIB incluidos para descarga en el geoportal y la página del SNIB de la CONABIO.</anexo1>
     <anexo2>En este anexo se proporciona la sentencia SQL para MySQL mediante el cual se puede crear la estructura de la tabla del geoportal.</anexo2>
     <creador>
-      <nombre></nombre>
-      <sitioWeb></sitioWeb>
-      <portalSNIB></portalSNIB>
+      <nombre/>
+      <sitioWeb/>
+      <portalSNIB/>
     </creador>
   </metadata>
   <snibTerm>
@@ -554,7 +554,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <after>estadooriginal</after>
+      <after>pureba</after>
     </orden>
     <download>true</download>
     <ordenTabla>
@@ -3119,5 +3119,25 @@ NO DISPONIBLE</subregla></rule>
     <campos>
       <campo>urlejemplar</campo>
     </campos>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica del ejemplar</category>
+    <orden>
+      <after>estadooriginal</after>
+    </orden>
+    <fieldName>prueba</fieldName>
+    <fieldid>pureba</fieldid>
+    <dwcField>dasdas</dwcField>
+    <description>dasdas</description>
+    <datatype>dasdasd</datatype>
+    <download>true</download>
+    <campos>
+      <campo>localidad</campo>
+    </campos>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>127d21638cc105ce290844e6abb7e870</key>
+      <key>096c765542c6bb8f65d0abfd102e9af0</key>
+    </ejemplar>
   </snibTerm>
 </snibDictionary>
