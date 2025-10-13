@@ -554,7 +554,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <after>pureba</after>
+      <after>estadooriginal</after>
     </orden>
     <download>true</download>
     <ordenTabla>
@@ -3118,26 +3118,6 @@ NO DISPONIBLE</subregla></rule>
     </ejemplar>
     <campos>
       <campo>urlejemplar</campo>
-    </campos>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica del ejemplar</category>
-    <orden>
-      <after>estadooriginal</after>
-    </orden>
-    <fieldName>prueba</fieldName>
-    <fieldid>pureba</fieldid>
-    <dwcField>dasdas</dwcField>
-    <description>dasdas</description>
-    <datatype>dasdasd</datatype>
-    <download>false</download>
-    <ejemplar>
-      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
-      <key>127d21638cc105ce290844e6abb7e870</key>
-      <key>096c765542c6bb8f65d0abfd102e9af0</key>
-    </ejemplar>
-    <campos>
-      <campo>localidad</campo>
     </campos>
   </snibTerm>
 </snibDictionary>
