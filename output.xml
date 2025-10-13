@@ -10,10 +10,8 @@ con la licencia LibreusoMX de datos.gob.mx</licenciaUso>
     <formaDeCitar>CONABIO. 2025. Diccionario de datos. Ejemplares publicados en el Geoportal y el sitio del Sistema Nacional de&#13;
 Información sobre Biodiversidad, versión 2024-12 México, Disponible en:&#13;
 http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeoportal-202412.pdf</formaDeCitar>
-    <anexo1>En la siguiente tabla se muestran los campos del SNIB incluidos para descarga en el geoportal y la página del SNIB de la CONABIO.&#13;
-dasdasd</anexo1>
-    <anexo2>En este anexo se proporciona la sentencia SQL para MySQL mediante el cual se puede crear la estructura de la tabla del geoportal.&#13;
-dasdasds</anexo2>
+    <anexo1>En la siguiente tabla se muestran los campos del SNIB incluidos para descarga en el geoportal y la página del SNIB de la CONABIO.</anexo1>
+    <anexo2>En este anexo se proporciona la sentencia SQL para MySQL mediante el cual se puede crear la estructura de la tabla del geoportal.</anexo2>
     <creador>
       <nombre></nombre>
       <sitioWeb></sitioWeb>
