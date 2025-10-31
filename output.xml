@@ -3145,7 +3145,7 @@ NO DISPONIBLE</subregla></rule>
       <first/>
     </ordenTabla>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <fieldName>Identificador del ejemplar</fieldName>
     <fieldid>idejemplar</fieldid>
     <dwcField>occurrenceID</dwcField>
