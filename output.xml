@@ -1011,7 +1011,7 @@ un dato de país en el campo país original.</subregla></rule>
     <ordenTabla>
       
     <after>vegetacionserenanalcms</after></ordenTabla>
-    <fieldName>Áreas Naturales Protegidas</fieldName>
+    <fieldName>Áreas naturales protegidas</fieldName>
     <fieldid>anp</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Especifica la jurisdicción y nombre del área natural protegida (ANP) donde se ubica la coordenada geográfica registrada para el ejemplar.</description>
@@ -1964,7 +1964,7 @@ NO DISPONIBLE</subregla></rule>
     <ordenTabla>
       
     <after>nombrecomun</after></ordenTabla>
-    <fieldName>Identificador del Nombre</fieldName>
+    <fieldName>Identificador del nombre</fieldName>
     <fieldid>idnombrecat</fieldid>
     <dwcField>scientificNameID</dwcField>
     <description>Identificador del nombre del ejemplar en el catálogo de autoridades taxonómicas de la CONABIO. Corresponde al identificador de la Especie (binomio, trinomio, etc.)</description>
@@ -1985,7 +1985,7 @@ NO DISPONIBLE</subregla></rule>
     <ordenTabla>
       
     <after>idnombrecat</after></ordenTabla>
-    <fieldName>Identificador del Nombre válido</fieldName>
+    <fieldName>Identificador del nombre válido</fieldName>
     <fieldid>idnombrecatvalido</fieldid>
     <dwcField>acceptedNameUsageID</dwcField>
     <description>Identificador del nombre válido en el catálogo de autoridades taxonómicas de la CONABIO.</description>
@@ -2472,7 +2472,7 @@ NO DISPONIBLE</subregla></rule>
     <ordenTabla>
       
     <after>numcolecta</after></ordenTabla>
-    <fieldName>Procedencia del Ejemplar</fieldName>
+    <fieldName>Procedencia del ejemplar</fieldName>
     <fieldid>procedenciaejemplar</fieldid>
     <dwcField>basisOfRecord</dwcField>
     <description>Indica si el ejemplar proviene de un evento de recolecta, observación o de un reporte.</description>
@@ -3075,10 +3075,10 @@ NO DISPONIBLE</subregla></rule>
     <ordenTabla>
       
     <after>urlejemplar</after></ordenTabla>
-    <fieldName>Descargable desde el Geoportal</fieldName>
+    <fieldName>Descargable desde el geoportal</fieldName>
     <fieldid>geoportal</fieldid>
     <dwcField>Sin equivalencia</dwcField>
-    <description>Indica si el registro está disponible para su descarga desde el Geoportal de la CONABIO.</description>
+    <description>Indica si el registro está disponible para su descarga desde el geoportal de la CONABIO.</description>
     <datatype>tinyint (1)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
