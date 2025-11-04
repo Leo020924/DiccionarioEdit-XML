@@ -10,7 +10,7 @@ con la licencia LibreusoMX de datos.gob.mx</licenciaUso>
     <formaDeCitar>CONABIO. 2025. Diccionario de datos. Ejemplares publicados en el Geoportal y el sitio del Sistema Nacional de&#13;
 Información sobre Biodiversidad, versión 2024-12 México, Disponible en:&#13;
 http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeoportal-202412.pdf</formaDeCitar>
-    <anexo1>En la siguiente tabla se muestran los campos del SNIB incluidos para descarga en el geoportal y la página del SNIB de la CONABIO.</anexo1>
+    <anexo1>En la siguiente tabla se muestran los campos del SNIB para descarga en el geoportal y en la página del SNIB.mx de la CONABIO</anexo1>
     <anexo2>En este anexo se proporciona la sentencia SQL para MySQL mediante la cual se puede crear la estructura de la tabla del geoportal.</anexo2>
     <creador>
       <nombre/>
@@ -981,7 +981,6 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
     <after>usvserieVII</after></ordenTabla>
     <fieldName>Vegetación para otros países </fieldName>
     <fieldid>vegetacionserenanalcms</fieldid>
@@ -1050,10 +1049,10 @@ un dato de país en el campo país original.</subregla></rule>
     <ordenTabla>
       
     <after>anp</after></ordenTabla>
-    <fieldName>Región marina </fieldName>
+    <fieldName>Regiones marinas </fieldName>
     <fieldid>regionmarinamapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
-    <description>Región marina donde se ubica la coordenada geográfica.</description>
+    <description>Regiones marinas donde se ubica la coordenada geográfica.</description>
     <datatype>varchar (100)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
@@ -2148,7 +2147,7 @@ NO DISPONIBLE</subregla></rule>
     <ordenTabla>
       
     <after>exoticainvasora</after></ordenTabla>
-    <fieldName>Categoría de riesgo según NOM-059-SEMARNAT </fieldName>
+    <fieldName>Categoría de riesgo según la NOM-059-SEMARNAT</fieldName>
     <fieldid>nom059</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Indica la categoría de riesgo conforme a la NOM-059-SEMARNAT de la especie o la infraespecie.</description>
@@ -2800,7 +2799,6 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
     <after>fechacolecta</after></ordenTabla>
     <fieldName>Tipo</fieldName>
     <fieldid>tipo</fieldid>
@@ -2825,6 +2823,10 @@ NO DISPONIBLE</subregla></rule>
     <category>Datos del ejemplar/observación</category>
     <orden>
     </orden>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>true</downloadSnib>
+    <ordenTabla>
+    <after>version</after></ordenTabla>
     <fieldName>Tipo de vegetación</fieldName>
     <fieldid>tipovegetacion</fieldid>
     <dwcField>Sin equivalencia</dwcField>
