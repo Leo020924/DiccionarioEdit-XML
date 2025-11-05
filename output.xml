@@ -34,15 +34,6 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <description>País, estado y municipio o su división política equivalente, registrados para el ejemplar por el recolector u observador.</description>
     <datatype>varchar (150)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules>
-      <rule>sasa</rule>
-    </dataRules>
-    <syntaxRules>
-      <rule>asasa</rule>
-    </syntaxRules>
-    <infoRules>
-      <rule>sasas</rule>
-    </infoRules>
     <ejemplar>
       <key>0379d08e54c2b543e303a8fc4667ffe8</key>
       <key>127d21638cc105ce290844e6abb7e870</key>
