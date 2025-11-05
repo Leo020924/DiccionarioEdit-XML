@@ -1,1 +1,1 @@
-Test|Taxonomía
+region|Información geográfica del ejemplar
