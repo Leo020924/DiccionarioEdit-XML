@@ -37,9 +37,6 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <infoRules>
       <rule>as</rule>
     </infoRules>
-    <dataRules>
-      <rule>AASDA</rule>
-    </dataRules>
     <ejemplar>
       <key>0379d08e54c2b543e303a8fc4667ffe8</key>
       <key>127d21638cc105ce290844e6abb7e870</key>
