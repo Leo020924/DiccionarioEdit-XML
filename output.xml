@@ -356,7 +356,6 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
-      <rule>SDASD</rule>
     </dataRules>
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
