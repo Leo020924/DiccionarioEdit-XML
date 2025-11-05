@@ -1,3 +1,4 @@
+-- SQL para la creación de la tabla SnibGeoportal
 CREATE TABLE `SnibGeoportal` (
 `grupobio` varchar(50) NOT NULL DEFAULT '',
 `subgrupobio` varchar(250) NOT NULL DEFAULT '',
