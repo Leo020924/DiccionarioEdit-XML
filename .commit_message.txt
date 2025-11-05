@@ -1,1 +1,1 @@
-region|Información geográfica del ejemplar
+aa|Atributos biológicos y ecológicos
