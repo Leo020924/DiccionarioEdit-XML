@@ -3234,5 +3234,9 @@ NO DISPONIBLE</subregla></rule>
       <key>127d21638cc105ce290844e6abb7e870</key>
       <key>096c765542c6bb8f65d0abfd102e9af0</key>
     </ejemplar>
+    <campos>
+      <campo>region</campo>
+      <campo>localidad</campo>
+    </campos>
   </snibTerm>
 </snibDictionary>
