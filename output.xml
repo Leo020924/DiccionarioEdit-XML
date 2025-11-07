@@ -81,8 +81,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <after>validacionambiente</after></ordenTabla>
+      <after>validacionambiente</after>
+    </ordenTabla>
     <fieldName>Longitud</fieldName>
     <fieldid>longitud</fieldid>
     <dwcField>decimalLongitude</dwcField>
@@ -178,8 +178,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <after>paismapa</after></ordenTabla>
+      <after>paismapa</after>
+    </ordenTabla>
     <fieldName>Validación de la ubicación respecto al ambiente</fieldName>
     <fieldid>validacionambiente</fieldid>
     <dwcField>Incluido en georeferenceVerificationStatus</dwcField>
@@ -209,8 +209,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <after>datum</after></ordenTabla>
+      <after>datum</after>
+    </ordenTabla>
     <fieldName>Validación de la ubicación geográfica</fieldName>
     <fieldid>geovalidacion</fieldid>
     <dwcField>Incluido en georeferenceVerificationStatus</dwcField>
@@ -3193,7 +3193,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Taxonomía</category>
     <orden>
-      <last/>
+      <after>ejemplo22</after>
     </orden>
     <fieldName>Test</fieldName>
     <fieldid>Test</fieldid>
@@ -3207,5 +3207,29 @@ NO DISPONIBLE</subregla></rule>
     <ordenTabla>
       <after>tipovegetacion</after>
     </ordenTabla>
+  </snibTerm>
+  <snibTerm>
+    <category>Taxonomía</category>
+    <orden>
+      <last/>
+    </orden>
+    <fieldName>ejemplo22</fieldName>
+    <fieldid>ejemplo22</fieldid>
+    <dwcField>ejemplo22</dwcField>
+    <description>ejemplo22</description>
+    <datatype>varchar(100)</datatype>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>true</downloadSnib>
+    <dataRules>
+      <rule>ejemplo22</rule>
+    </dataRules>
+    <syntaxRules>
+      <rule>ejemplo22</rule>
+    </syntaxRules>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>127d21638cc105ce290844e6abb7e870</key>
+      <key>096c765542c6bb8f65d0abfd102e9af0</key>
+    </ejemplar>
   </snibTerm>
 </snibDictionary>
