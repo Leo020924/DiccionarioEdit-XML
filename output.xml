@@ -3226,6 +3226,9 @@ NO DISPONIBLE</subregla></rule>
     <syntaxRules>
       <rule>ejemplo22</rule>
     </syntaxRules>
+    <infoRules>
+      <rule>Ejemplo 222</rule>
+    </infoRules>
     <ejemplar>
       <key>0379d08e54c2b543e303a8fc4667ffe8</key>
       <key>127d21638cc105ce290844e6abb7e870</key>
