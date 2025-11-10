@@ -2068,7 +2068,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
     <orden>
-      <after>Ejemplo</after>
+      <after>prioritaria</after>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3167,26 +3167,5 @@ NO DISPONIBLE</subregla></rule>
     <campos>
       <campo>urlejemplar</campo>
     </campos>
-  </snibTerm>
-  <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
-    <orden>
-      <after>prioritaria</after>
-    </orden>
-    <fieldName>Ejemplo</fieldName>
-    <fieldid>Ejemplo</fieldid>
-    <dwcField>Ejemplo</dwcField>
-    <description>Ejemplo</description>
-    <datatype>String</datatype>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>region</campo>
-    </campos>
-    <ejemplar>
-      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
-      <key>127d21638cc105ce290844e6abb7e870</key>
-      <key>096c765542c6bb8f65d0abfd102e9af0</key>
-    </ejemplar>
   </snibTerm>
 </snibDictionary>
