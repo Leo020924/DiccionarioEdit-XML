@@ -3168,26 +3168,4 @@ NO DISPONIBLE</subregla></rule>
       <campo>urlejemplar</campo>
     </campos>
   </snibTerm>
-  <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
-    <orden>
-      <last/>
-    </orden>
-    <fieldName>Ejemplo 333</fieldName>
-    <fieldid>Ejemplo333</fieldid>
-    <dwcField>Ejemplo 444</dwcField>
-    <description>Ejemplo 444</description>
-    <datatype>varchar(10)</datatype>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <ejemplar>
-      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
-      <key>127d21638cc105ce290844e6abb7e870</key>
-      <key>096c765542c6bb8f65d0abfd102e9af0</key>
-    </ejemplar>
-    <campos>
-      <campo>localidad</campo>
-      <campo>longitud</campo>
-    </campos>
-  </snibTerm>
 </snibDictionary>
