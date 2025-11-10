@@ -1,1 +1,1 @@
-Ejemplo555|Información geográfica por ubicación de la coordenada
+Test|Estatus de conservación y riesgo
