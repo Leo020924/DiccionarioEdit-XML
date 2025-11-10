@@ -713,8 +713,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>mt24clavemunicipiomapa</after>
-    </ordenTabla>
+      
+    <first/></ordenTabla>
     <fieldName>Incertidumbre geográfica</fieldName>
     <fieldid>incertidumbrexy</fieldid>
     <dwcField>coordinateUncertaintyInMeters</dwcField>
@@ -749,8 +749,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>incertidumbrexy</after>
-    </ordenTabla>
+      
+    <after>mt24clavemunicipiomapa</after></ordenTabla>
     <fieldName>Altitud </fieldName>
     <fieldid>altitudmapa</fieldid>
     <dwcField>minimunElevationInMeters</dwcField>
@@ -3143,8 +3143,8 @@ NO DISPONIBLE</subregla></rule>
       <first/>
     </orden>
     <ordenTabla>
-      <first/>
-    </ordenTabla>
+      
+    <after>incertidumbrexy</after></ordenTabla>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <fieldName>Identificador del ejemplar</fieldName>
