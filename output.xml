@@ -708,7 +708,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <first/>
+      <last/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
