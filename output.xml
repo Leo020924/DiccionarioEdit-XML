@@ -3193,7 +3193,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Taxonomía</category>
     <orden>
-      <after>ejemplo22</after>
+      <first/>
     </orden>
     <fieldName>Test</fieldName>
     <fieldid>Test</fieldid>
@@ -3207,37 +3207,5 @@ NO DISPONIBLE</subregla></rule>
     <ordenTabla>
       <after>tipovegetacion</after>
     </ordenTabla>
-  </snibTerm>
-  <snibTerm>
-    <category>Taxonomía</category>
-    <orden>
-      <last/>
-    </orden>
-    <fieldName>ejemplo22</fieldName>
-    <fieldid>ejemplo22</fieldid>
-    <dwcField>ejemplo22</dwcField>
-    <description>ejemplo22</description>
-    <datatype>varchar(100)</datatype>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <dataRules>
-      <rule>ejemplo22</rule>
-    </dataRules>
-    <syntaxRules>
-      <rule>ejemplo22</rule>
-    </syntaxRules>
-    <infoRules>
-      <rule>Ejemplo 222</rule>
-      <rule>dadasdas</rule>
-    </infoRules>
-    <ejemplar>
-      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
-      <key>127d21638cc105ce290844e6abb7e870</key>
-      <key>096c765542c6bb8f65d0abfd102e9af0</key>
-    </ejemplar>
-    <campos>
-      <campo>region</campo>
-      <campo>localidad</campo>
-    </campos>
   </snibTerm>
 </snibDictionary>
