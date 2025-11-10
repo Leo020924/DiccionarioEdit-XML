@@ -1137,7 +1137,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Taxonomía</category>
     <orden>
-      <first/>
+      <after>Ejemploalinicio</after>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3167,5 +3167,26 @@ NO DISPONIBLE</subregla></rule>
     <campos>
       <campo>urlejemplar</campo>
     </campos>
+  </snibTerm>
+  <snibTerm>
+    <category>Taxonomía</category>
+    <orden>
+      <first/>
+    </orden>
+    <fieldName>Ejemplo al inicio</fieldName>
+    <fieldid>Ejemploalinicio</fieldid>
+    <dwcField>Ejemplo al inicio</dwcField>
+    <description>Ejemplo al inicio</description>
+    <datatype>String</datatype>
+    <downloadGeoportal>false</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <campos>
+      <campo>localidad</campo>
+    </campos>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>127d21638cc105ce290844e6abb7e870</key>
+      <key>096c765542c6bb8f65d0abfd102e9af0</key>
+    </ejemplar>
   </snibTerm>
 </snibDictionary>
