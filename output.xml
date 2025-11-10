@@ -178,8 +178,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <after>clavemunicipiomapa</after></ordenTabla>
+      <after>clavemunicipiomapa</after>
+    </ordenTabla>
     <fieldName>Validación de la ubicación respecto al ambiente</fieldName>
     <fieldid>validacionambiente</fieldid>
     <dwcField>Incluido en georeferenceVerificationStatus</dwcField>
@@ -386,8 +386,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <after>paismapa</after></ordenTabla>
+      <after>paismapa</after>
+    </ordenTabla>
     <fieldName>Estado asignado</fieldName>
     <fieldid>estadomapa</fieldid>
     <dwcField>Incluido en stateProvince</dwcField>
@@ -458,8 +458,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <after>geovalidacion</after></ordenTabla>
+      <after>geovalidacion</after>
+    </ordenTabla>
     <fieldName>Estado asignado como referencia para las ubicaciones en el mar</fieldName>
     <fieldid>mt24nombreestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -565,8 +565,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <after>claveestadomapa</after></ordenTabla>
+      <after>claveestadomapa</after>
+    </ordenTabla>
     <fieldName>Municipio asignado</fieldName>
     <fieldid>municipiomapa</fieldid>
     <dwcField>Incluido en county</dwcField>
@@ -642,8 +642,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <after>mt24claveestadomapa</after></ordenTabla>
+      <after>mt24claveestadomapa</after>
+    </ordenTabla>
     <fieldName>Municipio asignado como referencia para las ubicaciones en el mar</fieldName>
     <fieldid>mt24nombremunicipiomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -713,8 +713,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <first/></ordenTabla>
+      <first/>
+    </ordenTabla>
     <fieldName>Incertidumbre geográfica</fieldName>
     <fieldid>incertidumbrexy</fieldid>
     <dwcField>coordinateUncertaintyInMeters</dwcField>
@@ -749,8 +749,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <after>mt24clavemunicipiomapa</after></ordenTabla>
+      <after>mt24clavemunicipiomapa</after>
+    </ordenTabla>
     <fieldName>Altitud </fieldName>
     <fieldid>altitudmapa</fieldid>
     <dwcField>minimunElevationInMeters</dwcField>
@@ -972,7 +972,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <after>Ejemplo555</after>
+      <first/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3143,8 +3143,8 @@ NO DISPONIBLE</subregla></rule>
       <first/>
     </orden>
     <ordenTabla>
-      
-    <after>incertidumbrexy</after></ordenTabla>
+      <after>incertidumbrexy</after>
+    </ordenTabla>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <fieldName>Identificador del ejemplar</fieldName>
@@ -3168,26 +3168,4 @@ NO DISPONIBLE</subregla></rule>
       <campo>urlejemplar</campo>
     </campos>
   </snibTerm>
-  <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <last/>
-    </orden>
-    <fieldName>Ejemplo 555</fieldName>
-    <fieldid>Ejemplo555</fieldid>
-    <dwcField>Ejemplo 555</dwcField>
-    <description>Ejemplo 555</description>
-    <datatype>varchar(10)</datatype>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <campos>
-      <campo>localidad</campo>
-      <campo>longitud</campo>
-    </campos>
-    <ejemplar>
-      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
-      <key>127d21638cc105ce290844e6abb7e870</key>
-      <key>096c765542c6bb8f65d0abfd102e9af0</key>
-    </ejemplar>
-  <ordenTabla><after>tipovegetacion</after></ordenTabla></snibTerm>
 </snibDictionary>
