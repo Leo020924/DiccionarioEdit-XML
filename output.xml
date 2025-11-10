@@ -3210,26 +3210,4 @@ NO DISPONIBLE</subregla></rule>
       <key>096c765542c6bb8f65d0abfd102e9af0</key>
     </ejemplar>
   </snibTerm>
-  <snibTerm>
-    <category>Información geográfica del ejemplar</category>
-    <orden>
-      <last/>
-    </orden>
-    <fieldName>Al final</fieldName>
-    <fieldid>Alfinal</fieldid>
-    <dwcField>Al final</dwcField>
-    <description>Al final</description>
-    <datatype>String</datatype>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>localidad</campo>
-      <campo>longitud</campo>
-    </campos>
-    <ejemplar>
-      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
-      <key>127d21638cc105ce290844e6abb7e870</key>
-      <key>096c765542c6bb8f65d0abfd102e9af0</key>
-    </ejemplar>
-  </snibTerm>
 </snibDictionary>
