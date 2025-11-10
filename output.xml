@@ -972,7 +972,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <last/>
+      <after>Ejemplo555</after>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3167,5 +3167,27 @@ NO DISPONIBLE</subregla></rule>
     <campos>
       <campo>urlejemplar</campo>
     </campos>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica por ubicación de la coordenada</category>
+    <orden>
+      <last/>
+    </orden>
+    <fieldName>Ejemplo 555</fieldName>
+    <fieldid>Ejemplo555</fieldid>
+    <dwcField>Ejemplo 555</dwcField>
+    <description>Ejemplo 555</description>
+    <datatype>varchar(10)</datatype>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>true</downloadSnib>
+    <campos>
+      <campo>localidad</campo>
+      <campo>longitud</campo>
+    </campos>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>127d21638cc105ce290844e6abb7e870</key>
+      <key>096c765542c6bb8f65d0abfd102e9af0</key>
+    </ejemplar>
   </snibTerm>
 </snibDictionary>
