@@ -2957,8 +2957,8 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>formadecitar</after>
-    </ordenTabla>
+      
+    <after>ultimafechaactualizacion</after></ordenTabla>
     <fieldName>Licencia de uso</fieldName>
     <fieldid>licenciauso</fieldid>
     <dwcField>license</dwcField>
@@ -3007,8 +3007,8 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>licenciauso</after>
-    </ordenTabla>
+      
+    <after>formadecitar</after></ordenTabla>
     <fieldName>URL del proyecto</fieldName>
     <fieldid>urlproyecto</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -3075,7 +3075,7 @@ NO DISPONIBLE</subregla></rule>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <after>ultimafechaactualizacion</after></ordenTabla>
+    <first/></ordenTabla>
     <fieldName>Descargable desde el geoportal</fieldName>
     <fieldid>geoportal</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -3123,7 +3123,7 @@ NO DISPONIBLE</subregla></rule>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <first/></ordenTabla>
+    <after>geoportal</after></ordenTabla>
     <fieldName>Versión</fieldName>
     <fieldid>version</fieldid>
     <dwcField>Sin equivalencia</dwcField>
