@@ -420,7 +420,6 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
     <after>incertidumbrexy</after></ordenTabla>
     <fieldName>Clave estatal asignada</fieldName>
     <fieldid>claveestadomapa</fieldid>
