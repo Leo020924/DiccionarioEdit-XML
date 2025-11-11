@@ -27,7 +27,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <after>incertidumbrexy</after></ordenTabla>
+    <after>idejemplar</after></ordenTabla>
     <fieldName>Región de recolecta u observación</fieldName>
     <fieldid>region</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -3075,7 +3075,7 @@ NO DISPONIBLE</subregla></rule>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <after>version</after></ordenTabla>
+    <after>ultimafechaactualizacion</after></ordenTabla>
     <fieldName>Descargable desde el geoportal</fieldName>
     <fieldid>geoportal</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -3122,8 +3122,8 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>ultimafechaactualizacion</after>
-    </ordenTabla>
+      
+    <first/></ordenTabla>
     <fieldName>Versión</fieldName>
     <fieldid>version</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -3144,7 +3144,7 @@ NO DISPONIBLE</subregla></rule>
     </orden>
     <ordenTabla>
       
-    <first/></ordenTabla>
+    <after>version</after></ordenTabla>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <fieldName>Identificador del ejemplar</fieldName>
