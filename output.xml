@@ -2165,7 +2165,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
     <orden>
-      <after>nom059</after>
+      <last/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3187,32 +3187,6 @@ NO DISPONIBLE</subregla></rule>
     </ejemplar>
     <campos>
       <campo>localidad</campo>
-    </campos>
-  </snibTerm>
-  <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
-    <orden>
-      <after>cites</after>
-    </orden>
-    <fieldName>Al final</fieldName>
-    <fieldid>Alfinal</fieldid>
-    <dwcField>Al final</dwcField>
-    <description>Al final</description>
-    <datatype>String</datatype>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <ejemplar>
-      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
-      <key>127d21638cc105ce290844e6abb7e870</key>
-      <key>096c765542c6bb8f65d0abfd102e9af0</key>
-    </ejemplar>
-    <category>Información geográfica del ejemplar</category>
-    <orden>
-      <after>incertidumbrexy</after>
-      <last/>
-    </orden>
-    <campos>
-      <campo>region</campo>
     </campos>
   </snibTerm>
 </snibDictionary>
