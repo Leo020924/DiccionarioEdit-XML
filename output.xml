@@ -458,7 +458,7 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <after>claveestadomapa</after></ordenTabla>
+    <after>altitudmapa</after></ordenTabla>
     <fieldName>Estado asignado como referencia para las ubicaciones en el mar</fieldName>
     <fieldid>mt24nombreestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -565,7 +565,7 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <after>altitudmapa</after></ordenTabla>
+    <after>mt24clavemunicipiomapa</after></ordenTabla>
     <fieldName>Municipio asignado</fieldName>
     <fieldid>municipiomapa</fieldid>
     <dwcField>Incluido en county</dwcField>
@@ -749,7 +749,7 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <after>mt24clavemunicipiomapa</after></ordenTabla>
+    <after>claveestadomapa</after></ordenTabla>
     <fieldName>Altitud </fieldName>
     <fieldid>altitudmapa</fieldid>
     <dwcField>minimunElevationInMeters</dwcField>
@@ -1005,7 +1005,7 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <first/></ordenTabla>
+    <after>geoportal</after></ordenTabla>
     <fieldName>Áreas naturales protegidas</fieldName>
     <fieldid>anp</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -3074,7 +3074,7 @@ NO DISPONIBLE</subregla></rule>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <after>anp</after></ordenTabla>
+    <first/></ordenTabla>
     <fieldName>Descargable desde el geoportal</fieldName>
     <fieldid>geoportal</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -3122,7 +3122,7 @@ NO DISPONIBLE</subregla></rule>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <after>geoportal</after></ordenTabla>
+    <after>anp</after></ordenTabla>
     <fieldName>Versión</fieldName>
     <fieldid>version</fieldid>
     <dwcField>Sin equivalencia</dwcField>
