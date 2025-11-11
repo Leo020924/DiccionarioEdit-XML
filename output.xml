@@ -1005,7 +1005,7 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <after>geoportal</after></ordenTabla>
+    <first/></ordenTabla>
     <fieldName>Áreas naturales protegidas</fieldName>
     <fieldid>anp</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -3074,7 +3074,7 @@ NO DISPONIBLE</subregla></rule>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <first/></ordenTabla>
+    <after>anp</after></ordenTabla>
     <fieldName>Descargable desde el geoportal</fieldName>
     <fieldid>geoportal</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -3122,7 +3122,7 @@ NO DISPONIBLE</subregla></rule>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <after>anp</after></ordenTabla>
+    <after>geoportal</after></ordenTabla>
     <fieldName>Versión</fieldName>
     <fieldid>version</fieldid>
     <dwcField>Sin equivalencia</dwcField>
