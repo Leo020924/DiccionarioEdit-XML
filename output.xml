@@ -3172,7 +3172,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
     <orden>
-      <after>endemismo</after>
+      <after>Campoprueba</after>
     </orden>
     <fieldName>campo1</fieldName>
     <fieldid>campo1</fieldid>
@@ -3185,6 +3185,27 @@ NO DISPONIBLE</subregla></rule>
       <key>000000ac63c0559238194a1f80546a92</key>
       <key>000000fce20896c0d5c13b5475d24717</key>
       <key>0000010278ed24a49835a2272d40ff11</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Atributos biológicos y ecológicos</category>
+    <orden>
+      <after>endemismo</after>
+    </orden>
+    <fieldName>Campo prueba</fieldName>
+    <fieldid>Campoprueba</fieldid>
+    <dwcField>Campo prueba</dwcField>
+    <description>Campo prueba</description>
+    <datatype>String</datatype>
+    <downloadGeoportal>false</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <campos>
+      <campo>localidad</campo>
+    </campos>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>127d21638cc105ce290844e6abb7e870</key>
+      <key>096c765542c6bb8f65d0abfd102e9af0</key>
     </ejemplar>
   </snibTerm>
 </snibDictionary>
