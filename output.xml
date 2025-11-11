@@ -3190,4 +3190,25 @@ NO DISPONIBLE</subregla></rule>
       <campo>localidad</campo>
     </campos>
   </snibTerm>
+  <snibTerm>
+    <category>Atributos biológicos y ecológicos</category>
+    <orden>
+      <after>endemismo</after>
+    </orden>
+    <fieldName>Campo1</fieldName>
+    <fieldid>Campo1</fieldid>
+    <dwcField>Campo1</dwcField>
+    <description>Campo1</description>
+    <datatype>String</datatype>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>true</downloadSnib>
+    <campos>
+      <campo>region</campo>
+    </campos>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>127d21638cc105ce290844e6abb7e870</key>
+      <key>096c765542c6bb8f65d0abfd102e9af0</key>
+    </ejemplar>
+  </snibTerm>
 </snibDictionary>
