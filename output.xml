@@ -420,8 +420,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>estadomapa</after>
-    </ordenTabla>
+      
+    <after>incertidumbrexy</after></ordenTabla>
     <fieldName>Clave estatal asignada</fieldName>
     <fieldid>claveestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -714,7 +714,7 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <last/>
-    <after>mt24clavemunicipiomapa</after></ordenTabla>
+    <after>estadomapa</after></ordenTabla>
     <fieldName>Incertidumbre geográfica</fieldName>
     <fieldid>incertidumbrexy</fieldid>
     <dwcField>coordinateUncertaintyInMeters</dwcField>
@@ -750,7 +750,7 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <after>incertidumbrexy</after></ordenTabla>
+    <after>mt24clavemunicipiomapa</after></ordenTabla>
     <fieldName>Altitud </fieldName>
     <fieldid>altitudmapa</fieldid>
     <dwcField>minimunElevationInMeters</dwcField>
