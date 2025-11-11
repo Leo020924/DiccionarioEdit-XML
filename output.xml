@@ -3172,25 +3172,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
     <orden>
-      <after>Campoprueba</after>
-    </orden>
-    <fieldName>campo1</fieldName>
-    <fieldid>campo1</fieldid>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <ejemplar>
-      <key>000000ac63c0559238194a1f80546a92</key>
-      <key>000000fce20896c0d5c13b5475d24717</key>
-      <key>0000010278ed24a49835a2272d40ff11</key>
-    </ejemplar>
-    <campos>
-      <campo>datum</campo>
-    </campos>
-  </snibTerm>
-  <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
-    <orden>
-      <after>endemismo</after>
+      <last/>
     </orden>
     <fieldName>Campo prueba</fieldName>
     <fieldid>Campoprueba</fieldid>
