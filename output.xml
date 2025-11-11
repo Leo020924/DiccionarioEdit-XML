@@ -1861,7 +1861,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
     <orden>
-      <first/>
+      <after>endemismo</after>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
