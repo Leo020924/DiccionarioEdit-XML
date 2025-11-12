@@ -2288,7 +2288,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
     <orden>
-      <first/>
+      <after>Alinicio</after>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3276,7 +3276,7 @@ NO DISPONIBLE</subregla></rule>
       <campo>urlejemplar</campo>
     </campos>
   </snibTerm>
-   <snibTerm>
+  <snibTerm>
     <category>Estatus de conservación y riesgo</category>
     <orden>
       <last/>
@@ -3312,5 +3312,25 @@ NO DISPONIBLE</subregla></rule>
       <note>Para más información acerca de los estados de conservación de las especies:</note>
       <note>IUCN. 2024. The IUCN Red List of Threatened Species. Version 2024-1 https://www.iucnredlist.org Downloaded on 12 July 2024</note>
     </notes>
+  </snibTerm>
+  <snibTerm>
+    <category>Estatus de conservación y riesgo</category>
+    <orden>
+      <first/>
+    </orden>
+    <fieldName>Al inicio</fieldName>
+    <fieldid>Alinicio</fieldid>
+    <datatype>String</datatype>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>true</downloadSnib>
+    <campos>
+      <campo>localidad</campo>
+      <campo>region</campo>
+    </campos>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>127d21638cc105ce290844e6abb7e870</key>
+      <key>096c765542c6bb8f65d0abfd102e9af0</key>
+    </ejemplar>
   </snibTerm>
 </snibDictionary>
