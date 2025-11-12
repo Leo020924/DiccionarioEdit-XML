@@ -1252,7 +1252,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Taxonomía</category>
     <orden>
-      <after>reino</after>
+      <after>prueba</after>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3189,5 +3189,23 @@ NO DISPONIBLE</subregla></rule>
     <campos>
       <campo>localidad</campo>
     </campos>
+  </snibTerm>
+  <snibTerm>
+    <category>Taxonomía</category>
+    <orden>
+      <after>reino</after>
+    </orden>
+    <fieldName>prueba</fieldName>
+    <fieldid>prueba</fieldid>
+    <downloadGeoportal>false</downloadGeoportal>
+    <downloadSnib>true</downloadSnib>
+    <campos>
+      <campo>datum</campo>
+    </campos>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>127d21638cc105ce290844e6abb7e870</key>
+      <key>096c765542c6bb8f65d0abfd102e9af0</key>
+    </ejemplar>
   </snibTerm>
 </snibDictionary>
