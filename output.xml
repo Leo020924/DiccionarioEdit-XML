@@ -180,7 +180,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Validación de la información geográfica</category>
     <orden>
-      <last/>
+      <after>geovalidacion</after>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3369,6 +3369,27 @@ NO DISPONIBLE</subregla></rule>
     <campos>
       <campo>localidad</campo>
       <campo>region</campo>
+    </campos>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>127d21638cc105ce290844e6abb7e870</key>
+      <key>096c765542c6bb8f65d0abfd102e9af0</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Validación de la información geográfica</category>
+    <orden>
+      <after>validacionambiente</after>
+      <last/>
+    </orden>
+    <fieldName>Final</fieldName>
+    <fieldid>Final</fieldid>
+    <datatype>String</datatype>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>true</downloadSnib>
+    <campos>
+      <campo>region</campo>
+      <campo>localidad</campo>
     </campos>
     <ejemplar>
       <key>0379d08e54c2b543e303a8fc4667ffe8</key>
