@@ -2288,7 +2288,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
     <orden>
-      <after>Alinicio</after>
+      <first/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
