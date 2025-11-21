@@ -18,7 +18,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
       <portalSNIB/>
     </creador>
   </metadata>
-   <snibTerm>
+  <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
       <first/>
@@ -59,11 +59,9 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>municipiooriginal</prev>
-      <next>latitud</next>
+      <after>municipiooriginal</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>region</after>
     </ordenTabla>
@@ -83,11 +81,9 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>latitud</prev>
-      <next>datum</next>
+      <after>latitud</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>localidad</after>
     </ordenTabla>
@@ -118,11 +114,9 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>localidad</prev>
-      <next>longitud</next>
+      <after>localidad</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>longitud</after>
     </ordenTabla>
@@ -153,11 +147,9 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>longitud</prev>
-      <next>incertidumbrexy</next>
+      <after>longitud</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>Latitud</after>
     </ordenTabla>
@@ -185,8 +177,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <orden>
       <last/>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>datum</after>
     </ordenTabla>
@@ -216,8 +207,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <orden>
       <first/>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>validacionambiente</after>
     </ordenTabla>
@@ -260,31 +250,30 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
       <campo>localidad</campo>
     </campos>
   </snibTerm>
-   <snibTerm>
+  <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <first/>
+      <after>region</after>
     </orden>
-    <download>true</download>
+    <download>false</download>
     <ordenTabla>
-      <after>idejemplar</after>
+      <after>geovalidacion</after>
     </ordenTabla>
-    <fieldName>Región de recolecta u observación</fieldName>
-    <fieldid>region</fieldid>
-    <dwcField>Sin equivalencia</dwcField>
-    <description>País, estado y municipio o su división política equivalente, registrados para el ejemplar por el recolector u observador.</description>
-    <datatype>varchar (150)</datatype>
+    <fieldName>País</fieldName>
+    <fieldid>paisoriginal</fieldid>
+    <dwcField>Incluido en country</dwcField>
+    <description>Nombre del país donde se ubica la localidad en la que el ejemplar fue recolectado u observado.</description>
+    <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
+      <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
+    </notes>
     <dataRules>
-      <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
+      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
     <syntaxRules>
-      <rule>Los nombres de los países están escritos en español.</rule>
-      <rule>Los datos están escritos en mayúsculas y sin utilizar acentos.</rule>
-      <rule>Este campo se conforma con la concatenación de los valores de los campos país, estado y municipio.</rule>
-      <rule>Cada dato de la división política se separa con una diagonal entre espacios “ / “ .</rule>
-      <rule>Si no se cuenta con el dato de alguna de las regiones, se indica como “NO DISPONIBLE”.</rule>
-      <rule>En el caso de que el sitio de recolecta u observación del ejemplar se ubique en más de una región, los valores se separan con una coma seguida de un espacio.</rule>
+      <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
     </syntaxRules>
     <ejemplar>
       <key>0379d08e54c2b543e303a8fc4667ffe8</key>
@@ -292,10 +281,9 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
       <key>096c765542c6bb8f65d0abfd102e9af0</key>
     </ejemplar>
     <campos>
-      <campo>region</campo>
-      <campo>paisoriginal</campo>
-      <campo>estadooriginal</campo>
-      <campo>municipiooriginal</campo>
+      <campo>localidad</campo>
+      <campo>longitud</campo>
+      <campo>latitud</campo>
     </campos>
   </snibTerm>
   <snibTerm>
@@ -303,8 +291,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <orden>
       <first/>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>paisoriginal</after>
     </ordenTabla>
@@ -350,10 +337,9 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>paisoriginal</prev>
-      <next>municipiooriginal</next>
+      <after>paisoriginal</after>
     </orden>
-    <downloadGeoportal>false</downloadGeoportal>
+    <download>false</download>
     <ordenTabla>
       <after>paismapa</after>
     </ordenTabla>
@@ -393,8 +379,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>claveestadomapa</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>estadooriginal</after>
     </ordenTabla>
@@ -427,8 +412,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>paismapa</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>estadomapa</after>
     </ordenTabla>
@@ -465,8 +449,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>mt24claveestadomapa</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>claveestadomapa</after>
     </ordenTabla>
@@ -500,8 +483,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>estadomapa</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>mt24nombreestadomapa</after>
     </ordenTabla>
@@ -536,10 +518,9 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>estadooriginal</prev>
-      <next>localidad</next>
+      <after>estadooriginal</after>
     </orden>
-    <downloadGeoportal>false</downloadGeoportal>
+    <download>false</download>
     <ordenTabla>
       <after>mt24claveestadomapa</after>
     </ordenTabla>
@@ -573,8 +554,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>clavemunicipiomapa</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>municipiooriginal</after>
     </ordenTabla>
@@ -610,8 +590,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>mt24nombreestadomapa</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>municipiomapa</after>
     </ordenTabla>
@@ -650,8 +629,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>mt24clavemunicipiomapa</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>clavemunicipiomapa</after>
     </ordenTabla>
@@ -683,8 +661,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>municipiomapa</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>mt24nombremunicipiomapa</after>
     </ordenTabla>
@@ -719,11 +696,9 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>datum</prev>
-      <next/>
+      <last/>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>mt24clavemunicipiomapa</after>
     </ordenTabla>
@@ -758,8 +733,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>mt24nombremunicipiomapa</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>incertidumbrexy</after>
     </ordenTabla>
@@ -785,8 +759,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>regionmarinamapa</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>altitudmapa</after>
     </ordenTabla>
@@ -814,8 +787,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>usvserieI</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>usvserieI</after>
     </ordenTabla>
@@ -843,8 +815,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>usvserieII</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>usvserieII</after>
     </ordenTabla>
@@ -872,8 +843,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>usvserieIII</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>usvserieIII</after>
     </ordenTabla>
@@ -901,8 +871,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>usvserieIV</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>usvserieIV</after>
     </ordenTabla>
@@ -929,8 +898,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>usvserieV</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>usvserieV</after>
     </ordenTabla>
@@ -957,8 +925,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>usvserieVI</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>usvserieVI</after>
     </ordenTabla>
@@ -986,8 +953,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <last/>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>usvserieVII</after>
     </ordenTabla>
@@ -1014,8 +980,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>altitudmapa</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>vegetacionserenanalcms</after>
     </ordenTabla>
@@ -1053,8 +1018,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>ecorregionterrestremapa</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>anp</after>
     </ordenTabla>
@@ -1088,8 +1052,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>cuencahidrograficamapa</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>regionmarinamapa</after>
     </ordenTabla>
@@ -1119,8 +1082,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>anp</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>ecorregionterrestremapa</after>
     </ordenTabla>
@@ -1151,8 +1113,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <first/>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>cuencahidrograficamapa</after>
     </ordenTabla>
@@ -1198,8 +1159,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>grupobio</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>grupobio</after>
     </ordenTabla>
@@ -1239,8 +1199,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>idnombrecat</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>subgrupobio</after>
     </ordenTabla>
@@ -1278,8 +1237,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>reino</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>reino</after>
     </ordenTabla>
@@ -1322,8 +1280,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>phylumdivision</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>phylumdivision</after>
     </ordenTabla>
@@ -1371,8 +1328,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>clase</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>clase</after>
     </ordenTabla>
@@ -1420,8 +1376,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>orden</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>orden</after>
     </ordenTabla>
@@ -1469,8 +1424,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>familia</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>familia</after>
     </ordenTabla>
@@ -1517,8 +1471,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>genero</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>genero</after>
     </ordenTabla>
@@ -1560,8 +1513,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>calificadordeterminacion</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>especie</after>
     </ordenTabla>
@@ -1593,8 +1545,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>categoriainfraespecie</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>categoriainfraespecie</after>
     </ordenTabla>
@@ -1614,8 +1565,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>categoriainfraespecie2</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>categoriainfraespecie2</after>
     </ordenTabla>
@@ -1637,8 +1587,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>autor</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>autor</after>
     </ordenTabla>
@@ -1666,8 +1615,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>estatustax</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>estatustax</after>
     </ordenTabla>
@@ -1689,8 +1637,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>idnombrecatvalido</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>reftax</after>
     </ordenTabla>
@@ -1714,8 +1661,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>reinovalido</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>reinovalido</after>
     </ordenTabla>
@@ -1740,8 +1686,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>phylumdivisionvalido</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>phylumdivisonvalido</after>
     </ordenTabla>
@@ -1766,8 +1711,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>clasevalida</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>clasevalida</after>
     </ordenTabla>
@@ -1792,8 +1736,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>ordenvalido</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>ordenvalido0</after>
     </ordenTabla>
@@ -1818,8 +1761,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>familiavalida</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>municipiooriginal</after>
     </ordenTabla>
@@ -1845,8 +1787,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>generovalido</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>generovalido</after>
     </ordenTabla>
@@ -1874,8 +1815,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>especievalida</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>especievalida</after>
     </ordenTabla>
@@ -1895,8 +1835,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>categoriainfraespecievalida</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>categoriainfraespecievalida</after>
     </ordenTabla>
@@ -1916,8 +1855,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>categoriainfraespecie2valida</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>categoriainfraespecie2valida</after>
     </ordenTabla>
@@ -1941,8 +1879,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>autorvalido</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>autorvalido</after>
     </ordenTabla>
@@ -1965,8 +1902,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <first/>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>reftaxvalido</after>
     </ordenTabla>
@@ -1989,8 +1925,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>ambiente</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>taxonvalidado</after>
     </ordenTabla>
@@ -2021,8 +1956,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <first/>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>endemismo</after>
     </ordenTabla>
@@ -2049,8 +1983,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>nombrecomun</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>taxonextinto</after>
     </ordenTabla>
@@ -2086,8 +2019,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <first/>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>ambiente</after>
     </ordenTabla>
@@ -2114,8 +2046,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>subgrupobio</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>nombrecomun</after>
     </ordenTabla>
@@ -2135,8 +2066,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>reftax</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>idnombrecat</after>
     </ordenTabla>
@@ -2156,8 +2086,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>exoticainvasora</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>idnombrecatvalido</after>
     </ordenTabla>
@@ -2197,8 +2126,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>cites</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>formadecrecimiento</after>
     </ordenTabla>
@@ -2229,8 +2157,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>prioritaria</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>prioritaria</after>
     </ordenTabla>
@@ -2264,8 +2191,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>endemismo</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>nivelprioridad</after>
     </ordenTabla>
@@ -2298,8 +2224,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <first/>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>exoticainvasora</after>
     </ordenTabla>
@@ -2326,8 +2251,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>nom059</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>nom059</after>
     </ordenTabla>
@@ -2357,8 +2281,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <last/>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>cites</after>
     </ordenTabla>
@@ -2395,8 +2318,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>formadecrecimiento</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>iucn</after>
     </ordenTabla>
@@ -2421,8 +2343,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <last/>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>categoriaresidenciaaves</after>
     </ordenTabla>
@@ -2453,8 +2374,7 @@ NO DISPONIBLE</subregla></rule>
       <last/>
       <first/>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>obsusoinfo</after>
     </ordenTabla>
@@ -2493,8 +2413,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>procedenciaejemplar</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>coleccion</after>
     </ordenTabla>
@@ -2534,8 +2453,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>ejemplarfosil</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>institucion</after>
     </ordenTabla>
@@ -2560,8 +2478,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>institucion</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>paiscoleccion</after>
     </ordenTabla>
@@ -2591,8 +2508,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>numcatalogo</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>numcatalogo</after>
     </ordenTabla>
@@ -2622,8 +2538,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>idejemplar</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>numcolecta</after>
     </ordenTabla>
@@ -2665,8 +2580,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>fechacolecta</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>procedenciaejemplar</after>
     </ordenTabla>
@@ -2692,8 +2606,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>determinador</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>determinador</after>
     </ordenTabla>
@@ -2717,8 +2630,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>aniodeterminacion</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>aniodeterminacion</after>
     </ordenTabla>
@@ -2743,8 +2655,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>mesdeterminacion</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>mesdeterminacion</after>
     </ordenTabla>
@@ -2768,8 +2679,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>diadeterminacion</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>diadeterminacion</after>
     </ordenTabla>
@@ -2794,8 +2704,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>especie</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>fechadeterminacion</after>
     </ordenTabla>
@@ -2817,8 +2726,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>numcolecta</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>calificadordeterminacion</after>
     </ordenTabla>
@@ -2843,8 +2751,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>colector</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>colector</after>
     </ordenTabla>
@@ -2870,8 +2777,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>aniocolecta</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>aniocolecta</after>
     </ordenTabla>
@@ -2897,8 +2803,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>mescolecta</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>mescolecta</after>
     </ordenTabla>
@@ -2924,8 +2829,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>diacolecta</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>diacolecta</after>
     </ordenTabla>
@@ -2952,8 +2856,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>fechadeterminacion</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>fechacolecta</after>
     </ordenTabla>
@@ -2998,8 +2901,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>tipo</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>tipo</after>
     </ordenTabla>
@@ -3026,8 +2928,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>licenciauso</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>ejemplarfosil</after>
     </ordenTabla>
@@ -3056,8 +2957,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>formadecitar</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>proyecto</after>
     </ordenTabla>
@@ -3087,8 +2987,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>geoportal</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>fuente</after>
     </ordenTabla>
@@ -3108,8 +3007,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>fuente</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>formadecitar</after>
     </ordenTabla>
@@ -3158,8 +3056,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>urlorigen</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>licenciauso</after>
     </ordenTabla>
@@ -3183,8 +3080,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>urlejemplar</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>urlproyecto</after>
     </ordenTabla>
@@ -3204,8 +3100,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>proyecto</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>urlorigen</after>
     </ordenTabla>
@@ -3225,8 +3120,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <first/>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>urlejemplar</after>
     </ordenTabla>
@@ -3252,8 +3146,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <last/>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>geoportal</after>
     </ordenTabla>
@@ -3273,8 +3166,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>urlproyecto</after>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>ultimafechaactualizacion</after>
     </ordenTabla>
@@ -3299,8 +3191,7 @@ NO DISPONIBLE</subregla></rule>
     <ordenTabla>
       <first/>
     </ordenTabla>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <fieldName>Identificador del ejemplar</fieldName>
     <fieldid>idejemplar</fieldid>
     <dwcField>occurrenceID</dwcField>
