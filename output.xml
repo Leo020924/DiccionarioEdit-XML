@@ -18,14 +18,12 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
       <portalSNIB/>
     </creador>
   </metadata>
-  <snibTerm>
+   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev/>
-      <next>paisoriginal</next>
+      <first/>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <download>true</download>
     <ordenTabla>
       <after>idejemplar</after>
     </ordenTabla>
