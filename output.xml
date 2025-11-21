@@ -61,7 +61,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>Despuesde</prev>
+      <prev>municipiooriginal</prev>
       <next>latitud</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -538,7 +538,7 @@ un dato de país en el campo país original.</subregla></rule>
     <category>Información geográfica del ejemplar</category>
     <orden>
       <prev>estadooriginal</prev>
-      <next>Despuesde</next>
+      <next>localidad</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <ordenTabla>
@@ -3322,25 +3322,5 @@ NO DISPONIBLE</subregla></rule>
     <campos>
       <campo>urlejemplar</campo>
     </campos>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica del ejemplar</category>
-    <orden>
-      <prev>municipiooriginal</prev>
-      <next>localidad</next>
-    </orden>
-    <fieldName>Despues de</fieldName>
-    <fieldid>Despuesde</fieldid>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <campos>
-      <campo>region</campo>
-      <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
-      <key>127d21638cc105ce290844e6abb7e870</key>
-      <key>096c765542c6bb8f65d0abfd102e9af0</key>
-    </ejemplar>
   </snibTerm>
 </snibDictionary>
