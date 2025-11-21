@@ -21,7 +21,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-     <prev><prev/>
+     <prev></prev>
      <next>paisoriginal<next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -61,7 +61,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
    <orden>
-      <prev>municipiooriginal<prev/>
+      <prev>municipiooriginal</prev>
       <next>latitud<next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -85,7 +85,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>latitud<prev/>
+      <prev>latitud</prev>
       <next>datum<next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -120,7 +120,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>localidad<prev/>
+      <prev>localidad</prev>
       <next>longitud<next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -155,7 +155,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>longitud<prev/>
+      <prev>longitud</prev>
       <next>incertidumbrexy<next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -265,7 +265,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>region<prev/>
+      <prev>region</prev>
       <next>estadooriginal<next/>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
@@ -351,7 +351,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>paisoriginal<prev/>
+      <prev>paisoriginal</prev>
       <next>municipiooriginal<next/>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
@@ -537,7 +537,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
      <orden>
-      <prev>estadooriginal<prev/>
+      <prev>estadooriginal</prev>
       <next>localidad<next/>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
@@ -720,7 +720,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>datum<prev/>
+      <prev>datum</prev>
       <next><next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
