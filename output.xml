@@ -260,31 +260,31 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
       <campo>localidad</campo>
     </campos>
   </snibTerm>
-  <snibTerm>
+   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>region</prev>
-      <next>estadooriginal</next>
+      <first/>
     </orden>
-    <downloadGeoportal>false</downloadGeoportal>
+    <download>true</download>
     <ordenTabla>
-      <after>geovalidacion</after>
+      <after>idejemplar</after>
     </ordenTabla>
-    <fieldName>País</fieldName>
-    <fieldid>paisoriginal</fieldid>
-    <dwcField>Incluido en country</dwcField>
-    <description>Nombre del país donde se ubica la localidad en la que el ejemplar fue recolectado u observado.</description>
-    <datatype>varchar (50)</datatype>
+    <fieldName>Región de recolecta u observación</fieldName>
+    <fieldid>region</fieldid>
+    <dwcField>Sin equivalencia</dwcField>
+    <description>País, estado y municipio o su división política equivalente, registrados para el ejemplar por el recolector u observador.</description>
+    <datatype>varchar (150)</datatype>
     <encoding>UTF-8</encoding>
-    <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
-      <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
-    </notes>
     <dataRules>
-      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
+      <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
     </dataRules>
     <syntaxRules>
-      <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
+      <rule>Los nombres de los países están escritos en español.</rule>
+      <rule>Los datos están escritos en mayúsculas y sin utilizar acentos.</rule>
+      <rule>Este campo se conforma con la concatenación de los valores de los campos país, estado y municipio.</rule>
+      <rule>Cada dato de la división política se separa con una diagonal entre espacios “ / “ .</rule>
+      <rule>Si no se cuenta con el dato de alguna de las regiones, se indica como “NO DISPONIBLE”.</rule>
+      <rule>En el caso de que el sitio de recolecta u observación del ejemplar se ubique en más de una región, los valores se separan con una coma seguida de un espacio.</rule>
     </syntaxRules>
     <ejemplar>
       <key>0379d08e54c2b543e303a8fc4667ffe8</key>
@@ -292,9 +292,10 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
       <key>096c765542c6bb8f65d0abfd102e9af0</key>
     </ejemplar>
     <campos>
-      <campo>localidad</campo>
-      <campo>longitud</campo>
-      <campo>latitud</campo>
+      <campo>region</campo>
+      <campo>paisoriginal</campo>
+      <campo>estadooriginal</campo>
+      <campo>municipiooriginal</campo>
     </campos>
   </snibTerm>
   <snibTerm>
