@@ -21,7 +21,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <first/>
+     <prev><prev/>
+     <next>paisoriginal<next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -59,8 +60,9 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden>
-      <after>municipiooriginal</after>
+   <orden>
+      <prev>municipiooriginal<prev/>
+      <next>latitud<next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -83,7 +85,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <after>latitud</after>
+      <prev>latitud<prev/>
+      <next>datum<next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -117,7 +120,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <after>localidad</after>
+      <prev>localidad<prev/>
+      <next>longitud<next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -151,7 +155,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <after>longitud</after>
+      <prev>longitud<prev/>
+      <next>incertidumbrexy<next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -260,7 +265,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <after>region</after>
+      <prev>region<prev/>
+      <next>estadooriginal<next/>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <ordenTabla>
@@ -345,7 +351,8 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <after>paisoriginal</after>
+      <prev>paisoriginal<prev/>
+      <next>municipiooriginal<next/>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <ordenTabla>
@@ -529,8 +536,9 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden>
-      <after>estadooriginal</after>
+     <orden>
+      <prev>estadooriginal<prev/>
+      <next>localidad<next/>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <ordenTabla>
@@ -712,7 +720,8 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <last/>
+      <prev>datum<prev/>
+      <next><next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
