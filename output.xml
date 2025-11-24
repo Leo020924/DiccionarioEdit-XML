@@ -18,7 +18,7 @@
 <category>Información geográfica del ejemplar</category>
 <orden>
 <prev/>
-<next>localidad</next>
+<next>paisoriginal</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -58,7 +58,7 @@
 <category>Información geográfica del ejemplar</category>
 <orden>
 <prev>municipiooriginal</prev>
-<next>longitud</next>
+<next>latitud</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -82,7 +82,7 @@
 <category>Información geográfica del ejemplar</category>
 <orden>
 <prev>latitud</prev>
-<next>latitud</next>
+<next>datum</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -117,7 +117,7 @@
 <category>Información geográfica del ejemplar</category>
 <orden>
 <prev>localidad</prev>
-<next>datum</next>
+<next>longitud</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -152,7 +152,7 @@
 <category>Información geográfica del ejemplar</category>
 <orden>
 <prev>longitud</prev>
-<next>paisoriginal</next>
+<next>incertidumbrexy</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -181,7 +181,7 @@
 <snibTerm>
 <category>Validación de la información geográfica</category>
 <orden>
-<prev/>
+<prev>geovalidacion</prev>
 <next/>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
@@ -214,7 +214,7 @@
 <category>Validación de la información geográfica</category>
 <orden>
 <prev/>
-<next/>
+<next>validacionambiente</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -228,12 +228,8 @@
 <datatype>varchar (200)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note>
-<![CDATA[ <p>Para los ejemplares que resultaron no v&aacute;lidos a nivel de municipio, en el campo Observaciones del uso de la informaci&oacute;n se especifica la distancia de desfase respecto al municipio (campo municipiooriginal).</p> ]]>
-</note>
-<note>
-<![CDATA[ <p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p> ]]>
-</note>
+<note><p>Para los ejemplares que resultaron no v&aacute;lidos a nivel de municipio, en el campo Observaciones del uso de la informaci&oacute;n se especifica la distancia de desfase respecto al municipio (campo municipiooriginal).</p></note>
+<note><p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p></note>
 </notes>
 <dataRules>
 <rule>
@@ -296,12 +292,8 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note>
-<![CDATA[ <p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p> ]]>
-</note>
-<note>
-<![CDATA[ <p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p> ]]>
-</note>
+<note><p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p></note>
+<note><p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p></note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
@@ -324,7 +316,7 @@ El dominio de los valores permitidos está dado por:
 <category>Información geográfica por ubicación de la coordenada</category>
 <orden>
 <prev/>
-<next>estadomapa</next>
+<next>claveestadomapa</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -381,12 +373,8 @@ Si el ejemplar tiene coordenada geográfica:
 <datatype>varchar (55)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note>
-<![CDATA[ <p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO</p> ]]>
-</note>
-<note>
-<![CDATA[ <p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p> ]]>
-</note>
+<note><p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO</p></note>
+<note><p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p></note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
@@ -413,7 +401,7 @@ Si el ejemplar tiene coordenada geográfica:
 <category>Información geográfica por ubicación de la coordenada</category>
 <orden>
 <prev>claveestadomapa</prev>
-<next>claveestadomapa</next>
+<next>mt24claveestadomapa</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -448,7 +436,7 @@ Si el ejemplar tiene coordenada geográfica:
 <category>Información geográfica por ubicación de la coordenada</category>
 <orden>
 <prev>paismapa</prev>
-<next>mt24nombreestadomapa</next>
+<next>estadomapa</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -487,7 +475,7 @@ Si el ejemplar tiene coordenada geográfica:
 <category>Información geográfica por ubicación de la coordenada</category>
 <orden>
 <prev>mt24claveestadomapa</prev>
-<next>mt24claveestadomapa</next>
+<next>clavemunicipiomapa</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -523,7 +511,7 @@ Si el ejemplar tiene coordenada geográfica:
 <category>Información geográfica por ubicación de la coordenada</category>
 <orden>
 <prev>estadomapa</prev>
-<next>municipiomapa</next>
+<next>mt24nombreestadomapa</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -562,7 +550,7 @@ Si el ejemplar tiene coordenada geográfica:
 <category>Información geográfica del ejemplar</category>
 <orden>
 <prev>estadooriginal</prev>
-<next>incertidumbrexy</next>
+<next>localidad</next>
 </orden>
 <downloadGeoportal>false</downloadGeoportal>
 <ordenTabla>
@@ -575,12 +563,8 @@ Si el ejemplar tiene coordenada geográfica:
 <datatype>varchar (80)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note>
-<![CDATA[ <p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p> ]]>
-</note>
-<note>
-<![CDATA[ <p>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p> ]]>
-</note>
+<note><p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p></note>
+<note><p>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p></note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el dato que no fue proporcionado en la base de datos original.</rule>
@@ -601,7 +585,7 @@ Si el ejemplar tiene coordenada geográfica:
 <category>Información geográfica por ubicación de la coordenada</category>
 <orden>
 <prev>clavemunicipiomapa</prev>
-<next>clavemunicipiomapa</next>
+<next>mt24clavemunicipiomapa</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -639,7 +623,7 @@ Si el ejemplar tiene coordenada geográfica:
 <category>Información geográfica por ubicación de la coordenada</category>
 <orden>
 <prev>mt24nombreestadomapa</prev>
-<next>mt24nombremunicipiomapa</next>
+<next>municipiomapa</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -680,7 +664,7 @@ Si el ejemplar tiene coordenada geográfica:
 <category>Información geográfica por ubicación de la coordenada</category>
 <orden>
 <prev>mt24clavemunicipiomapa</prev>
-<next>mt24clavemunicipiomapa</next>
+<next>altitudmapa</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -714,7 +698,7 @@ Si el ejemplar tiene coordenada geográfica:
 <category>Información geográfica por ubicación de la coordenada</category>
 <orden>
 <prev>municipiomapa</prev>
-<next>altitudmapa</next>
+<next>mt24nombremunicipiomapa</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -752,7 +736,7 @@ Si el ejemplar tiene coordenada geográfica:
 <snibTerm>
 <category>Información geográfica del ejemplar</category>
 <orden>
-<prev>municipiooriginal</prev>
+<prev>datum</prev>
 <next/>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
@@ -790,7 +774,7 @@ Si el ejemplar tiene coordenada geográfica:
 <category>Información geográfica por ubicación de la coordenada</category>
 <orden>
 <prev>mt24nombremunicipiomapa</prev>
-<next>usvserieI</next>
+<next>anp</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -817,7 +801,7 @@ Si el ejemplar tiene coordenada geográfica:
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
 <orden>
-<prev>regionmarinamapa</prev>
+<prev>cuencahidrograficamapa</prev>
 <next>usvserieII</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
@@ -1026,7 +1010,7 @@ Si el ejemplar tiene coordenada geográfica:
 <category>Información geográfica por ubicación de la coordenada</category>
 <orden>
 <prev>usvserieVII</prev>
-<next/>
+<next>regionmarinamapa</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -1055,7 +1039,7 @@ Si el ejemplar tiene coordenada geográfica:
 <category>Información geográfica por ubicación de la coordenada</category>
 <orden>
 <prev>altitudmapa</prev>
-<next>regionmarinamapa</next>
+<next>cuencahidrograficamapa</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -1094,7 +1078,7 @@ Si el ejemplar tiene coordenada geográfica:
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
 <orden>
-<prev>ecorregionterrestremapa</prev>
+<prev>vegetacionserenanalcms</prev>
 <next>ecorregionterrestremapa</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
@@ -1130,8 +1114,8 @@ Si el ejemplar tiene coordenada geográfica:
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
 <orden>
-<prev>cuencahidrograficamapa</prev>
-<next>cuencahidrograficamapa</next>
+<prev>regionmarinamapa</prev>
+<next/>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -1163,7 +1147,7 @@ Si el ejemplar tiene coordenada geográfica:
 <category>Información geográfica por ubicación de la coordenada</category>
 <orden>
 <prev>anp</prev>
-<next/>
+<next>usvserieI</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -1210,12 +1194,8 @@ Si el ejemplar tiene coordenada geográfica:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note>
-<![CDATA[ <p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p> ]]>
-</note>
-<note>
-<![CDATA[ <p>Los grupos biol&oacute;gicos de Bacterias y Virus no se publican en el Geoportal de la CONABIO.</p> ]]>
-</note>
+<note><p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p></note>
+<note><p>Los grupos biol&oacute;gicos de Bacterias y Virus no se publican en el Geoportal de la CONABIO.</p></note>
 </notes>
 <dataRules>
 <rule>Los valores vacío y NO DISPONIBLE significan que no se cuenta con la información taxonómica suficiente para asignar el grupo biológico.</rule>
@@ -1243,7 +1223,7 @@ El dominio de los valores permitidos está dado por:
 <category>Taxonomía</category>
 <orden>
 <prev>grupobio</prev>
-<next>reino</next>
+<next>idnombrecat</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -1257,9 +1237,7 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (250)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note>
-<![CDATA[ <p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p> ]]>
-</note>
+<note><p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p></note>
 </notes>
 <dataRules>
 <rule>El valor NO DISPONIBLE significa que no se cuenta con la información taxonómica suficiente para asignar el subgrupo biológico. Por lo anterior, no existen valores vacíos o nulos.</rule>
@@ -1301,12 +1279,8 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note>
-<![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]>
-</note>
-<note>
-<![CDATA[ <p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p> ]]>
-</note>
+<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p></note>
+<note><p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p></note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el reino no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o no fue proporcionado en las bases de datos originales.</rule>
@@ -1345,15 +1319,9 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note>
-<![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]>
-</note>
-<note>
-<![CDATA[ <p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p> ]]>
-</note>
-<note>
-<![CDATA[ <p>La equivalencia en Darwin Core puede ser phylum, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos este campo sin equivalencia con Darwin Core en lugar de phylum que lo asignamos al campo phylumdivisionv&aacute;lido.</p> ]]>
-</note>
+<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p></note>
+<note><p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p></note>
+<note><p>La equivalencia en Darwin Core puede ser phylum, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos este campo sin equivalencia con Darwin Core en lugar de phylum que lo asignamos al campo phylumdivisionv&aacute;lido.</p></note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el phylum o división no fue proporcionado en las bases de datos originales.</rule>
@@ -1396,15 +1364,9 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note>
-<![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]>
-</note>
-<note>
-<![CDATA[ <p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p> ]]>
-</note>
-<note>
-<![CDATA[ <p>La equivalencia en Darwin Core tambi&eacute;n puede ser class, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de class que lo asignamos al campo clase v&aacute;lida.</p> ]]>
-</note>
+<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p></note>
+<note><p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p></note>
+<note><p>La equivalencia en Darwin Core tambi&eacute;n puede ser class, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de class que lo asignamos al campo clase v&aacute;lida.</p></note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el nombre de la clase no fue proporcionado en las bases de datos originales.</rule>
@@ -1452,15 +1414,9 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note>
-<![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]>
-</note>
-<note>
-<![CDATA[ <p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p> ]]>
-</note>
-<note>
-<![CDATA[ <p>La equivalencia en Darwin Core puede ser order, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos este campo sin equivalencia con Darwin Core en lugar de order que lo asignamos al campo orden v&aacute;lido.</p> ]]>
-</note>
+<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p></note>
+<note><p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p></note>
+<note><p>La equivalencia en Darwin Core puede ser order, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos este campo sin equivalencia con Darwin Core en lugar de order que lo asignamos al campo orden v&aacute;lido.</p></note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el nombre del orden no fue proporcionado en las bases de datos originales.</rule>
@@ -1508,15 +1464,9 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note>
-<![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo urlejemplar.</p> ]]>
-</note>
-<note>
-<![CDATA[ <p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores ortogr&aacute;ficos, as&iacute; como la estandarizaci&oacute;n a sistemas de clasificaci&oacute;n reconocidos por la comunidad cient&iacute;fica.</p> ]]>
-</note>
-<note>
-<![CDATA[ <p>La equivalencia en Darwin Core puede ser family, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de family que lo asignamos al campo familia v&aacute;lida.</p> ]]>
-</note>
+<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo urlejemplar.</p></note>
+<note><p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores ortogr&aacute;ficos, as&iacute; como la estandarizaci&oacute;n a sistemas de clasificaci&oacute;n reconocidos por la comunidad cient&iacute;fica.</p></note>
+<note><p>La equivalencia en Darwin Core puede ser family, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de family que lo asignamos al campo familia v&aacute;lida.</p></note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el nombre de la familia no fue proporcionado en las bases de datos originales.</rule>
@@ -1564,15 +1514,9 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note>
-<![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar.</p> ]]>
-</note>
-<note>
-<![CDATA[ <p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p> ]]>
-</note>
-<note>
-<![CDATA[ <p>La equivalencia en Darwin Core tambi&eacute;n puede ser genus, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo que la equivalencia con Darwin Core es dynamicProperties en lugar de genus que lo asignamos al campo g&eacute;nero v&aacute;lido.</p> ]]>
-</note>
+<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar.</p></note>
+<note><p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p></note>
+<note><p>La equivalencia en Darwin Core tambi&eacute;n puede ser genus, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo que la equivalencia con Darwin Core es dynamicProperties en lugar de genus que lo asignamos al campo g&eacute;nero v&aacute;lido.</p></note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el nombre del género no fue proporcionado en las bases de datos originales.</rule>
@@ -1605,7 +1549,7 @@ El dominio de los valores permitidos está dado por:
 <category>Taxonomía</category>
 <orden>
 <prev>genero</prev>
-<next>categoriainfraespecie</next>
+<next>calificadordeterminacion</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -1619,15 +1563,9 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (100)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note>
-<![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar.</p> ]]>
-</note>
-<note>
-<![CDATA[ <p>La CONABIO realiz&oacute; limpieza de este campo mediante la correcci&oacute;n de escritura y de datos que no corresponden con el campo.</p> ]]>
-</note>
-<note>
-<![CDATA[ <p>Se debe observar la regla de sintaxis 1, para apreciar las diferencias con respecto a la descripci&oacute;n de scientificName en Darwin Core, por ejemplo, no se incluye el autor y a&ntilde;o de descripci&oacute;n.</p> ]]>
-</note>
+<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar.</p></note>
+<note><p>La CONABIO realiz&oacute; limpieza de este campo mediante la correcci&oacute;n de escritura y de datos que no corresponden con el campo.</p></note>
+<note><p>Se debe observar la regla de sintaxis 1, para apreciar las diferencias con respecto a la descripci&oacute;n de scientificName en Darwin Core, por ejemplo, no se incluye el autor y a&ntilde;o de descripci&oacute;n.</p></note>
 </notes>
 <dataRules>
 <rule>Cuando la especie no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o referencias bibliográficas especializadas con las que cuenta la CONABIO, en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
@@ -1777,7 +1715,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <category>Taxonomía</category>
 <orden>
 <prev>estatustax</prev>
-<next>reinovalido</next>
+<next>idnombrecatvalido</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -2087,8 +2025,8 @@ El dominio de los valores permitidos está dado principalmente por:
 <snibTerm>
 <category>Taxonomía</category>
 <orden>
-<prev/>
-<next>idnombrecat</next>
+<prev>reftaxvalido</prev>
+<next/>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -2112,8 +2050,8 @@ El dominio de los valores permitidos está dado principalmente por:
 <snibTerm>
 <category>Atributos biológicos y ecológicos</category>
 <orden>
-<prev>ambiente</prev>
-<next>taxonextinto</next>
+<prev>nombrecomun</prev>
+<next>exoticainvasora</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -2145,7 +2083,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <snibTerm>
 <category>Atributos biológicos y ecológicos</category>
 <orden>
-<prev/>
+<prev>exoticainvasora</prev>
 <next>ambiente</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
@@ -2174,8 +2112,8 @@ El dominio de los valores permitidos está dado principalmente por:
 <snibTerm>
 <category>Atributos biológicos y ecológicos</category>
 <orden>
-<prev>nombrecomun</prev>
-<next>nombrecomun</next>
+<prev>taxonextinto</prev>
+<next>formadecrecimiento</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -2213,7 +2151,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <category>Atributos biológicos y ecológicos</category>
 <orden>
 <prev/>
-<next>formadecrecimiento</next>
+<next>endemismo</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -2242,7 +2180,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <category>Taxonomía</category>
 <orden>
 <prev>subgrupobio</prev>
-<next>idnombrecatvalido</next>
+<next>reino</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -2264,7 +2202,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <category>Taxonomía</category>
 <orden>
 <prev>reftax</prev>
-<next>calificadordeterminacion</next>
+<next>reinovalido</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -2285,8 +2223,8 @@ El dominio de los valores permitidos está dado principalmente por:
 <snibTerm>
 <category>Atributos biológicos y ecológicos</category>
 <orden>
-<prev>exoticainvasora</prev>
-<next>exoticainvasora</next>
+<prev>ambiente</prev>
+<next>categoriaresidenciaaves</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -2361,7 +2299,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <category>Estatus de conservación y riesgo</category>
 <orden>
 <prev>prioritaria</prev>
-<next>nom059</next>
+<next>iucn</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -2397,7 +2335,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <category>Atributos biológicos y ecológicos</category>
 <orden>
 <prev>endemismo</prev>
-<next>categoriaresidenciaaves</next>
+<next>taxonextinto</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -2461,7 +2399,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <category>Estatus de conservación y riesgo</category>
 <orden>
 <prev>nom059</prev>
-<next>iucn</next>
+<next>prioritaria</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -2492,7 +2430,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <snibTerm>
 <category>Estatus de conservación y riesgo</category>
 <orden>
-<prev>cites</prev>
+<prev>nivelprioridad</prev>
 <next/>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
@@ -2558,8 +2496,8 @@ El dominio de los valores permitidos está dado principalmente por:
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
 <orden>
-<prev/>
-<next/>
+<prev>idejemplar</prev>
+<next>coleccion</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -2590,8 +2528,8 @@ El dominio de los valores permitidos está dado principalmente por:
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
 <orden>
-<prev/>
-<next>institucion</next>
+<prev>obsusoinfo</prev>
+<next>tipovegetacion</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -2634,8 +2572,8 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
 <orden>
-<prev>procedenciaejemplar</prev>
-<next>paiscoleccion</next>
+<prev>tipovegetacion</prev>
+<next>numcatalogo</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -2676,8 +2614,8 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
 <orden>
-<prev>ejemplarfosil</prev>
-<next>numcatalogo</next>
+<prev>fechacolecta</prev>
+<next>procedenciaejemplar</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -2736,7 +2674,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <category>Datos del ejemplar/observación</category>
 <orden>
 <prev>numcatalogo</prev>
-<next>procedenciaejemplar</next>
+<next>colector</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -2767,7 +2705,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
 <orden>
-<prev>idejemplar</prev>
+<prev>paiscoleccion</prev>
 <next>determinador</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
@@ -2782,9 +2720,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <datatype>enum</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note>
-<![CDATA[ <p>M&aacute;s informaci&oacute;n del dominio de valores se encuentra en http://rs.tdwg.org/dwc/terms.htm#basisOfRecord</p> ]]>
-</note>
+<note><p>M&aacute;s informaci&oacute;n del dominio de valores se encuentra en http://rs.tdwg.org/dwc/terms.htm#basisOfRecord</p></note>
 </notes>
 <dataRules>
 <rule>El dominio de los valores permitidos está dado por:</rule>
@@ -2813,7 +2749,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
 <orden>
-<prev>fechacolecta</prev>
+<prev>procedenciaejemplar</prev>
 <next>aniodeterminacion</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
@@ -2921,7 +2857,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <category>Datos del ejemplar/observación</category>
 <orden>
 <prev>diadeterminacion</prev>
-<next>colector</next>
+<next>tipo</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -2948,7 +2884,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <category>Taxonomía</category>
 <orden>
 <prev>especie</prev>
-<next/>
+<next>categoriainfraespecie</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -3083,7 +3019,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <category>Datos del ejemplar/observación</category>
 <orden>
 <prev>diacolecta</prev>
-<next>tipo</next>
+<next>paiscoleccion</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -3112,7 +3048,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <category>Datos del ejemplar/observación</category>
 <orden>
 <prev>fechadeterminacion</prev>
-<next>tipovegetacion</next>
+<next>ejemplarfosil</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -3141,8 +3077,8 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
 <orden>
-<prev>tipo</prev>
-<next>ejemplarfosil</next>
+<prev>coleccion</prev>
+<next>institucion</next>
 </orden>
 <fieldName>Tipo de vegetación</fieldName>
 <fieldid>tipovegetacion</fieldid>
@@ -3161,7 +3097,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <category>Datos del ejemplar/observación</category>
 <orden>
 <prev>tipo</prev>
-<next>idejemplar</next>
+<next/>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -3189,8 +3125,8 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <snibTerm>
 <category>Otros</category>
 <orden>
-<prev>licenciauso</prev>
-<next>fuente</next>
+<prev>geoportal</prev>
+<next>urlejemplar</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -3220,8 +3156,8 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <snibTerm>
 <category>Otros</category>
 <orden>
-<prev>formadecitar</prev>
-<next>formadecitar</next>
+<prev>urlejemplar</prev>
+<next>licenciauso</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -3252,8 +3188,8 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <snibTerm>
 <category>Otros</category>
 <orden>
-<prev>geoportal</prev>
-<next>licenciauso</next>
+<prev>licenciauso</prev>
+<next>urlproyecto</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -3275,7 +3211,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <category>Otros</category>
 <orden>
 <prev>fuente</prev>
-<next>urlproyecto</next>
+<next>formadecitar</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -3325,8 +3261,8 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <snibTerm>
 <category>Otros</category>
 <orden>
-<prev>urlorigen</prev>
-<next>urlorigen</next>
+<prev>formadecitar</prev>
+<next>version</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -3351,8 +3287,8 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <snibTerm>
 <category>Otros</category>
 <orden>
-<prev>urlejemplar</prev>
-<next>urlejemplar</next>
+<prev>version</prev>
+<next>ultimafechaactualizacion</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -3374,7 +3310,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <category>Otros</category>
 <orden>
 <prev>proyecto</prev>
-<next>geoportal</next>
+<next>fuente</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -3396,7 +3332,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <category>Otros</category>
 <orden>
 <prev/>
-<next>ultimafechaactualizacion</next>
+<next>proyecto</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -3423,7 +3359,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <snibTerm>
 <category>Otros</category>
 <orden>
-<prev>geoportal</prev>
+<prev>urlorigen</prev>
 <next/>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
@@ -3446,7 +3382,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <category>Otros</category>
 <orden>
 <prev>urlproyecto</prev>
-<next/>
+<next>urlorigen</next>
 </orden>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
@@ -3470,7 +3406,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <category>Datos del ejemplar/observación</category>
 <orden>
 <prev/>
-<next/>
+<next>obsusoinfo</next>
 </orden>
 <ordenTabla>
 <first/>
@@ -3484,9 +3420,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <datatype>varchar (32)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note>
-<![CDATA[ <p>Dado que este identificador se genera para el ingreso del registro al SNIB, &eacute;ste no corresponder&aacute; al identificador del ejemplar en las fuentes originales de informaci&oacute;n del SNIB.</p> ]]>
-</note>
+<note><p>Dado que este identificador se genera para el ingreso del registro al SNIB, &eacute;ste no corresponder&aacute; al identificador del ejemplar en las fuentes originales de informaci&oacute;n del SNIB.</p></note>
 </notes>
 <dataRules>
 <rule>Este valor se preserva para los ejemplares registrados en el SNIB.</rule>
