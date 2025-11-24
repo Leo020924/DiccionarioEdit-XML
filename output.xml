@@ -1,29 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <snibDictionary>
   <metadata>
     <titulo>Especímenes publicados en el geoportal y el sitio del Sistema Nacional de Información sobre Biodiversidad.</titulo>
     <ultimaFechaActualizacion>2025-07-03</ultimaFechaActualizacion>
     <version>2024-12</version>
     <abstracto>El Sistema Nacional de Información sobre Biodiversidad (SNIB), a través del geoportal de CONABIO y su propia página web, ofrece acceso público a datos sobre ejemplares biológicos provenientes de proyectos financiados, desarrollados o integrados por la CONABIO. Este documento detalla los campos de datos seleccionados para el geoportal, priorizando los más relevantes según su uso y valor. También se incluyen campos adicionales disponibles solo en la página del SNIB. La información ha sido revisada por CONABIO para estandarizarla y mejorar su calidad. Se explica la relación con el estándar Darwin Core y se proporciona la estructura de la base de datos y la sentencia SQL correspondiente en los anexos.</abstracto>
-    <licenciaUso>Este documento se publica y distribuye bajo una licencia Creative Commons Atribución 4.0 Internacional compatible&#13;
+    <licenciaUso>Este documento se publica y distribuye bajo una licencia Creative Commons Atribución 4.0 Internacional compatible
+
 con la licencia LibreusoMX de datos.gob.mx</licenciaUso>
-    <formaDeCitar>CONABIO. 2025. Diccionario de datos. Ejemplares publicados en el Geoportal y el sitio del Sistema Nacional de&#13;
-Información sobre Biodiversidad, versión 2024-12 México, Disponible en:&#13;
+    <formaDeCitar>CONABIO. 2025. Diccionario de datos. Ejemplares publicados en el Geoportal y el sitio del Sistema Nacional de
+
+Información sobre Biodiversidad, versión 2024-12 México, Disponible en:
+
 http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeoportal-202412.pdf</formaDeCitar>
     <anexo1>En la siguiente tabla se muestran los campos del SNIB incluidos para descarga en el geoportal y la página del SNIB de la CONABIO.</anexo1>
     <anexo2>En este anexo se proporciona la sentencia SQL para MySQL mediante la cual se puede crear la estructura de la tabla del geoportal.</anexo2>
     <creador>
-      <nombre/>
-      <sitioWeb/>
-      <portalSNIB/>
+      <nombre />
+      <sitioWeb />
+      <portalSNIB />
     </creador>
   </metadata>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden>
-      <first/>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev /><next>paisoriginal</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>idejemplar</after>
@@ -59,10 +59,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden>
-      <after>municipiooriginal</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>municipiooriginal</prev><next>latitud</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>region</after>
@@ -76,16 +73,13 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <syntaxRules />
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden>
-      <after>latitud</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>latitud</prev><next>datum</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>localidad</after>
@@ -95,7 +89,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <dwcField>decimalLongitude</dwcField>
     <description>Longitud de la coordenada geográfica del sitio de recolecta u observación del ejemplar.</description>
     <datatype>double</datatype>
-    <encoding/>
+    <encoding />
     <dataRules>
       <rule>El valor está en el intervalo de -180 a 180.</rule>
       <rule>Cuando las coordenadas originales están en grados, minutos y segundos, se realiza una conversión a grados decimales; si se desconoce el valor de los segundos se asignan 30’’ para no sesgar el dato desconocido hacia los extremos (0 - 59).</rule>
@@ -116,10 +110,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden>
-      <after>localidad</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>localidad</prev><next>longitud</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>longitud</after>
@@ -129,7 +120,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <dwcField>decimalLatitude</dwcField>
     <description>Latitud de la coordenada geográfica del sitio de recolecta u observación del ejemplar.</description>
     <datatype>double</datatype>
-    <encoding/>
+    <encoding />
     <dataRules>
       <rule>El valor está en el intervalo de -90 a 90.</rule>
       <rule>Cuando las coordenadas originales están en grados, minutos y segundos o en sistema UTM, se realiza una conversión a grados decimales; si se desconoce el valor de los segundos se asignan 30’’ para no sesgar el dato desconocido hacia los extremos (0 - 59).</rule>
@@ -150,10 +141,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden>
-      <after>longitud</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>longitud</prev><next>incertidumbrexy</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>Latitud</after>
@@ -172,17 +160,14 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y corresponde a las siglas en inglés World Geodetic System.</rule>
     </syntaxRules>
-    <infoRules/>
+    <infoRules />
     <notes>
       <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
     </notes>
   </snibTerm>
   <snibTerm>
     <category>Validación de la información geográfica</category>
-    <orden>
-      <after>geovalidacion</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>geovalidacion</prev><next /></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>datum</after>
@@ -204,16 +189,13 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
       <rule>El valor No procesado significa que el ejemplar no se valida porque no se cuenta con el dato de ambiente del taxón, son aves no residentes o no tiene coordenadas geográficas.</rule>
       <rule>El valor No aplica significa que el ejemplar es fósil y no se aplicó la validación por ambiente.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <syntaxRules />
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Validación de la información geográfica</category>
-    <orden>
-      <first/>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev /><next>validacionambiente</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>validacionambiente</after>
@@ -225,8 +207,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <datatype>varchar (200)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Para los ejemplares que resultaron no v&aacute;lidos a nivel de municipio, en el campo Observaciones del uso de la informaci&oacute;n se especifica la distancia de desfase respecto al municipio (campo municipiooriginal).</p>]]></note>
-      <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
+      <note>&lt;p&gt;Para los ejemplares que resultaron no v&amp;aacute;lidos a nivel de municipio, en el campo Observaciones del uso de la informaci&amp;oacute;n se especifica la distancia de desfase respecto al municipio (campo municipiooriginal).&lt;/p&gt;</note>
+      <note>&lt;p&gt;Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/&lt;/p&gt;</note>
     </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por:<subregla>Válido localidad</subregla><subregla>Válido municipio o Válido estado o Válido país más el año del mapa utilizado y si se incluyó tolerancia en la validación considerando una distancia máxima de 2 km del límite.</subregla><subregla>Válido estado. No procesado municipio</subregla><subregla>Válido estado. No válido municipio</subregla><subregla>Válido país. No procesado estado y municipio</subregla><subregla>Válido país. No aplica validación de estado y municipio</subregla><subregla>Válido país. No válido estado y municipio</subregla><subregla>Válido país. No válido estado y no procesado municipio</subregla><subregla>No válido país. No procesado estado y municipio</subregla><subregla>No válido país y estado. No procesado municipio</subregla><subregla>No válido país, estado y municipio</subregla><subregla>No procesado</subregla><subregla>No aplica validación de país</subregla></rule>
@@ -259,10 +241,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden>
-      <after>region</after>
-    </orden>
-    <downloadGeoportal>false</downloadGeoportal>
+    <orden><prev>region</prev><next>estadooriginal</next></orden><downloadGeoportal>false</downloadGeoportal>
     <ordenTabla>
       <after>geovalidacion</after>
     </ordenTabla>
@@ -273,8 +252,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
-      <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
+      <note>&lt;p&gt;Campo resultado del proceso de limpieza, estandarizaci&amp;oacute;n y compleci&amp;oacute;n realizado por la CONABIO.&lt;/p&gt;</note>
+      <note>&lt;p&gt;Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/&lt;/p&gt;</note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
@@ -295,10 +274,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <first/>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev /><next>claveestadomapa</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>paisoriginal</after>
@@ -311,27 +287,39 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <encoding>UTF-8</encoding>
     <notes>
       <note>Campo resultado del proceso de sobreposición de las coordenadas geográficas con mapas de división política actuales, incluyendo la zona económica exclusiva, realizado en CONABIO, los mapas utilizados son:</note>
-      <note>México&#13;
-INEGI. 2022.División política municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estadística y Geografía. México.&#13;
+      <note>México
+
+INEGI. 2022.División política municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estadística y Geografía. México.
+
 URL: http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</note>
-      <note>Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. 2011. 'Zona Económica Exclusiva de México'. Límite Nacional 1:250000. Modificado de Instituto Nacional de Estadística, Geografía e Informática (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fernández-Equiarte, A., Gallegos-García, A., Zavala-H, J. y otros (1990). 'Zona Económica Exclusiva de México'. Extraído de Hipsometría y Batimetría, I.1.1. Atlas Nacional de México. Vol. I. Escala 1:4000000. Instituto de Geografía, UNAM. México.&#13;
+      <note>Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. 2011. 'Zona Económica Exclusiva de México'. Límite Nacional 1:250000. Modificado de Instituto Nacional de Estadística, Geografía e Informática (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fernández-Equiarte, A., Gallegos-García, A., Zavala-H, J. y otros (1990). 'Zona Económica Exclusiva de México'. Extraído de Hipsometría y Batimetría, I.1.1. Atlas Nacional de México. Vol. I. Escala 1:4000000. Instituto de Geografía, UNAM. México.
+
 URL: http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</note>
-      <note>Centroamérica&#13;
-CONABIO. 2020. Limites administrativos Centroamérica. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México. México.&#13;
+      <note>Centroamérica
+
+CONABIO. 2020. Limites administrativos Centroamérica. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México. México.
+
 URL:  http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</note>
-      <note>CONABIO. 2019. Mapa de validación en la Zona económica exclusiva para los sitios marinos de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.&#13;
+      <note>CONABIO. 2019. Mapa de validación en la Zona económica exclusiva para los sitios marinos de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.
+
 URL:  http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</note>
-      <note>Estados Unidos de América, Colombia y el Caribe&#13;
-CONABIO. 2019. Mapa de validación por divisiones políticas para los sitios terrestres de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.&#13;
+      <note>Estados Unidos de América, Colombia y el Caribe
+
+CONABIO. 2019. Mapa de validación por divisiones políticas para los sitios terrestres de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.
+
 URL:  http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</note>
-      <note>CONABIO. 2019. Mapa de validación en la Zona económica exclusiva para los sitios marinos de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.&#13;
+      <note>CONABIO. 2019. Mapa de validación en la Zona económica exclusiva para los sitios marinos de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.
+
 URL:  http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</note>
     </notes>
     <dataRules>
       <rule>Si el ejemplar no tiene coordenada geográfica no se asigna valor.</rule>
-      <rule>Si el ejemplar tiene coordenada geográfica:<subregla>Se asigna el mismo país del campo país original cuando la coordenada se ubica dentro de los límites&#13;
-del país registrado para el ejemplar o a una distancia menor a 2 km del límite.</subregla><subregla>Se asigna el país donde se ubica la coordenada geográfica cuando está afuera, a más de 2 km del&#13;
-límite, del país registrado para el ejemplar. En este caso el dato es diferente al del campo país original.</subregla><subregla>No se asigna valor, si se ubican en otro país o en aguas internacionales.</subregla><subregla>Se asigna el país donde se ubica la coordenada geográfica cuando el ejemplar no tiene registrado&#13;
+      <rule>Si el ejemplar tiene coordenada geográfica:<subregla>Se asigna el mismo país del campo país original cuando la coordenada se ubica dentro de los límites
+
+del país registrado para el ejemplar o a una distancia menor a 2 km del límite.</subregla><subregla>Se asigna el país donde se ubica la coordenada geográfica cuando está afuera, a más de 2 km del
+
+límite, del país registrado para el ejemplar. En este caso el dato es diferente al del campo país original.</subregla><subregla>No se asigna valor, si se ubican en otro país o en aguas internacionales.</subregla><subregla>Se asigna el país donde se ubica la coordenada geográfica cuando el ejemplar no tiene registrado
+
 un dato de país en el campo país original.</subregla></rule>
     </dataRules>
     <syntaxRules>
@@ -344,10 +332,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden>
-      <after>paisoriginal</after>
-    </orden>
-    <downloadGeoportal>false</downloadGeoportal>
+    <orden><prev>paisoriginal</prev><next>municipiooriginal</next></orden><downloadGeoportal>false</downloadGeoportal>
     <ordenTabla>
       <after>paismapa</after>
     </ordenTabla>
@@ -358,8 +343,8 @@ un dato de país en el campo país original.</subregla></rule>
     <datatype>varchar (55)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO</p>]]></note>
-      <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
+      <note>&lt;p&gt;Campo resultado del proceso de limpieza, estandarizaci&amp;oacute;n y compleci&amp;oacute;n realizado por la CONABIO&lt;/p&gt;</note>
+      <note>&lt;p&gt;Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/&lt;/p&gt;</note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
@@ -384,10 +369,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>claveestadomapa</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>claveestadomapa</prev><next>mt24claveestadomapa</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>estadooriginal</after>
@@ -398,11 +380,11 @@ un dato de país en el campo país original.</subregla></rule>
     <description>Nombre del estado o división política equivalente donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política utilizados para la validación geográfica realizada por la CONABIO.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
+    <dataRules />
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
     </syntaxRules>
-    <infoRules/>
+    <infoRules />
     <notes>
       <note>Campo resultado del proceso de sobreposición de las coordenadas geográficas con mapas de división política actuales, realizado en CONABIO, los mapas utilizados son:</note>
       <note>México</note>
@@ -418,10 +400,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>paismapa</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>paismapa</prev><next>estadomapa</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>estadomapa</after>
@@ -456,10 +435,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>mt24claveestadomapa</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>mt24claveestadomapa</prev><next>clavemunicipiomapa</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>claveestadomapa</after>
@@ -473,7 +449,7 @@ un dato de país en el campo país original.</subregla></rule>
     <dataRules>
       <rule>El valor sólo se presenta para los ejemplares ubicados en la franja del mar territorial y zona contigua.</rule>
     </dataRules>
-    <syntaxRules/>
+    <syntaxRules />
     <infoRules>
       <rule>El campo mt24nombreestadomapa puede tener un valor diferente al de estado del mapa.</rule>
     </infoRules>
@@ -491,10 +467,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>estadomapa</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>estadomapa</prev><next>mt24nombreestadomapa</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>mt24nombreestadomapa</after>
@@ -529,10 +502,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden>
-      <after>estadooriginal</after>
-    </orden>
-    <downloadGeoportal>false</downloadGeoportal>
+    <orden><prev>estadooriginal</prev><next>localidad</next></orden><downloadGeoportal>false</downloadGeoportal>
     <ordenTabla>
       <after>mt24claveestadomapa</after>
     </ordenTabla>
@@ -543,8 +513,8 @@ un dato de país en el campo país original.</subregla></rule>
     <datatype>varchar (80)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
-      <note><![CDATA[<p>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
+      <note>&lt;p&gt;Campo resultado del proceso de limpieza, estandarizaci&amp;oacute;n y compleci&amp;oacute;n realizado por la CONABIO.&lt;/p&gt;</note>
+      <note>&lt;p&gt;Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/&lt;/p&gt;</note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato que no fue proporcionado en la base de datos original.</rule>
@@ -563,10 +533,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>clavemunicipiomapa</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>clavemunicipiomapa</prev><next>mt24clavemunicipiomapa</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>municipiooriginal</after>
@@ -579,12 +546,12 @@ un dato de país en el campo país original.</subregla></rule>
     <encoding>UTF-8</encoding>
     <dataRules>
       <rule>Se asigna el municipio -o división política equivalente- donde se ubica la coordenada geográfica cuando el ejemplar no tiene registrado un dato de municipio en el campo municipio original.</rule>
-      <rule/>
+      <rule />
     </dataRules>
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
     </syntaxRules>
-    <infoRules/>
+    <infoRules />
     <notes>
       <note>Campo resultado del proceso de sobreposición de las coordenadas geográficas con mapas de división política actuales, realizado en CONABIO, los mapas utilizados son:</note>
       <note>México</note>
@@ -600,10 +567,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>mt24nombreestadomapa</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>mt24nombreestadomapa</prev><next>municipiomapa</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>municipiomapa</after>
@@ -640,10 +604,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>mt24clavemunicipiomapa</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>mt24clavemunicipiomapa</prev><next>altitudmapa</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>clavemunicipiomapa</after>
@@ -654,8 +615,8 @@ un dato de país en el campo país original.</subregla></rule>
     <description>Nombre del municipio o división política equivalente frente al cual se extiende la franja de 24 millas náuticas (12 de mar territorial y 12 de la zona contigua), y que se asigna como referencia de ubicación de la coordenada geográfica registrada para el ejemplar.</description>
     <datatype>varchar (80)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules/>
+    <dataRules />
+    <syntaxRules />
     <infoRules>
       <rule>El campo mt24nombremunicipiomapa puede tener un valor diferente al de municipiomapa.</rule>
     </infoRules>
@@ -673,10 +634,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>municipiomapa</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>municipiomapa</prev><next>mt24nombremunicipiomapa</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>mt24nombremunicipiomapa</after>
@@ -711,10 +669,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden>
-      <last/>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>datum</prev><next /></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>mt24clavemunicipiomapa</after>
@@ -724,7 +679,7 @@ un dato de país en el campo país original.</subregla></rule>
     <dwcField>coordinateUncertaintyInMeters</dwcField>
     <description>Valor de incertidumbre de las coordenadas geográficas.</description>
     <datatype>int (11)</datatype>
-    <encoding/>
+    <encoding />
     <dataRules>
       <rule>El valor nulo significa que no se tiene el dato de la incertidumbre o no tiene coordenadas geográficas.</rule>
       <rule>El valor proviene de:</rule>
@@ -732,8 +687,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El cálculo basado en el método punto-radio usado en la georreferenciación de localidades en la CONABIO.</rule>
       <rule>Asignado por la CONABIO en el caso de desconocimiento del DATUM original o para las coordenadas generalizadas (sólo para ejemplares de México).</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información de la incertidumbre del método punto-radio, véase:</note>
@@ -747,10 +702,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>mt24nombremunicipiomapa</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>mt24nombremunicipiomapa</prev><next>anp</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>incertidumbrexy</after>
@@ -760,12 +712,12 @@ un dato de país en el campo país original.</subregla></rule>
     <dwcField>minimunElevationInMeters</dwcField>
     <description>Altitud donde se ubica la coordenada geográfica, es obtenida del modelo de elevación ASTER GDEM2. Tipo de dato: smallint (6)</description>
     <datatype>smallint (6)</datatype>
-    <encoding/>
+    <encoding />
     <dataRules>
       <rule>El valor nulo significa que el ejemplar no tiene coordenadas geográficas; las coordenadas asociadas al ejemplar se ubican fuera del área que cubre el modelo digital de elevación o, dicho modelo no tiene el dato de altitud.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información acerca del modelo de elevación véase:</note>
@@ -774,10 +726,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>regionmarinamapa</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>cuencahidrograficamapa</prev><next>usvserieII</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>altitudmapa</after>
@@ -792,8 +741,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso del suelo y vegetación serie I del INE-INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información sobre el uso de suelo y vegetación serie I véase:</note>
@@ -803,10 +752,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>usvserieI</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>usvserieI</prev><next>usvserieIII</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>usvserieI</after>
@@ -821,8 +767,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso del suelo y vegetación serie II del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información sobre el uso de suelo y vegetación serie II véase:</note>
@@ -832,10 +778,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>usvserieII</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>usvserieII</prev><next>usvserieIV</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>usvserieII</after>
@@ -850,8 +793,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso de suelo y vegetación serie III del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información sobre el uso de suelo y vegetación serie III véase:</note>
@@ -861,10 +804,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>usvserieIII</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>usvserieIII</prev><next>usvserieV</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>usvserieIII</after>
@@ -879,8 +819,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso del suelo y vegetación serie IV del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información sobre el uso de suelo y vegetación serie IV véase:</note>
@@ -890,10 +830,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>usvserieIV</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>usvserieIV</prev><next>usvserieVI</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>usvserieIV</after>
@@ -908,8 +845,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso de suelo y vegetación serie V del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información sobre el uso de suelo y vegetación serie V véase:</note>
@@ -918,10 +855,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>usvserieV</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>usvserieV</prev><next>usvserieVII</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>usvserieV</after>
@@ -936,8 +870,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso de suelo y vegetación serie VI del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información sobre el uso de suelo y vegetación serie VI véase:</note>
@@ -946,10 +880,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>usvserieVI</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>usvserieVI</prev><next>vegetacionserenanalcms</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>usvserieVI</after>
@@ -964,8 +895,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso de suelo y vegetación serie VII del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información sobre el uso de suelo y vegetación serie VII véase:</note>
@@ -975,10 +906,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <last/>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>usvserieVII</prev><next>regionmarinamapa</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>usvserieVII</after>
@@ -993,8 +921,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por la cobertura de suelo, según el mapa de SERENA.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información sobre cobertura de suelo y vegetación véase:Blanco, P. D., Colditz, R. R., López, G., Hardtke, L. A., Llamas, R. M., Mari, N. A., Barrena Arroyo, V. (2013). A land cover map of Latin America and the Caribbean in the framework of the SERENA project. Remote Sensing of Environment, 132, 13–31.</note>
@@ -1003,10 +931,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>altitudmapa</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>altitudmapa</prev><next>cuencahidrograficamapa</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>vegetacionserenanalcms</after>
@@ -1029,7 +954,7 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>Como parte del nombre de las ANP se pueden encontrar los siguientes caracteres especiales (),-&amp;./–"[]'\_´ ̃ ̃:@#+?*!% ; `</rule>
       <rule>Las ANP que se comparten en más de un país se diferencian en el nombre por la abreviación del país alfa-2 de la ISO 3166.</rule>
     </syntaxRules>
-    <infoRules/>
+    <infoRules />
     <notes>
       <note>Para más información de las ANP de México, véase:</note>
       <note>CONABIO 2020. Áreas Naturales Protegidas Estatales, Municipales, Ejidales, Comunitarias y Privadas de México 2020. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. México.</note>
@@ -1042,10 +967,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>ecorregionterrestremapa</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>vegetacionserenanalcms</prev><next>ecorregionterrestremapa</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>anp</after>
@@ -1069,7 +991,7 @@ un dato de país en el campo país original.</subregla></rule>
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
     </syntaxRules>
-    <infoRules/>
+    <infoRules />
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</note>
@@ -1077,10 +999,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>cuencahidrograficamapa</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>regionmarinamapa</prev><next /></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>regionmarinamapa</after>
@@ -1098,7 +1017,7 @@ un dato de país en el campo país original.</subregla></rule>
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y minúsculas y sin acentos.</rule>
     </syntaxRules>
-    <infoRules/>
+    <infoRules />
     <notes>
       <note>Cita: Instituto Nacional de Estadística, Geografía e Informática (INEGI) -Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO) - Instituto Nacional de Ecología (INE). (2008). 'Ecorregiones Terrestres de México'. Escala 1:1000000. México. De forma abreviada puede citarse así: INEGI, CONABIO e INE. 2008. 'Ecorregiones terrestres de México'. Escala 1:1000000. México.</note>
       <note>URL: http://www.conabio.gob.mx/informacion/gis/?vns=gis_root/region/biotic/ecort08gw</note>
@@ -1108,10 +1027,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <after>anp</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>anp</prev><next>usvserieI</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>ecorregionterrestremapa</after>
@@ -1130,7 +1046,7 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dato está escrito en mayúsculas y minúsculas y con acentos.</rule>
       <rule>El valor se conforma por el código de la cuenca, seguido del nombre separando con una coma.</rule>
     </syntaxRules>
-    <infoRules/>
+    <infoRules />
     <notes>
       <note>Cita: Instituto Nacional de Estadística Geografía e Informática (INEGI), Instituto Nacional de Ecología (INE), Comisión Nacional de Agua (CONAGUA), (2007). 'Mapa de Cuencas Hidrográficas de México, 2007'. Escala 1:250000, elaborada por Priego A.G., Isunza E., Luna N. y Pérez J.L. México, D.F.</note>
       <note>URL: http://www.conabio.gob.mx/informacion/gis/?vns=gis_root/hidro/chidro/cue250k_07gw</note>
@@ -1140,10 +1056,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <first/>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev /><next>subgrupobio</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>cuencahidrograficamapa</after>
@@ -1155,21 +1068,31 @@ un dato de país en el campo país original.</subregla></rule>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
-      <note><![CDATA[<p>Los grupos biol&oacute;gicos de Bacterias y Virus no se publican en el Geoportal de la CONABIO.</p>]]></note>
+      <note>&lt;p&gt;Campo resultado del proceso de estandarizaci&amp;oacute;n y compleci&amp;oacute;n realizado por la CONABIO.&lt;/p&gt;</note>
+      <note>&lt;p&gt;Los grupos biol&amp;oacute;gicos de Bacterias y Virus no se publican en el Geoportal de la CONABIO.&lt;/p&gt;</note>
     </notes>
     <dataRules>
       <rule>Los valores vacío y NO DISPONIBLE significan que no se cuenta con la información taxonómica suficiente para asignar el grupo biológico.</rule>
-      <rule>El dominio de los valores permitidos está dado por:<subregla>Bacterias</subregla><subregla>Cromistas</subregla><subregla>Virus  &#13;
-Plantas &#13;
-Hongos&#13;
-Invertebrados &#13;
-Peces&#13;
-Anfibios &#13;
-Reptiles&#13;
-Aves &#13;
-Mamíferos &#13;
-Protozoarios &#13;
+      <rule>El dominio de los valores permitidos está dado por:<subregla>Bacterias</subregla><subregla>Cromistas</subregla><subregla>Virus  
+
+Plantas 
+
+Hongos
+
+Invertebrados 
+
+Peces
+
+Anfibios 
+
+Reptiles
+
+Aves 
+
+Mamíferos 
+
+Protozoarios 
+
 NO DISPONIBLE</subregla></rule>
     </dataRules>
     <ejemplar>
@@ -1187,10 +1110,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>grupobio</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>grupobio</prev><next>idnombrecat</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>grupobio</after>
@@ -1202,7 +1122,7 @@ NO DISPONIBLE</subregla></rule>
     <datatype>varchar (250)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
+      <note>&lt;p&gt;Campo resultado del proceso de estandarizaci&amp;oacute;n y compleci&amp;oacute;n realizado por la CONABIO.&lt;/p&gt;</note>
     </notes>
     <dataRules>
       <rule>El valor NO DISPONIBLE significa que no se cuenta con la información taxonómica suficiente para asignar el subgrupo biológico. Por lo anterior, no existen valores vacíos o nulos.</rule>
@@ -1228,10 +1148,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>idnombrecat</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>idnombrecat</prev><next>phylumdivision</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>subgrupobio</after>
@@ -1243,8 +1160,8 @@ NO DISPONIBLE</subregla></rule>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p>]]></note>
-      <note><![CDATA[<p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p>]]></note>
+      <note>&lt;p&gt;Se puede ver el nombre tal cual lo escribi&amp;oacute; el proveedor de datos, utilizando el campo URLEjemplar .&lt;/p&gt;</note>
+      <note>&lt;p&gt;La CONABIO realiz&amp;oacute; limpieza y homologaci&amp;oacute;n de este campo mediante la correcci&amp;oacute;n de errores de escritura y de datos que no corresponden con el campo.&lt;/p&gt;</note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el reino no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o no fue proporcionado en las bases de datos originales.</rule>
@@ -1267,10 +1184,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>reino</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>reino</prev><next>clase</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>reino</after>
@@ -1282,9 +1196,9 @@ NO DISPONIBLE</subregla></rule>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p>]]></note>
-      <note><![CDATA[<p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p>]]></note>
-      <note><![CDATA[<p>La equivalencia en Darwin Core puede ser phylum, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos este campo sin equivalencia con Darwin Core en lugar de phylum que lo asignamos al campo phylumdivisionv&aacute;lido.</p>]]></note>
+      <note>&lt;p&gt;Se puede ver el nombre tal cual lo escribi&amp;oacute; el proveedor de datos, utilizando el campo URLEjemplar .&lt;/p&gt;</note>
+      <note>&lt;p&gt;La CONABIO realiz&amp;oacute; limpieza y homologaci&amp;oacute;n de este campo mediante la correcci&amp;oacute;n de errores de escritura y de datos que no corresponden con el campo.&lt;/p&gt;</note>
+      <note>&lt;p&gt;La equivalencia en Darwin Core puede ser phylum, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&amp;aacute;lidos), indicamos este campo sin equivalencia con Darwin Core en lugar de phylum que lo asignamos al campo phylumdivisionv&amp;aacute;lido.&lt;/p&gt;</note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el phylum o división no fue proporcionado en las bases de datos originales.</rule>
@@ -1311,10 +1225,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>phylumdivision</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>phylumdivision</prev><next>orden</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>phylumdivision</after>
@@ -1326,9 +1237,9 @@ NO DISPONIBLE</subregla></rule>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p>]]></note>
-      <note><![CDATA[<p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p>]]></note>
-      <note><![CDATA[<p>La equivalencia en Darwin Core tambi&eacute;n puede ser class, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de class que lo asignamos al campo clase v&aacute;lida.</p>]]></note>
+      <note>&lt;p&gt;Se puede ver el nombre tal cual lo escribi&amp;oacute; el proveedor de datos, utilizando el campo URLEjemplar .&lt;/p&gt;</note>
+      <note>&lt;p&gt;La CONABIO realiz&amp;oacute; limpieza y homologaci&amp;oacute;n de este campo mediante la correcci&amp;oacute;n de errores de escritura y de datos que no corresponden con el campo.&lt;/p&gt;</note>
+      <note>&lt;p&gt;La equivalencia en Darwin Core tambi&amp;eacute;n puede ser class, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&amp;aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de class que lo asignamos al campo clase v&amp;aacute;lida.&lt;/p&gt;</note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el nombre de la clase no fue proporcionado en las bases de datos originales.</rule>
@@ -1360,10 +1271,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>clase</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>clase</prev><next>familia</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>clase</after>
@@ -1375,9 +1283,9 @@ NO DISPONIBLE</subregla></rule>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p>]]></note>
-      <note><![CDATA[<p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p>]]></note>
-      <note><![CDATA[<p>La equivalencia en Darwin Core puede ser order, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos este campo sin equivalencia con Darwin Core en lugar de order que lo asignamos al campo orden v&aacute;lido.</p>]]></note>
+      <note>&lt;p&gt;Se puede ver el nombre tal cual lo escribi&amp;oacute; el proveedor de datos, utilizando el campo URLEjemplar .&lt;/p&gt;</note>
+      <note>&lt;p&gt;La CONABIO realiz&amp;oacute; limpieza y homologaci&amp;oacute;n de este campo mediante la correcci&amp;oacute;n de errores de escritura y de datos que no corresponden con el campo.&lt;/p&gt;</note>
+      <note>&lt;p&gt;La equivalencia en Darwin Core puede ser order, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&amp;aacute;lidos), indicamos este campo sin equivalencia con Darwin Core en lugar de order que lo asignamos al campo orden v&amp;aacute;lido.&lt;/p&gt;</note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el nombre del orden no fue proporcionado en las bases de datos originales.</rule>
@@ -1409,10 +1317,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>orden</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>orden</prev><next>genero</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>orden</after>
@@ -1424,9 +1329,9 @@ NO DISPONIBLE</subregla></rule>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo urlejemplar.</p>]]></note>
-      <note><![CDATA[<p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores ortogr&aacute;ficos, as&iacute; como la estandarizaci&oacute;n a sistemas de clasificaci&oacute;n reconocidos por la comunidad cient&iacute;fica.</p>]]></note>
-      <note><![CDATA[<p>La equivalencia en Darwin Core puede ser family, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de family que lo asignamos al campo familia v&aacute;lida.</p>]]></note>
+      <note>&lt;p&gt;Se puede ver el nombre tal cual lo escribi&amp;oacute; el proveedor de datos, utilizando el campo urlejemplar.&lt;/p&gt;</note>
+      <note>&lt;p&gt;La CONABIO realiz&amp;oacute; limpieza y homologaci&amp;oacute;n de este campo mediante la correcci&amp;oacute;n de errores ortogr&amp;aacute;ficos, as&amp;iacute; como la estandarizaci&amp;oacute;n a sistemas de clasificaci&amp;oacute;n reconocidos por la comunidad cient&amp;iacute;fica.&lt;/p&gt;</note>
+      <note>&lt;p&gt;La equivalencia en Darwin Core puede ser family, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&amp;aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de family que lo asignamos al campo familia v&amp;aacute;lida.&lt;/p&gt;</note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el nombre de la familia no fue proporcionado en las bases de datos originales.</rule>
@@ -1458,10 +1363,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>familia</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>familia</prev><next>especie</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>familia</after>
@@ -1473,9 +1375,9 @@ NO DISPONIBLE</subregla></rule>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar.</p>]]></note>
-      <note><![CDATA[<p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p>]]></note>
-      <note><![CDATA[<p>La equivalencia en Darwin Core tambi&eacute;n puede ser genus, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo que la equivalencia con Darwin Core es dynamicProperties en lugar de genus que lo asignamos al campo g&eacute;nero v&aacute;lido.</p>]]></note>
+      <note>&lt;p&gt;Se puede ver el nombre tal cual lo escribi&amp;oacute; el proveedor de datos, utilizando el campo URLEjemplar.&lt;/p&gt;</note>
+      <note>&lt;p&gt;La CONABIO realiz&amp;oacute; limpieza y homologaci&amp;oacute;n de este campo mediante la correcci&amp;oacute;n de errores de escritura y de datos que no corresponden con el campo.&lt;/p&gt;</note>
+      <note>&lt;p&gt;La equivalencia en Darwin Core tambi&amp;eacute;n puede ser genus, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&amp;aacute;lidos), indicamos en este campo que la equivalencia con Darwin Core es dynamicProperties en lugar de genus que lo asignamos al campo g&amp;eacute;nero v&amp;aacute;lido.&lt;/p&gt;</note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el nombre del género no fue proporcionado en las bases de datos originales.</rule>
@@ -1506,10 +1408,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>genero</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>genero</prev><next>calificadordeterminacion</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>genero</after>
@@ -1521,9 +1420,9 @@ NO DISPONIBLE</subregla></rule>
     <datatype>varchar (100)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar.</p>]]></note>
-      <note><![CDATA[<p>La CONABIO realiz&oacute; limpieza de este campo mediante la correcci&oacute;n de escritura y de datos que no corresponden con el campo.</p>]]></note>
-      <note><![CDATA[<p>Se debe observar la regla de sintaxis 1, para apreciar las diferencias con respecto a la descripci&oacute;n de scientificName en Darwin Core, por ejemplo, no se incluye el autor y a&ntilde;o de descripci&oacute;n.</p>]]></note>
+      <note>&lt;p&gt;Se puede ver el nombre tal cual lo escribi&amp;oacute; el proveedor de datos, utilizando el campo URLEjemplar.&lt;/p&gt;</note>
+      <note>&lt;p&gt;La CONABIO realiz&amp;oacute; limpieza de este campo mediante la correcci&amp;oacute;n de escritura y de datos que no corresponden con el campo.&lt;/p&gt;</note>
+      <note>&lt;p&gt;Se debe observar la regla de sintaxis 1, para apreciar las diferencias con respecto a la descripci&amp;oacute;n de scientificName en Darwin Core, por ejemplo, no se incluye el autor y a&amp;ntilde;o de descripci&amp;oacute;n.&lt;/p&gt;</note>
     </notes>
     <dataRules>
       <rule>Cuando la especie no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o referencias bibliográficas especializadas con las que cuenta la CONABIO, en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
@@ -1549,10 +1448,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>calificadordeterminacion</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>calificadordeterminacion</prev><next>categoriainfraespecie2</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>especie</after>
@@ -1582,10 +1478,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>categoriainfraespecie</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>categoriainfraespecie</prev><next>autor</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>categoriainfraespecie</after>
@@ -1596,17 +1489,14 @@ NO DISPONIBLE</subregla></rule>
     <description>Nombre de la categoría taxonómica subordinada a una categoría infraespecífica.</description>
     <datatype>varchar (50).</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <dataRules />
+    <syntaxRules />
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>categoriainfraespecie2</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>categoriainfraespecie2</prev><next>estatustax</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>categoriainfraespecie2</after>
@@ -1620,16 +1510,13 @@ NO DISPONIBLE</subregla></rule>
     <dataRules>
       <rule>El valor vacío significa que el nombre al que está determinado el ejemplar corresponde a un nivel superior de especie o que no se encontró en algún catálogo o fuente de información, o que se desconoce el autor de la especie.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <syntaxRules />
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>autor</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>autor</prev><next>reftax</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>autor</after>
@@ -1649,16 +1536,13 @@ NO DISPONIBLE</subregla></rule>
       <rule>El valor NO APLICA significa que la especie no se han descrito formalmente.</rule>
       <rule>El valor vacío significa que el taxón al que está determinado el ejemplar corresponde a un nivel superior de especie o que no se encontró en algún catálogo o fuente de información para validarlo.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <syntaxRules />
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>estatustax</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>estatustax</prev><next>idnombrecatvalido</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>estatustax</after>
@@ -1672,16 +1556,13 @@ NO DISPONIBLE</subregla></rule>
     <dataRules>
       <rule>El valor vacío significa que no se cuenta con la información del catálogo de autoridad, listado o diccionario que respalda el nombre del taxón o que el ejemplar corresponde a un taxón que no se ha descrito formalmente.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <syntaxRules />
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>idnombrecatvalido</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>idnombrecatvalido</prev><next>phylumdivisionvalido</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>reftax</after>
@@ -1698,15 +1579,12 @@ NO DISPONIBLE</subregla></rule>
     <syntaxRules>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>reinovalido</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>reinovalido</prev><next>clasevalida</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>reinovalido</after>
@@ -1724,15 +1602,12 @@ NO DISPONIBLE</subregla></rule>
     <syntaxRules>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>phylumdivisionvalido</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>phylumdivisionvalido</prev><next>ordenvalido</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>phylumdivisonvalido</after>
@@ -1750,15 +1625,12 @@ NO DISPONIBLE</subregla></rule>
     <syntaxRules>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>clasevalida</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>clasevalida</prev><next>familiavalida</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>clasevalida</after>
@@ -1776,15 +1648,12 @@ NO DISPONIBLE</subregla></rule>
     <syntaxRules>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>ordenvalido</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>ordenvalido</prev><next>generovalido</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>ordenvalido0</after>
@@ -1802,15 +1671,12 @@ NO DISPONIBLE</subregla></rule>
     <syntaxRules>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>familiavalida</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>familiavalida</prev><next>especievalida</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>municipiooriginal</after>
@@ -1827,17 +1693,14 @@ NO DISPONIBLE</subregla></rule>
     <syntaxRules>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
     </syntaxRules>
-    <infoRules/>
+    <infoRules />
     <notes>
       <note>El estatus de este nombre está respaldado con la referencia taxonómica que se cita en el campo referencia taxonómica del nombre válido.</note>
     </notes>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>generovalido</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>generovalido</prev><next>categoriainfraespecievalida</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>generovalido</after>
@@ -1855,7 +1718,7 @@ NO DISPONIBLE</subregla></rule>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
       <rule>El dato se conforma del género válido, seguido del subgénero válido (si existe) entre paréntesis, posteriormente se incluye el epíteto específico válido y finalmente el epíteto infraespecífico válido (si existe).</rule>
     </syntaxRules>
-    <infoRules/>
+    <infoRules />
     <notes>
       <note>El campo referencia taxonómica del nombre válido, indica que referencia usó la CONABIO para asignar el nombre científico válido.</note>
       <note>Se debe observar la regla de sintaxis 1, para apreciar las diferencias con respecto a la descripción de acceptedNameUsage en Darwin Core, por ejemplo, no se incluye el nombre y año de la autoridad del nombre.</note>
@@ -1863,10 +1726,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>especievalida</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>especievalida</prev><next>categoriainfraespecie2valida</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>especievalida</after>
@@ -1877,17 +1737,14 @@ NO DISPONIBLE</subregla></rule>
     <description>Nombre de la categoría taxonómica infraespecífica del nombre válido.</description>
     <datatype>varchar (50).</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <dataRules />
+    <syntaxRules />
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>categoriainfraespecievalida</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>categoriainfraespecievalida</prev><next>autorvalido</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>categoriainfraespecievalida</after>
@@ -1898,17 +1755,14 @@ NO DISPONIBLE</subregla></rule>
     <description>Nombre de la categoría taxonómica subinfraespecífica del nombre válido.</description>
     <datatype>varchar (50).</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <dataRules />
+    <syntaxRules />
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>categoriainfraespecie2valida</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>categoriainfraespecie2valida</prev><next>reftaxvalido</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>categoriainfraespecie2valida</after>
@@ -1919,9 +1773,9 @@ NO DISPONIBLE</subregla></rule>
     <description>Nombre del autor o autores y año de la descripción de la especie (binomio, trinomio, etc.) válida de acuerdo con los catálogos de autoridades taxonómicas de la CONABIO o con otras referencias especializadas.</description>
     <datatype>mediumtext</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
+    <dataRules />
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>Para más información véase:</note>
       <note>Comisión Internacional de Nomenclatura Zoológica, 2000. Código Internacional de Nomenclatura Zoológica. Cuarta edición. Versión española. International Trust Zoological Nomenclature. Madrid, España. 141 p. URL: http://www.sam.mncn.csic.es/codigo.pdf</note>
@@ -1930,10 +1784,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>autorvalido</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>autorvalido</prev><next>taxonvalidado</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>autorvalido</after>
@@ -1948,16 +1799,13 @@ NO DISPONIBLE</subregla></rule>
       <rule>El valor ND significa que no se cuenta con la referencia del catálogo de autoridad, listado o diccionario.</rule>
       <rule>El valor vacío significa que el nombre al que está determinado el ejemplar corresponde a un nivel superior de especie, que el estatus del taxón original (especie) es no resuelto, no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o en las referencias bibliográficas especializadas con las que cuenta la CONABIO.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <syntaxRules />
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <last/>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>reftaxvalido</prev><next /></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>reftaxvalido</after>
@@ -1972,16 +1820,13 @@ NO DISPONIBLE</subregla></rule>
       <rule>El valor SI significa que el nombre se pudo validar con los catálogos de autoridades taxonómicas de la CONABIO o con otras referencias especializadas.</rule>
       <rule>El valor NO significa que el taxón no ha sido validado por la CONABIO.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <syntaxRules />
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
-    <orden>
-      <after>ambiente</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>nombrecomun</prev><next>exoticainvasora</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>taxonvalidado</after>
@@ -2002,18 +1847,15 @@ NO DISPONIBLE</subregla></rule>
       <rule>El valor Cuasiendémica significa: especies que tienen áreas de distribución que se extienden ligeramente fuera de México hacia algún país vecino (&lt; 35,000 km2), debido a la continuidad de los hábitats.</rule>
       <rule>El valor vacío significa que no se ha revisado si el taxón se considera o no como endémico en México.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>En los Catálogos de Autoridades Taxonómicas de la CONABIO, hemos marcado (de manera no exhaustiva) especies endémicas de plantas y animales con base en las referencias especializadas citadas en los Catálogos de Autoridades Taxonómicas.</note>
     </notes>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
-    <orden>
-      <last/>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>exoticainvasora</prev><next>ambiente</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>endemismo</after>
@@ -2032,16 +1874,13 @@ NO DISPONIBLE</subregla></rule>
       <rule>El valor NO significa que no corresponde a un taxón extinto, con base en referencias bibliográficas.</rule>
       <rule>El valor vacío significa que se desconoce o no se ha revisado si el taxón es o no un taxón extinto.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <syntaxRules />
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
-    <orden>
-      <after>nombrecomun</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>taxonextinto</prev><next>formadecrecimiento</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>taxonextinto</after>
@@ -2075,10 +1914,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
-    <orden>
-      <first/>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev /><next>endemismo</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>ambiente</after>
@@ -2096,17 +1932,14 @@ NO DISPONIBLE</subregla></rule>
     <syntaxRules>
       <rule>Cuando el taxón tiene más de un nombre común, se separa con “, ” seguido de un espacio y posteriormente otro nombre común.</rule>
     </syntaxRules>
-    <infoRules/>
+    <infoRules />
     <notes>
       <note>En la CONABIO hemos decidido dar preferencia a los datos de nombre común clasificados en idioma español (tipificados así desde la base de datos origen). Pueden existir nombres comunes en otras lenguas.</note>
     </notes>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>subgrupobio</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>subgrupobio</prev><next>reino</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>nombrecomun</after>
@@ -2117,17 +1950,14 @@ NO DISPONIBLE</subregla></rule>
     <description>Identificador del nombre del ejemplar en el catálogo de autoridades taxonómicas de la CONABIO. Corresponde al identificador de la Especie (binomio, trinomio, etc.)</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <dataRules />
+    <syntaxRules />
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>reftax</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>reftax</prev><next>reinovalido</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>idnombrecat</after>
@@ -2138,17 +1968,14 @@ NO DISPONIBLE</subregla></rule>
     <description>Identificador del nombre válido en el catálogo de autoridades taxonómicas de la CONABIO.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <dataRules />
+    <syntaxRules />
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
-    <orden>
-      <after>exoticainvasora</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>ambiente</prev><next>categoriaresidenciaaves</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>idnombrecatvalido</after>
@@ -2166,7 +1993,7 @@ NO DISPONIBLE</subregla></rule>
     <syntaxRules>
       <rule>Cuando el taxón tiene más de una forma de crecimiento, se separa con “,” seguido de un espacio y posteriormente otra forma.</rule>
     </syntaxRules>
-    <infoRules/>
+    <infoRules />
     <notes>
       <note>Para más información ver:</note>
       <note>Davidse, G., Sousa Sánchez, M., Knapp, S. &amp; Chiang Cabrera, F. 1994 - 2020. Life Form. Fl. Mesoamer. In: Davidse, G., Sousa Sánchez, M., Knapp, S. &amp; Chiang Cabrera, F. (Eds.). Versión online. Disponible en: http://www.tropicos.org/ProjectAdvSearch.aspx?projectid=3&amp;langid=66</note>
@@ -2186,10 +2013,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
-    <orden>
-      <after>cites</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>cites</prev><next>nivelprioridad</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>formadecrecimiento</after>
@@ -2208,8 +2032,8 @@ NO DISPONIBLE</subregla></rule>
       <rule>El valor CONABIO 2012 significa que es una especie considerada en la Ley General de Pesca, Acuacultura Sustentable o en la Ley General de Desarrollo forestal Sustentable y que la CONABIO determinó como especie prioritaria.</rule>
       <rule>El valor vacío significa que la especie no es considerada como prioritaria.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>Se hereda la misma categoría de prioridad a todos los taxones inferiores de la especie, a menos que este tenga su propia categoría de prioridad.</note>
       <note>PRIORITARIAS DOF 2014: SEMARNAT 2014. ACUERDO por el que se da a conocer la lista de especies y poblaciones prioritarias para la conservación. Diario Oficial de la Federación, miércoles 5 de marzo de 2014, 2-15 p. http://dof.gob.mx/nota_detalle.php?codigo=5334865&amp;fecha=05/03/2014</note>
@@ -2218,10 +2042,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
-    <orden>
-      <after>prioritaria</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>prioritaria</prev><next>iucn</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>prioritaria</after>
@@ -2242,8 +2063,8 @@ NO DISPONIBLE</subregla></rule>
       <rule>El valor Menor significa que tiene 14 – 6 puntos obtenidos. Con base en las evaluaciones enviadas por los especialistas.</rule>
       <rule>El valor vacío significa que la especie no es considerada como prioritaria.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>El nivel de prioridad se asigna a los taxones designados en el Diario Oficial o en la CONABIO y a todos sus taxones subordinados, siempre y cuando estos no cuenten con un nivel de prioridad propio. Para más información acerca de la lista de especies prioritarias véase:</note>
       <note>PRIORITARIAS DOF 2014: SEMARNAT 2014. Acuerdo por el que se da a conocer la lista de especies y poblaciones prioritarias para la conservación. Diario Oficial de la Federación, miércoles 5 de marzo de 2014, 2-15 p.</note>
@@ -2253,10 +2074,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
-    <orden>
-      <after>endemismo</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>endemismo</prev><next>taxonextinto</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>nivelprioridad</after>
@@ -2278,8 +2096,8 @@ NO DISPONIBLE</subregla></rule>
       <rule>El valor Criptogénica-Invasora hace referencia a un taxón (especie, subespecie u otro) con historia biogeográfica desconocida y que por lo tanto no puede reconocerse claramente si es o no nativa y que se ha sometido a un Análisis de Riesgo de Invasividad y el resultado la clasifica como invasora.</rule>
       <rule>El valor vacío significa que la especie no es exótica ni invasora o no se le ha reconocido como tal.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>Para más información acerca de la lista de especies invasoras y exóticas invasoras véase:</note>
       <note>CONABIO. 2023. Sistema de información sobre especies invasoras https://www.biodiversidad.gob.mx/especies/Invasoras .Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Cd. de México.</note>
@@ -2287,10 +2105,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
-    <orden>
-      <first/>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev /><next>cites</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>exoticainvasora</after>
@@ -2305,8 +2120,8 @@ NO DISPONIBLE</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por:</rule>
       <rule>El valor vacío significa que la especie no está considerada dentro de las categorías de riesgo de la NOM-059-SEMARNAT-2010.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>La categoría de riesgo se asigna a los taxones designados en la NORMA y a todos sus taxones subordinados. Para más información acerca de la lista de especies protegidas véase:</note>
       <note>SEMARNAT. 2019. MODIFICACIÓN del Anexo Normativo III, Lista de especies en riesgo de la Norma Oficial Mexicana NOM-059-SEMARNAT-2010, Protección ambiental-Especies nativas de México de flora y fauna silvestres. -Categorías de riesgo y especificaciones para su inclusión, exclusión o cambio-Lista de especies en riesgo, publicada el 30 de diciembre de 2010. Diario Oficial de la Federación. jueves 14 de noviembre de 2019, 1-101 p.</note>
@@ -2315,10 +2130,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
-    <orden>
-      <after>nom059</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>nom059</prev><next>prioritaria</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>nom059</after>
@@ -2336,8 +2148,8 @@ NO DISPONIBLE</subregla></rule>
       <rule>En el valor Apéndice II se incluyen especies que no están en peligro de extinción, pero cuyo comercio debe controlarse para evitar una utilización incompatible con su supervivencia.</rule>
       <rule>En el valor Apéndice III se incluyen las especies que están protegidas al menos en un país, el cual ha solicitado la asistencia de otras Partes en la CITES para controlar su comercio.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>El grado de protección se asigna a los taxones designados en la CITES con distribución en México y a todos sus taxones subordinados, siempre y cuando estos no cuenten con un grado de protección propio.</note>
       <note>Para más información acerca de los apéndices CITES:</note>
@@ -2346,10 +2158,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
-    <orden>
-      <last/>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>nivelprioridad</prev><next /></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>cites</after>
@@ -2374,8 +2183,8 @@ NO DISPONIBLE</subregla></rule>
       <rule>No evaluado (NE)</rule>
       <rule>El valor vacío significa que la especie no está considerada en la lista de la IUCN.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>El estado de conservación se asigna a los taxones considerados en la lista roja IUCN para México y a todos sus taxones subordinados, siempre y cuando estos no cuenten con un estado de conservación propio.</note>
       <note>Para más información acerca de los estados de conservación de las especies:</note>
@@ -2384,10 +2193,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
-    <orden>
-      <after>formadecrecimiento</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>formadecrecimiento</prev><next /></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>iucn</after>
@@ -2402,18 +2208,15 @@ NO DISPONIBLE</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por:</rule>
       <rule>El valor vacío significa que la especie no tiene clasificación de su residencia o que no se trata de un ave.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>Algunas especies pueden contener más de una categoría de residencia. Las categorías de residencia de aves, son las  usadas por NABCI URL: https://www.biodiversidad.gob.mx/media/1/ciencia-ciudadana/documentos/Lista_actualizada_aos_2019.pdf</note>
     </notes>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <last/>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>idejemplar</prev><next>coleccion</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>categoriaresidenciaaves</after>
@@ -2441,10 +2244,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <after>paiscoleccion</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>obsusoinfo</prev><next>tipovegetacion</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>obsusoinfo</after>
@@ -2481,10 +2281,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <after>procedenciaejemplar</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>tipovegetacion</prev><next>numcatalogo</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>coleccion</after>
@@ -2522,10 +2319,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <after>ejemplarfosil</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>fechacolecta</prev><next>procedenciaejemplar</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>institucion</after>
@@ -2543,15 +2337,12 @@ NO DISPONIBLE</subregla></rule>
     <syntaxRules>
       <rule>El dato se escribe utilizando mayúsculas y sin acentos.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <after>institucion</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>institucion</prev><next>numcolecta</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>paiscoleccion</after>
@@ -2579,10 +2370,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <after>numcatalogo</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>numcatalogo</prev><next>colector</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>numcatalogo</after>
@@ -2610,10 +2398,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <after>idejemplar</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>paiscoleccion</prev><next>determinador</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>numcolecta</after>
@@ -2625,7 +2410,7 @@ NO DISPONIBLE</subregla></rule>
     <datatype>enum</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>M&aacute;s informaci&oacute;n del dominio de valores se encuentra en http://rs.tdwg.org/dwc/terms.htm#basisOfRecord</p>]]></note>
+      <note>&lt;p&gt;M&amp;aacute;s informaci&amp;oacute;n del dominio de valores se encuentra en http://rs.tdwg.org/dwc/terms.htm#basisOfRecord&lt;/p&gt;</note>
     </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por:</rule>
@@ -2653,10 +2438,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <after>fechacolecta</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>procedenciaejemplar</prev><next>aniodeterminacion</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>procedenciaejemplar</after>
@@ -2680,10 +2462,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <after>determinador</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>determinador</prev><next>mesdeterminacion</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>determinador</after>
@@ -2693,22 +2472,19 @@ NO DISPONIBLE</subregla></rule>
     <dwcField>Sin equivalencia</dwcField>
     <description>Año en que se realizó la determinación del ejemplar.</description>
     <datatype>smallint (6)</datatype>
-    <encoding/>
+    <encoding />
     <dataRules>
       <rule>El valor nulo significa que no se cuenta con el año de la determinación del ejemplar, no se capturó el dato o el valor capturado no es válido.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Se muestra con el formato aaaa.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <after>aniodeterminacion</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>aniodeterminacion</prev><next>diadeterminacion</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>aniodeterminacion</after>
@@ -2731,10 +2507,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <after>mesdeterminacion</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>mesdeterminacion</prev><next>fechadeterminacion</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>mesdeterminacion</after>
@@ -2744,22 +2517,19 @@ NO DISPONIBLE</subregla></rule>
     <dwcField>Sin equivalencia</dwcField>
     <description>Indica el día que se realizó la determinación del ejemplar.</description>
     <datatype>tinyint (4)</datatype>
-    <encoding/>
+    <encoding />
     <dataRules>
       <rule>El valor nulo significa que no se cuenta con el día de la determinación del ejemplar, no se capturó el dato o el valor capturado es no válido respecto al mes de la determinación.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Se muestra con el formato dd.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <after>diadeterminacion</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>diadeterminacion</prev><next>tipo</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>diadeterminacion</after>
@@ -2777,15 +2547,12 @@ NO DISPONIBLE</subregla></rule>
       <rule>Se concatenan los campos aniodeterminacion, mesdeterminacion y diadeterminacion separados por un guion, sin considerar los valores 99.</rule>
       <rule>Se muestra con el formato aaaa-mm-dd.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden>
-      <after>especie</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>especie</prev><next>categoriainfraespecie</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>fechadeterminacion</after>
@@ -2799,16 +2566,13 @@ NO DISPONIBLE</subregla></rule>
     <dataRules>
       <rule>El valor vacío significa que el dato no es aplicable para el registro.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <syntaxRules />
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <after>numcolecta</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>numcolecta</prev><next>aniocolecta</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>calificadordeterminacion</after>
@@ -2831,10 +2595,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <after>colector</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>colector</prev><next>mescolecta</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>colector</after>
@@ -2844,24 +2605,21 @@ NO DISPONIBLE</subregla></rule>
     <dwcField>year</dwcField>
     <description>Indica el año del evento de recolecta u observación del ejemplar.</description>
     <datatype>smallint (6)</datatype>
-    <encoding/>
+    <encoding />
     <dataRules>
       <rule>El valor 9999 significa que no se cuenta con el año de recolecta o el dato capturado no es válido para un año.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Se muestra con el formato aaaa.</rule>
     </syntaxRules>
-    <infoRules/>
+    <infoRules />
     <notes>
       <note>Cuando la recolecta se llevó a cabo en un rango de fechas, en este campo se especifica solo el año inicial de recolecta.</note>
     </notes>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <after>aniocolecta</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>aniocolecta</prev><next>diacolecta</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>aniocolecta</after>
@@ -2871,24 +2629,21 @@ NO DISPONIBLE</subregla></rule>
     <dwcField>month</dwcField>
     <description>Indica el mes del evento de recolecta u observación del ejemplar.</description>
     <datatype>tinyint (4)</datatype>
-    <encoding/>
+    <encoding />
     <dataRules>
       <rule>El valor nulo significa que no se cuenta con el mes de recolecta, no se capturó o el dato capturado no es válido para un mes del año.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Se muestra con el formato mm.</rule>
     </syntaxRules>
-    <infoRules/>
+    <infoRules />
     <notes>
       <note>Cuando la recolecta se llevó a cabo en un rango de fechas, en este campo se especifica solo el mes inicial de recolecta.</note>
     </notes>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <after>mescolecta</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>mescolecta</prev><next>fechacolecta</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>mescolecta</after>
@@ -2898,24 +2653,21 @@ NO DISPONIBLE</subregla></rule>
     <dwcField>day</dwcField>
     <description>Indica el día del evento de recolecta u observación del ejemplar.</description>
     <datatype>tinyint (4)</datatype>
-    <encoding/>
+    <encoding />
     <dataRules>
       <rule>El valor nulo significa que no se cuenta con el día de recolecta, no se capturó o el dato capturado no es válido respecto al mes de la recolecta.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Se muestra con el formato dd.</rule>
     </syntaxRules>
-    <infoRules/>
+    <infoRules />
     <notes>
       <note>Si el evento de recolecta o de observación se llevó a cabo en un rango de fechas, en este campo se especifica solo el día inicial de recolecta u observación.</note>
     </notes>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <after>diacolecta</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>diacolecta</prev><next>paiscoleccion</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>diacolecta</after>
@@ -2933,17 +2685,14 @@ NO DISPONIBLE</subregla></rule>
       <rule>Se concatenan los campos aniocolecta, mescolecta y diacolecta separados por un guion, sin considerar los valores 99.</rule>
       <rule>Se muestra con el formato aaaa-mm-dd.</rule>
     </syntaxRules>
-    <infoRules/>
+    <infoRules />
     <notes>
       <note>Si el evento de recolecta o de observación se llevó a cabo en un rango de fechas, en este campo se especifica solo la fecha inicial de recolecta u observación.</note>
     </notes>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <after>fechadeterminacion</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>fechadeterminacion</prev><next>ejemplarfosil</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>fechacolecta</after>
@@ -2969,28 +2718,22 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <after>coleccion</after>
-    </orden>
-    <fieldName>Tipo de vegetación</fieldName>
+    <orden><prev>coleccion</prev><next>institucion</next></orden><fieldName>Tipo de vegetación</fieldName>
     <fieldid>tipovegetacion</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Tipo de vegetación del sitio de recolecta u observación del ejemplar.</description>
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
+    <dataRules />
     <syntaxRules>
       <rule>El dato está escrito con mayúsculas y minúsculas según corresponda.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <after>tipo</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>tipo</prev><next /></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>tipo</after>
@@ -3009,16 +2752,13 @@ NO DISPONIBLE</subregla></rule>
       <rule>El valor NO significa que el ejemplar revisado no corresponde a un fósil.</rule>
       <rule>El valor vacío significa que no se tiene la certeza de que el ejemplar corresponde a un fósil.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <syntaxRules />
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden>
-      <after>licenciauso</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>geoportal</prev><next>urlejemplar</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>ejemplarfosil</after>
@@ -3045,10 +2785,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden>
-      <after>formadecitar</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>urlejemplar</prev><next>licenciauso</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>proyecto</after>
@@ -3076,10 +2813,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden>
-      <after>geoportal</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>licenciauso</prev><next>urlproyecto</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>fuente</after>
@@ -3090,17 +2824,14 @@ NO DISPONIBLE</subregla></rule>
     <description>Forma de citar los datos al hacer uso de estos o parte de estos.</description>
     <datatype>text</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <dataRules />
+    <syntaxRules />
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden>
-      <after>fuente</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>fuente</prev><next>formadecitar</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>formadecitar</after>
@@ -3135,8 +2866,8 @@ NO DISPONIBLE</subregla></rule>
       <rule>CC_BY_4_0 (Atribución 4.0 Internacional), esta licencia permite copiar y redistribuir el material en cualquier medio o formato, también remezclar, transformar y crear a partir del material, para cualquier propósito incluso comercialmente. Debe darse crédito a la obra de manera adecuada, proporcionando un enlace a la licencia, e indicando si se han realizado cambios. Puede hacerse en cualquier forma razonable, pero no de forma tal que sugiera que usted o su uso tienen el apoyo del autor. No se pueden aplicar términos legales ni medidas tecnológicas que restrinjan legalmente a otros hacer cualquier uso permitido por la licencia.</rule>
       <rule>CC_BY_NC_4_0 (Atribución-NoComercial 4.0 Internacional), esta licencia permite copiar y redistribuir el material en cualquier medio o formato. Remezclar, transformar y crear a partir del material. Se debe reconocer adecuadamente la autoría, proporcionar un enlace a la licencia e indicar si se han realizado cambios. Puede hacerse de cualquier manera razonable, pero no de una manera que sugiera que tiene el apoyo del autor o lo recibe por el uso que hace. No se puede utilizar el material para una finalidad comercial.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>Para más información acerca de los tipos de Licencias de uso véase:</note>
       <note>https://creativecommons.org/licenses/?lang=es</note>
@@ -3147,10 +2878,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden>
-      <after>urlorigen</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>formadecitar</prev><next>version</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>licenciauso</after>
@@ -3172,10 +2900,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden>
-      <after>urlejemplar</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>version</prev><next>ultimafechaactualizacion</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>urlproyecto</after>
@@ -3186,17 +2911,14 @@ NO DISPONIBLE</subregla></rule>
     <description>Dirección de internet que permite consultar la información del ejemplar en su fuente original.</description>
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <dataRules />
+    <syntaxRules />
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden>
-      <after>proyecto</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>proyecto</prev><next>fuente</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>urlorigen</after>
@@ -3207,17 +2929,14 @@ NO DISPONIBLE</subregla></rule>
     <description>Dirección de internet que permite consultar la información del ejemplar proporcionada en las bases de datos originales y la estandarizada por la CONABIO de tipo curatorial, taxonómica y geográfica.</description>
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <dataRules />
+    <syntaxRules />
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden>
-      <first/>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev /><next>proyecto</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>urlejemplar</after>
@@ -3232,8 +2951,8 @@ NO DISPONIBLE</subregla></rule>
       <rule>El valor 1 significa que el registro sí es descargable desde el Geoportal.</rule>
       <rule>El valor 0 significa que el registro no es descargable desde el Geoportal.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
+    <syntaxRules />
+    <infoRules />
     <notes>
       <note>Geoportal de la CONABIO en http://geoportal.conabio.gob.mx/</note>
       <note>Disponible sólo en la descarga de ejemplares del SNIB en https://www.snib.mx/ejemplares/descarga/.</note>
@@ -3241,10 +2960,7 @@ NO DISPONIBLE</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden>
-      <last/>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>urlorigen</prev><next /></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>geoportal</after>
@@ -3254,18 +2970,15 @@ NO DISPONIBLE</subregla></rule>
     <dwcField>modified</dwcField>
     <description>Fecha de última actualización de los datos en la base de datos de la CONABIO.</description>
     <datatype>date</datatype>
-    <encoding/>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <encoding />
+    <dataRules />
+    <syntaxRules />
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden>
-      <after>urlproyecto</after>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <orden><prev>urlproyecto</prev><next>urlorigen</next></orden><downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>ultimafechaactualizacion</after>
@@ -3276,20 +2989,17 @@ NO DISPONIBLE</subregla></rule>
     <description>Versión que corresponde a las decisiones de los procesos de revisión aplicados a los datos en la CONABIO, así como, la información de referencia (mapas, catálogos, etc.) que se utiliza para realizar dicha revisión al integrar al SNIB. Cada vez que se cambien estás decisiones afectando la revisión de los datos, se cambiará la versión y se publicará el documento de versión del SNIB que describe los nuevos procesos y referencias correspondientes a la versión citada en este campo.</description>
     <datatype>varchar (7)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
+    <dataRules />
     <syntaxRules>
       <rule>Se muestra con el formato aaaa-mm.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <infoRules />
+    <notes />
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden>
-      <first/>
-    </orden>
-    <ordenTabla>
-      <first/>
+    <orden><prev /><next>obsusoinfo</next></orden><ordenTabla>
+      <first />
     </ordenTabla>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3300,7 +3010,7 @@ NO DISPONIBLE</subregla></rule>
     <datatype>varchar (32)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Dado que este identificador se genera para el ingreso del registro al SNIB, &eacute;ste no corresponder&aacute; al identificador del ejemplar en las fuentes originales de informaci&oacute;n del SNIB.</p>]]></note>
+      <note>&lt;p&gt;Dado que este identificador se genera para el ingreso del registro al SNIB, &amp;eacute;ste no corresponder&amp;aacute; al identificador del ejemplar en las fuentes originales de informaci&amp;oacute;n del SNIB.&lt;/p&gt;</note>
     </notes>
     <dataRules>
       <rule>Este valor se preserva para los ejemplares registrados en el SNIB.</rule>
