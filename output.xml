@@ -18,7 +18,7 @@
   <snibTerm>
     <category>Informaci&#xF3;n geogr&#xE1;fica del ejemplar</category>
     <orden>
-      <prev></prev>
+      <prev/>
       <next>localidad</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -738,7 +738,7 @@ Si el ejemplar tiene coordenada geogr&#xE1;fica:
     <category>Informaci&#xF3;n geogr&#xE1;fica del ejemplar</category>
     <orden>
       <prev>mt24clavemunicipiomapa</prev>
-      <next/>
+      <next>Alfinal</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3434,5 +3434,25 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
     <campos>
       <campo>urlejemplar</campo>
     </campos>
+  </snibTerm>
+  <snibTerm>
+    <category>Informaci&#xF3;n geogr&#xE1;fica del ejemplar</category>
+    <orden>
+      <next/>
+      <prev>incertidumbrexy</prev>
+    </orden>
+    <fieldName>Al final</fieldName>
+    <fieldid>Alfinal</fieldid>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>true</downloadSnib>
+    <campos>
+      <campo>localidad</campo>
+      <campo>region</campo>
+    </campos>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>127d21638cc105ce290844e6abb7e870</key>
+      <key>096c765542c6bb8f65d0abfd102e9af0</key>
+    </ejemplar>
   </snibTerm>
 </snibDictionary>
