@@ -53,9 +53,6 @@
 <campo>estadooriginal</campo>
 <campo>municipiooriginal</campo>
 </campos>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
 </snibTerm>
 <snibTerm>
 <category>Información geográfica del ejemplar</category>
@@ -79,9 +76,7 @@
 </dataRules>
 <syntaxRules/>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Información geográfica del ejemplar</category>
@@ -116,7 +111,6 @@
 </infoRules>
 <notes>
 <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -152,7 +146,6 @@
 </infoRules>
 <notes>
 <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -183,7 +176,6 @@
 <infoRules/>
 <notes>
 <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -216,9 +208,7 @@
 </dataRules>
 <syntaxRules/>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Validación de la información geográfica</category>
@@ -238,9 +228,12 @@
 <datatype>varchar (200)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Para los ejemplares que resultaron no v&aacute;lidos a nivel de municipio, en el campo Observaciones del uso de la informaci&oacute;n se especifica la distancia de desfase respecto al municipio (campo municipiooriginal).</p></note>
-<note><p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p></note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
+<note>
+<![CDATA[ <p>Para los ejemplares que resultaron no v&aacute;lidos a nivel de municipio, en el campo Observaciones del uso de la informaci&oacute;n se especifica la distancia de desfase respecto al municipio (campo municipiooriginal).</p> ]]>
+</note>
+<note>
+<![CDATA[ <p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p> ]]>
+</note>
 </notes>
 <dataRules>
 <rule>
@@ -303,9 +296,12 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p></note>
-<note><p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p></note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
+<note>
+<![CDATA[ <p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p> ]]>
+</note>
+<note>
+<![CDATA[ <p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p> ]]>
+</note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
@@ -349,7 +345,6 @@ El dominio de los valores permitidos está dado por:
 <note>CONABIO. 2019. Mapa de validación en la Zona económica exclusiva para los sitios marinos de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México. URL:  http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</note>
 <note>Estados Unidos de América, Colombia y el Caribe CONABIO. 2019. Mapa de validación por divisiones políticas para los sitios terrestres de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México. URL:  http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</note>
 <note>CONABIO. 2019. Mapa de validación en la Zona económica exclusiva para los sitios marinos de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México. URL:  http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 <dataRules>
 <rule>Si el ejemplar no tiene coordenada geográfica no se asigna valor.</rule>
@@ -386,9 +381,12 @@ Si el ejemplar tiene coordenada geográfica:
 <datatype>varchar (55)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO</p></note>
-<note><p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p></note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
+<note>
+<![CDATA[ <p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO</p> ]]>
+</note>
+<note>
+<![CDATA[ <p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p> ]]>
+</note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
@@ -444,7 +442,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>El Caribe, Colombia y Estados Unidos de América</note>
 <note>CONABIO, 2019. Mapa de validación por divisiones políticas para los sitios terrestres de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.</note>
 <note>URL: http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -484,7 +481,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>El Caribe, Colombia y Estados Unidos de América</note>
 <note>CONABIO. 2019. Mapa de validación por divisiones políticas para los sitios terrestres de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.</note>
 <note>URL: http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -521,7 +517,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>Centroamérica, el Caribe, Colombia y Estados Unidos de América</note>
 <note>CONABIO. 2019. Mapa de validación en la Zona económica exclusiva para los sitios marinos de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.</note>
 <note>URL: http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -546,7 +541,7 @@ Si el ejemplar tiene coordenada geográfica:
 </dataRules>
 <syntaxRules>
 <rule>La clave se compone de dos caracteres numéricos para México.</rule>
-<rule>La clave se compone de cinco caracteres numéricos para otros países: los tres primeros corresponden a la clave ISO 3166-1 numérico del país, las siguientes dos al estado.</rule>
+<rule>La clave se compone de cinco caracteres numéricos para otros países: los tres primeros corresponden a la clave ISO 3166-1 numérico del país, los siguientes dos al estado.</rule>
 </syntaxRules>
 <infoRules>
 <rule>La clave del estado corresponde con el estado asignado en el campo mt24nombreestadomapa.</rule>
@@ -561,7 +556,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>Centroamérica, el Caribe, Colombia y Estados Unidos de América</note>
 <note>CONABIO, 2019. Mapa de validación en la Zona económica exclusiva para los sitios marinos de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.</note>
 <note>URL: http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -581,9 +575,12 @@ Si el ejemplar tiene coordenada geográfica:
 <datatype>varchar (80)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p></note>
-<note><p>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p></note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
+<note>
+<![CDATA[ <p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p> ]]>
+</note>
+<note>
+<![CDATA[ <p>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p> ]]>
+</note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el dato que no fue proporcionado en la base de datos original.</rule>
@@ -636,7 +633,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>El Caribe, Colombia y Estados Unidos de América</note>
 <note>CONABIO., 2019. Mapa de validación por divisiones políticas para los sitios terrestres de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.</note>
 <note>URL: http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -678,7 +674,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>El Caribe, Colombia y Estados Unidos de América</note>
 <note>CONABIO., 2019. Mapa de validación por divisiones políticas para los sitios terrestres de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.</note>
 <note>URL: http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -713,7 +708,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>Centroamérica, el Caribe, Colombia y Estados Unidos de América</note>
 <note>CONABIO. 2019. Mapa de validación en la Zona económica exclusiva para los sitios marinos de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.</note>
 <note>URL: http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -753,7 +747,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>Centroamérica, el Caribe, Colombia y Estados Unidos de América</note>
 <note>CONABIO., 2019. Mapa de validación en la Zona económica exclusiva para los sitios marinos de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.</note>
 <note>URL: http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -791,7 +784,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>URL: https://www.biodiversidad.gob.mx/media/1/conabio/documentos/proyectos/guia_georreferenciacion_2021_WEBc.pdf</note>
 <note>Wieczorek, J. Q Guo and Hijmans. R.J. (2004). The point-radius method for georeferencing locality descriptions and calculating associated uncertainty. International Journal of Geographical Information Science. Vol. 18, no. 8.</note>
 <note>URL: https://www.tandfonline.com/doi/abs/10.1080/13658810412331280211</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -820,7 +812,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
 <note>Para más información acerca del modelo de elevación véase:</note>
 <note>ASTER GDEM2. 2011. Modelo Digital de Elevación Global ASTER Versión 2, escala 1:50000 (celda de 30x30 m). The Ministry of Economy, Trade and Industry of Japan (METI)- The National Aeronautics and Space Administration (NASA). Procesado en la CONABIO México. (Consultado el 2011-08-31 URL: http://www.jspacesystems.or.jp/ersdac/GDEM/E/)</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -851,7 +842,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>Para más información sobre el uso de suelo y vegetación serie I véase:</note>
 <note>INE - INEGI. 1997. Uso del suelo y vegetación (INEGI-INE), serie I. Escala 1:250000. Instituto Nacional de Ecología - Dirección de Ordenamiento Ecológico General e Instituto Nacional de Estadística, Geografía e Informática. Digitalización de las cartas de uso del suelo y vegetación elaboradas por INEGI entre los años 1980-1991 con base en fotografías aéreas de 1968-1986. México D. F.</note>
 <note>URL: http://geoportal.conabio.gob.mx/#!l=usv250kcs1agw:1@m=mixto</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -882,7 +872,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>Para más información sobre el uso de suelo y vegetación serie II véase:</note>
 <note>INEGI. 2001. Conjunto de datos vectoriales de la carta de uso del suelo y vegetación. Escala 1:250000. Serie II (continuo nacional). Dirección General de Geografía. Instituto Nacional de Estadística, Geografía e Informática. Aguascalientes Ags. México.</note>
 <note>URL: http://geoportal.conabio.gob.mx/#!l=usv250ks2gw:1@m=mixto</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -913,7 +902,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>Para más información sobre el uso de suelo y vegetación serie III véase:</note>
 <note>INEGI. 2005. Conjunto de datos vectoriales de la carta de uso del suelo y vegetación. Escala 1:250000. Serie III (continuo nacional). Dirección General de Geografía. Instituto Nacional de Estadística, Geografía e Informática. Aguascalientes Ags. México.</note>
 <note>URL: http://geoportal.conabio.gob.mx/#!l=usv250ks3gw:1@m=mixto</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -944,7 +932,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>Para más información sobre el uso de suelo y vegetación serie IV véase:</note>
 <note>INEGI. 2009. Conjunto de datos vectoriales de la carta de uso del suelo y vegetación. Escala 1:250000. Serie IV (continuo nacional). Instituto Nacional de Estadística, Geografía e Informática. Aguascalientes Ags. México.</note>
 <note>URL: http://geoportal.conabio.gob.mx/#!l=usv250ks4gw:1@m=mixto</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -974,7 +961,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
 <note>Para más información sobre el uso de suelo y vegetación serie V véase:</note>
 <note>INEGI. 2013. Conjunto de datos vectoriales de uso de suelo y vegetación. Serie V (capa Unión). Escala 1:250000. Instituto Nacional de Estadística y Geografía. México. URL: http://geoportal.conabio.gob.mx/#!l=usv250s5ugw:1@m=mixto</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -1004,7 +990,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
 <note>Para más información sobre el uso de suelo y vegetación serie VI véase:</note>
 <note>INEGI. 2016. Uso de suelo y vegetación, escala 1:250000, serie VI (continuo nacional), escala 1:250000. Instituto Nacional de Estadística y Geografía. México.URL: http://geoportal.conabio.gob.mx/#!l=usv250s6gw:1@m=mixto</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -1035,7 +1020,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>Para más información sobre el uso de suelo y vegetación serie VII véase:</note>
 <note>INEGI. 2021. Conjunto de Datos Vectoriales de Uso de Suelo y Vegetación. Escala 1:250 000, Serie VII. Conjunto Nacional., escala: 1:250 000. edición: 1. Instituto Nacional de Estadística y Geografía. Aguascalientes, México.</note>
 <note>URL: http://geoportal.conabio.gob.mx/#!l=usv250s7gw:1,usv250s7gw:1@m=mixto</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -1065,7 +1049,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
 <note>Para más información sobre cobertura de suelo y vegetación véase:Blanco, P. D., Colditz, R. R., López, G., Hardtke, L. A., Llamas, R. M., Mari, N. A., Barrena Arroyo, V. (2013). A land cover map of Latin America and the Caribbean in the framework of the SERENA project. Remote Sensing of Environment, 132, 13–31.</note>
 <note>URL: https://www.biodiversidad.gob.mx/monitoreo/cobertura-suelo/baja-resolucion/SERENA</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -1094,7 +1077,7 @@ Si el ejemplar tiene coordenada geográfica:
 <rule>El valor se conforma por la jurisdicción del ANP “Internacional“, “International”, “Nacional“, “National”, “Federal“, “Estatal”, “Regional“, “Municipal”, ”Estatal y Municipal”, “Ejidal”, “Privado” y “Comunitaria“, seguido de comilla angular derecha y un espacio “» ”, posteriormente el nombre y al final se puede presentar la distancia a la ANP más cercana.</rule>
 <rule>Cuando la coordenada registrada para el ejemplar se ubica en más de un ANP se concatena aplicando la regla 1 separando cada ANP con un pipe “|” con un espacio antes y después.</rule>
 <rule>Se incluye entre llaves “{ }” la distancia en kilómetros a la que se encuentra la coordenada de la ANP.</rule>
-<rule>Como parte del nombre de las ANP se pueden encontrar los siguientes caracteres especiales (),-&amp;./–"[]'\_´ ̃ ̃:@#+?*!% ; `</rule>
+<rule>Como parte del nombre de las ANP se pueden encontrar los siguientes caracteres especiales (),-&./–"[]'\_´ ̃ ̃:@#+?*!% ; `</rule>
 <rule>Las ANP que se comparten en más de un país se diferencian en el nombre por la abreviación del país alfa-2 de la ISO 3166.</rule>
 </syntaxRules>
 <infoRules/>
@@ -1106,7 +1089,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>URL: http://geoportal.conabio.gob.mx/#!l=anpsp2024gw:1@m=mixto</note>
 <note>Para las ANP de otros países véase:</note>
 <note>UNEP-WCMC y UICN. 2024, Protected Planet: The World Database on Protected Areas (WDPA) [Online], octubre de 2024, Cambridge, UK: UNEP-WCMC y UICN. URL: https://www.protectedplanet.net/en</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -1143,7 +1125,6 @@ Si el ejemplar tiene coordenada geográfica:
 <notes>
 <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
 <note>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -1176,7 +1157,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>URL: http://www.conabio.gob.mx/informacion/gis/?vns=gis_root/region/biotic/ecort08gw</note>
 <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
 <note>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -1210,7 +1190,6 @@ Si el ejemplar tiene coordenada geográfica:
 <note>URL: http://www.conabio.gob.mx/informacion/gis/?vns=gis_root/hidro/chidro/cue250k_07gw</note>
 <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
 <note>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -1231,9 +1210,12 @@ Si el ejemplar tiene coordenada geográfica:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p></note>
-<note><p>Los grupos biol&oacute;gicos de Bacterias y Virus no se publican en el Geoportal de la CONABIO.</p></note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
+<note>
+<![CDATA[ <p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p> ]]>
+</note>
+<note>
+<![CDATA[ <p>Los grupos biol&oacute;gicos de Bacterias y Virus no se publican en el Geoportal de la CONABIO.</p> ]]>
+</note>
 </notes>
 <dataRules>
 <rule>Los valores vacío y NO DISPONIBLE significan que no se cuenta con la información taxonómica suficiente para asignar el grupo biológico.</rule>
@@ -1275,8 +1257,9 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (250)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p></note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
+<note>
+<![CDATA[ <p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p> ]]>
+</note>
 </notes>
 <dataRules>
 <rule>El valor NO DISPONIBLE significa que no se cuenta con la información taxonómica suficiente para asignar el subgrupo biológico. Por lo anterior, no existen valores vacíos o nulos.</rule>
@@ -1318,9 +1301,12 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p></note>
-<note><p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p></note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
+<note>
+<![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]>
+</note>
+<note>
+<![CDATA[ <p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p> ]]>
+</note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el reino no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o no fue proporcionado en las bases de datos originales.</rule>
@@ -1359,10 +1345,15 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p></note>
-<note><p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p></note>
-<note><p>La equivalencia en Darwin Core puede ser phylum, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos este campo sin equivalencia con Darwin Core en lugar de phylum que lo asignamos al campo phylumdivisionv&aacute;lido.</p></note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
+<note>
+<![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]>
+</note>
+<note>
+<![CDATA[ <p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p> ]]>
+</note>
+<note>
+<![CDATA[ <p>La equivalencia en Darwin Core puede ser phylum, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos este campo sin equivalencia con Darwin Core en lugar de phylum que lo asignamos al campo phylumdivisionv&aacute;lido.</p> ]]>
+</note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el phylum o división no fue proporcionado en las bases de datos originales.</rule>
@@ -1405,10 +1396,15 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p></note>
-<note><p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p></note>
-<note><p>La equivalencia en Darwin Core tambi&eacute;n puede ser class, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de class que lo asignamos al campo clase v&aacute;lida.</p></note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
+<note>
+<![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]>
+</note>
+<note>
+<![CDATA[ <p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p> ]]>
+</note>
+<note>
+<![CDATA[ <p>La equivalencia en Darwin Core tambi&eacute;n puede ser class, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de class que lo asignamos al campo clase v&aacute;lida.</p> ]]>
+</note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el nombre de la clase no fue proporcionado en las bases de datos originales.</rule>
@@ -1456,10 +1452,15 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p></note>
-<note><p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p></note>
-<note><p>La equivalencia en Darwin Core puede ser order, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos este campo sin equivalencia con Darwin Core en lugar de order que lo asignamos al campo orden v&aacute;lido.</p></note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
+<note>
+<![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]>
+</note>
+<note>
+<![CDATA[ <p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p> ]]>
+</note>
+<note>
+<![CDATA[ <p>La equivalencia en Darwin Core puede ser order, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos este campo sin equivalencia con Darwin Core en lugar de order que lo asignamos al campo orden v&aacute;lido.</p> ]]>
+</note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el nombre del orden no fue proporcionado en las bases de datos originales.</rule>
@@ -1507,10 +1508,15 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo urlejemplar.</p></note>
-<note><p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores ortogr&aacute;ficos, as&iacute; como la estandarizaci&oacute;n a sistemas de clasificaci&oacute;n reconocidos por la comunidad cient&iacute;fica.</p></note>
-<note><p>La equivalencia en Darwin Core puede ser family, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de family que lo asignamos al campo familia v&aacute;lida.</p></note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
+<note>
+<![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo urlejemplar.</p> ]]>
+</note>
+<note>
+<![CDATA[ <p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores ortogr&aacute;ficos, as&iacute; como la estandarizaci&oacute;n a sistemas de clasificaci&oacute;n reconocidos por la comunidad cient&iacute;fica.</p> ]]>
+</note>
+<note>
+<![CDATA[ <p>La equivalencia en Darwin Core puede ser family, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de family que lo asignamos al campo familia v&aacute;lida.</p> ]]>
+</note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el nombre de la familia no fue proporcionado en las bases de datos originales.</rule>
@@ -1558,10 +1564,15 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar.</p></note>
-<note><p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p></note>
-<note><p>La equivalencia en Darwin Core tambi&eacute;n puede ser genus, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo que la equivalencia con Darwin Core es dynamicProperties en lugar de genus que lo asignamos al campo g&eacute;nero v&aacute;lido.</p></note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
+<note>
+<![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar.</p> ]]>
+</note>
+<note>
+<![CDATA[ <p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p> ]]>
+</note>
+<note>
+<![CDATA[ <p>La equivalencia en Darwin Core tambi&eacute;n puede ser genus, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo que la equivalencia con Darwin Core es dynamicProperties en lugar de genus que lo asignamos al campo g&eacute;nero v&aacute;lido.</p> ]]>
+</note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el nombre del género no fue proporcionado en las bases de datos originales.</rule>
@@ -1608,10 +1619,15 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (100)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar.</p></note>
-<note><p>La CONABIO realiz&oacute; limpieza de este campo mediante la correcci&oacute;n de escritura y de datos que no corresponden con el campo.</p></note>
-<note><p>Se debe observar la regla de sintaxis 1, para apreciar las diferencias con respecto a la descripci&oacute;n de scientificName en Darwin Core, por ejemplo, no se incluye el autor y a&ntilde;o de descripci&oacute;n.</p></note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
+<note>
+<![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar.</p> ]]>
+</note>
+<note>
+<![CDATA[ <p>La CONABIO realiz&oacute; limpieza de este campo mediante la correcci&oacute;n de escritura y de datos que no corresponden con el campo.</p> ]]>
+</note>
+<note>
+<![CDATA[ <p>Se debe observar la regla de sintaxis 1, para apreciar las diferencias con respecto a la descripci&oacute;n de scientificName en Darwin Core, por ejemplo, no se incluye el autor y a&ntilde;o de descripci&oacute;n.</p> ]]>
+</note>
 </notes>
 <dataRules>
 <rule>Cuando la especie no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o referencias bibliográficas especializadas con las que cuenta la CONABIO, en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
@@ -1680,9 +1696,6 @@ El dominio de los valores permitidos está dado principalmente por:
 <campo>categoriainfraespecie</campo>
 <campo>especie</campo>
 </campos>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
@@ -1704,9 +1717,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <dataRules/>
 <syntaxRules/>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
@@ -1730,9 +1741,7 @@ El dominio de los valores permitidos está dado principalmente por:
 </dataRules>
 <syntaxRules/>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
@@ -1762,9 +1771,7 @@ El dominio de los valores permitidos está dado principalmente por:
 </dataRules>
 <syntaxRules/>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
@@ -1788,9 +1795,7 @@ El dominio de los valores permitidos está dado principalmente por:
 </dataRules>
 <syntaxRules/>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
@@ -1816,9 +1821,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <rule>El dato se escribe con la primera letra en mayúscula.</rule>
 </syntaxRules>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
@@ -1845,9 +1848,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <rule>El dato se escribe con la primera letra en mayúscula.</rule>
 </syntaxRules>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
@@ -1874,9 +1875,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <rule>El dato se escribe con la primera letra en mayúscula.</rule>
 </syntaxRules>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
@@ -1903,9 +1902,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <rule>El dato se escribe con la primera letra en mayúscula.</rule>
 </syntaxRules>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
@@ -1932,9 +1929,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <rule>El dato se escribe con la primera letra en mayúscula.</rule>
 </syntaxRules>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
@@ -1962,7 +1957,6 @@ El dominio de los valores permitidos está dado principalmente por:
 <infoRules/>
 <notes>
 <note>El estatus de este nombre está respaldado con la referencia taxonómica que se cita en el campo referencia taxonómica del nombre válido.</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -1993,7 +1987,6 @@ El dominio de los valores permitidos está dado principalmente por:
 <notes>
 <note>El campo referencia taxonómica del nombre válido, indica que referencia usó la CONABIO para asignar el nombre científico válido.</note>
 <note>Se debe observar la regla de sintaxis 1, para apreciar las diferencias con respecto a la descripción de acceptedNameUsage en Darwin Core, por ejemplo, no se incluye el nombre y año de la autoridad del nombre.</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -2016,9 +2009,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <dataRules/>
 <syntaxRules/>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
@@ -2040,9 +2031,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <dataRules/>
 <syntaxRules/>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
@@ -2068,7 +2057,6 @@ El dominio de los valores permitidos está dado principalmente por:
 <note>Para más información véase:</note>
 <note>Comisión Internacional de Nomenclatura Zoológica, 2000. Código Internacional de Nomenclatura Zoológica. Cuarta edición. Versión española. International Trust Zoological Nomenclature. Madrid, España. 141 p. URL: http://www.sam.mncn.csic.es/codigo.pdf</note>
 <note>International Plant Names Index, 2012. Capítulo VI. citación, sección 1. citas de autor, recomendación 46A, Nota 1 del Código Internacional de Nomenclatura para algas, hongos y plantas. URL: http://www.ipni.org/</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -2094,9 +2082,7 @@ El dominio de los valores permitidos está dado principalmente por:
 </dataRules>
 <syntaxRules/>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
@@ -2121,9 +2107,7 @@ El dominio de los valores permitidos está dado principalmente por:
 </dataRules>
 <syntaxRules/>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Atributos biológicos y ecológicos</category>
@@ -2149,14 +2133,13 @@ El dominio de los valores permitidos está dado principalmente por:
 <rule>Cuasiendémica</rule>
 <rule>El valor Endémica significa que corresponde a un taxón endémico.</rule>
 <rule>El valor Semiendémica significa: especies cuya población completa se distribuye únicamente en México durante cierta época del año.</rule>
-<rule>El valor Cuasiendémica significa: especies que tienen áreas de distribución que se extienden ligeramente fuera de México hacia algún país vecino (&lt; 35,000 km2), debido a la continuidad de los hábitats.</rule>
+<rule>El valor Cuasiendémica significa: especies que tienen áreas de distribución que se extienden ligeramente fuera de México hacia algún país vecino (< 35,000 km2), debido a la continuidad de los hábitats.</rule>
 <rule>El valor vacío significa que no se ha revisado si el taxón se considera o no como endémico en México.</rule>
 </dataRules>
 <syntaxRules/>
 <infoRules/>
 <notes>
 <note>En los Catálogos de Autoridades Taxonómicas de la CONABIO, hemos marcado (de manera no exhaustiva) especies endémicas de plantas y animales con base en las referencias especializadas citadas en los Catálogos de Autoridades Taxonómicas.</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -2186,9 +2169,7 @@ El dominio de los valores permitidos está dado principalmente por:
 </dataRules>
 <syntaxRules/>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Atributos biológicos y ecológicos</category>
@@ -2227,9 +2208,6 @@ El dominio de los valores permitidos está dado principalmente por:
 <key>1ed93ff116dedf342b61564b03165c38</key>
 <key>58c748abaeab72f3ad5f3041fc76d5bc</key>
 </ejemplar>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
 </snibTerm>
 <snibTerm>
 <category>Atributos biológicos y ecológicos</category>
@@ -2258,7 +2236,6 @@ El dominio de los valores permitidos está dado principalmente por:
 <infoRules/>
 <notes>
 <note>En la CONABIO hemos decidido dar preferencia a los datos de nombre común clasificados en idioma español (tipificados así desde la base de datos origen). Pueden existir nombres comunes en otras lenguas.</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -2281,9 +2258,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <dataRules/>
 <syntaxRules/>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
@@ -2305,9 +2280,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <dataRules/>
 <syntaxRules/>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Atributos biológicos y ecológicos</category>
@@ -2336,20 +2309,19 @@ El dominio de los valores permitidos está dado principalmente por:
 <infoRules/>
 <notes>
 <note>Para más información ver:</note>
-<note>Davidse, G., Sousa Sánchez, M., Knapp, S. &amp; Chiang Cabrera, F. 1994 - 2020. Life Form. Fl. Mesoamer. In: Davidse, G., Sousa Sánchez, M., Knapp, S. &amp; Chiang Cabrera, F. (Eds.). Versión online. Disponible en: http://www.tropicos.org/ProjectAdvSearch.aspx?projectid=3&amp;langid=66</note>
-<note>Davidse, G., Sousa Sánchez, M. &amp; Chater, A. O. 1994. Fl. Mesoamer. Alismataceae a Cyperaceae. In: Davidse, G., Sousa Sánchez, M. &amp; Chater, A. O. (Eds.). 6: i–xvi, 1–543. Universidad Nacional Autónoma de México, México, D. F.</note>
-<note>Davidse, G. D., Sousa Sánchez, M., Knapp, S. &amp; Chiang Cabrera, F. (Eds.). 1996-onwards. Descripción de familias y claves genéricas. In: Davidse, G., Sousa Sánchez, M., Knapp, S. &amp; Chiang Cabrera, F. (Eds.). Fl. Mesoamer. Versión online. Disponible en: http://www.tropicos.org/ProjectAdvSearchVersión online (consultada a partir de 2015).</note>
-<note>Gual Díaz, M., Rendón Correa A. &amp; Mariaca Méndez, R. 2020. Especies vegetales con uso combustible por comunidades rurales mexicanas. Etnobiología. 18 vol 3: 113-135</note>
-<note>Gual, D. M. &amp; Rendón, C. A. 2019. Sistema de Información de los Usos y Manejo de la Biodiversidad Mexicana (Fase I Árboles). Base de datos Nomenclátor de las Especies Arbóreas de México. Proyecto 10161. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO). México</note>
-<note>Hágsater, E. Soto-Arenas, M. A., Salazar, G., Jiménez-Machorro, R., López-Rosas, M. A. &amp; Dressler, R. L. 2015. Las Orquídeas de México, 2a. reimpresión. Instituto Chinoín A. C. México</note>
-<note>Ibarra-Manríquez, G., Rendón-Sandoval, F. J., Cornejo-Tenorio, G. &amp; Carrillo-Reyes, P. 2015. Lianas of Mexico. Bot. Sci. 93 (3): 365-417.</note>
+<note>Davidse, G., Sousa Sánchez, M., Knapp, S. & Chiang Cabrera, F. 1994 - 2020. Life Form. Fl. Mesoamer. In: Davidse, G., Sousa Sánchez, M., Knapp, S. & Chiang Cabrera, F. (Eds.). Versión online. Disponible en: http://www.tropicos.org/ProjectAdvSearch.aspx?projectid=3&langid=66</note>
+<note>Davidse, G., Sousa Sánchez, M. & Chater, A. O. 1994. Fl. Mesoamer. Alismataceae a Cyperaceae. In: Davidse, G., Sousa Sánchez, M. & Chater, A. O. (Eds.). 6: i–xvi, 1–543. Universidad Nacional Autónoma de México, México, D. F.</note>
+<note>Davidse, G. D., Sousa Sánchez, M., Knapp, S. & Chiang Cabrera, F. (Eds.). 1996-onwards. Descripción de familias y claves genéricas. In: Davidse, G., Sousa Sánchez, M., Knapp, S. & Chiang Cabrera, F. (Eds.). Fl. Mesoamer. Versión online. Disponible en: http://www.tropicos.org/ProjectAdvSearchVersión online (consultada a partir de 2015).</note>
+<note>Gual Díaz, M., Rendón Correa A. & Mariaca Méndez, R. 2020. Especies vegetales con uso combustible por comunidades rurales mexicanas. Etnobiología. 18 vol 3: 113-135</note>
+<note>Gual, D. M. & Rendón, C. A. 2019. Sistema de Información de los Usos y Manejo de la Biodiversidad Mexicana (Fase I Árboles). Base de datos Nomenclátor de las Especies Arbóreas de México. Proyecto 10161. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO). México</note>
+<note>Hágsater, E. Soto-Arenas, M. A., Salazar, G., Jiménez-Machorro, R., López-Rosas, M. A. & Dressler, R. L. 2015. Las Orquídeas de México, 2a. reimpresión. Instituto Chinoín A. C. México</note>
+<note>Ibarra-Manríquez, G., Rendón-Sandoval, F. J., Cornejo-Tenorio, G. & Carrillo-Reyes, P. 2015. Lianas of Mexico. Bot. Sci. 93 (3): 365-417.</note>
 <note>POWO. 2019-2024 (onwards). Plants of the World Online. Facilitated by the Royal Botanic Gardens, Kew. Published on the Internet; http://www.plantsoftheworldonline.org/</note>
-<note>Pruski, J. F. &amp; Robinson, H. 2018. Asteraceae. Fl. Mesoamer. In: Davidse, G. D., Sousa, M., Knapp, S. &amp; Chiang, F. (Eds.). 5(2): i-xix, 1-608. Missouri Botanical Garden, St. Louis.</note>
-<note>Ricker, M., Calónico, J., Castillo-Santiago, M. A., Galicia, A., Kleinn, C., Martínez-Salas, E. M., Mondragón, E., Mora, M. A., Ramos, L. J., Ramos, C. H. &amp; Villela, S. A. 2022. Mexico’s Forest Diversity: Common Tree Species and Proposed Forest-Vegetation Provinces. Forests. 13, 1598</note>
-<note>Ricker, M., Hernández, H. M., Sousa, M. &amp; Ochoterena, H. 2013. Revista Mex. Biodivers. Especies arbóreas y arborescentes de México: Asteraceae, Leguminosae y Rubiaceae. 84: 439-470.</note>
-<note>Stevens, W. D., Ulloa Ulloa, C., Pool, A. &amp; Montiel Jarquín, O. M. 2001 (en adelante). Flora de Nicaragua. Flora de Nicaragua. Base de datos Online.</note>
+<note>Pruski, J. F. & Robinson, H. 2018. Asteraceae. Fl. Mesoamer. In: Davidse, G. D., Sousa, M., Knapp, S. & Chiang, F. (Eds.). 5(2): i-xix, 1-608. Missouri Botanical Garden, St. Louis.</note>
+<note>Ricker, M., Calónico, J., Castillo-Santiago, M. A., Galicia, A., Kleinn, C., Martínez-Salas, E. M., Mondragón, E., Mora, M. A., Ramos, L. J., Ramos, C. H. & Villela, S. A. 2022. Mexico’s Forest Diversity: Common Tree Species and Proposed Forest-Vegetation Provinces. Forests. 13, 1598</note>
+<note>Ricker, M., Hernández, H. M., Sousa, M. & Ochoterena, H. 2013. Revista Mex. Biodivers. Especies arbóreas y arborescentes de México: Asteraceae, Leguminosae y Rubiaceae. 84: 439-470.</note>
+<note>Stevens, W. D., Ulloa Ulloa, C., Pool, A. & Montiel Jarquín, O. M. 2001 (en adelante). Flora de Nicaragua. Flora de Nicaragua. Base de datos Online.</note>
 <note>Villaseñor, J. L., Ortiz, E., Alvarado, L., Mora, M. y G. Segura. 2013. La flora arbórea de México. Universidad Nacional Autónoma de México. Instituto de Biología. Informe final SNIB-CONABIO, proyecto JE012. México, D. F. http://www.conabio.gob.mx/institucion/proyectos/resultados/InfJE012.pdf</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -2381,9 +2353,8 @@ El dominio de los valores permitidos está dado principalmente por:
 <infoRules/>
 <notes>
 <note>Se hereda la misma categoría de prioridad a todos los taxones inferiores de la especie, a menos que este tenga su propia categoría de prioridad.</note>
-<note>PRIORITARIAS DOF 2014: SEMARNAT 2014. ACUERDO por el que se da a conocer la lista de especies y poblaciones prioritarias para la conservación. Diario Oficial de la Federación, miércoles 5 de marzo de 2014, 2-15 p. http://dof.gob.mx/nota_detalle.php?codigo=5334865&amp;fecha=05/03/2014</note>
-<note>Sánchez, O., Ayala, B., Valera, A., Koleff, P., Cruz, L., de la Cruz, E., Caso, M. &amp; Santos del Prado, K. (Eds.). 2012a. Propuesta de lista de especies prioritarias para la conservación en México. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad, Comisión Nacional de Áreas Naturales Protegidas, Instituto Nacional de Ecología, Dirección General de Vida Silvestre, Procuraduría Federal de Protección al Ambiente. México, D. F. 24 pp.</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
+<note>PRIORITARIAS DOF 2014: SEMARNAT 2014. ACUERDO por el que se da a conocer la lista de especies y poblaciones prioritarias para la conservación. Diario Oficial de la Federación, miércoles 5 de marzo de 2014, 2-15 p. http://dof.gob.mx/nota_detalle.php?codigo=5334865&fecha=05/03/2014</note>
+<note>Sánchez, O., Ayala, B., Valera, A., Koleff, P., Cruz, L., de la Cruz, E., Caso, M. & Santos del Prado, K. (Eds.). 2012a. Propuesta de lista de especies prioritarias para la conservación en México. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad, Comisión Nacional de Áreas Naturales Protegidas, Instituto Nacional de Ecología, Dirección General de Vida Silvestre, Procuraduría Federal de Protección al Ambiente. México, D. F. 24 pp.</note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -2418,9 +2389,8 @@ El dominio de los valores permitidos está dado principalmente por:
 <notes>
 <note>El nivel de prioridad se asigna a los taxones designados en el Diario Oficial o en la CONABIO y a todos sus taxones subordinados, siempre y cuando estos no cuenten con un nivel de prioridad propio. Para más información acerca de la lista de especies prioritarias véase:</note>
 <note>PRIORITARIAS DOF 2014: SEMARNAT 2014. Acuerdo por el que se da a conocer la lista de especies y poblaciones prioritarias para la conservación. Diario Oficial de la Federación, miércoles 5 de marzo de 2014, 2-15 p.</note>
-<note>http://dof.gob.mx/nota_detalle.php?codigo=5334865&amp;fecha=05/03/2014</note>
-<note>Sánchez, O., Ayala, B., Valera, A., Koleff, P., Cruz, L., de la Cruz, E., Caso, M. &amp; Santos del Prado, K. (Eds.). 2012a. Propuesta de lista de especies prioritarias para la conservación en México. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad, Comisión Nacional de Áreas Naturales Protegidas, Instituto Nacional de Ecología, Dirección General de Vida Silvestre, Procuraduría Federal de Protección al Ambiente. México, D. F. 24 pp.</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
+<note>http://dof.gob.mx/nota_detalle.php?codigo=5334865&fecha=05/03/2014</note>
+<note>Sánchez, O., Ayala, B., Valera, A., Koleff, P., Cruz, L., de la Cruz, E., Caso, M. & Santos del Prado, K. (Eds.). 2012a. Propuesta de lista de especies prioritarias para la conservación en México. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad, Comisión Nacional de Áreas Naturales Protegidas, Instituto Nacional de Ecología, Dirección General de Vida Silvestre, Procuraduría Federal de Protección al Ambiente. México, D. F. 24 pp.</note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -2456,7 +2426,6 @@ El dominio de los valores permitidos está dado principalmente por:
 <notes>
 <note>Para más información acerca de la lista de especies invasoras y exóticas invasoras véase:</note>
 <note>CONABIO. 2023. Sistema de información sobre especies invasoras https://www.biodiversidad.gob.mx/especies/Invasoras .Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Cd. de México.</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -2485,8 +2454,7 @@ El dominio de los valores permitidos está dado principalmente por:
 <notes>
 <note>La categoría de riesgo se asigna a los taxones designados en la NORMA y a todos sus taxones subordinados. Para más información acerca de la lista de especies protegidas véase:</note>
 <note>SEMARNAT. 2019. MODIFICACIÓN del Anexo Normativo III, Lista de especies en riesgo de la Norma Oficial Mexicana NOM-059-SEMARNAT-2010, Protección ambiental-Especies nativas de México de flora y fauna silvestres. -Categorías de riesgo y especificaciones para su inclusión, exclusión o cambio-Lista de especies en riesgo, publicada el 30 de diciembre de 2010. Diario Oficial de la Federación. jueves 14 de noviembre de 2019, 1-101 p.</note>
-<note>URL https://www.dof.gob.mx/nota_detalle.php?codigo=5578808&amp;fecha=14/11/2019</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
+<note>URL https://www.dof.gob.mx/nota_detalle.php?codigo=5578808&fecha=14/11/2019</note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -2519,7 +2487,6 @@ El dominio de los valores permitidos está dado principalmente por:
 <note>El grado de protección se asigna a los taxones designados en la CITES con distribución en México y a todos sus taxones subordinados, siempre y cuando estos no cuenten con un grado de protección propio.</note>
 <note>Para más información acerca de los apéndices CITES:</note>
 <note>UNEP-WCMC (Comps.). 2022. The Checklist of CITES Species Website. CITES Secretariat, Geneva, Switzerland. Compiled by UNEP-WCMC, Cambridge, UK. Available at: http://checklist.cites.org. [Accessed 01/2023]</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -2559,7 +2526,6 @@ El dominio de los valores permitidos está dado principalmente por:
 <note>El estado de conservación se asigna a los taxones considerados en la lista roja IUCN para México y a todos sus taxones subordinados, siempre y cuando estos no cuenten con un estado de conservación propio.</note>
 <note>Para más información acerca de los estados de conservación de las especies:</note>
 <note>IUCN. 2024. The IUCN Red List of Threatened Species. Version 2024-1 https://www.iucnredlist.org Downloaded on 12 July 2024</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -2587,7 +2553,6 @@ El dominio de los valores permitidos está dado principalmente por:
 <infoRules/>
 <notes>
 <note>Algunas especies pueden contener más de una categoría de residencia. Las categorías de residencia de aves, son las usadas por NABCI URL: https://www.biodiversidad.gob.mx/media/1/ciencia-ciudadana/documentos/Lista_actualizada_aos_2019.pdf</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -2621,9 +2586,6 @@ El dominio de los valores permitidos está dado principalmente por:
 <campos>
 <campo>obsusoinfo</campo>
 </campos>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
@@ -2668,9 +2630,6 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <campo>paiscoleccion</campo>
 <campo>procedenciaejemplar</campo>
 </campos>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
@@ -2713,9 +2672,6 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <campo>paiscoleccion</campo>
 <campo>procedenciaejemplar</campo>
 </campos>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
@@ -2742,9 +2698,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <rule>El dato se escribe utilizando mayúsculas y sin acentos.</rule>
 </syntaxRules>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
@@ -2777,9 +2731,6 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <campo>especievalida</campo>
 <campo>numcatalogo</campo>
 </campos>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
@@ -2812,9 +2763,6 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <key>fbf1faef36b8c118181454c567b16828</key>
 <key>d657dfd6e49ebac83307d5706a9ae2e7</key>
 </ejemplar>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
@@ -2834,8 +2782,9 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <datatype>enum</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>M&aacute;s informaci&oacute;n del dominio de valores se encuentra en http://rs.tdwg.org/dwc/terms.htm#basisOfRecord</p></note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
+<note>
+<![CDATA[ <p>M&aacute;s informaci&oacute;n del dominio de valores se encuentra en http://rs.tdwg.org/dwc/terms.htm#basisOfRecord</p> ]]>
+</note>
 </notes>
 <dataRules>
 <rule>El dominio de los valores permitidos está dado por:</rule>
@@ -2888,9 +2837,6 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <campo>region</campo>
 <campo>localidad</campo>
 </campos>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
@@ -2916,9 +2862,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <rule>Se muestra con el formato aaaa.</rule>
 </syntaxRules>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
@@ -2946,9 +2890,6 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <campo>region</campo>
 <campo>localidad</campo>
 </campos>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
@@ -2974,9 +2915,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <rule>Se muestra con el formato dd.</rule>
 </syntaxRules>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
@@ -3003,9 +2942,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <rule>Se muestra con el formato aaaa-mm-dd.</rule>
 </syntaxRules>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
@@ -3029,9 +2966,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 </dataRules>
 <syntaxRules/>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
@@ -3059,9 +2994,6 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <campos>
 <campo>localidad</campo>
 </campos>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
@@ -3089,7 +3021,6 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <infoRules/>
 <notes>
 <note>Cuando la recolecta se llevó a cabo en un rango de fechas, en este campo se especifica solo el año inicial de recolecta.</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -3118,7 +3049,6 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <infoRules/>
 <notes>
 <note>Cuando la recolecta se llevó a cabo en un rango de fechas, en este campo se especifica solo el mes inicial de recolecta.</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -3147,7 +3077,6 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <infoRules/>
 <notes>
 <note>Si el evento de recolecta o de observación se llevó a cabo en un rango de fechas, en este campo se especifica solo el día inicial de recolecta u observación.</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -3177,7 +3106,6 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <infoRules/>
 <notes>
 <note>Si el evento de recolecta o de observación se llevó a cabo en un rango de fechas, en este campo se especifica solo la fecha inicial de recolecta u observación.</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -3209,9 +3137,6 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <campo>especievalida</campo>
 <campo>tipo</campo>
 </campos>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
@@ -3230,9 +3155,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <rule>El dato está escrito con mayúsculas y minúsculas según corresponda.</rule>
 </syntaxRules>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
@@ -3261,9 +3184,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 </dataRules>
 <syntaxRules/>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Otros</category>
@@ -3295,9 +3216,6 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <key>002d0295326a07053b72981d6d8d6079</key>
 <key>002e91a862a088f95eb381bb958e53bc</key>
 </ejemplar>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
 </snibTerm>
 <snibTerm>
 <category>Otros</category>
@@ -3330,9 +3248,6 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <campo>fuente</campo>
 <campo>formadecitar</campo>
 </campos>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
 </snibTerm>
 <snibTerm>
 <category>Otros</category>
@@ -3354,9 +3269,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <dataRules/>
 <syntaxRules/>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Otros</category>
@@ -3407,7 +3320,6 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <note>https://creativecommons.org/publicdomain/zero/1.0/deed.es</note>
 <note>https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES</note>
 <note>https://creativecommons.org/licenses/by/4.0/deed.es</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -3435,9 +3347,6 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <key>000000fce20896c0d5c13b5475d24717</key>
 <key>0000010278ed24a49835a2272d40ff11</key>
 </ejemplar>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
 </snibTerm>
 <snibTerm>
 <category>Otros</category>
@@ -3459,9 +3368,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <dataRules/>
 <syntaxRules/>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Otros</category>
@@ -3483,9 +3390,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <dataRules/>
 <syntaxRules/>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Otros</category>
@@ -3513,7 +3418,6 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <notes>
 <note>Geoportal de la CONABIO en http://geoportal.conabio.gob.mx/</note>
 <note>Disponible sólo en la descarga de ejemplares del SNIB en https://www.snib.mx/ejemplares/descarga/.</note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
 </notes>
 </snibTerm>
 <snibTerm>
@@ -3536,9 +3440,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <dataRules/>
 <syntaxRules/>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Otros</category>
@@ -3562,9 +3464,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <rule>Se muestra con el formato aaaa-mm.</rule>
 </syntaxRules>
 <infoRules/>
-<notes>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
-</notes>
+<notes/>
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
@@ -3584,8 +3484,9 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <datatype>varchar (32)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Dado que este identificador se genera para el ingreso del registro al SNIB, &eacute;ste no corresponder&aacute; al identificador del ejemplar en las fuentes originales de informaci&oacute;n del SNIB.</p></note>
-<note><![CDATA[ <p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p> ]]></note>
+<note>
+<![CDATA[ <p>Dado que este identificador se genera para el ingreso del registro al SNIB, &eacute;ste no corresponder&aacute; al identificador del ejemplar en las fuentes originales de informaci&oacute;n del SNIB.</p> ]]>
+</note>
 </notes>
 <dataRules>
 <rule>Este valor se preserva para los ejemplares registrados en el SNIB.</rule>
