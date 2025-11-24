@@ -228,7 +228,7 @@
 <datatype>varchar (200)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Para los ejemplares que resultaron no v&aacute;lidos a nivel de municipio, en el campo Observaciones del uso de la informaci&oacute;n se especifica la distancia de desfase respecto al municipio (campo municipiooriginal).</p></note>
+<note><p>Para los ejemplares que resultaron no validos a nivel de municipio, en el campo Observaciones del uso de la informacion se especifica la distancia de desfase respecto al municipio (campo municipiooriginal).</p></note>
 <note><p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p></note>
 </notes>
 <dataRules>
@@ -292,7 +292,7 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p></note>
+<note><p>Campo resultado del proceso de limpieza, estandarizacion y complecion realizado por la CONABIO.</p></note>
 <note><p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p></note>
 </notes>
 <dataRules>
@@ -373,7 +373,7 @@ Si el ejemplar tiene coordenada geográfica:
 <datatype>varchar (55)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO</p></note>
+<note><p>Campo resultado del proceso de limpieza, estandarizacion y complecion realizado por la CONABIO</p></note>
 <note><p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p></note>
 </notes>
 <dataRules>
@@ -563,7 +563,7 @@ Si el ejemplar tiene coordenada geográfica:
 <datatype>varchar (80)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p></note>
+<note><p>Campo resultado del proceso de limpieza, estandarizacion y complecion realizado por la CONABIO.</p></note>
 <note><p>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p></note>
 </notes>
 <dataRules>
@@ -1194,8 +1194,8 @@ Si el ejemplar tiene coordenada geográfica:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p></note>
-<note><p>Los grupos biol&oacute;gicos de Bacterias y Virus no se publican en el Geoportal de la CONABIO.</p></note>
+<note><p>Campo resultado del proceso de estandarizacion y complecion realizado por la CONABIO.</p></note>
+<note><p>Los grupos biologicos de Bacterias y Virus no se publican en el Geoportal de la CONABIO.</p></note>
 </notes>
 <dataRules>
 <rule>Los valores vacío y NO DISPONIBLE significan que no se cuenta con la información taxonómica suficiente para asignar el grupo biológico.</rule>
@@ -1237,7 +1237,7 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (250)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p></note>
+<note><p>Campo resultado del proceso de estandarizacion y complecion realizado por la CONABIO.</p></note>
 </notes>
 <dataRules>
 <rule>El valor NO DISPONIBLE significa que no se cuenta con la información taxonómica suficiente para asignar el subgrupo biológico. Por lo anterior, no existen valores vacíos o nulos.</rule>
@@ -1279,8 +1279,8 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p></note>
-<note><p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p></note>
+<note><p>Se puede ver el nombre tal cual lo escribio el proveedor de datos, utilizando el campo URLEjemplar .</p></note>
+<note><p>La CONABIO realizo; limpieza y homologacion de este campo mediante la correccion de errores de escritura y de datos que no corresponden con el campo.</p></note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el reino no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o no fue proporcionado en las bases de datos originales.</rule>
@@ -1319,9 +1319,9 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p></note>
-<note><p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p></note>
-<note><p>La equivalencia en Darwin Core puede ser phylum, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos este campo sin equivalencia con Darwin Core en lugar de phylum que lo asignamos al campo phylumdivisionv&aacute;lido.</p></note>
+<note><p>Se puede ver el nombre tal cual lo escribio el proveedor de datos, utilizando el campo URLEjemplar .</p></note>
+<note><p>La CONABIO realizo limpieza y homologacion de este campo mediante la correccion de errores de escritura y de datos que no corresponden con el campo.</p></note>
+<note><p>La equivalencia en Darwin Core puede ser phylum, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (validos), indicamos este campo sin equivalencia con Darwin Core en lugar de phylum que lo asignamos al campo phylumdivisionvalido.</p></note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el phylum o división no fue proporcionado en las bases de datos originales.</rule>
@@ -1364,9 +1364,9 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p></note>
-<note><p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p></note>
-<note><p>La equivalencia en Darwin Core tambi&eacute;n puede ser class, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de class que lo asignamos al campo clase v&aacute;lida.</p></note>
+<note><p>Se puede ver el nombre tal cual lo escribio el proveedor de datos, utilizando el campo URLEjemplar .</p></note>
+<note><p>La CONABIO realizo; limpieza y homologacion de este campo mediante la correccion de errores de escritura y de datos que no corresponden con el campo.</p></note>
+<note><p>La equivalencia en Darwin Core tambien puede ser class, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (validos), indicamos en este campo sin equivalencia con Darwin Core en lugar de class que lo asignamos al campo clase valida.</p></note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el nombre de la clase no fue proporcionado en las bases de datos originales.</rule>
@@ -1414,9 +1414,9 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p></note>
-<note><p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p></note>
-<note><p>La equivalencia en Darwin Core puede ser order, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos este campo sin equivalencia con Darwin Core en lugar de order que lo asignamos al campo orden v&aacute;lido.</p></note>
+<note><p>Se puede ver el nombre tal cual lo escribio el proveedor de datos, utilizando el campo URLEjemplar .</p></note>
+<note><p>La CONABIO realizo limpieza y homologacion de este campo mediante la correccion de errores de escritura y de datos que no corresponden con el campo.</p></note>
+<note><p>La equivalencia en Darwin Core puede ser order, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (validos), indicamos este campo sin equivalencia con Darwin Core en lugar de order que lo asignamos al campo orden valido.</p></note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el nombre del orden no fue proporcionado en las bases de datos originales.</rule>
@@ -1464,9 +1464,9 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo urlejemplar.</p></note>
-<note><p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores ortogr&aacute;ficos, as&iacute; como la estandarizaci&oacute;n a sistemas de clasificaci&oacute;n reconocidos por la comunidad cient&iacute;fica.</p></note>
-<note><p>La equivalencia en Darwin Core puede ser family, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de family que lo asignamos al campo familia v&aacute;lida.</p></note>
+<note><p>Se puede ver el nombre tal cual lo escribio el proveedor de datos, utilizando el campo urlejemplar.</p></note>
+<note><p>La CONABIO realizo; limpieza y homologacion de este campo mediante la correccion de errores ortograficos, asi como la estandarizacion a sistemas de clasificacion reconocidos por la comunidad cientifica.</p></note>
+<note><p>La equivalencia en Darwin Core puede ser family, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (validos), indicamos en este campo sin equivalencia con Darwin Core en lugar de family que lo asignamos al campo familia valida.</p></note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el nombre de la familia no fue proporcionado en las bases de datos originales.</rule>
@@ -1514,9 +1514,9 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (50)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar.</p></note>
-<note><p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p></note>
-<note><p>La equivalencia en Darwin Core tambi&eacute;n puede ser genus, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo que la equivalencia con Darwin Core es dynamicProperties en lugar de genus que lo asignamos al campo g&eacute;nero v&aacute;lido.</p></note>
+<note><p>Se puede ver el nombre tal cual lo escribio el proveedor de datos, utilizando el campo URLEjemplar.</p></note>
+<note><p>La CONABIO realizo limpieza y homologacion de este campo mediante la correccion de errores de escritura y de datos que no corresponden con el campo.</p></note>
+<note><p>La equivalencia en Darwin Core tambien puede ser genus, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (validos), indicamos en este campo que la equivalencia con Darwin Core es dynamicProperties en lugar de genus que lo asignamos al campo genero valido.</p></note>
 </notes>
 <dataRules>
 <rule>El valor vacío significa que el nombre del género no fue proporcionado en las bases de datos originales.</rule>
@@ -1563,9 +1563,9 @@ El dominio de los valores permitidos está dado por:
 <datatype>varchar (100)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar.</p></note>
-<note><p>La CONABIO realiz&oacute; limpieza de este campo mediante la correcci&oacute;n de escritura y de datos que no corresponden con el campo.</p></note>
-<note><p>Se debe observar la regla de sintaxis 1, para apreciar las diferencias con respecto a la descripci&oacute;n de scientificName en Darwin Core, por ejemplo, no se incluye el autor y a&ntilde;o de descripci&oacute;n.</p></note>
+<note><p>Se puede ver el nombre tal cual lo escribio el proveedor de datos, utilizando el campo URLEjemplar.</p></note>
+<note><p>La CONABIO realizo limpieza de este campo mediante la correccion de escritura y de datos que no corresponden con el campo.</p></note>
+<note><p>Se debe observar la regla de sintaxis 1, para apreciar las diferencias con respecto a la descripcion de scientificName en Darwin Core, por ejemplo, no se incluye el autor y anio de descripcion.</p></note>
 </notes>
 <dataRules>
 <rule>Cuando la especie no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o referencias bibliográficas especializadas con las que cuenta la CONABIO, en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
@@ -2720,7 +2720,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <datatype>enum</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>M&aacute;s informaci&oacute;n del dominio de valores se encuentra en http://rs.tdwg.org/dwc/terms.htm#basisOfRecord</p></note>
+<note><p>Mas informacinn del dominio de valores se encuentra en http://rs.tdwg.org/dwc/terms.htm#basisOfRecord</p></note>
 </notes>
 <dataRules>
 <rule>El dominio de los valores permitidos está dado por:</rule>
@@ -3420,7 +3420,7 @@ El valor NO DISPONIBLE significa que el dato se desconoce.
 <datatype>varchar (32)</datatype>
 <encoding>UTF-8</encoding>
 <notes>
-<note><p>Dado que este identificador se genera para el ingreso del registro al SNIB, &eacute;ste no corresponder&aacute; al identificador del ejemplar en las fuentes originales de informaci&oacute;n del SNIB.</p></note>
+<note><p>Dado que este identificador se genera para el ingreso del registro al SNIB, este no correspondera; al identificador del ejemplar en las fuentes originales de informacion del SNIB.</p></note>
 </notes>
 <dataRules>
 <rule>Este valor se preserva para los ejemplares registrados en el SNIB.</rule>
