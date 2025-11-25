@@ -1189,7 +1189,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Taxonomía</category>
     <orden>
-      <prev></prev>
+      <prev/>
       <next>subgrupobio</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -2483,7 +2483,7 @@ NO DISPONIBLE</subregla></rule>
     <category>Atributos biológicos y ecológicos</category>
     <orden>
       <prev>formadecrecimiento</prev>
-      <next/>
+      <next>dsadada</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3467,5 +3467,24 @@ NO DISPONIBLE</subregla></rule>
     <ordenTabla>
       <after>version</after>
     </ordenTabla>
+  </snibTerm>
+  <snibTerm>
+    <category>Atributos biológicos y ecológicos</category>
+    <orden>
+      <next/>
+      <prev>categoriaresidenciaaves</prev>
+    </orden>
+    <fieldName>final</fieldName>
+    <fieldid>dsadada</fieldid>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>true</downloadSnib>
+    <campos>
+      <campo>datum</campo>
+    </campos>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>127d21638cc105ce290844e6abb7e870</key>
+      <key>096c765542c6bb8f65d0abfd102e9af0</key>
+    </ejemplar>
   </snibTerm>
 </snibDictionary>
