@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <snibDictionary>
   <metadata>
-    <titulo>Especímenes publicados en el geoportal y el sitio del Sistema Nacional de Información sobre Biodiversidad.</titulo>
-    <ultimaFechaActualizacion>2025-07-03</ultimaFechaActualizacion>
+    <titulo>Especímenes publicados en el geoportal y el sitio del Sistema Nacional de Información sobre Biodiversidad. test</titulo>
+    <ultimaFechaActualizacion>2025-07-03 prueba </ultimaFechaActualizacion>
     <version>2024-12</version>
     <abstracto>El Sistema Nacional de Información sobre Biodiversidad (SNIB), a través del geoportal de CONABIO y su propia página web, ofrece acceso público a datos sobre ejemplares biológicos provenientes de proyectos financiados, desarrollados o integrados por la CONABIO. Este documento detalla los campos de datos seleccionados para el geoportal, priorizando los más relevantes según su uso y valor. También se incluyen campos adicionales disponibles solo en la página del SNIB. La información ha sido revisada por CONABIO para estandarizarla y mejorar su calidad. Se explica la relación con el estándar Darwin Core y se proporciona la estructura de la base de datos y la sentencia SQL correspondiente en los anexos.</abstracto>
-    <licenciaUso>Este documento se publica y distribuye bajo una licencia Creative Commons Atribución 4.0 Internacional compatible
-
+    <licenciaUso>Este documento se publica y distribuye bajo una licencia Creative Commons Atribución 4.0 Internacional compatible&#13;
+&#13;
 con la licencia LibreusoMX de datos.gob.mx</licenciaUso>
-    <formaDeCitar>CONABIO. 2025. Diccionario de datos. Ejemplares publicados en el Geoportal y el sitio del Sistema Nacional de
-
-Información sobre Biodiversidad, versión 2024-12 México, Disponible en:
-
+    <formaDeCitar>CONABIO. 2025. Diccionario de datos. Ejemplares publicados en el Geoportal y el sitio del Sistema Nacional de&#13;
+&#13;
+Información sobre Biodiversidad, versión 2024-12 México, Disponible en:&#13;
+&#13;
 http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeoportal-202412.pdf</formaDeCitar>
     <anexo1>En la siguiente tabla se muestran los campos del SNIB incluidos para descarga en el geoportal y la página del SNIB de la CONABIO.</anexo1>
     <anexo2>En este anexo se proporciona la sentencia SQL para MySQL mediante la cual se puede crear la estructura de la tabla del geoportal.</anexo2>
     <creador>
-      <nombre/>
-      <sitioWeb/>
-      <portalSNIB/>
+      <nombre></nombre>
+      <sitioWeb></sitioWeb>
+      <portalSNIB></portalSNIB>
     </creador>
   </metadata>
   <snibTerm>
@@ -1295,8 +1295,8 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <after>clase</after></ordenTabla>
+      <after>clase</after>
+    </ordenTabla>
     <fieldName>Reino</fieldName>
     <fieldid>reino</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1380,8 +1380,8 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <after>subgrupobio</after></ordenTabla>
+      <after>subgrupobio</after>
+    </ordenTabla>
     <fieldName>Clase</fieldName>
     <fieldid>clase</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1430,8 +1430,8 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <after>phylumdivision</after></ordenTabla>
+      <after>phylumdivision</after>
+    </ordenTabla>
     <fieldName>Orden</fieldName>
     <fieldid>orden</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1480,8 +1480,8 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <after>reftax</after></ordenTabla>
+      <after>reftax</after>
+    </ordenTabla>
     <fieldName>Familia</fieldName>
     <fieldid>familia</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1733,8 +1733,8 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <after>orden</after></ordenTabla>
+      <after>orden</after>
+    </ordenTabla>
     <fieldName>Referencia taxonómica</fieldName>
     <fieldid>reftax</fieldid>
     <dwcField>nameAccordingTo</dwcField>
@@ -1757,8 +1757,8 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <after>estatustax</after></ordenTabla>
+      <after>estatustax</after>
+    </ordenTabla>
     <fieldName>Reino válido</fieldName>
     <fieldid>reinovalido</fieldid>
     <dwcField>kingdom</dwcField>
@@ -3485,8 +3485,8 @@ NO DISPONIBLE</subregla></rule>
       <key>096c765542c6bb8f65d0abfd102e9af0</key>
     </ejemplar>
     <ordenTabla>
-      
-    <after>Alfinaldetaxonomia</after></ordenTabla>
+      <after>Alfinaldetaxonomia</after>
+    </ordenTabla>
     <campos>
       <campo>region</campo>
       <campo>localidad</campo>
@@ -3512,5 +3512,8 @@ NO DISPONIBLE</subregla></rule>
       <key>127d21638cc105ce290844e6abb7e870</key>
       <key>096c765542c6bb8f65d0abfd102e9af0</key>
     </ejemplar>
-  <ordenTabla><first/></ordenTabla></snibTerm>
+    <ordenTabla>
+      <first/>
+    </ordenTabla>
+  </snibTerm>
 </snibDictionary>
