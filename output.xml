@@ -1189,7 +1189,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Taxonomía</category>
     <orden>
-      <prev>dsadas</prev>
+      <prev></prev>
       <next>subgrupobio</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -3467,24 +3467,5 @@ NO DISPONIBLE</subregla></rule>
     <ordenTabla>
       <after>version</after>
     </ordenTabla>
-  </snibTerm>
-  <snibTerm>
-    <category>Taxonomía</category>
-    <orden>
-      <prev/>
-      <next>grupobio</next>
-    </orden>
-    <fieldName>inicio</fieldName>
-    <fieldid>dsadas</fieldid>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <ejemplar>
-      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
-      <key>096c765542c6bb8f65d0abfd102e9af0</key>
-      <key>127d21638cc105ce290844e6abb7e870</key>
-    </ejemplar>
-    <campos>
-      <campo>longitud</campo>
-    </campos>
   </snibTerm>
 </snibDictionary>
