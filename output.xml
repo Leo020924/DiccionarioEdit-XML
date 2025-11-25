@@ -1295,8 +1295,8 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>subgrupobio</after>
-    </ordenTabla>
+      
+    <after>clase</after></ordenTabla>
     <fieldName>Reino</fieldName>
     <fieldid>reino</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1380,8 +1380,8 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>phylumdivision</after>
-    </ordenTabla>
+      
+    <after>subgrupobio</after></ordenTabla>
     <fieldName>Clase</fieldName>
     <fieldid>clase</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1430,8 +1430,8 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>clase</after>
-    </ordenTabla>
+      
+    <after>phylumdivision</after></ordenTabla>
     <fieldName>Orden</fieldName>
     <fieldid>orden</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1480,8 +1480,8 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>orden</after>
-    </ordenTabla>
+      
+    <after>reftax</after></ordenTabla>
     <fieldName>Familia</fieldName>
     <fieldid>familia</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1733,8 +1733,8 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>estatustax</after>
-    </ordenTabla>
+      
+    <after>orden</after></ordenTabla>
     <fieldName>Referencia taxonómica</fieldName>
     <fieldid>reftax</fieldid>
     <dwcField>nameAccordingTo</dwcField>
@@ -1757,8 +1757,8 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>reftax</after>
-    </ordenTabla>
+      
+    <after>estatustax</after></ordenTabla>
     <fieldName>Reino válido</fieldName>
     <fieldid>reinovalido</fieldid>
     <dwcField>kingdom</dwcField>
@@ -3485,8 +3485,8 @@ NO DISPONIBLE</subregla></rule>
       <key>096c765542c6bb8f65d0abfd102e9af0</key>
     </ejemplar>
     <ordenTabla>
-      <first/>
-    </ordenTabla>
+      
+    <after>Alfinaldetaxonomia</after></ordenTabla>
     <campos>
       <campo>region</campo>
       <campo>localidad</campo>
@@ -3512,5 +3512,5 @@ NO DISPONIBLE</subregla></rule>
       <key>127d21638cc105ce290844e6abb7e870</key>
       <key>096c765542c6bb8f65d0abfd102e9af0</key>
     </ejemplar>
-  </snibTerm>
+  <ordenTabla><first/></ordenTabla></snibTerm>
 </snibDictionary>
