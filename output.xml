@@ -24,7 +24,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev/>
+      <prev>Alinicio</prev>
       <next>paisoriginal</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -3458,6 +3458,27 @@ NO DISPONIBLE</subregla></rule>
     <campos>
       <campo>localidad</campo>
       <campo>region</campo>
+    </campos>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>127d21638cc105ce290844e6abb7e870</key>
+      <key>096c765542c6bb8f65d0abfd102e9af0</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica del ejemplar</category>
+    <orden>
+      <prev/>
+      <next>region</next>
+    </orden>
+    <fieldName>Alinicio</fieldName>
+    <fieldid>Alinicio</fieldid>
+    <datatype>String</datatype>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <campos>
+      <campo>region</campo>
+      <campo>localidad</campo>
     </campos>
     <ejemplar>
       <key>0379d08e54c2b543e303a8fc4667ffe8</key>
