@@ -31,7 +31,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <first/></ordenTabla>
+    <after>Alinicio</after></ordenTabla>
     <fieldName>Región de recolecta u observación</fieldName>
     <fieldid>region</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -70,8 +70,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>region</after>
-    </ordenTabla>
+      
+    <after>municipiomapa</after></ordenTabla>
     <fieldName>Localidad de recolecta u observación</fieldName>
     <fieldid>localidad</fieldid>
     <dwcField>locality</dwcField>
@@ -600,8 +600,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>mt24claveestadomapa</after>
-    </ordenTabla>
+      
+    <after>region</after></ordenTabla>
     <fieldName>Municipio asignado</fieldName>
     <fieldid>municipiomapa</fieldid>
     <dwcField>Incluido en county</dwcField>
@@ -638,8 +638,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>municipiomapa</after>
-    </ordenTabla>
+      
+    <after>mt24claveestadomapa</after></ordenTabla>
     <fieldName>Clave municipal asignada</fieldName>
     <fieldid>clavemunicipiomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -3485,5 +3485,5 @@ NO DISPONIBLE</subregla></rule>
       <key>127d21638cc105ce290844e6abb7e870</key>
       <key>096c765542c6bb8f65d0abfd102e9af0</key>
     </ejemplar>
-  <ordenTabla><after>Alfinal</after></ordenTabla></snibTerm>
+  <ordenTabla><first/></ordenTabla></snibTerm>
 </snibDictionary>
