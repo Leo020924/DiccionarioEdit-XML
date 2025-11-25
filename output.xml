@@ -3477,12 +3477,8 @@ NO DISPONIBLE</subregla></rule>
     <fieldName>Alinicio</fieldName>
     <fieldid>Alinicio</fieldid>
     <datatype>String</datatype>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>region</campo>
-      <campo>localidad</campo>
-    </campos>
+    <downloadGeoportal>false</downloadGeoportal>
+    <downloadSnib>true</downloadSnib>
     <ejemplar>
       <key>0379d08e54c2b543e303a8fc4667ffe8</key>
       <key>127d21638cc105ce290844e6abb7e870</key>
@@ -3491,6 +3487,10 @@ NO DISPONIBLE</subregla></rule>
     <ordenTabla>
       <first/>
     </ordenTabla>
+    <campos>
+      <campo>region</campo>
+      <campo>localidad</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
