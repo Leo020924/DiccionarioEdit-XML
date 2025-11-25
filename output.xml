@@ -18,9 +18,9 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
 Ejemplooo</anexo1>
     <anexo2>En este anexo se proporciona la sentencia SQL para MySQL mediante la cual se puede crear la estructura de la tabla del geoportal.</anexo2>
     <creador>
-      <nombre></nombre>
-      <sitioWeb></sitioWeb>
-      <portalSNIB></portalSNIB>
+      <nombre/>
+      <sitioWeb/>
+      <portalSNIB/>
     </creador>
   </metadata>
   <snibTerm>
@@ -32,7 +32,7 @@ Ejemplooo</anexo1>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>Alinicio</after>
+      <first/>
     </ordenTabla>
     <fieldName>Región de recolecta u observación</fieldName>
     <fieldid>region</fieldid>
@@ -72,7 +72,7 @@ Ejemplooo</anexo1>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>municipiomapa</after>
+      <after>region</after>
     </ordenTabla>
     <fieldName>Localidad de recolecta u observación</fieldName>
     <fieldid>localidad</fieldid>
@@ -96,7 +96,7 @@ Ejemplooo</anexo1>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>paismapa</after>
+      <after>localidad</after>
     </ordenTabla>
     <fieldName>Longitud</fieldName>
     <fieldid>longitud</fieldid>
@@ -166,7 +166,7 @@ Ejemplooo</anexo1>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>idejemplar</after>
+      <after>latitud</after>
     </ordenTabla>
     <fieldName>Datum</fieldName>
     <fieldid>datum</fieldid>
@@ -190,45 +190,13 @@ Ejemplooo</anexo1>
   <snibTerm>
     <category>Validación de la información geográfica</category>
     <orden>
-      <prev>geovalidacion</prev>
-      <next/>
+      <prev/>
+      <next></next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>datum</after>
-    </ordenTabla>
-    <fieldName>Validación de la ubicación respecto al ambiente</fieldName>
-    <fieldid>validacionambiente</fieldid>
-    <dwcField>Incluido en georeferenceVerificationStatus</dwcField>
-    <description>Resultado de la comparación del ambiente conocido para el taxón asociado al ejemplar contra el ambiente de la ubicación de la coordenada del ejemplar.</description>
-    <datatype>varchar (100)</datatype>
-    <encoding>UTF-8</encoding>
-    <dataRules>
-      <rule>El valor Válido o Válido con tolerancia o Válido ubicado en significa que el ambiente del taxón coincidió con el de la ubicación de la coordenada del ejemplar, con base en los siguientes criterios:</rule>
-      <rule>Ambiente marino. Las coordenadas son válidas cuando se ubican en el mar, arrecifes, elementos insulares costeros y marinos, cuerpos de agua costeros y zona continental costera de 2 km. En islas se considera un buffer de 2 km, excepto para aves.</rule>
-      <rule>Ambiente dulceacuícola y marino; dulceacuícola, marino y salobre; dulceacuícola, marino, salobre y terrestre; dulceacuícola, marino y terrestre; marino y salobre; marino, salobre y terrestre; marino y terrestre. Las coordenadas son válidas cuando se ubican en continente o en mar.</rule>
-      <rule>Ambiente dulceacuícola; dulceacuícola y salobre; dulceacuícola, salobre y terrestre; dulceacuícola y terrestre; salobre; salobre y terrestre; terrestre. Las coordenadas son válidas al ubicarse en continente, elementos insulares marinos y en mar entre los 2 km de la línea de costa continental e insular.</rule>
-      <rule>El valor No válido significa que el ambiente del taxón no coincidió con el de la ubicación de las coordenadas del ejemplar aun considerando un buffer de 2 km, con base en los siguientes criterios:</rule>
-      <rule>Ambiente marino, las coordenadas son no válidas cuando se ubican en el continente fuera de cuerpos de agua costeros o a más de 2 km de la línea de costa continental o insular.</rule>
-      <rule>Ambiente dulceacuícola; dulceacuícola y salobre; dulceacuícola, salobre y terrestre; dulceacuícola y terrestre; salobre; salobre y terrestre; terrestre. Las coordenadas son no válidas cuando se ubican en el mar a más de 2 km de la línea de costa continental o insular o en arrecifes.</rule>
-      <rule>El valor No procesado significa que el ejemplar no se valida porque no se cuenta con el dato de ambiente del taxón, son aves no residentes o no tiene coordenadas geográficas.</rule>
-      <rule>El valor No aplica significa que el ejemplar es fósil y no se aplicó la validación por ambiente.</rule>
-    </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
-  </snibTerm>
-  <snibTerm>
-    <category>Validación de la información geográfica</category>
-    <orden>
-      <prev/>
-      <next>validacionambiente</next>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <ordenTabla>
-      <after>validacionambiente</after>
     </ordenTabla>
     <fieldName>Validación de la ubicación geográfica</fieldName>
     <fieldid>geovalidacion</fieldid>
@@ -315,7 +283,7 @@ Ejemplooo</anexo1>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>localidad</after>
+      <after>geovalidacion</after>
     </ordenTabla>
     <fieldName>País asignado</fieldName>
     <fieldid>paismapa</fieldid>
@@ -418,7 +386,7 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>geovalidacion</after>
+      <after>paismapa</after>
     </ordenTabla>
     <fieldName>Estado asignado</fieldName>
     <fieldid>estadomapa</fieldid>
@@ -602,7 +570,7 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>region</after>
+      <after>mt24claveestadomapa</after>
     </ordenTabla>
     <fieldName>Municipio asignado</fieldName>
     <fieldid>municipiomapa</fieldid>
@@ -640,7 +608,7 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>mt24claveestadomapa</after>
+      <after>municipiomapa</after>
     </ordenTabla>
     <fieldName>Clave municipal asignada</fieldName>
     <fieldid>clavemunicipiomapa</fieldid>
@@ -749,7 +717,7 @@ un dato de país en el campo país original.</subregla></rule>
     <category>Información geográfica del ejemplar</category>
     <orden>
       <prev>datum</prev>
-      <next>Alfinal</next>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -1297,7 +1265,7 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>clase</after>
+      <after>subgrupobio</after>
     </ordenTabla>
     <fieldName>Reino</fieldName>
     <fieldid>reino</fieldid>
@@ -1382,7 +1350,7 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>subgrupobio</after>
+      <after>phylumdivision</after>
     </ordenTabla>
     <fieldName>Clase</fieldName>
     <fieldid>clase</fieldid>
@@ -1432,7 +1400,7 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>phylumdivision</after>
+      <after>clase</after>
     </ordenTabla>
     <fieldName>Orden</fieldName>
     <fieldid>orden</fieldid>
@@ -1482,7 +1450,7 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>reftax</after>
+      <after>orden</after>
     </ordenTabla>
     <fieldName>Familia</fieldName>
     <fieldid>familia</fieldid>
@@ -1735,7 +1703,7 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>orden</after>
+      <after>estatustax</after>
     </ordenTabla>
     <fieldName>Referencia taxonómica</fieldName>
     <fieldid>reftax</fieldid>
@@ -1759,7 +1727,7 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>estatustax</after>
+      <after>reftax</after>
     </ordenTabla>
     <fieldName>Reino válido</fieldName>
     <fieldid>reinovalido</fieldid>
@@ -2485,7 +2453,7 @@ NO DISPONIBLE</subregla></rule>
     <category>Atributos biológicos y ecológicos</category>
     <orden>
       <prev>formadecrecimiento</prev>
-      <next>dsadada</next>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3421,7 +3389,7 @@ NO DISPONIBLE</subregla></rule>
       <next>obsusoinfo</next>
     </orden>
     <ordenTabla>
-      <after>latitud</after>
+      <after>version</after>
     </ordenTabla>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3444,49 +3412,6 @@ NO DISPONIBLE</subregla></rule>
     </ejemplar>
     <campos>
       <campo>urlejemplar</campo>
-    </campos>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica del ejemplar</category>
-    <orden>
-      <next/>
-      <prev>incertidumbrexy</prev>
-    </orden>
-    <fieldName>Al final</fieldName>
-    <fieldid>Alfinal</fieldid>
-    <datatype>String</datatype>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <campos>
-      <campo>localidad</campo>
-      <campo>region</campo>
-    </campos>
-    <ejemplar>
-      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
-      <key>127d21638cc105ce290844e6abb7e870</key>
-      <key>096c765542c6bb8f65d0abfd102e9af0</key>
-    </ejemplar>
-    <ordenTabla>
-      <after>version</after>
-    </ordenTabla>
-  </snibTerm>
-  <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
-    <orden>
-      <next/>
-      <prev>categoriaresidenciaaves</prev>
-    </orden>
-    <fieldName>final</fieldName>
-    <fieldid>dsadada</fieldid>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <ejemplar>
-      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
-      <key>127d21638cc105ce290844e6abb7e870</key>
-      <key>096c765542c6bb8f65d0abfd102e9af0</key>
-    </ejemplar>
-    <campos>
-      <campo>datum</campo>
     </campos>
   </snibTerm>
 </snibDictionary>
