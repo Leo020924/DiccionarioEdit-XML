@@ -1864,7 +1864,7 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>ordenvalido0</after>
+      <after>ordenvalido</after>
     </ordenTabla>
     <fieldName>Familia válida</fieldName>
     <fieldid>familiavalida</fieldid>
