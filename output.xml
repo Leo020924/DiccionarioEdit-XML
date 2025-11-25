@@ -3476,15 +3476,15 @@ NO DISPONIBLE</subregla></rule>
     </orden>
     <fieldName>final</fieldName>
     <fieldid>dsadada</fieldid>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <campos>
-      <campo>datum</campo>
-    </campos>
+    <downloadGeoportal>false</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
     <ejemplar>
       <key>0379d08e54c2b543e303a8fc4667ffe8</key>
       <key>127d21638cc105ce290844e6abb7e870</key>
       <key>096c765542c6bb8f65d0abfd102e9af0</key>
     </ejemplar>
+    <campos>
+      <campo>datum</campo>
+    </campos>
   </snibTerm>
 </snibDictionary>
