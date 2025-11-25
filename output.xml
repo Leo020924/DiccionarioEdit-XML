@@ -313,7 +313,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>paisoriginal</after>
+      <after>geovalidacion</after>
     </ordenTabla>
     <fieldName>País asignado</fieldName>
     <fieldid>paismapa</fieldid>
@@ -416,7 +416,7 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>estadooriginal</after>
+      <after>paismapa</after>
     </ordenTabla>
     <fieldName>Estado asignado</fieldName>
     <fieldid>estadomapa</fieldid>
