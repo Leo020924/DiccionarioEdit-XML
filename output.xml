@@ -1891,7 +1891,7 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>municipiooriginal</after>
+      <after>familiavalida</after>
     </ordenTabla>
     <fieldName>Género válido</fieldName>
     <fieldid>generovalido</fieldid>
