@@ -1958,7 +1958,7 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>ordenvalido0</after>
+      <after>ordenvalido</after>
     </ordenTabla>
     <fieldName>Familia válida</fieldName>
     <fieldid>familiavalida</fieldid>
