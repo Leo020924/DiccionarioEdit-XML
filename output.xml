@@ -3020,6 +3020,8 @@ NO DISPONIBLE</subregla></rule>
       <prev>coleccion</prev>
       <next>institucion</next>
     </orden>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>true</downloadSnib>
     <fieldName>Tipo de vegetación</fieldName>
     <fieldid>tipovegetacion</fieldid>
     <dwcField>Sin equivalencia</dwcField>
