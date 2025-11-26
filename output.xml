@@ -3327,8 +3327,8 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>ultimafechaactualizacion</after>
-    </ordenTabla>
+      
+    <after>test</after></ordenTabla>
     <fieldName>Versión</fieldName>
     <fieldid>version</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -3392,5 +3392,5 @@ NO DISPONIBLE</subregla></rule>
       <key>127d21638cc105ce290844e6abb7e870</key>
       <key>096c765542c6bb8f65d0abfd102e9af0</key>
     </ejemplar>
-  </snibTerm>
+  <ordenTabla><after>ultimafechaactualizacion</after></ordenTabla></snibTerm>
 </snibDictionary>
