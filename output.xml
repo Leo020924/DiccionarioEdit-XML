@@ -70,8 +70,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>region</after>
-    </ordenTabla>
+      
+    <after>municipiomapa</after></ordenTabla>
     <fieldName>Localidad de recolecta u observación</fieldName>
     <fieldid>localidad</fieldid>
     <dwcField>locality</dwcField>
@@ -129,8 +129,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>longitud</after>
-    </ordenTabla>
+      
+    <first/></ordenTabla>
     <fieldName>Latitud</fieldName>
     <fieldid>latitud</fieldid>
     <dwcField>decimalLatitude</dwcField>
@@ -164,8 +164,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>Latitud</after>
-    </ordenTabla>
+      
+    <after>Alinicio</after></ordenTabla>
     <fieldName>Datum</fieldName>
     <fieldid>datum</fieldid>
     <dwcField>geodeticDatum</dwcField>
@@ -313,8 +313,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>paisoriginal</after>
-    </ordenTabla>
+      
+    <after>geovalidacion</after></ordenTabla>
     <fieldName>País asignado</fieldName>
     <fieldid>paismapa</fieldid>
     <dwcField>Incluido en country</dwcField>
@@ -416,8 +416,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>estadooriginal</after>
-    </ordenTabla>
+      
+    <after>paismapa</after></ordenTabla>
     <fieldName>Estado asignado</fieldName>
     <fieldid>estadomapa</fieldid>
     <dwcField>Incluido en stateProvince</dwcField>
@@ -565,8 +565,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>mt24claveestadomapa</after>
-    </ordenTabla>
+      
+    <after>region</after></ordenTabla>
     <fieldName>Municipio asignado</fieldName>
     <fieldid>municipiomapa</fieldid>
     <dwcField>Incluido en county</dwcField>
@@ -603,8 +603,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>municipiomapa</after>
-    </ordenTabla>
+      
+    <after>mt24claveestadomapa</after></ordenTabla>
     <fieldName>Clave municipal asignada</fieldName>
     <fieldid>clavemunicipiomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1835,8 +1835,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>phylumdivisonvalido</after>
-    </ordenTabla>
+      
+    <after>phylumdivisionvalido</after></ordenTabla>
     <fieldName>Clase válida</fieldName>
     <fieldid>clasevalida</fieldid>
     <dwcField>class</dwcField>
@@ -1923,8 +1923,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>ordenvalido0</after>
-    </ordenTabla>
+      
+    <after>ordenvalido</after></ordenTabla>
     <fieldName>Familia válida</fieldName>
     <fieldid>familiavalida</fieldid>
     <dwcField>family</dwcField>
@@ -1967,8 +1967,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>municipiooriginal</after>
-    </ordenTabla>
+      
+    <after>familiavalida</after></ordenTabla>
     <fieldName>Género válido</fieldName>
     <fieldid>generovalido</fieldid>
     <dwcField>genus</dwcField>
@@ -3694,8 +3694,8 @@ un dato de país en el campo país original.</subregla></rule>
       <next>coleccion</next>
     </orden>
     <ordenTabla>
-      <first/>
-    </ordenTabla>
+      
+    <after>latitud</after></ordenTabla>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <fieldName>Identificador del ejemplar</fieldName>
@@ -3739,5 +3739,5 @@ un dato de país en el campo país original.</subregla></rule>
       <key>127d21638cc105ce290844e6abb7e870</key>
       <key>096c765542c6bb8f65d0abfd102e9af0</key>
     </ejemplar>
-  </snibTerm>
+  <ordenTabla><after>version</after></ordenTabla></snibTerm>
 </snibDictionary>
