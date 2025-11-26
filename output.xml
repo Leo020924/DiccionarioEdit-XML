@@ -130,7 +130,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <first/></ordenTabla>
+    <after>datum</after></ordenTabla>
     <fieldName>Latitud</fieldName>
     <fieldid>latitud</fieldid>
     <dwcField>decimalLatitude</dwcField>
@@ -165,7 +165,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <after>Alinicio</after></ordenTabla>
+    <first/></ordenTabla>
     <fieldName>Datum</fieldName>
     <fieldid>datum</fieldid>
     <dwcField>geodeticDatum</dwcField>
@@ -194,8 +194,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>datum</after>
-    </ordenTabla>
+      
+    <after>Alinicio</after></ordenTabla>
     <fieldName>Validación de la ubicación respecto al ambiente</fieldName>
     <fieldid>validacionambiente</fieldid>
     <dwcField>Incluido en georeferenceVerificationStatus</dwcField>
@@ -3739,5 +3739,5 @@ un dato de país en el campo país original.</subregla></rule>
       <key>127d21638cc105ce290844e6abb7e870</key>
       <key>096c765542c6bb8f65d0abfd102e9af0</key>
     </ejemplar>
-  <ordenTabla><after>version</after></ordenTabla></snibTerm>
+  <ordenTabla><after>longitud</after></ordenTabla></snibTerm>
 </snibDictionary>
