@@ -27,106 +27,12 @@ Ejemplooo</anexo1>
     <category>Información geográfica del ejemplar</category>
     <orden>
       <prev></prev>
-      <next>latitud</next>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <ordenTabla>
-      <first/>
-    </ordenTabla>
-    <fieldName>Localidad de recolecta u observación</fieldName>
-    <fieldid>localidad</fieldid>
-    <dwcField>locality</dwcField>
-    <description>Referencia geográfica que describe la ubicación del lugar de recolecta u observación.</description>
-    <datatype>varchar (2048)</datatype>
-    <encoding>UTF-8</encoding>
-    <dataRules>
-      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
-    </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica del ejemplar</category>
-    <orden>
-      <prev>latitud</prev>
-      <next>datum</next>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <ordenTabla>
-      <after>localidad</after>
-    </ordenTabla>
-    <fieldName>Longitud</fieldName>
-    <fieldid>longitud</fieldid>
-    <dwcField>decimalLongitude</dwcField>
-    <description>Longitud de la coordenada geográfica del sitio de recolecta u observación del ejemplar.</description>
-    <datatype>double</datatype>
-    <encoding/>
-    <dataRules>
-      <rule>El valor está en el intervalo de -180 a 180.</rule>
-      <rule>Cuando las coordenadas originales están en grados, minutos y segundos, se realiza una conversión a grados decimales; si se desconoce el valor de los segundos se asignan 30’’ para no sesgar el dato desconocido hacia los extremos (0 - 59).</rule>
-      <rule>Cuando las coordenadas originales están en un datum diferente a WGS84, se transforma a WGS84.</rule>
-      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
-    </dataRules>
-    <syntaxRules>
-      <rule>El número máximo de decimales es siete.</rule>
-      <rule>El dato se presenta en grados decimales.</rule>
-    </syntaxRules>
-    <infoRules>
-      <rule>Para el este del meridiano de Greenwich el dato es positivo (por ejemplo, Alemania).</rule>
-      <rule>Para el oeste del meridiano de Greenwich el dato es negativo (por ejemplo, México).</rule>
-    </infoRules>
-    <notes>
-      <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
-    </notes>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica del ejemplar</category>
-    <orden>
-      <prev>localidad</prev>
-      <next>longitud</next>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <ordenTabla>
-      <after>longitud</after>
-    </ordenTabla>
-    <fieldName>Latitud</fieldName>
-    <fieldid>latitud</fieldid>
-    <dwcField>decimalLatitude</dwcField>
-    <description>Latitud de la coordenada geográfica del sitio de recolecta u observación del ejemplar.</description>
-    <datatype>double</datatype>
-    <encoding/>
-    <dataRules>
-      <rule>El valor está en el intervalo de -90 a 90.</rule>
-      <rule>Cuando las coordenadas originales están en grados, minutos y segundos o en sistema UTM, se realiza una conversión a grados decimales; si se desconoce el valor de los segundos se asignan 30’’ para no sesgar el dato desconocido hacia los extremos (0 - 59).</rule>
-      <rule>Cuando las coordenadas originales tienen como referencia un datum diferente a WGS84, se transforma a WGS84.</rule>
-      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
-    </dataRules>
-    <syntaxRules>
-      <rule>El número máximo de decimales es siete.</rule>
-      <rule>El dato se presenta en grados decimales.</rule>
-    </syntaxRules>
-    <infoRules>
-      <rule>Para el norte del ecuador terrestre el dato es positivo (por ejemplo, México).</rule>
-      <rule>Para el sur del ecuador terrestre el dato es negativo (por ejemplo, Argentina).</rule>
-    </infoRules>
-    <notes>
-      <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
-    </notes>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica del ejemplar</category>
-    <orden>
-      <prev>longitud</prev>
       <next>incertidumbrexy</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>latitud</after>
+      <first/>
     </ordenTabla>
     <fieldName>Datum</fieldName>
     <fieldid>datum</fieldid>
