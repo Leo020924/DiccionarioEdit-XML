@@ -26,7 +26,7 @@ Ejemplooo</anexo1>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <prev></prev>
+      <prev/>
       <next>mt24claveestadomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -967,7 +967,7 @@ NO DISPONIBLE</subregla></rule>
     <category>Taxonomía</category>
     <orden>
       <prev>clase</prev>
-      <next>familia</next>
+      <next>genero</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -1017,62 +1017,12 @@ NO DISPONIBLE</subregla></rule>
     <category>Taxonomía</category>
     <orden>
       <prev>orden</prev>
-      <next>genero</next>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <ordenTabla>
-      <after>orden</after>
-    </ordenTabla>
-    <fieldName>Familia</fieldName>
-    <fieldid>familia</fieldid>
-    <dwcField>Sin equivalencia</dwcField>
-    <description>Nombre de la familia en la que se ubica el taxón correspondiente al ejemplar.</description>
-    <datatype>varchar (50)</datatype>
-    <encoding>UTF-8</encoding>
-    <notes>
-      <note>&lt;p&gt;Se puede ver el nombre tal cual lo escribi&amp;oacute; el proveedor de datos, utilizando el campo urlejemplar.&lt;/p&gt;</note>
-      <note>&lt;p&gt;La CONABIO realiz&amp;oacute; limpieza y homologaci&amp;oacute;n de este campo mediante la correcci&amp;oacute;n de errores ortogr&amp;aacute;ficos, as&amp;iacute; como la estandarizaci&amp;oacute;n a sistemas de clasificaci&amp;oacute;n reconocidos por la comunidad cient&amp;iacute;fica.&lt;/p&gt;</note>
-      <note>&lt;p&gt;La equivalencia en Darwin Core puede ser family, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&amp;aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de family que lo asignamos al campo familia v&amp;aacute;lida.&lt;/p&gt;</note>
-    </notes>
-    <dataRules>
-      <rule>El valor vacío significa que el nombre de la familia no fue proporcionado en las bases de datos originales.</rule>
-      <rule>Cuando la familia no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO, o referencias bibliográficas especializadas con las que cuenta la CONABIO para realizar la limpieza, en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
-      <rule>El dato No asignado significa que el sistema de clasificación de referencia utilizado para realizar la limpieza al campo, no considera esta categoría taxonómica.</rule>
-    </dataRules>
-    <syntaxRules>
-      <rule>El dato se escribe con la primera letra en mayúscula.</rule>
-    </syntaxRules>
-    <campos>
-      <campo>familia</campo>
-      <campo>especie</campo>
-    </campos>
-    <ejemplar>
-      <key>9d0d3a25a1407348776fef1ded21612d</key>
-      <key>08254be3bfe06c058c578be30d515bc7</key>
-      <key>015d493c5ee78e6d1a0141f00404cf37</key>
-      <key>6e8115d8bbd3b755e81e6c7e9bf4e655</key>
-      <key>089358604705ab4c93c5a27ae5c4ecf6</key>
-      <key>0008f582439bd002a14a1898eb8eecdd</key>
-      <key>7de457774a02e5060d733ac2674b3ca0</key>
-      <key>09d4079c0a7f104f64e183845b2ed89a</key>
-      <key>a4f93dbea452dc2ce2c2b5a030445892</key>
-      <key>241c9de4f2dc6b1cb4276a544ff547b2</key>
-      <key>dc930c405edb5e291db83d2b8fd8a59b</key>
-      <key>512a145d4e1cd87c03c1d6aacab16dc7</key>
-      <key>dfbd267f9c8d2a5fb93b9131da28067a</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Taxonomía</category>
-    <orden>
-      <prev>familia</prev>
       <next>especie</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>familia</after>
+      <after>orden</after>
     </ordenTabla>
     <fieldName>Género</fieldName>
     <fieldid>genero</fieldid>
@@ -1639,41 +1589,12 @@ NO DISPONIBLE</subregla></rule>
     <category>Atributos biológicos y ecológicos</category>
     <orden>
       <prev>exoticainvasora</prev>
-      <next>ambiente</next>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <ordenTabla>
-      <after>endemismo</after>
-    </ordenTabla>
-    <fieldName>Taxón extinto</fieldName>
-    <fieldid>taxonextinto</fieldid>
-    <dwcField>Sin equivalencia</dwcField>
-    <description>Indica si corresponde a un taxón (especie o grupo taxonómico superior como familia, orden, etc) cuya desaparición se ha confirmado.</description>
-    <datatype>enum</datatype>
-    <encoding>UTF-8</encoding>
-    <dataRules>
-      <rule>El dominio de los valores permitido está dado por:</rule>
-      <rule>SI</rule>
-      <rule>NO</rule>
-      <rule>El valor SI significa que corresponde a taxón extinto, con base en referencias bibliográficas.</rule>
-      <rule>El valor NO significa que no corresponde a un taxón extinto, con base en referencias bibliográficas.</rule>
-      <rule>El valor vacío significa que se desconoce o no se ha revisado si el taxón es o no un taxón extinto.</rule>
-    </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
-  </snibTerm>
-  <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
-    <orden>
-      <prev>taxonextinto</prev>
       <next>formadecrecimiento</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>taxonextinto</after>
+      <after>endemismo</after>
     </ordenTabla>
     <fieldName>Ambiente</fieldName>
     <fieldid>ambiente</fieldid>
@@ -1890,7 +1811,7 @@ NO DISPONIBLE</subregla></rule>
     <category>Atributos biológicos y ecológicos</category>
     <orden>
       <prev>endemismo</prev>
-      <next>taxonextinto</next>
+      <next>ambiente</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
