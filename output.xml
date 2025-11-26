@@ -383,23 +383,24 @@ un dato de país en el campo país original.</subregla></rule>
     <datatype>varchar (55)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note>&lt;p&gt;Campo resultado del proceso de limpieza, estandarizaci&amp;oacute;n y compleci&amp;oacute;n realizado por la CONABIO&lt;/p&gt;</note>
-      <note>&lt;p&gt;Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/&lt;/p&gt;</note>
+      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO</p>]]></note>
+      <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
     </notes>
     <dataRules>
-      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
+      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.<subregla>ejemplo</subregla></rule>
     </dataRules>
     <syntaxRules>
-      <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
+      <rule>El dato está escrito en mayúsculas y sin utilizar acentos.<subregla>ejemplo</subregla></rule>
     </syntaxRules>
     <infoRules>
-      <rule>El campo puede contener valores que no corresponden a un estado o división política equivalente.</rule>
+      <rule>El campo puede contener valores que no corresponden a un estado o división política equivalente.<subregla>ejemplo</subregla></rule>
     </infoRules>
     <ejemplar>
       <key>00000542ffe016e66a6defb8977d1e32</key>
       <key>000004f34d007e5c2e396a153b264aaf</key>
       <key>000003bed399a8385e59baf7c371267f</key>
     </ejemplar>
+    <downloadSnib>false</downloadSnib>
     <campos>
       <campo>region</campo>
       <campo>localidad</campo>
