@@ -1367,7 +1367,7 @@ un dato de país en el campo país original.</subregla></rule>
     <category>Taxonomía</category>
     <orden>
       <prev>phylumdivision</prev>
-      <next>prueba</next>
+      <next>orden</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -1416,7 +1416,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Taxonomía</category>
     <orden>
-      <prev>prueba</prev>
+      <prev>clase</prev>
       <next>familia</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -3685,7 +3685,7 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>prueba</after>
+      <after>geoportal</after>
     </ordenTabla>
     <fieldName>Última fecha de actualización</fieldName>
     <fieldid>ultimafechaactualizacion</fieldid>
@@ -3779,42 +3779,5 @@ un dato de país en el campo país original.</subregla></rule>
     <ordenTabla>
       <after>version</after>
     </ordenTabla>
-  </snibTerm>
-  <snibTerm>
-    <category>Taxonomía</category>
-    <orden>
-      <prev>clase</prev>
-      <next>orden</next>
-    </orden>
-    <fieldName>prueba</fieldName>
-    <fieldid>prueba</fieldid>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <notes>
-      <note><![CDATA[<p>wretafgagafgfadg&nbsp;<strong>sdgfsgsdfgadf&nbsp;<em>sdgfdsgsdfgsd</em></strong></p>
-<p><strong><em>afsdasdfasd&nbsp;</em></strong>fdsgsfdg</p>]]></note>
-    </notes>
-    <dataRules>
-      <rule>fsfsdf<subregla>fsd</subregla></rule>
-    </dataRules>
-    <syntaxRules>
-      <rule>dfasdssf<subregla>fasfaf</subregla></rule>
-    </syntaxRules>
-    <infoRules>
-      <rule>fasfaf<subregla>fasfsada</subregla></rule>
-    </infoRules>
-    <ejemplar>
-      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
-      <key>127d21638cc105ce290844e6abb7e870</key>
-      <key>096c765542c6bb8f65d0abfd102e9af0</key>
-    </ejemplar>
-    <ordenTabla>
-      <after>geoportal</after>
-    </ordenTabla>
-    <dwcField>dasjkmlasdkmlads</dwcField>
-    <description>fcsdafgadfgadgadf</description>
-    <campos>
-      <campo>localidad</campo>
-    </campos>
   </snibTerm>
 </snibDictionary>
