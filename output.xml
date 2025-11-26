@@ -32,8 +32,8 @@ Ejemplooo</anexo1>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <first/>
-    </ordenTabla>
+      
+    <after>incertidumbrexy</after></ordenTabla>
     <fieldName>Estado asignado</fieldName>
     <fieldid>estadomapa</fieldid>
     <dwcField>Incluido en stateProvince</dwcField>
@@ -67,8 +67,8 @@ Ejemplooo</anexo1>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>estadomapa</after>
-    </ordenTabla>
+      
+    <after>altitudmapa</after></ordenTabla>
     <fieldName>Estado asignado como referencia para las ubicaciones en el mar</fieldName>
     <fieldid>mt24nombreestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -294,8 +294,8 @@ Ejemplooo</anexo1>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>mt24clavemunicipiomapa</after>
-    </ordenTabla>
+      
+    <first/></ordenTabla>
     <fieldName>Incertidumbre geográfica</fieldName>
     <fieldid>incertidumbrexy</fieldid>
     <dwcField>coordinateUncertaintyInMeters</dwcField>
@@ -331,8 +331,8 @@ Ejemplooo</anexo1>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>incertidumbrexy</after>
-    </ordenTabla>
+      
+    <after>estadomapa</after></ordenTabla>
     <fieldName>Altitud </fieldName>
     <fieldid>altitudmapa</fieldid>
     <dwcField>minimunElevationInMeters</dwcField>
@@ -359,8 +359,8 @@ Ejemplooo</anexo1>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>altitudmapa</after>
-    </ordenTabla>
+      
+    <after>mt24clavemunicipiomapa</after></ordenTabla>
     <fieldName>Uso de suelo y vegetación serie I del INEGI</fieldName>
     <fieldid>usvserieI</fieldid>
     <dwcField>Sin equivalencia</dwcField>
