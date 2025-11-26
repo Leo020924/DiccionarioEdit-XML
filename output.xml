@@ -24,46 +24,6 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev></prev>
-      <next>paisoriginal</next>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <ordenTabla>
-      <after>idejemplar</after>
-    </ordenTabla>
-    <fieldName>Región de recolecta u observación</fieldName>
-    <fieldid>region</fieldid>
-    <dwcField>Sin equivalencia</dwcField>
-    <description>País, estado y municipio o su división política equivalente, registrados para el ejemplar por el recolector u observador.</description>
-    <datatype>varchar (150)</datatype>
-    <encoding>UTF-8</encoding>
-    <dataRules>
-      <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
-    </dataRules>
-    <syntaxRules>
-      <rule>Los nombres de los países están escritos en español.</rule>
-      <rule>Los datos están escritos en mayúsculas y sin utilizar acentos.</rule>
-      <rule>Este campo se conforma con la concatenación de los valores de los campos país, estado y municipio.</rule>
-      <rule>Cada dato de la división política se separa con una diagonal entre espacios “ / “ .</rule>
-      <rule>Si no se cuenta con el dato de alguna de las regiones, se indica como “NO DISPONIBLE”.</rule>
-      <rule>En el caso de que el sitio de recolecta u observación del ejemplar se ubique en más de una región, los valores se separan con una coma seguida de un espacio.</rule>
-    </syntaxRules>
-    <ejemplar>
-      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
-      <key>127d21638cc105ce290844e6abb7e870</key>
-      <key>096c765542c6bb8f65d0abfd102e9af0</key>
-    </ejemplar>
-    <campos>
-      <campo>region</campo>
-      <campo>paisoriginal</campo>
-      <campo>estadooriginal</campo>
-      <campo>municipiooriginal</campo>
-    </campos>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica del ejemplar</category>
-    <orden>
       <prev>estadooriginal</prev>
       <next>latitud</next>
     </orden>
@@ -270,7 +230,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>region</prev>
+      <prev></prev>
       <next>estadooriginal</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
@@ -565,7 +525,7 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>region</after>
+      <after>idejemplar</after>
     </ordenTabla>
     <fieldName>Municipio asignado</fieldName>
     <fieldid>municipiomapa</fieldid>
