@@ -3685,8 +3685,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>geoportal</after>
-    </ordenTabla>
+      
+    <after>prueba</after></ordenTabla>
     <fieldName>Última fecha de actualización</fieldName>
     <fieldid>ultimafechaactualizacion</fieldid>
     <dwcField>modified</dwcField>
@@ -3776,7 +3776,7 @@ un dato de país en el campo país original.</subregla></rule>
       <key>127d21638cc105ce290844e6abb7e870</key>
       <key>096c765542c6bb8f65d0abfd102e9af0</key>
     </ejemplar>
-  </snibTerm>
+  <ordenTabla><after>version</after></ordenTabla></snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
     <orden>
@@ -3795,5 +3795,5 @@ un dato de país en el campo país original.</subregla></rule>
       <key>127d21638cc105ce290844e6abb7e870</key>
       <key>096c765542c6bb8f65d0abfd102e9af0</key>
     </ejemplar>
-  </snibTerm>
+  <ordenTabla><after>geoportal</after></ordenTabla></snibTerm>
 </snibDictionary>
