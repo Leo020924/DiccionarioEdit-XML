@@ -600,7 +600,7 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>municipiooriginal</after>
+      <after>mt24claveestadomapa</after>
     </ordenTabla>
     <fieldName>Municipio asignado</fieldName>
     <fieldid>municipiomapa</fieldid>
