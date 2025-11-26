@@ -24,86 +24,6 @@ Ejemplooo</anexo1>
     </creador>
   </metadata>
   <snibTerm>
-    <category>Información geográfica del ejemplar</category>
-    <orden>
-      <prev></prev>
-      <next>incertidumbrexy</next>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <ordenTabla>
-      <first/>
-    </ordenTabla>
-    <fieldName>Datum</fieldName>
-    <fieldid>datum</fieldid>
-    <dwcField>geodeticDatum</dwcField>
-    <description>Sistema de referencia geodésico de las coordenadas geográficas del sitio de recolecta u observación del ejemplar.</description>
-    <datatype>varchar (50)</datatype>
-    <encoding>UTF-8</encoding>
-    <dataRules>
-      <rule>Cuando las coordenadas originales tienen un datum diferente a WGS84, se transforman al WGS84.</rule>
-      <rule>Cuando el datum original de las coordenadas se desconoce, se asume como WGS84.</rule>
-      <rule>El valor vacío significa que el ejemplar no tiene coordenadas geográficas o no están disponibles.</rule>
-    </dataRules>
-    <syntaxRules>
-      <rule>El dato está escrito en mayúsculas y corresponde a las siglas en inglés World Geodetic System.</rule>
-    </syntaxRules>
-    <infoRules/>
-    <notes>
-      <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
-    </notes>
-  </snibTerm>
-  <snibTerm>
-    <category>Validación de la información geográfica</category>
-    <orden>
-      <prev/>
-      <next/>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <ordenTabla>
-      <after>datum</after>
-    </ordenTabla>
-    <fieldName>Validación de la ubicación geográfica</fieldName>
-    <fieldid>geovalidacion</fieldid>
-    <dwcField>Incluido en georeferenceVerificationStatus</dwcField>
-    <description>Resultado de la validación geográfica realizada por la CONABIO considerando la división política, esta se realiza hasta en cuatro niveles país/estado/municipio/localidad.</description>
-    <datatype>varchar (200)</datatype>
-    <encoding>UTF-8</encoding>
-    <notes>
-      <note>&lt;p&gt;Para los ejemplares que resultaron no v&amp;aacute;lidos a nivel de municipio, en el campo Observaciones del uso de la informaci&amp;oacute;n se especifica la distancia de desfase respecto al municipio (campo municipiooriginal).&lt;/p&gt;</note>
-      <note>&lt;p&gt;Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/&lt;/p&gt;</note>
-    </notes>
-    <dataRules>
-      <rule>El dominio de los valores permitidos está dado por:<subregla>Válido localidad</subregla><subregla>Válido municipio o Válido estado o Válido país más el año del mapa utilizado y si se incluyó tolerancia en la validación considerando una distancia máxima de 2 km del límite.</subregla><subregla>Válido estado. No procesado municipio</subregla><subregla>Válido estado. No válido municipio</subregla><subregla>Válido país. No procesado estado y municipio</subregla><subregla>Válido país. No aplica validación de estado y municipio</subregla><subregla>Válido país. No válido estado y municipio</subregla><subregla>Válido país. No válido estado y no procesado municipio</subregla><subregla>No válido país. No procesado estado y municipio</subregla><subregla>No válido país y estado. No procesado municipio</subregla><subregla>No válido país, estado y municipio</subregla><subregla>No procesado</subregla><subregla>No aplica validación de país</subregla></rule>
-      <rule>El valor Válido localidad significa que el ejemplar tiene coordenadas que se ubican en las referencias indicadas en la localidad.</rule>
-      <rule>El valor Válido municipio significa que el ejemplar tiene coordenadas válidas a nivel de país, estado y municipio que se ubican en el país, estado y municipio registrados en el campo región.</rule>
-      <rule>El valor Válido estado. No procesado municipio significa que el ejemplar tiene coordenadas válidas a nivel de país y estado, sin embargo, no se realizó la validación a nivel de municipio debido a que no se tiene el dato, no corresponde a un municipio, el municipio no corresponde al estado o a que es de países distintos a México. En este caso la coordenada se ubica en el país y estado registrados en el campo región.</rule>
-      <rule>El valor Válido estado. No válido municipio significa que el ejemplar tiene coordenadas válidas a nivel de país y estado, pero no válidas a nivel de municipio. En este caso la coordenada se ubica en el país y estado registrados en el campo región.</rule>
-      <rule>El valor Válido país. No procesado estado y municipio significa que el ejemplar tiene coordenadas válidas a nivel de país, sin embargo, no se realizó la validación a nivel de estado ni municipio debido a que no se tiene el dato, no corresponde a un estado ni municipio, el estado no corresponde al país o el municipio (o división política equivalente) es de países distintos a México. En este caso la coordenada se ubica en el país registrado en el campo región.</rule>
-      <rule>El valor Válido país. No aplica validación de estado y municipio significa que el ejemplar tiene coordenadas válidas a nivel de país y no aplica realizar una validación a nivel de estado y municipio debido a que son colectas realizadas en la zona económica exclusiva considerando ésta como mar e islas o ejemplar marino. En este caso la coordenada se ubica en la zona económica exclusiva del país registrado en el campo región.</rule>
-      <rule>El valor Válido país. No válido estado y municipio significa que el ejemplar tiene coordenadas válidas a nivel país, pero no válidas a nivel de estado y municipio. En este caso la coordenada se ubica en cualquier lugar del país indicado en el campo región y no se ubica en el estado ni en el municipio del campo región.</rule>
-      <rule>El valor Válido país. No válido estado y no procesado municipio significa que el ejemplar tiene coordenadas válidas a nivel país, pero no válidas a nivel de estado. No se realizó la validación a nivel de municipio debido a que no se tiene el dato, no corresponde a un municipio, el municipio no corresponde al estado o a que es de países distintos a México. En este caso la coordenada se ubica en cualquier lugar del país registrado en el campo región y no se ubica en el estado registrado en el campo región.</rule>
-      <rule>El valor No válido país. No procesado estado y municipio significa que el ejemplar tiene coordenadas no válidas a nivel de país. En la validación a nivel de país se considera para México la porción continental y marítima. No se realizó la validación a nivel de estado ni municipio debido a que no se tiene el dato, no corresponde a un estado ni municipio, el estado no corresponde al país, el municipio no corresponde al estado o a que el municipio es de países distintos a México. En este caso la coordenada no se ubica en el país registrado en el campo región.</rule>
-      <rule>El valor No válido país y estado. No procesado municipio significa que el ejemplar tiene coordenadas no válidas a nivel de país y estado. En la validación a nivel de país se considera para México la porción continental y marítima. No se realizó la validación a nivel de municipio debido a que no se tiene el dato, no corresponde a un municipio, el municipio no corresponde al estado o a que es de países distintos a México. En este caso la coordenada no se ubica en el país ni estado registrado en el campo región.</rule>
-      <rule>El valor No válido país, estado y municipio significa que el ejemplar tiene coordenadas no válidas a nivel de país, estado y municipio. En este caso la coordenada no se ubica en el país, estado ni municipio registrados en el campo región.</rule>
-      <rule>El valor No procesado significa que el ejemplar no tiene dato de país, estado ni municipio o tiene un dato que no corresponde con algún país, estado ni municipio.</rule>
-      <rule>El valor No aplica validación de país significa que el ejemplar tiene coordenadas válidas fuera del país y no aplica realizar una validación a nivel de país, estado y municipio debido a que son colectas realizadas en aguas internacionales.</rule>
-      <rule>El valor vacío significa que la ubicación no se validó por no tener coordenadas geográficas.</rule>
-    </dataRules>
-    <syntaxRules>
-      <rule>El dato contiene el resultado de la validación geográfica “Válido” seguido del nivel (“país, “estado”, “municipio” y/o “localidad”) a continuación presenta el año del, mapa de división política municipal utilizado y si se usó tolerancia de 2 Km en la validación {2020 | 2020 con tolerancia 2018 | 2018 con tolerancia | 2016 | 2016 con tolerancia | 2015 | 2015 con tolerancia | 2010 | 2010 con tolerancia | 2005 | 2005 con tolerancia | 2000 | 2000 con tolerancia | 1995 | 1995 con tolerancia | 1995ig | 1995ig con tolerancia | 1990 | 1990 con tolerancia }. Finalmente se indica el detalle del nivel de validación “No procesado municipio”, “No válido municipio”, “No procesado estado y municipio”, “No aplica validación de estado y municipio”, “No válido estado y municipio“, “No válido estado y no procesado municipio” o “No aplica validación de país”.</rule>
-    </syntaxRules>
-    <ejemplar>
-      <key>000000fce20896c0d5c13b5475d24717</key>
-      <key>0000010278ed24a49835a2272d40ff11</key>
-      <key>00000103afb44e8217c0021acab57d9d</key>
-    </ejemplar>
-    <campos>
-      <campo>localidad</campo>
-    </campos>
-  </snibTerm>
-  <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
       <prev/>
@@ -112,7 +32,7 @@ Ejemplooo</anexo1>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>geovalidacion</after>
+      <first/>
     </ordenTabla>
     <fieldName>País asignado</fieldName>
     <fieldid>paismapa</fieldid>
@@ -469,7 +389,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>datum</prev>
+      <prev/>
       <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
