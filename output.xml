@@ -201,7 +201,7 @@ Ejemplooo</anexo1>
     <category>Información geográfica del ejemplar</category>
     <orden>
       <prev/>
-      <next>test</next>
+      <next>estadooriginal</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <ordenTabla>
@@ -299,7 +299,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>test</prev>
+      <prev>paisoriginal</prev>
       <next>municipiooriginal</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
@@ -3327,8 +3327,8 @@ NO DISPONIBLE</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <after>test</after></ordenTabla>
+      <after>ultimafechaactualizacion</after>
+    </ordenTabla>
     <fieldName>Versión</fieldName>
     <fieldid>version</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -3374,23 +3374,4 @@ NO DISPONIBLE</subregla></rule>
       <campo>urlejemplar</campo>
     </campos>
   </snibTerm>
-  <snibTerm>
-    <category>Información geográfica del ejemplar</category>
-    <orden>
-      <prev>paisoriginal</prev>
-      <next>estadooriginal</next>
-    </orden>
-    <fieldName>prueba</fieldName>
-    <fieldid>test</fieldid>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <campos>
-      <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
-      <key>127d21638cc105ce290844e6abb7e870</key>
-      <key>096c765542c6bb8f65d0abfd102e9af0</key>
-    </ejemplar>
-  <ordenTabla><after>ultimafechaactualizacion</after></ordenTabla></snibTerm>
 </snibDictionary>
