@@ -416,7 +416,7 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>estadooriginal</after>
+      <after>paismapa</after>
     </ordenTabla>
     <fieldName>Estado asignado</fieldName>
     <fieldid>estadomapa</fieldid>
