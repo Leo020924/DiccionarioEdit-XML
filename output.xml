@@ -198,43 +198,6 @@ Ejemplooo</anexo1>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica del ejemplar</category>
-    <orden>
-      <prev/>
-      <next>estadooriginal</next>
-    </orden>
-    <downloadGeoportal>false</downloadGeoportal>
-    <ordenTabla>
-      <after>geovalidacion</after>
-    </ordenTabla>
-    <fieldName>País</fieldName>
-    <fieldid>paisoriginal</fieldid>
-    <dwcField>Incluido en country</dwcField>
-    <description>Nombre del país donde se ubica la localidad en la que el ejemplar fue recolectado u observado.</description>
-    <datatype>varchar (50)</datatype>
-    <encoding>UTF-8</encoding>
-    <notes>
-      <note>&lt;p&gt;Campo resultado del proceso de limpieza, estandarizaci&amp;oacute;n y compleci&amp;oacute;n realizado por la CONABIO.&lt;/p&gt;</note>
-      <note>&lt;p&gt;Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/&lt;/p&gt;</note>
-    </notes>
-    <dataRules>
-      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
-    </dataRules>
-    <syntaxRules>
-      <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
-    </syntaxRules>
-    <ejemplar>
-      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
-      <key>127d21638cc105ce290844e6abb7e870</key>
-      <key>096c765542c6bb8f65d0abfd102e9af0</key>
-    </ejemplar>
-    <campos>
-      <campo>localidad</campo>
-      <campo>longitud</campo>
-      <campo>latitud</campo>
-    </campos>
-  </snibTerm>
-  <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
       <prev/>
@@ -299,7 +262,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>paisoriginal</prev>
+      <prev></prev>
       <next>municipiooriginal</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
