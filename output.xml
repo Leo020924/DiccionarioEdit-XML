@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <snibDictionary>
   <metadata>
     <titulo>Especímenes publicados en el geoportal y el sitio del Sistema Nacional de Información sobre Biodiversidad.</titulo>
@@ -16,14 +16,18 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <anexo1>En la siguiente tabla se muestran los campos del SNIB incluidos para descarga en el geoportal y la página del SNIB de la CONABIO.</anexo1>
     <anexo2>En este anexo se proporciona la sentencia SQL para MySQL mediante la cual se puede crear la estructura de la tabla del geoportal.</anexo2>
     <creador>
-      <nombre />
-      <sitioWeb />
-      <portalSNIB />
+      <nombre/>
+      <sitioWeb/>
+      <portalSNIB/>
     </creador>
   </metadata>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden><prev /><next>paisoriginal</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>Alinicio</prev>
+      <next>paisoriginal</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>idejemplar</after>
@@ -59,7 +63,11 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden><prev>municipiooriginal</prev><next>latitud</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>municipiooriginal</prev>
+      <next>latitud</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>region</after>
@@ -73,13 +81,17 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
-    <syntaxRules />
-    <infoRules />
-    <notes />
+    <syntaxRules/>
+    <infoRules/>
+    <notes/>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden><prev>latitud</prev><next>datum</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>latitud</prev>
+      <next>datum</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>localidad</after>
@@ -89,7 +101,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <dwcField>decimalLongitude</dwcField>
     <description>Longitud de la coordenada geográfica del sitio de recolecta u observación del ejemplar.</description>
     <datatype>double</datatype>
-    <encoding />
+    <encoding/>
     <dataRules>
       <rule>El valor está en el intervalo de -180 a 180.</rule>
       <rule>Cuando las coordenadas originales están en grados, minutos y segundos, se realiza una conversión a grados decimales; si se desconoce el valor de los segundos se asignan 30’’ para no sesgar el dato desconocido hacia los extremos (0 - 59).</rule>
@@ -110,7 +122,11 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden><prev>localidad</prev><next>longitud</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>localidad</prev>
+      <next>longitud</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>longitud</after>
@@ -120,7 +136,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <dwcField>decimalLatitude</dwcField>
     <description>Latitud de la coordenada geográfica del sitio de recolecta u observación del ejemplar.</description>
     <datatype>double</datatype>
-    <encoding />
+    <encoding/>
     <dataRules>
       <rule>El valor está en el intervalo de -90 a 90.</rule>
       <rule>Cuando las coordenadas originales están en grados, minutos y segundos o en sistema UTM, se realiza una conversión a grados decimales; si se desconoce el valor de los segundos se asignan 30’’ para no sesgar el dato desconocido hacia los extremos (0 - 59).</rule>
@@ -141,7 +157,11 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden><prev>longitud</prev><next>incertidumbrexy</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>longitud</prev>
+      <next>incertidumbrexy</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>Latitud</after>
@@ -160,14 +180,18 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y corresponde a las siglas en inglés World Geodetic System.</rule>
     </syntaxRules>
-    <infoRules />
+    <infoRules/>
     <notes>
       <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
     </notes>
   </snibTerm>
   <snibTerm>
     <category>Validación de la información geográfica</category>
-    <orden><prev>geovalidacion</prev><next /></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>geovalidacion</prev>
+      <next/>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>datum</after>
@@ -189,13 +213,17 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
       <rule>El valor No procesado significa que el ejemplar no se valida porque no se cuenta con el dato de ambiente del taxón, son aves no residentes o no tiene coordenadas geográficas.</rule>
       <rule>El valor No aplica significa que el ejemplar es fósil y no se aplicó la validación por ambiente.</rule>
     </dataRules>
-    <syntaxRules />
-    <infoRules />
-    <notes />
+    <syntaxRules/>
+    <infoRules/>
+    <notes/>
   </snibTerm>
   <snibTerm>
     <category>Validación de la información geográfica</category>
-    <orden><prev /><next>validacionambiente</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev/>
+      <next>validacionambiente</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>validacionambiente</after>
@@ -241,7 +269,11 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden><prev>region</prev><next>estadooriginal</next></orden><downloadGeoportal>false</downloadGeoportal>
+    <orden>
+      <prev>region</prev>
+      <next>estadooriginal</next>
+    </orden>
+    <downloadGeoportal>false</downloadGeoportal>
     <ordenTabla>
       <after>geovalidacion</after>
     </ordenTabla>
@@ -274,7 +306,11 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev /><next>claveestadomapa</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev/>
+      <next>claveestadomapa</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>paisoriginal</after>
@@ -332,7 +368,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden><prev>paisoriginal</prev><next>municipiooriginal</next></orden><downloadGeoportal>false</downloadGeoportal>
+    <orden>
+      <prev>paisoriginal</prev>
+      <next>municipiooriginal</next>
+    </orden>
+    <downloadGeoportal>false</downloadGeoportal>
     <ordenTabla>
       <after>paismapa</after>
     </ordenTabla>
@@ -369,7 +409,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>claveestadomapa</prev><next>mt24claveestadomapa</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>claveestadomapa</prev>
+      <next>mt24claveestadomapa</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>estadooriginal</after>
@@ -380,11 +424,11 @@ un dato de país en el campo país original.</subregla></rule>
     <description>Nombre del estado o división política equivalente donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política utilizados para la validación geográfica realizada por la CONABIO.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules />
+    <dataRules/>
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
     </syntaxRules>
-    <infoRules />
+    <infoRules/>
     <notes>
       <note>Campo resultado del proceso de sobreposición de las coordenadas geográficas con mapas de división política actuales, realizado en CONABIO, los mapas utilizados son:</note>
       <note>México</note>
@@ -400,7 +444,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>paismapa</prev><next>estadomapa</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>paismapa</prev>
+      <next>estadomapa</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>estadomapa</after>
@@ -435,7 +483,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>mt24claveestadomapa</prev><next>clavemunicipiomapa</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>mt24claveestadomapa</prev>
+      <next>clavemunicipiomapa</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>claveestadomapa</after>
@@ -449,7 +501,7 @@ un dato de país en el campo país original.</subregla></rule>
     <dataRules>
       <rule>El valor sólo se presenta para los ejemplares ubicados en la franja del mar territorial y zona contigua.</rule>
     </dataRules>
-    <syntaxRules />
+    <syntaxRules/>
     <infoRules>
       <rule>El campo mt24nombreestadomapa puede tener un valor diferente al de estado del mapa.</rule>
     </infoRules>
@@ -467,7 +519,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>estadomapa</prev><next>mt24nombreestadomapa</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>estadomapa</prev>
+      <next>mt24nombreestadomapa</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>mt24nombreestadomapa</after>
@@ -502,7 +558,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden><prev>estadooriginal</prev><next>localidad</next></orden><downloadGeoportal>false</downloadGeoportal>
+    <orden>
+      <prev>estadooriginal</prev>
+      <next>localidad</next>
+    </orden>
+    <downloadGeoportal>false</downloadGeoportal>
     <ordenTabla>
       <after>mt24claveestadomapa</after>
     </ordenTabla>
@@ -533,7 +593,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>clavemunicipiomapa</prev><next>mt24clavemunicipiomapa</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>clavemunicipiomapa</prev>
+      <next>mt24clavemunicipiomapa</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>municipiooriginal</after>
@@ -546,12 +610,12 @@ un dato de país en el campo país original.</subregla></rule>
     <encoding>UTF-8</encoding>
     <dataRules>
       <rule>Se asigna el municipio -o división política equivalente- donde se ubica la coordenada geográfica cuando el ejemplar no tiene registrado un dato de municipio en el campo municipio original.</rule>
-      <rule />
+      <rule/>
     </dataRules>
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
     </syntaxRules>
-    <infoRules />
+    <infoRules/>
     <notes>
       <note>Campo resultado del proceso de sobreposición de las coordenadas geográficas con mapas de división política actuales, realizado en CONABIO, los mapas utilizados son:</note>
       <note>México</note>
@@ -567,7 +631,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>mt24nombreestadomapa</prev><next>municipiomapa</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>mt24nombreestadomapa</prev>
+      <next>municipiomapa</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>municipiomapa</after>
@@ -604,7 +672,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>mt24clavemunicipiomapa</prev><next>altitudmapa</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>mt24clavemunicipiomapa</prev>
+      <next>altitudmapa</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>clavemunicipiomapa</after>
@@ -615,8 +687,8 @@ un dato de país en el campo país original.</subregla></rule>
     <description>Nombre del municipio o división política equivalente frente al cual se extiende la franja de 24 millas náuticas (12 de mar territorial y 12 de la zona contigua), y que se asigna como referencia de ubicación de la coordenada geográfica registrada para el ejemplar.</description>
     <datatype>varchar (80)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules />
-    <syntaxRules />
+    <dataRules/>
+    <syntaxRules/>
     <infoRules>
       <rule>El campo mt24nombremunicipiomapa puede tener un valor diferente al de municipiomapa.</rule>
     </infoRules>
@@ -634,7 +706,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>municipiomapa</prev><next>mt24nombremunicipiomapa</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>municipiomapa</prev>
+      <next>mt24nombremunicipiomapa</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>mt24nombremunicipiomapa</after>
@@ -669,7 +745,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
-    <orden><prev>datum</prev><next /></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>datum</prev>
+      <next/>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>mt24clavemunicipiomapa</after>
@@ -679,7 +759,7 @@ un dato de país en el campo país original.</subregla></rule>
     <dwcField>coordinateUncertaintyInMeters</dwcField>
     <description>Valor de incertidumbre de las coordenadas geográficas.</description>
     <datatype>int (11)</datatype>
-    <encoding />
+    <encoding/>
     <dataRules>
       <rule>El valor nulo significa que no se tiene el dato de la incertidumbre o no tiene coordenadas geográficas.</rule>
       <rule>El valor proviene de:</rule>
@@ -687,8 +767,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El cálculo basado en el método punto-radio usado en la georreferenciación de localidades en la CONABIO.</rule>
       <rule>Asignado por la CONABIO en el caso de desconocimiento del DATUM original o para las coordenadas generalizadas (sólo para ejemplares de México).</rule>
     </dataRules>
-    <syntaxRules />
-    <infoRules />
+    <syntaxRules/>
+    <infoRules/>
     <notes>
       <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información de la incertidumbre del método punto-radio, véase:</note>
@@ -702,7 +782,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>mt24nombremunicipiomapa</prev><next>anp</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>mt24nombremunicipiomapa</prev>
+      <next>anp</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>incertidumbrexy</after>
@@ -712,12 +796,12 @@ un dato de país en el campo país original.</subregla></rule>
     <dwcField>minimunElevationInMeters</dwcField>
     <description>Altitud donde se ubica la coordenada geográfica, es obtenida del modelo de elevación ASTER GDEM2. Tipo de dato: smallint (6)</description>
     <datatype>smallint (6)</datatype>
-    <encoding />
+    <encoding/>
     <dataRules>
       <rule>El valor nulo significa que el ejemplar no tiene coordenadas geográficas; las coordenadas asociadas al ejemplar se ubican fuera del área que cubre el modelo digital de elevación o, dicho modelo no tiene el dato de altitud.</rule>
     </dataRules>
-    <syntaxRules />
-    <infoRules />
+    <syntaxRules/>
+    <infoRules/>
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información acerca del modelo de elevación véase:</note>
@@ -726,7 +810,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>cuencahidrograficamapa</prev><next>usvserieII</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>cuencahidrograficamapa</prev>
+      <next>usvserieII</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>altitudmapa</after>
@@ -741,8 +829,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso del suelo y vegetación serie I del INE-INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
-    <syntaxRules />
-    <infoRules />
+    <syntaxRules/>
+    <infoRules/>
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información sobre el uso de suelo y vegetación serie I véase:</note>
@@ -752,7 +840,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>usvserieI</prev><next>usvserieIII</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>usvserieI</prev>
+      <next>usvserieIII</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>usvserieI</after>
@@ -767,8 +859,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso del suelo y vegetación serie II del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
-    <syntaxRules />
-    <infoRules />
+    <syntaxRules/>
+    <infoRules/>
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información sobre el uso de suelo y vegetación serie II véase:</note>
@@ -778,7 +870,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>usvserieII</prev><next>usvserieIV</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>usvserieII</prev>
+      <next>usvserieIV</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>usvserieII</after>
@@ -793,8 +889,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso de suelo y vegetación serie III del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
-    <syntaxRules />
-    <infoRules />
+    <syntaxRules/>
+    <infoRules/>
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información sobre el uso de suelo y vegetación serie III véase:</note>
@@ -804,7 +900,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>usvserieIII</prev><next>usvserieV</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>usvserieIII</prev>
+      <next>usvserieV</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>usvserieIII</after>
@@ -819,8 +919,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso del suelo y vegetación serie IV del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
-    <syntaxRules />
-    <infoRules />
+    <syntaxRules/>
+    <infoRules/>
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información sobre el uso de suelo y vegetación serie IV véase:</note>
@@ -830,7 +930,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>usvserieIV</prev><next>usvserieVI</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>usvserieIV</prev>
+      <next>usvserieVI</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>usvserieIV</after>
@@ -845,8 +949,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso de suelo y vegetación serie V del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
-    <syntaxRules />
-    <infoRules />
+    <syntaxRules/>
+    <infoRules/>
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información sobre el uso de suelo y vegetación serie V véase:</note>
@@ -855,7 +959,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>usvserieV</prev><next>usvserieVII</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>usvserieV</prev>
+      <next>usvserieVII</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>usvserieV</after>
@@ -870,8 +978,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso de suelo y vegetación serie VI del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
-    <syntaxRules />
-    <infoRules />
+    <syntaxRules/>
+    <infoRules/>
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información sobre el uso de suelo y vegetación serie VI véase:</note>
@@ -880,7 +988,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>usvserieVI</prev><next>vegetacionserenanalcms</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>usvserieVI</prev>
+      <next>vegetacionserenanalcms</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>usvserieVI</after>
@@ -895,8 +1007,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso de suelo y vegetación serie VII del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
-    <syntaxRules />
-    <infoRules />
+    <syntaxRules/>
+    <infoRules/>
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información sobre el uso de suelo y vegetación serie VII véase:</note>
@@ -906,7 +1018,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>usvserieVII</prev><next>regionmarinamapa</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>usvserieVII</prev>
+      <next>regionmarinamapa</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>usvserieVII</after>
@@ -921,8 +1037,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por la cobertura de suelo, según el mapa de SERENA.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
-    <syntaxRules />
-    <infoRules />
+    <syntaxRules/>
+    <infoRules/>
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Para más información sobre cobertura de suelo y vegetación véase:Blanco, P. D., Colditz, R. R., López, G., Hardtke, L. A., Llamas, R. M., Mari, N. A., Barrena Arroyo, V. (2013). A land cover map of Latin America and the Caribbean in the framework of the SERENA project. Remote Sensing of Environment, 132, 13–31.</note>
@@ -931,7 +1047,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>altitudmapa</prev><next>cuencahidrograficamapa</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>altitudmapa</prev>
+      <next>cuencahidrograficamapa</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>vegetacionserenanalcms</after>
@@ -954,7 +1074,7 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>Como parte del nombre de las ANP se pueden encontrar los siguientes caracteres especiales (),-&amp;./–"[]'\_´ ̃ ̃:@#+?*!% ; `</rule>
       <rule>Las ANP que se comparten en más de un país se diferencian en el nombre por la abreviación del país alfa-2 de la ISO 3166.</rule>
     </syntaxRules>
-    <infoRules />
+    <infoRules/>
     <notes>
       <note>Para más información de las ANP de México, véase:</note>
       <note>CONABIO 2020. Áreas Naturales Protegidas Estatales, Municipales, Ejidales, Comunitarias y Privadas de México 2020. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. México.</note>
@@ -967,7 +1087,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>vegetacionserenanalcms</prev><next>ecorregionterrestremapa</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>vegetacionserenanalcms</prev>
+      <next>ecorregionterrestremapa</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>anp</after>
@@ -991,7 +1115,7 @@ un dato de país en el campo país original.</subregla></rule>
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
     </syntaxRules>
-    <infoRules />
+    <infoRules/>
     <notes>
       <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
       <note>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</note>
@@ -999,7 +1123,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>regionmarinamapa</prev><next /></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>regionmarinamapa</prev>
+      <next/>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>regionmarinamapa</after>
@@ -1017,7 +1145,7 @@ un dato de país en el campo país original.</subregla></rule>
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y minúsculas y sin acentos.</rule>
     </syntaxRules>
-    <infoRules />
+    <infoRules/>
     <notes>
       <note>Cita: Instituto Nacional de Estadística, Geografía e Informática (INEGI) -Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO) - Instituto Nacional de Ecología (INE). (2008). 'Ecorregiones Terrestres de México'. Escala 1:1000000. México. De forma abreviada puede citarse así: INEGI, CONABIO e INE. 2008. 'Ecorregiones terrestres de México'. Escala 1:1000000. México.</note>
       <note>URL: http://www.conabio.gob.mx/informacion/gis/?vns=gis_root/region/biotic/ecort08gw</note>
@@ -1027,7 +1155,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
-    <orden><prev>anp</prev><next>usvserieI</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>anp</prev>
+      <next>usvserieI</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>ecorregionterrestremapa</after>
@@ -1046,7 +1178,7 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dato está escrito en mayúsculas y minúsculas y con acentos.</rule>
       <rule>El valor se conforma por el código de la cuenca, seguido del nombre separando con una coma.</rule>
     </syntaxRules>
-    <infoRules />
+    <infoRules/>
     <notes>
       <note>Cita: Instituto Nacional de Estadística Geografía e Informática (INEGI), Instituto Nacional de Ecología (INE), Comisión Nacional de Agua (CONAGUA), (2007). 'Mapa de Cuencas Hidrográficas de México, 2007'. Escala 1:250000, elaborada por Priego A.G., Isunza E., Luna N. y Pérez J.L. México, D.F.</note>
       <note>URL: http://www.conabio.gob.mx/informacion/gis/?vns=gis_root/hidro/chidro/cue250k_07gw</note>
@@ -1056,7 +1188,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>taxonvalidado</prev><next>subgrupobio</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>taxonvalidado</prev>
+      <next>subgrupobio</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>cuencahidrograficamapa</after>
@@ -1102,7 +1238,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>grupobio</prev><next>idnombrecat</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>grupobio</prev>
+      <next>idnombrecat</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>grupobio</after>
@@ -1140,7 +1280,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>idnombrecat</prev><next>phylumdivision</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>idnombrecat</prev>
+      <next>phylumdivision</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>subgrupobio</after>
@@ -1176,7 +1320,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>reino</prev><next>clase</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>reino</prev>
+      <next>clase</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>reino</after>
@@ -1217,7 +1365,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>phylumdivision</prev><next>orden</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>phylumdivision</prev>
+      <next>orden</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>phylumdivision</after>
@@ -1263,7 +1415,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>clase</prev><next>familia</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>clase</prev>
+      <next>familia</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>clase</after>
@@ -1309,7 +1465,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>orden</prev><next>genero</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>orden</prev>
+      <next>genero</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>orden</after>
@@ -1355,7 +1515,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>familia</prev><next>especie</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>familia</prev>
+      <next>especie</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>familia</after>
@@ -1400,7 +1564,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>genero</prev><next>calificadordeterminacion</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>genero</prev>
+      <next>calificadordeterminacion</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>genero</after>
@@ -1440,7 +1608,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>calificadordeterminacion</prev><next>categoriainfraespecie2</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>calificadordeterminacion</prev>
+      <next>categoriainfraespecie2</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>especie</after>
@@ -1470,7 +1642,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>categoriainfraespecie</prev><next>autor</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>categoriainfraespecie</prev>
+      <next>autor</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>categoriainfraespecie</after>
@@ -1502,7 +1678,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>categoriainfraespecie2</prev><next>estatustax</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>categoriainfraespecie2</prev>
+      <next>estatustax</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>categoriainfraespecie2</after>
@@ -1530,7 +1710,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>autor</prev><next>reftax</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>autor</prev>
+      <next>reftax</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>autor</after>
@@ -1567,7 +1751,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>estatustax</prev><next>idnombrecatvalido</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>estatustax</prev>
+      <next>idnombrecatvalido</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>estatustax</after>
@@ -1599,7 +1787,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>idnombrecatvalido</prev><next>phylumdivisionvalido</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>idnombrecatvalido</prev>
+      <next>phylumdivisionvalido</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>reftax</after>
@@ -1631,7 +1823,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>reinovalido</prev><next>clasevalida</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>reinovalido</prev>
+      <next>clasevalida</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>reinovalido</after>
@@ -1667,7 +1863,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>phylumdivisionvalido</prev><next>ordenvalido</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>phylumdivisionvalido</prev>
+      <next>ordenvalido</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>phylumdivisonvalido</after>
@@ -1707,7 +1907,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>clasevalida</prev><next>familiavalida</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>clasevalida</prev>
+      <next>familiavalida</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>clasevalida</after>
@@ -1747,7 +1951,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>ordenvalido</prev><next>generovalido</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>ordenvalido</prev>
+      <next>generovalido</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>ordenvalido0</after>
@@ -1787,7 +1995,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>familiavalida</prev><next>especievalida</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>familiavalida</prev>
+      <next>especievalida</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>municipiooriginal</after>
@@ -1825,7 +2037,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>generovalido</prev><next>categoriainfraespecievalida</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>generovalido</prev>
+      <next>categoriainfraespecievalida</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>generovalido</after>
@@ -1867,7 +2083,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>especievalida</prev><next>categoriainfraespecie2valida</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>especievalida</prev>
+      <next>categoriainfraespecie2valida</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>especievalida</after>
@@ -1899,7 +2119,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>categoriainfraespecievalida</prev><next>autorvalido</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>categoriainfraespecievalida</prev>
+      <next>autorvalido</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>categoriainfraespecievalida</after>
@@ -1927,7 +2151,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>categoriainfraespecie2valida</prev><next>reftaxvalido</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>categoriainfraespecie2valida</prev>
+      <next>reftaxvalido</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>categoriainfraespecie2valida</after>
@@ -1971,7 +2199,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>autorvalido</prev><next /></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>autorvalido</prev>
+      <next/>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>autorvalido</after>
@@ -2004,7 +2236,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev /><next>grupobio</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev/>
+      <next>grupobio</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>reftaxvalido</after>
@@ -2034,7 +2270,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
-    <orden><prev>taxonextinto</prev><next>exoticainvasora</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>taxonextinto</prev>
+      <next>exoticainvasora</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>taxonvalidado</after>
@@ -2071,7 +2311,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
-    <orden><prev>nombrecomun</prev><next>endemismo</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>nombrecomun</prev>
+      <next>endemismo</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>endemismo</after>
@@ -2103,7 +2347,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
-    <orden><prev>exoticainvasora</prev><next>formadecrecimiento</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>exoticainvasora</prev>
+      <next>formadecrecimiento</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>taxonextinto</after>
@@ -2136,7 +2384,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
-    <orden><prev /><next>taxonextinto</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev/>
+      <next>taxonextinto</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>ambiente</after>
@@ -2170,7 +2422,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>subgrupobio</prev><next>reino</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>subgrupobio</prev>
+      <next>reino</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>nombrecomun</after>
@@ -2194,7 +2450,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>reftax</prev><next>reinovalido</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>reftax</prev>
+      <next>reinovalido</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>idnombrecat</after>
@@ -2218,7 +2478,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
-    <orden><prev>ambiente</prev><next>categoriaresidenciaaves</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>ambiente</prev>
+      <next>categoriaresidenciaaves</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>idnombrecatvalido</after>
@@ -2269,7 +2533,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
-    <orden><prev>cites</prev><next>nivelprioridad</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>cites</prev>
+      <next>nivelprioridad</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>formadecrecimiento</after>
@@ -2307,7 +2575,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
-    <orden><prev>prioritaria</prev><next>iucn</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>prioritaria</prev>
+      <next>iucn</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>prioritaria</after>
@@ -2343,7 +2615,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
-    <orden><prev>endemismo</prev><next>ambiente</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>endemismo</prev>
+      <next>ambiente</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>nivelprioridad</after>
@@ -2380,7 +2656,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
-    <orden><prev /><next>cites</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev/>
+      <next>cites</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>exoticainvasora</after>
@@ -2413,7 +2693,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
-    <orden><prev>nom059</prev><next>prioritaria</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>nom059</prev>
+      <next>prioritaria</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>nom059</after>
@@ -2447,7 +2731,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
-    <orden><prev>nivelprioridad</prev><next /></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>nivelprioridad</prev>
+      <next/>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>cites</after>
@@ -2483,7 +2771,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
-    <orden><prev>formadecrecimiento</prev><next /></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>formadecrecimiento</prev>
+      <next/>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>iucn</after>
@@ -2518,7 +2810,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>coleccion</prev><next>institucion</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>coleccion</prev>
+      <next>institucion</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>categoriaresidenciaaves</after>
@@ -2546,7 +2842,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>idejemplar</prev><next>obsusoinfo</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>idejemplar</prev>
+      <next>obsusoinfo</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>obsusoinfo</after>
@@ -2583,7 +2883,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>obsusoinfo</prev><next>numcatalogo</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>obsusoinfo</prev>
+      <next>numcatalogo</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>coleccion</after>
@@ -2621,7 +2925,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>fechacolecta</prev><next>procedenciaejemplar</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>fechacolecta</prev>
+      <next>procedenciaejemplar</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>institucion</after>
@@ -2639,12 +2947,16 @@ un dato de país en el campo país original.</subregla></rule>
     <syntaxRules>
       <rule>El dato se escribe utilizando mayúsculas y sin acentos.</rule>
     </syntaxRules>
-    <infoRules />
-    <notes />
+    <infoRules/>
+    <notes/>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>institucion</prev><next>numcolecta</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>institucion</prev>
+      <next>numcolecta</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>paiscoleccion</after>
@@ -2672,7 +2984,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>numcatalogo</prev><next>colector</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>numcatalogo</prev>
+      <next>colector</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>numcatalogo</after>
@@ -2700,7 +3016,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>paiscoleccion</prev><next>determinador</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>paiscoleccion</prev>
+      <next>determinador</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>numcolecta</after>
@@ -2740,7 +3060,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>procedenciaejemplar</prev><next>aniodeterminacion</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>procedenciaejemplar</prev>
+      <next>aniodeterminacion</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>procedenciaejemplar</after>
@@ -2764,7 +3088,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>determinador</prev><next>mesdeterminacion</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>determinador</prev>
+      <next>mesdeterminacion</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>determinador</after>
@@ -2774,19 +3102,23 @@ un dato de país en el campo país original.</subregla></rule>
     <dwcField>Sin equivalencia</dwcField>
     <description>Año en que se realizó la determinación del ejemplar.</description>
     <datatype>smallint (6)</datatype>
-    <encoding />
+    <encoding/>
     <dataRules>
       <rule>El valor nulo significa que no se cuenta con el año de la determinación del ejemplar, no se capturó el dato o el valor capturado no es válido.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Se muestra con el formato aaaa.</rule>
     </syntaxRules>
-    <infoRules />
-    <notes />
+    <infoRules/>
+    <notes/>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>aniodeterminacion</prev><next>diadeterminacion</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>aniodeterminacion</prev>
+      <next>diadeterminacion</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>aniodeterminacion</after>
@@ -2809,7 +3141,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>mesdeterminacion</prev><next>fechadeterminacion</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>mesdeterminacion</prev>
+      <next>fechadeterminacion</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>mesdeterminacion</after>
@@ -2819,19 +3155,23 @@ un dato de país en el campo país original.</subregla></rule>
     <dwcField>Sin equivalencia</dwcField>
     <description>Indica el día que se realizó la determinación del ejemplar.</description>
     <datatype>tinyint (4)</datatype>
-    <encoding />
+    <encoding/>
     <dataRules>
       <rule>El valor nulo significa que no se cuenta con el día de la determinación del ejemplar, no se capturó el dato o el valor capturado es no válido respecto al mes de la determinación.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Se muestra con el formato dd.</rule>
     </syntaxRules>
-    <infoRules />
-    <notes />
+    <infoRules/>
+    <notes/>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>diadeterminacion</prev><next>tipo</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>diadeterminacion</prev>
+      <next>tipo</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>diadeterminacion</after>
@@ -2849,12 +3189,16 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>Se concatenan los campos aniodeterminacion, mesdeterminacion y diadeterminacion separados por un guion, sin considerar los valores 99.</rule>
       <rule>Se muestra con el formato aaaa-mm-dd.</rule>
     </syntaxRules>
-    <infoRules />
-    <notes />
+    <infoRules/>
+    <notes/>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
-    <orden><prev>especie</prev><next>categoriainfraespecie</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>especie</prev>
+      <next>categoriainfraespecie</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>fechadeterminacion</after>
@@ -2882,7 +3226,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>numcolecta</prev><next>aniocolecta</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>numcolecta</prev>
+      <next>aniocolecta</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>calificadordeterminacion</after>
@@ -2905,7 +3253,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>colector</prev><next>mescolecta</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>colector</prev>
+      <next>mescolecta</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>colector</after>
@@ -2915,21 +3267,25 @@ un dato de país en el campo país original.</subregla></rule>
     <dwcField>year</dwcField>
     <description>Indica el año del evento de recolecta u observación del ejemplar.</description>
     <datatype>smallint (6)</datatype>
-    <encoding />
+    <encoding/>
     <dataRules>
       <rule>El valor 9999 significa que no se cuenta con el año de recolecta o el dato capturado no es válido para un año.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Se muestra con el formato aaaa.</rule>
     </syntaxRules>
-    <infoRules />
+    <infoRules/>
     <notes>
       <note>Cuando la recolecta se llevó a cabo en un rango de fechas, en este campo se especifica solo el año inicial de recolecta.</note>
     </notes>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>aniocolecta</prev><next>diacolecta</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>aniocolecta</prev>
+      <next>diacolecta</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>aniocolecta</after>
@@ -2939,21 +3295,25 @@ un dato de país en el campo país original.</subregla></rule>
     <dwcField>month</dwcField>
     <description>Indica el mes del evento de recolecta u observación del ejemplar.</description>
     <datatype>tinyint (4)</datatype>
-    <encoding />
+    <encoding/>
     <dataRules>
       <rule>El valor nulo significa que no se cuenta con el mes de recolecta, no se capturó o el dato capturado no es válido para un mes del año.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Se muestra con el formato mm.</rule>
     </syntaxRules>
-    <infoRules />
+    <infoRules/>
     <notes>
       <note>Cuando la recolecta se llevó a cabo en un rango de fechas, en este campo se especifica solo el mes inicial de recolecta.</note>
     </notes>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>mescolecta</prev><next>fechacolecta</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>mescolecta</prev>
+      <next>fechacolecta</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>mescolecta</after>
@@ -2963,21 +3323,25 @@ un dato de país en el campo país original.</subregla></rule>
     <dwcField>day</dwcField>
     <description>Indica el día del evento de recolecta u observación del ejemplar.</description>
     <datatype>tinyint (4)</datatype>
-    <encoding />
+    <encoding/>
     <dataRules>
       <rule>El valor nulo significa que no se cuenta con el día de recolecta, no se capturó o el dato capturado no es válido respecto al mes de la recolecta.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Se muestra con el formato dd.</rule>
     </syntaxRules>
-    <infoRules />
+    <infoRules/>
     <notes>
       <note>Si el evento de recolecta o de observación se llevó a cabo en un rango de fechas, en este campo se especifica solo el día inicial de recolecta u observación.</note>
     </notes>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>diacolecta</prev><next>paiscoleccion</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>diacolecta</prev>
+      <next>paiscoleccion</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>diacolecta</after>
@@ -2995,14 +3359,18 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>Se concatenan los campos aniocolecta, mescolecta y diacolecta separados por un guion, sin considerar los valores 99.</rule>
       <rule>Se muestra con el formato aaaa-mm-dd.</rule>
     </syntaxRules>
-    <infoRules />
+    <infoRules/>
     <notes>
       <note>Si el evento de recolecta o de observación se llevó a cabo en un rango de fechas, en este campo se especifica solo la fecha inicial de recolecta u observación.</note>
     </notes>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>fechadeterminacion</prev><next>ejemplarfosil</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>fechadeterminacion</prev>
+      <next>ejemplarfosil</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>fechacolecta</after>
@@ -3028,22 +3396,30 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>ejemplarfosil</prev><next /></orden><fieldName>Tipo de vegetación</fieldName>
+    <orden>
+      <prev>ejemplarfosil</prev>
+      <next/>
+    </orden>
+    <fieldName>Tipo de vegetación</fieldName>
     <fieldid>tipovegetacion</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Tipo de vegetación del sitio de recolecta u observación del ejemplar.</description>
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules />
+    <dataRules/>
     <syntaxRules>
       <rule>El dato está escrito con mayúsculas y minúsculas según corresponda.</rule>
     </syntaxRules>
-    <infoRules />
-    <notes />
+    <infoRules/>
+    <notes/>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev>tipo</prev><next>tipovegetacion</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>tipo</prev>
+      <next>tipovegetacion</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>tipo</after>
@@ -3062,13 +3438,17 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El valor NO significa que el ejemplar revisado no corresponde a un fósil.</rule>
       <rule>El valor vacío significa que no se tiene la certeza de que el ejemplar corresponde a un fósil.</rule>
     </dataRules>
-    <syntaxRules />
-    <infoRules />
-    <notes />
+    <syntaxRules/>
+    <infoRules/>
+    <notes/>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden><prev>geoportal</prev><next>urlejemplar</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>geoportal</prev>
+      <next>urlejemplar</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>ejemplarfosil</after>
@@ -3095,7 +3475,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden><prev>urlejemplar</prev><next>licenciauso</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>urlejemplar</prev>
+      <next>licenciauso</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>proyecto</after>
@@ -3123,7 +3507,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden><prev>licenciauso</prev><next>urlproyecto</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>licenciauso</prev>
+      <next>urlproyecto</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>fuente</after>
@@ -3134,14 +3522,18 @@ un dato de país en el campo país original.</subregla></rule>
     <description>Forma de citar los datos al hacer uso de estos o parte de estos.</description>
     <datatype>text</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules />
-    <syntaxRules />
-    <infoRules />
-    <notes />
+    <dataRules/>
+    <syntaxRules/>
+    <infoRules/>
+    <notes/>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden><prev>fuente</prev><next>formadecitar</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>fuente</prev>
+      <next>formadecitar</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>formadecitar</after>
@@ -3176,8 +3568,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>CC_BY_4_0 (Atribución 4.0 Internacional), esta licencia permite copiar y redistribuir el material en cualquier medio o formato, también remezclar, transformar y crear a partir del material, para cualquier propósito incluso comercialmente. Debe darse crédito a la obra de manera adecuada, proporcionando un enlace a la licencia, e indicando si se han realizado cambios. Puede hacerse en cualquier forma razonable, pero no de forma tal que sugiera que usted o su uso tienen el apoyo del autor. No se pueden aplicar términos legales ni medidas tecnológicas que restrinjan legalmente a otros hacer cualquier uso permitido por la licencia.</rule>
       <rule>CC_BY_NC_4_0 (Atribución-NoComercial 4.0 Internacional), esta licencia permite copiar y redistribuir el material en cualquier medio o formato. Remezclar, transformar y crear a partir del material. Se debe reconocer adecuadamente la autoría, proporcionar un enlace a la licencia e indicar si se han realizado cambios. Puede hacerse de cualquier manera razonable, pero no de una manera que sugiera que tiene el apoyo del autor o lo recibe por el uso que hace. No se puede utilizar el material para una finalidad comercial.</rule>
     </dataRules>
-    <syntaxRules />
-    <infoRules />
+    <syntaxRules/>
+    <infoRules/>
     <notes>
       <note>Para más información acerca de los tipos de Licencias de uso véase:</note>
       <note>https://creativecommons.org/licenses/?lang=es</note>
@@ -3188,7 +3580,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden><prev>formadecitar</prev><next>version</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>formadecitar</prev>
+      <next>version</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>licenciauso</after>
@@ -3210,7 +3606,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden><prev>version</prev><next>ultimafechaactualizacion</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>version</prev>
+      <next>ultimafechaactualizacion</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>urlproyecto</after>
@@ -3221,14 +3621,18 @@ un dato de país en el campo país original.</subregla></rule>
     <description>Dirección de internet que permite consultar la información del ejemplar en su fuente original.</description>
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules />
-    <syntaxRules />
-    <infoRules />
-    <notes />
+    <dataRules/>
+    <syntaxRules/>
+    <infoRules/>
+    <notes/>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden><prev>proyecto</prev><next>fuente</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>proyecto</prev>
+      <next>fuente</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>urlorigen</after>
@@ -3239,14 +3643,18 @@ un dato de país en el campo país original.</subregla></rule>
     <description>Dirección de internet que permite consultar la información del ejemplar proporcionada en las bases de datos originales y la estandarizada por la CONABIO de tipo curatorial, taxonómica y geográfica.</description>
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules />
-    <syntaxRules />
-    <infoRules />
-    <notes />
+    <dataRules/>
+    <syntaxRules/>
+    <infoRules/>
+    <notes/>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden><prev /><next>proyecto</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev/>
+      <next>proyecto</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>urlejemplar</after>
@@ -3261,8 +3669,8 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El valor 1 significa que el registro sí es descargable desde el Geoportal.</rule>
       <rule>El valor 0 significa que el registro no es descargable desde el Geoportal.</rule>
     </dataRules>
-    <syntaxRules />
-    <infoRules />
+    <syntaxRules/>
+    <infoRules/>
     <notes>
       <note>Geoportal de la CONABIO en http://geoportal.conabio.gob.mx/</note>
       <note>Disponible sólo en la descarga de ejemplares del SNIB en https://www.snib.mx/ejemplares/descarga/.</note>
@@ -3270,7 +3678,11 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden><prev>urlorigen</prev><next /></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>urlorigen</prev>
+      <next/>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>geoportal</after>
@@ -3280,15 +3692,19 @@ un dato de país en el campo país original.</subregla></rule>
     <dwcField>modified</dwcField>
     <description>Fecha de última actualización de los datos en la base de datos de la CONABIO.</description>
     <datatype>date</datatype>
-    <encoding />
-    <dataRules />
-    <syntaxRules />
-    <infoRules />
-    <notes />
+    <encoding/>
+    <dataRules/>
+    <syntaxRules/>
+    <infoRules/>
+    <notes/>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
-    <orden><prev>urlproyecto</prev><next>urlorigen</next></orden><downloadGeoportal>true</downloadGeoportal>
+    <orden>
+      <prev>urlproyecto</prev>
+      <next>urlorigen</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>ultimafechaactualizacion</after>
@@ -3299,17 +3715,21 @@ un dato de país en el campo país original.</subregla></rule>
     <description>Versión que corresponde a las decisiones de los procesos de revisión aplicados a los datos en la CONABIO, así como, la información de referencia (mapas, catálogos, etc.) que se utiliza para realizar dicha revisión al integrar al SNIB. Cada vez que se cambien estás decisiones afectando la revisión de los datos, se cambiará la versión y se publicará el documento de versión del SNIB que describe los nuevos procesos y referencias correspondientes a la versión citada en este campo.</description>
     <datatype>varchar (7)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules />
+    <dataRules/>
     <syntaxRules>
       <rule>Se muestra con el formato aaaa-mm.</rule>
     </syntaxRules>
-    <infoRules />
-    <notes />
+    <infoRules/>
+    <notes/>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <orden><prev /><next>coleccion</next></orden><ordenTabla>
-      <first />
+    <orden>
+      <prev/>
+      <next>coleccion</next>
+    </orden>
+    <ordenTabla>
+      <first/>
     </ordenTabla>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3333,5 +3753,26 @@ un dato de país en el campo país original.</subregla></rule>
     <campos>
       <campo>urlejemplar</campo>
     </campos>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica del ejemplar</category>
+    <orden>
+      <prev/>
+      <next>region</next>
+    </orden>
+    <fieldName>Al inicio</fieldName>
+    <fieldid>Alinicio</fieldid>
+    <datatype>String</datatype>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>true</downloadSnib>
+    <campos>
+      <campo>region</campo>
+      <campo>localidad</campo>
+    </campos>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>127d21638cc105ce290844e6abb7e870</key>
+      <key>096c765542c6bb8f65d0abfd102e9af0</key>
+    </ejemplar>
   </snibTerm>
 </snibDictionary>
