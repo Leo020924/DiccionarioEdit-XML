@@ -26,75 +26,13 @@ Ejemplooo</anexo1>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <prev/>
-      <next>claveestadomapa</next>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <ordenTabla>
-      <first/>
-    </ordenTabla>
-    <fieldName>País asignado</fieldName>
-    <fieldid>paismapa</fieldid>
-    <dwcField>Incluido en country</dwcField>
-    <description>Nombre del país donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política -incluyendo la zona económica exclusiva- utilizados para la validación geográfica realizada por la CONABIO.</description>
-    <datatype>varchar (50)</datatype>
-    <encoding>UTF-8</encoding>
-    <notes>
-      <note>Campo resultado del proceso de sobreposición de las coordenadas geográficas con mapas de división política actuales, incluyendo la zona económica exclusiva, realizado en CONABIO, los mapas utilizados son:</note>
-      <note>México
-
-INEGI. 2022.División política municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estadística y Geografía. México.
-
-URL: http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</note>
-      <note>Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. 2011. 'Zona Económica Exclusiva de México'. Límite Nacional 1:250000. Modificado de Instituto Nacional de Estadística, Geografía e Informática (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fernández-Equiarte, A., Gallegos-García, A., Zavala-H, J. y otros (1990). 'Zona Económica Exclusiva de México'. Extraído de Hipsometría y Batimetría, I.1.1. Atlas Nacional de México. Vol. I. Escala 1:4000000. Instituto de Geografía, UNAM. México.
-
-URL: http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</note>
-      <note>Centroamérica
-
-CONABIO. 2020. Limites administrativos Centroamérica. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México. México.
-
-URL:  http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</note>
-      <note>CONABIO. 2019. Mapa de validación en la Zona económica exclusiva para los sitios marinos de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.
-
-URL:  http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</note>
-      <note>Estados Unidos de América, Colombia y el Caribe
-
-CONABIO. 2019. Mapa de validación por divisiones políticas para los sitios terrestres de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.
-
-URL:  http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</note>
-      <note>CONABIO. 2019. Mapa de validación en la Zona económica exclusiva para los sitios marinos de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.
-
-URL:  http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</note>
-    </notes>
-    <dataRules>
-      <rule>Si el ejemplar no tiene coordenada geográfica no se asigna valor.</rule>
-      <rule>Si el ejemplar tiene coordenada geográfica:<subregla>Se asigna el mismo país del campo país original cuando la coordenada se ubica dentro de los límites
-
-del país registrado para el ejemplar o a una distancia menor a 2 km del límite.</subregla><subregla>Se asigna el país donde se ubica la coordenada geográfica cuando está afuera, a más de 2 km del
-
-límite, del país registrado para el ejemplar. En este caso el dato es diferente al del campo país original.</subregla><subregla>No se asigna valor, si se ubican en otro país o en aguas internacionales.</subregla><subregla>Se asigna el país donde se ubica la coordenada geográfica cuando el ejemplar no tiene registrado
-
-un dato de país en el campo país original.</subregla></rule>
-    </dataRules>
-    <syntaxRules>
-      <rule>El dato está escrito en mayúscula y sin utilizar acentos.</rule>
-      <rule>El nombre del país está escrito en español.</rule>
-    </syntaxRules>
-    <campos>
-      <campo>region</campo>
-    </campos>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
-      <prev>claveestadomapa</prev>
+      <prev></prev>
       <next>mt24claveestadomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>paismapa</after>
+      <first/>
     </ordenTabla>
     <fieldName>Estado asignado</fieldName>
     <fieldid>estadomapa</fieldid>
@@ -123,52 +61,13 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <prev>paismapa</prev>
-      <next>estadomapa</next>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <ordenTabla>
-      <after>estadomapa</after>
-    </ordenTabla>
-    <fieldName>Clave estatal asignada</fieldName>
-    <fieldid>claveestadomapa</fieldid>
-    <dwcField>Sin equivalencia</dwcField>
-    <description>Clave del estado o división política equivalente donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política utilizados para la validación geográfica realizada por la CONABIO.</description>
-    <datatype>varchar (10)</datatype>
-    <encoding>UTF-8</encoding>
-    <dataRules>
-      <rule>Si el ejemplar tiene coordenada geográfica, se asigna la clave del estado o división política equivalente conforme a las reglas de asignación del campo estado del mapa.</rule>
-    </dataRules>
-    <syntaxRules>
-      <rule>La clave se compone de dos caracteres numéricos para México.</rule>
-      <rule>La clave se compone de cinco caracteres numéricos para otros países: las tres primeras corresponden a la clave ISO 3166-1 numérico del país, las siguientes dos al estado.</rule>
-    </syntaxRules>
-    <infoRules>
-      <rule>La clave del estado corresponde con el estado asignado en el campo estado del mapa.</rule>
-    </infoRules>
-    <notes>
-      <note>Campo resultado del proceso de sobreposición de las coordenadas geográficas con mapas de división política actuales, realizado en CONABIO, los mapas utilizados son:</note>
-      <note>INEGI. 2022.División política municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estadística y Geografía. México.</note>
-      <note>URL:  http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</note>
-      <note>Centroamérica</note>
-      <note>CONABIO. 2020. Limites administrativos Centroamérica. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México. México.</note>
-      <note>URL:  http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</note>
-      <note>El Caribe, Colombia y Estados Unidos de América</note>
-      <note>CONABIO. 2019. Mapa de validación por divisiones políticas para los sitios terrestres de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.</note>
-      <note>URL: http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</note>
-    </notes>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
-    <orden>
       <prev>mt24claveestadomapa</prev>
       <next>clavemunicipiomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>claveestadomapa</after>
+      <after>estadomapa</after>
     </ordenTabla>
     <fieldName>Estado asignado como referencia para las ubicaciones en el mar</fieldName>
     <fieldid>mt24nombreestadomapa</fieldid>
