@@ -3443,7 +3443,7 @@ un dato de país en el campo país original.</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>geoportal</prev>
       <next>urlejemplar</next>
@@ -3474,7 +3474,7 @@ un dato de país en el campo país original.</subregla></rule>
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>urlejemplar</prev>
       <next>licenciauso</next>
@@ -3506,7 +3506,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>licenciauso</prev>
       <next>urlproyecto</next>
@@ -3528,7 +3528,7 @@ un dato de país en el campo país original.</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>fuente</prev>
       <next>formadecitar</next>
@@ -3579,7 +3579,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>formadecitar</prev>
       <next>version</next>
@@ -3605,7 +3605,7 @@ un dato de país en el campo país original.</subregla></rule>
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>version</prev>
       <next>ultimafechaactualizacion</next>
@@ -3627,7 +3627,7 @@ un dato de país en el campo país original.</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>proyecto</prev>
       <next>fuente</next>
@@ -3649,7 +3649,7 @@ un dato de país en el campo país original.</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev/>
       <next>proyecto</next>
@@ -3677,7 +3677,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>urlorigen</prev>
       <next/>
@@ -3699,7 +3699,7 @@ un dato de país en el campo país original.</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>urlproyecto</prev>
       <next>urlorigen</next>
