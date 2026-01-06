@@ -1187,7 +1187,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>taxonvalidado</prev>
       <next>subgrupobio</next>
@@ -1237,7 +1237,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>grupobio</prev>
       <next>idnombrecat</next>
@@ -1279,7 +1279,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>idnombrecat</prev>
       <next>phylumdivision</next>
@@ -1319,7 +1319,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>reino</prev>
       <next>clase</next>
@@ -1364,7 +1364,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>phylumdivision</prev>
       <next>orden</next>
@@ -1414,7 +1414,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>clase</prev>
       <next>familia</next>
@@ -1464,7 +1464,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>orden</prev>
       <next>genero</next>
@@ -1514,7 +1514,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>familia</prev>
       <next>especie</next>
@@ -1563,7 +1563,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>genero</prev>
       <next>calificadordeterminacion</next>
@@ -1607,7 +1607,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>calificadordeterminacion</prev>
       <next>categoriainfraespecie2</next>
@@ -1641,7 +1641,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>categoriainfraespecie</prev>
       <next>autor</next>
@@ -1677,7 +1677,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>categoriainfraespecie2</prev>
       <next>estatustax</next>
@@ -1709,7 +1709,7 @@ un dato de país en el campo país original.</subregla></rule>
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>autor</prev>
       <next>reftax</next>
@@ -1750,7 +1750,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>estatustax</prev>
       <next>idnombrecatvalido</next>
@@ -1786,7 +1786,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>idnombrecatvalido</prev>
       <next>phylumdivisionvalido</next>
@@ -1822,7 +1822,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>reinovalido</prev>
       <next>clasevalida</next>
@@ -1862,7 +1862,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>phylumdivisionvalido</prev>
       <next>ordenvalido</next>
@@ -1906,7 +1906,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>clasevalida</prev>
       <next>familiavalida</next>
@@ -1950,7 +1950,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>ordenvalido</prev>
       <next>generovalido</next>
@@ -1994,7 +1994,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>familiavalida</prev>
       <next>especievalida</next>
@@ -2036,7 +2036,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>generovalido</prev>
       <next>categoriainfraespecievalida</next>
@@ -2082,7 +2082,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>especievalida</prev>
       <next>categoriainfraespecie2valida</next>
@@ -2118,7 +2118,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>categoriainfraespecievalida</prev>
       <next>autorvalido</next>
@@ -2150,7 +2150,7 @@ un dato de país en el campo país original.</subregla></rule>
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>categoriainfraespecie2valida</prev>
       <next>reftaxvalido</next>
@@ -2198,7 +2198,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>autorvalido</prev>
       <next/>
@@ -2235,7 +2235,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev/>
       <next>grupobio</next>
@@ -2421,7 +2421,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>subgrupobio</prev>
       <next>reino</next>
@@ -2449,7 +2449,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>reftax</prev>
       <next>reinovalido</next>
@@ -3193,7 +3193,7 @@ un dato de país en el campo país original.</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
     <orden>
       <prev>especie</prev>
       <next>categoriainfraespecie</next>
