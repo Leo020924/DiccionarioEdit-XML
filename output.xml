@@ -2269,7 +2269,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>taxonextinto</prev>
       <next>exoticainvasora</next>
@@ -2310,7 +2310,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>nombrecomun</prev>
       <next>endemismo</next>
@@ -2346,7 +2346,7 @@ un dato de país en el campo país original.</subregla></rule>
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>exoticainvasora</prev>
       <next>formadecrecimiento</next>
@@ -2383,7 +2383,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev/>
       <next>taxonextinto</next>
@@ -2477,7 +2477,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>ambiente</prev>
       <next>categoriaresidenciaaves</next>
@@ -2614,7 +2614,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>endemismo</prev>
       <next>ambiente</next>
@@ -2770,7 +2770,7 @@ un dato de país en el campo país original.</subregla></rule>
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>formadecrecimiento</prev>
       <next/>
