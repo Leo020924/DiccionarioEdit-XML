@@ -2809,7 +2809,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>coleccion</prev>
       <next>institucion</next>
@@ -2841,7 +2841,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>idejemplar</prev>
       <next>obsusoinfo</next>
@@ -2882,7 +2882,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>obsusoinfo</prev>
       <next>numcatalogo</next>
@@ -2924,7 +2924,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>fechacolecta</prev>
       <next>procedenciaejemplar</next>
@@ -2951,7 +2951,7 @@ un dato de país en el campo país original.</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>institucion</prev>
       <next>numcolecta</next>
@@ -2983,7 +2983,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>numcatalogo</prev>
       <next>colector</next>
@@ -3015,7 +3015,7 @@ un dato de país en el campo país original.</subregla></rule>
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>paiscoleccion</prev>
       <next>determinador</next>
@@ -3059,7 +3059,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>procedenciaejemplar</prev>
       <next>aniodeterminacion</next>
@@ -3087,7 +3087,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>determinador</prev>
       <next>mesdeterminacion</next>
@@ -3113,7 +3113,7 @@ un dato de país en el campo país original.</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>aniodeterminacion</prev>
       <next>diadeterminacion</next>
@@ -3140,7 +3140,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>mesdeterminacion</prev>
       <next>fechadeterminacion</next>
@@ -3166,7 +3166,7 @@ un dato de país en el campo país original.</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>diadeterminacion</prev>
       <next>tipo</next>
@@ -3225,7 +3225,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>numcolecta</prev>
       <next>aniocolecta</next>
@@ -3252,7 +3252,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>colector</prev>
       <next>mescolecta</next>
@@ -3280,7 +3280,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>aniocolecta</prev>
       <next>diacolecta</next>
@@ -3308,7 +3308,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>mescolecta</prev>
       <next>fechacolecta</next>
@@ -3336,7 +3336,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>diacolecta</prev>
       <next>paiscoleccion</next>
@@ -3365,7 +3365,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>fechadeterminacion</prev>
       <next>ejemplarfosil</next>
@@ -3395,7 +3395,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>ejemplarfosil</prev>
       <next/>
@@ -3414,7 +3414,7 @@ un dato de país en el campo país original.</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>tipo</prev>
       <next>tipovegetacion</next>
@@ -3723,7 +3723,7 @@ un dato de país en el campo país original.</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev/>
       <next>coleccion</next>
