@@ -2532,7 +2532,7 @@ un dato de país en el campo país original.</subregla></rule>
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>cites</prev>
       <next>prueba</next>
@@ -2574,7 +2574,7 @@ un dato de país en el campo país original.</subregla></rule>
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>prueba</prev>
       <next>iucn</next>
@@ -2655,7 +2655,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev/>
       <next>cites</next>
@@ -2692,7 +2692,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>nom059</prev>
       <next>prioritaria</next>
@@ -2730,7 +2730,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>nivelprioridad</prev>
       <next/>
@@ -3755,7 +3755,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>prioritaria</prev>
       <next>nivelprioridad</next>
