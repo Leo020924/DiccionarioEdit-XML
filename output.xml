@@ -305,7 +305,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev/>
       <next>claveestadomapa</next>
@@ -408,7 +408,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>claveestadomapa</prev>
       <next>mt24claveestadomapa</next>
@@ -443,7 +443,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>paismapa</prev>
       <next>estadomapa</next>
@@ -482,7 +482,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>mt24claveestadomapa</prev>
       <next>clavemunicipiomapa</next>
@@ -518,7 +518,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>estadomapa</prev>
       <next>mt24nombreestadomapa</next>
@@ -592,7 +592,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>clavemunicipiomapa</prev>
       <next>mt24clavemunicipiomapa</next>
@@ -630,7 +630,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>mt24nombreestadomapa</prev>
       <next>municipiomapa</next>
@@ -671,7 +671,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>mt24clavemunicipiomapa</prev>
       <next>altitudmapa</next>
@@ -705,7 +705,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>municipiomapa</prev>
       <next>mt24nombremunicipiomapa</next>
@@ -781,7 +781,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>mt24nombremunicipiomapa</prev>
       <next>anp</next>
@@ -809,7 +809,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>cuencahidrograficamapa</prev>
       <next>usvserieII</next>
@@ -839,7 +839,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>usvserieI</prev>
       <next>usvserieIII</next>
@@ -869,7 +869,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>usvserieII</prev>
       <next>usvserieIV</next>
@@ -899,7 +899,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>usvserieIII</prev>
       <next>usvserieV</next>
@@ -929,7 +929,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>usvserieIV</prev>
       <next>usvserieVI</next>
@@ -958,7 +958,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>usvserieV</prev>
       <next>usvserieVII</next>
@@ -987,7 +987,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>usvserieVI</prev>
       <next>vegetacionserenanalcms</next>
@@ -1017,7 +1017,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>usvserieVII</prev>
       <next>regionmarinamapa</next>
@@ -1046,7 +1046,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>altitudmapa</prev>
       <next>cuencahidrograficamapa</next>
@@ -1086,7 +1086,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>vegetacionserenanalcms</prev>
       <next>ecorregionterrestremapa</next>
@@ -1122,7 +1122,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>regionmarinamapa</prev>
       <next/>
@@ -1154,7 +1154,7 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
     <orden>
       <prev>anp</prev>
       <next>usvserieI</next>
