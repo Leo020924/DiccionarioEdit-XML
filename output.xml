@@ -23,6 +23,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   </metadata>
   <snibTerm>
     <category>Información geográfica</category>
+    <subcategory>Información geográfica del ejemplar</subcategory>
     <orden>
       <prev/>
       <next>paisoriginal</next>
@@ -63,6 +64,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
+    <subcategory>Información geográfica del ejemplar</subcategory>
     <orden>
       <prev>municipiooriginal</prev>
       <next>latitud</next>
@@ -87,6 +89,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
+    <subcategory>Información geográfica del ejemplar</subcategory>
     <orden>
       <prev>latitud</prev>
       <next>datum</next>
@@ -122,6 +125,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
+    <subcategory>Información geográfica del ejemplar</subcategory>
     <orden>
       <prev>localidad</prev>
       <next>longitud</next>
@@ -157,6 +161,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
+    <subcategory>Información geográfica del ejemplar</subcategory>
     <orden>
       <prev>longitud</prev>
       <next>incertidumbrexy</next>
@@ -269,6 +274,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
+    <subcategory>Información geográfica del ejemplar</subcategory>
     <orden>
       <prev>region</prev>
       <next>estadooriginal</next>
@@ -368,6 +374,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
+    <subcategory>Información geográfica del ejemplar</subcategory>
     <orden>
       <prev>paisoriginal</prev>
       <next>municipiooriginal</next>
@@ -558,6 +565,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
+    <subcategory>Información geográfica del ejemplar</subcategory>
     <orden>
       <prev>estadooriginal</prev>
       <next>localidad</next>
@@ -745,6 +753,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
+    <subcategory>Información geográfica del ejemplar</subcategory>
     <orden>
       <prev>datum</prev>
       <next/>
