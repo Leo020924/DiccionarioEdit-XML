@@ -191,7 +191,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Validación de la información geográfica</category>
+    <category>Información geográfica</category>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
       <prev>geovalidacion</prev>
       <next/>
@@ -224,7 +225,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Validación de la información geográfica</category>
+    <category>Información geográfica</category>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
       <prev/>
       <next>validacionambiente</next>
