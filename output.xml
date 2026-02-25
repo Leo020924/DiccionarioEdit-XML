@@ -22,7 +22,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     </creador>
   </metadata>
   <snibTerm>
-    <category>Información geográfica del ejemplar</category>
+    <category>Información geográfica</category>
+    <subcategory>Geografía original</subcategory>
     <orden>
       <prev/>
       <next>paisoriginal</next>
@@ -62,7 +63,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica del ejemplar</category>
+    <category>Información geográfica</category>
+    <subcategory>Geografía original</subcategory>
     <orden>
       <prev>municipiooriginal</prev>
       <next>latitud</next>
@@ -86,7 +88,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica del ejemplar</category>
+    <category>Información geográfica</category>
+    <subcategory>Geografía original</subcategory>
     <orden>
       <prev>latitud</prev>
       <next>datum</next>
@@ -121,7 +124,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica del ejemplar</category>
+    <category>Información geográfica</category>
+    <subcategory>Geografía original</subcategory>
     <orden>
       <prev>localidad</prev>
       <next>longitud</next>
@@ -156,7 +160,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica del ejemplar</category>
+    <category>Información geográfica</category>
+    <subcategory>Geografía original</subcategory>
     <orden>
       <prev>longitud</prev>
       <next>incertidumbrexy</next>
@@ -366,7 +371,8 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica del ejemplar</category>
+    <category>Información geográfica</category>
+    <subcategory>Geografía original</subcategory>
     <orden>
       <prev>paisoriginal</prev>
       <next>municipiooriginal</next>
@@ -610,7 +616,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica del ejemplar</category>
+    <category>Información geográfica</category>
+    <subcategory>Geografía original</subcategory>
     <orden>
       <prev>estadooriginal</prev>
       <next>localidad</next>
@@ -808,7 +815,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica del ejemplar</category>
+    <category>Información geográfica</category>
+    <subcategory>Geografía original</subcategory>
     <orden>
       <prev>datum</prev>
       <next/>
