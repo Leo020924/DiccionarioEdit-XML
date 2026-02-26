@@ -3327,38 +3327,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
-    <orden>
-      <prev>especie</prev>
-      <next>categoriainfraespecie</next>
-    </orden>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <ordenTabla>
-      <after>especie</after>
-    </ordenTabla>
-    <fieldName>Calificador de la determinación</fieldName>
-    <fieldid>calificadordeterminacion</fieldid>
-    <dwcField>identificationQualifier</dwcField>
-    <description>Anotación acerca de la incertidumbre en la identificación taxonómica del ejemplar.</description>
-    <datatype>varchar (100).</datatype>
-    <encoding>UTF-8</encoding>
-    <dataRules>
-      <rule>El valor vacío significa que el dato no es aplicable para el registro.</rule>
-    </dataRules>
-    <ejemplar>
-      <key>643abc99493c60c1e8550a0834f23b4d</key>
-      <key>26bab587f513a8746c828e90783d5af9</key>
-      <key>e4b94c057a9cbb6283aff3c88fe09f3a</key>
-      <key>4becce2d275f1e3ac7faef0278846eae</key>
-      <key>498e5d597bc941694e47d1e8c8f4401b</key>
-    </ejemplar>
-    <campos>
-      <campo>especie</campo>
-      <campo>calificadordeterminacion</campo>
-    </campos>
-  </snibTerm>
-  <snibTerm>
     <category>Datos del ejemplar/observación</category>
     <orden>
       <prev>numcolecta</prev>
