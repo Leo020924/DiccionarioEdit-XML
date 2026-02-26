@@ -1384,7 +1384,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>idnombrecat</prev>
       <next>phylumdivision</next>
@@ -1424,7 +1425,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>reino</prev>
       <next>clase</next>
@@ -1469,7 +1471,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>phylumdivision</prev>
       <next>orden</next>
@@ -1519,7 +1522,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>clase</prev>
       <next>familia</next>
@@ -1569,7 +1573,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>orden</prev>
       <next>genero</next>
@@ -1619,7 +1624,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>familia</prev>
       <next>especie</next>
@@ -1668,7 +1674,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>genero</prev>
       <next>calificadordeterminacion</next>
@@ -1712,7 +1719,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>calificadordeterminacion</prev>
       <next>categoriainfraespecie2</next>
@@ -1746,7 +1754,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>categoriainfraespecie</prev>
       <next>autor</next>
@@ -1782,7 +1791,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>categoriainfraespecie2</prev>
       <next>estatustax</next>
@@ -1814,7 +1824,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>autor</prev>
       <next>reftax</next>
@@ -1855,10 +1866,11 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>estatustax</prev>
-      <next>idnombrecatvalido</next>
+      </next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
