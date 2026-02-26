@@ -2400,9 +2400,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
-      <prev>taxonextinto</prev>
+      <prev>ambiente</prev>
       <next>exoticainvasora</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -2441,10 +2441,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
-      <prev>nombrecomun</prev>
-      <next>endemismo</next>
+      <prev>categoriaresidenciaaves</prev>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2477,10 +2477,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
-      <prev>exoticainvasora</prev>
-      <next>formadecrecimiento</next>
+      <prev/>
+      <next>endemismo</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2611,9 +2611,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
-      <prev>ambiente</prev>
+      <prev>exoticainvasora</prev>
       <next>categoriaresidenciaaves</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -2748,10 +2748,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>endemismo</prev>
-      <next>ambiente</next>
+      <next>formadecrecimiento</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -2904,10 +2904,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>formadecrecimiento</prev>
-      <next/>
+      <next>taxonextinto</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
