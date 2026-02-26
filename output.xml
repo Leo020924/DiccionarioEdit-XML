@@ -2517,7 +2517,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información taxonómica</category>
     <subcategory>Taxonomía válida</subcategory>
     <orden>
-      <prev>reftaxvalido<prev/>
+      <prev>reftaxvalido</prev>
       <next>idnombrecat</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
