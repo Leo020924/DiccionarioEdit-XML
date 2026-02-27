@@ -2975,10 +2975,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
-      <prev>idejemplar</prev>
-      <next>obsusoinfo</next>
+      <prev>numcolecta</prev>
+      <next>institucion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3016,10 +3016,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+   <category>Información curatorial</category>
     <orden>
-      <prev>obsusoinfo</prev>
-      <next>numcatalogo</next>
+      <prev>coleccion</prev>
+      <next>colector</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3058,10 +3058,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
-      <prev>fechacolecta</prev>
-      <next>procedenciaejemplar</next>
+      <prev>ejemplarfosil</prev>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3085,9 +3085,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
-      <prev>institucion</prev>
+      <prev>idejemplar</prev>
       <next>numcolecta</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -3117,10 +3117,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>numcatalogo</prev>
-      <next>colector</next>
+      <next>coleccion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3149,9 +3149,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
-      <prev>paiscoleccion</prev>
+      <prev>aniocolecta</prev>
       <next>determinador</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -3193,10 +3193,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>procedenciaejemplar</prev>
-      <next>aniodeterminacion</next>
+      <next>calificadordeterminacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3221,10 +3221,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
-      <prev>determinador</prev>
-      <next>mesdeterminacion</next>
+      <prev>mesdeterminacion</prev>
+      <next>tipovegetacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3247,10 +3247,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
-      <prev>aniodeterminacion</prev>
-      <next>diadeterminacion</next>
+      <prev>diadeterminacion</prev>
+      <next>aniodeterminacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3274,10 +3274,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
-      <prev>mesdeterminacion</prev>
-      <next>fechadeterminacion</next>
+      <prev>fechadeterminacion</prev>
+      <next>mesdeterminacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3300,10 +3300,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
-      <prev>diadeterminacion</prev>
-      <next>tipo</next>
+      <prev>determinador</prev>
+      <next>diadeterminacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3327,10 +3327,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
-      <prev>numcolecta</prev>
-      <next>aniocolecta</next>
+      <prev>institucion</prev>
+      <next>fechacolecta</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3354,10 +3354,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
-      <prev>colector</prev>
-      <next>mescolecta</next>
+      <prev>mescolecta</prev>
+      <next>procedenciaejemplar</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3382,10 +3382,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
-      <prev>aniocolecta</prev>
-      <next>diacolecta</next>
+      <prev>diacolecta</prev>
+      <next>aniocolecta</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3410,10 +3410,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
-      <prev>mescolecta</prev>
-      <next>fechacolecta</next>
+      <prev>fechacolecta</prev>
+      <next>mescolecta</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3438,10 +3438,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
-      <prev>diacolecta</prev>
-      <next>paiscoleccion</next>
+      <prev>colector</prev>
+      <next>diacolecta</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3467,9 +3467,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
-      <prev>fechadeterminacion</prev>
+      <prev>tipovegetacion</prev>
       <next>ejemplarfosil</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -3497,10 +3497,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
-      <prev>ejemplarfosil</prev>
-      <next/>
+      <prev>aniodeterminacion</prev>
+      <next>tipo</next>
     </orden>
     <fieldName>Tipo de vegetación</fieldName>
     <fieldid>tipovegetacion</fieldid>
@@ -3516,10 +3516,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>tipo</prev>
-      <next>tipovegetacion</next>
+      <next>paiscoleccion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3831,10 +3831,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Información curatorial</category>
     <orden>
       <prev/>
-      <next>coleccion</next>
+      <next>numcatalogo</next>
     </orden>
     <ordenTabla>
       <after>urlejemplar</after>
