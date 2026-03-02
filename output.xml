@@ -25,7 +25,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <category>Información geográfica</category>
     <subcategory>Geografía original</subcategory>
     <orden>
-      <prev/>
+      <prev>TEST</prev>
       <next>paisoriginal</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -418,7 +418,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-   <category>Información geográfica</category>
+    <category>Información geográfica</category>
     <subcategory>Geografía inferida</subcategory>
     <orden>
       <prev>claveestadomapa</prev>
@@ -1872,7 +1872,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>estatustax</prev>
-      <next/> 
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3016,7 +3016,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-   <category>Información curatorial</category>
+    <category>Información curatorial</category>
     <orden>
       <prev>coleccion</prev>
       <next>colector</next>
@@ -3861,5 +3861,35 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <campos>
       <campo>urlejemplar</campo>
     </campos>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica</category>
+    <orden>
+      <prev/>
+      <next>region</next>
+    </orden>
+    <fieldName>TEST</fieldName>
+    <fieldid>TEST</fieldid>
+    <dwcField>TEST</dwcField>
+    <description>TEST</description>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>true</downloadSnib>
+    <dataRules>
+      <rule>TEST</rule>
+    </dataRules>
+    <syntaxRules>
+      <rule>TEST</rule>
+    </syntaxRules>
+    <infoRules>
+      <rule>TEST</rule>
+    </infoRules>
+    <campos>
+      <campo>localidad</campo>
+    </campos>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>127d21638cc105ce290844e6abb7e870</key>
+      <key>096c765542c6bb8f65d0abfd102e9af0</key>
+    </ejemplar>
   </snibTerm>
 </snibDictionary>
