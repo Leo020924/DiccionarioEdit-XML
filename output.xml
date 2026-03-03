@@ -1663,7 +1663,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información taxonómica</category>
     <subcategory>Taxonomía original</subcategory>
     <orden>
-      <prev></prev>
+      <prev>ALinicio</prev>
       <next>phylumdivision</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -4276,6 +4276,28 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <campos>
       <campo>localidad</campo>
       <campo>longitud</campo>
+    </campos>
+    <ejemplar>
+      <key>d2d26f3bc8a7741448336dd76c61086a</key>
+      <key>8fb42940fd0605c50291867788df16ad</key>
+      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Información taxonómica</category>
+    <orden>
+      <prev/>
+      <next>reino</next>
+    </orden>
+    <fieldName>AL inicio</fieldName>
+    <fieldid>ALinicio</fieldid>
+    <subcategory>Taxonomía válida</subcategory>
+    <dwcField>AL inicio</dwcField>
+    <description>AL inicio</description>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>true</downloadSnib>
+    <campos>
+      <campo>region</campo>
     </campos>
     <ejemplar>
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
