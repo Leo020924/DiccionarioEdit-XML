@@ -419,7 +419,7 @@ un dato de país en el campo país original.</subregla></rule>
     <subcategory>Geografía original</subcategory>
     <orden>
       <prev>paisoriginal</prev>
-      <next>municipiooriginal</next>
+      <next>PRUEBA</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -676,7 +676,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información geográfica</category>
     <subcategory>Geografía original</subcategory>
     <orden>
-      <prev>estadooriginal</prev>
+      <prev>PRUEBA</prev>
       <next>localidad</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
@@ -4275,6 +4275,26 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <campos>
       <campo>localidad</campo>
       <campo>longitud</campo>
+    </campos>
+    <ejemplar>
+      <key>d2d26f3bc8a7741448336dd76c61086a</key>
+      <key>8fb42940fd0605c50291867788df16ad</key>
+      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica</category>
+    <orden>
+      <prev>estadooriginal</prev>
+      <next>municipiooriginal</next>
+    </orden>
+    <fieldName>PRUEBA</fieldName>
+    <fieldid>PRUEBA</fieldid>
+    <subcategory>Geografía original</subcategory>
+    <downloadGeoportal>false</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <campos>
+      <campo>region</campo>
     </campos>
     <ejemplar>
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
