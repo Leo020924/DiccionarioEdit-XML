@@ -930,7 +930,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Geografía original</subcategory>
     <orden>
       <prev>datum</prev>
-      <next/>
+      <next></next>
       <next>PRUEBAALFINAL</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -4276,29 +4276,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <campos>
       <campo>localidad</campo>
       <campo>longitud</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica</category>
-    <orden>
-      <next/>
-      <prev>incertidumbrexy</prev>
-    </orden>
-    <fieldName>PRUEBA AL FINAL</fieldName>
-    <fieldid>PRUEBAALFINAL</fieldid>
-    <subcategory>Geografía original</subcategory>
-    <dwcField>PRUEBA AL FINAL</dwcField>
-    <description>PRUEBA AL FINAL</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <campos>
-      <campo>longitud</campo>
-      <campo>localidad</campo>
     </campos>
     <ejemplar>
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
