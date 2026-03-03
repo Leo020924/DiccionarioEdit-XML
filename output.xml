@@ -2672,9 +2672,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
-      <prev>taxonextinto</prev>
+      <prev>ambiente</prev>
       <next>exoticainvasora</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -2715,8 +2715,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
     <orden>
-      <prev>nombrecomun</prev>
-      <next>endemismo</next>
+      <prev>categoriaresidenciaaves</prev>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2749,10 +2749,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
-      <prev>exoticainvasora</prev>
-      <next>formadecrecimiento</next>
+      <prev/>
+      <next>endemismo</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2883,9 +2883,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
-      <prev>ambiente</prev>
+      <prev>exoticainvasora</prev>
       <next>categoriaresidenciaaves</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -2938,7 +2938,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>cites</prev>
       <next>nivelprioridad</next>
@@ -2980,7 +2980,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>prioritaria</prev>
       <next>iucn</next>
@@ -3020,10 +3020,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>endemismo</prev>
-      <next>ambiente</next>
+      <next>formadecrecimiento</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3061,7 +3061,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev/>
       <next>cites</next>
@@ -3098,7 +3098,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>nom059</prev>
       <next>prioritaria</next>
@@ -3136,7 +3136,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>nivelprioridad</prev>
       <next/>
@@ -3176,10 +3176,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>formadecrecimiento</prev>
-      <next/>
+      <next>taxonextinto</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3215,10 +3215,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Datos del recurso</category>
     <orden>
-      <prev>coleccion</prev>
-      <next>institucion</next>
+      <prev/>
+      <next>formadecitar</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3941,10 +3941,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>geoportal</prev>
-      <next>urlejemplar</next>
+      <next>fuente</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3972,10 +3972,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
-      <prev>urlejemplar</prev>
-      <next>licenciauso</next>
+      <prev>proyecto</prev>
+      <next>urlejemplar</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4004,10 +4004,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
-      <prev>licenciauso</prev>
-      <next>urlproyecto</next>
+      <prev>obsusoinfo</prev>
+      <next>licenciauso</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4031,10 +4031,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+   <category>Datos del recurso</category>
     <orden>
-      <prev>fuente</prev>
-      <next>formadecitar</next>
+      <prev>formadecitar</prev>
+      <next>version</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4107,10 +4107,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
-      <prev>version</prev>
-      <next>ultimafechaactualizacion</next>
+      <prev>urlejemplar</prev>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4133,10 +4133,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
-      <prev>proyecto</prev>
-      <next>fuente</next>
+      <prev>fuente</prev>
+      <next>urlorigen</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4162,9 +4162,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
-      <prev/>
+      <prev>ultimafechaactualizacion</prev>
       <next>proyecto</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
@@ -4198,10 +4198,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
-      <prev>urlorigen</prev>
-      <next/>
+      <prev>version</prev>
+      <next>geoportal</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4229,10 +4229,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
-      <prev>urlproyecto</prev>
-      <next>urlorigen</next>
+      <prev>licenciauso</prev>
+      <next>ultimafechaactualizacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
