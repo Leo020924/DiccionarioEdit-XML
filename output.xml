@@ -249,7 +249,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <subcategory>Validación geográfica</subcategory>
     <orden>
       <prev>validacionambiente</prev>
-      <next/>
+      <next>Leo123</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -931,6 +931,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <orden>
       <prev>datum</prev>
       <next/>
+      <next>PRUEBAALFINAL</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -1662,7 +1663,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información taxonómica</category>
     <subcategory>Taxonomía original</subcategory>
     <orden>
-      <prev>prueba</prev>
+      <prev/>
       <next>phylumdivision</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -4259,23 +4260,50 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
+    <category>Información geográfica</category>
     <orden>
-      <prev/>
-      <next>reino</next>
+      <next/>
+      <prev>geovalidacion</prev>
     </orden>
-    <fieldName>prueba</fieldName>
-    <fieldid>prueba</fieldid>
-    <subcategory>Taxonomía válida</subcategory>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
+    <fieldName>Leo 123</fieldName>
+    <fieldid>Leo123</fieldid>
+    <subcategory>Validación geográfica</subcategory>
+    <dwcField>Leo 123</dwcField>
+    <description>Leo 123</description>
+    <datatype>URI</datatype>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>true</downloadSnib>
     <campos>
+      <campo>localidad</campo>
       <campo>longitud</campo>
     </campos>
     <ejemplar>
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>75c3fc57516b3b6c9e0e46d5db3b7cb1</key>
       <key>8fb42940fd0605c50291867788df16ad</key>
+      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica</category>
+    <orden>
+      <next/>
+      <prev>incertidumbrexy</prev>
+    </orden>
+    <fieldName>PRUEBA AL FINAL</fieldName>
+    <fieldid>PRUEBAALFINAL</fieldid>
+    <subcategory>Geografía original</subcategory>
+    <dwcField>PRUEBA AL FINAL</dwcField>
+    <description>PRUEBA AL FINAL</description>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>true</downloadSnib>
+    <campos>
+      <campo>longitud</campo>
+      <campo>localidad</campo>
+    </campos>
+    <ejemplar>
+      <key>d2d26f3bc8a7741448336dd76c61086a</key>
+      <key>8fb42940fd0605c50291867788df16ad</key>
+      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
     </ejemplar>
   </snibTerm>
 </snibDictionary>
