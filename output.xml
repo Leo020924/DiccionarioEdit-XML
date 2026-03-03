@@ -2640,7 +2640,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información taxonómica</category>
     <subcategory>Taxonomía válida</subcategory>
     <orden>
-      <prev/>
+      <prev>INICIO33</prev>
       <next>grupobio</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -4368,6 +4368,29 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <downloadSnib>true</downloadSnib>
     <campos>
       <campo>region</campo>
+    </campos>
+    <ejemplar>
+      <key>d2d26f3bc8a7741448336dd76c61086a</key>
+      <key>8fb42940fd0605c50291867788df16ad</key>
+      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Información taxonómica</category>
+    <orden>
+      <prev/>
+      <next>taxonvalidado</next>
+    </orden>
+    <fieldName>INICIO33</fieldName>
+    <fieldid>INICIO33</fieldid>
+    <subcategory>Taxonomía válida</subcategory>
+    <dwcField>INICIO33</dwcField>
+    <description>INICIO33</description>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <campos>
+      <campo>region</campo>
+      <campo>localidad</campo>
     </campos>
     <ejemplar>
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
