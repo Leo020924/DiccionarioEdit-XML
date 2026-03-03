@@ -1662,7 +1662,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información taxonómica</category>
     <subcategory>Taxonomía original</subcategory>
     <orden>
-      <prev></prev>
+      <prev/>
       <next>phylumdivision</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -2829,7 +2829,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Taxonomía válida</subcategory>
     <orden>
       <prev>nombrecomun</prev>
-      <next>idnombrecatvalido</next>
+      <next>INICIO</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2857,7 +2857,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información taxonómica</category>
     <subcategory>Taxonomía válida</subcategory>
     <orden>
-      <prev>idnombrecat</prev>
+      <prev>INICIO</prev>
       <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -4310,5 +4310,27 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <campo>grupobio</campo>
       <campo>especievalida</campo>
     </campos>
+  </snibTerm>
+  <snibTerm>
+    <category>Información taxonómica</category>
+    <orden>
+      <prev>idnombrecat</prev>
+      <next>idnombrecatvalido</next>
+    </orden>
+    <fieldName>INICIO</fieldName>
+    <fieldid>INICIO</fieldid>
+    <subcategory>Taxonomía válida</subcategory>
+    <dwcField>INICIO</dwcField>
+    <description>INICIO</description>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <campos>
+      <campo>region</campo>
+    </campos>
+    <ejemplar>
+      <key>d2d26f3bc8a7741448336dd76c61086a</key>
+      <key>8fb42940fd0605c50291867788df16ad</key>
+      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
+    </ejemplar>
   </snibTerm>
 </snibDictionary>
