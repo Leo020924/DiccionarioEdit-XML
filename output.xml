@@ -3063,7 +3063,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Categoría de protección</category>
     <orden>
-      <prev>INICIO</prev>
+      <prev></prev>
       <next>cites</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -4310,27 +4310,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <campo>grupobio</campo>
       <campo>especievalida</campo>
     </campos>
-  </snibTerm>
-  <snibTerm>
-    <category>Categoría de protección</category>
-    <orden>
-      <prev/>
-      <next>nom059</next>
-    </orden>
-    <fieldName>INICIO</fieldName>
-    <fieldid>INICIO</fieldid>
-    <dwcField>INICIO</dwcField>
-    <description>INICIO</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>region</campo>
-    </campos>
-    <ejemplar>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Origen, distribución, rasgos funcionales</category>
