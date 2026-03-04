@@ -168,12 +168,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <description>Sistema de referencia geodésico de las coordenadas geográficas del sitio de recolecta u observación del ejemplar.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
-    <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
-    </notes>
     <dataRules>
-      <rule>Cuando las coordenadas originales tienen un datum diferente a WGS84, se transforman al WGS84.</rule>
-      <rule>Cuando el datum original de las coordenadas se desconoce, se asume como WGS84.</rule>
       <rule>El valor vacío significa que el ejemplar no tiene coordenadas geográficas o no están disponibles.</rule>
     </dataRules>
     <syntaxRules>
@@ -186,12 +181,11 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <key>1931d37b096cc2b95139f0151908327d</key>
       <key>74a1986f7ec121ef7a71b7ba5ad700c1</key>
       <key>74a1fbb33a8eae7e038afa316e8bdab8</key>
-      <key>c41de431933e0556fa3599ae2965895b</key>
     </ejemplar>
     <campos>
-      <campo>datum</campo>
-      <campo>latitud</campo>
       <campo>longitud</campo>
+      <campo>latitud</campo>
+      <campo>datum</campo>
       <campo>paisoriginal</campo>
     </campos>
   </snibTerm>
