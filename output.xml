@@ -41,6 +41,11 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
     </dataRules>
     <syntaxRules>
+      <rule>Los nombres de los países están escritos en español.</rule>
+      <rule>Los datos están escritos en mayúsculas y sin utilizar acentos.</rule>
+      <rule>Este campo se conforma con la concatenación de los valores de los campos país, estado y municipio.</rule>
+      <rule>Cada dato de la división política se separa con una diagonal entre espacios “ / “ .</rule>
+      <rule>Si no se cuenta con el dato de alguna de las regiones, se indica como “NO DISPONIBLE”.</rule>
       <rule>En el caso de que el sitio de recolecta u observación del ejemplar se ubique en más de una región, los valores se separan con un pipe seguido de un espacio " | ".</rule>
     </syntaxRules>
     <ejemplar>
@@ -48,6 +53,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <key>8fb42940fd0605c50291867788df16ad</key>
       <key>6c650786a59c81a8bdeb97efbf3403a1</key>
       <key>75c3fc57516b3b6c9e0e46d5db3b7cb1</key>
+      <key>00e7cbf9117e93172c13f50d261fcb48</key>
     </ejemplar>
     <campos>
       <campo>region</campo>
@@ -168,7 +174,12 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <description>Sistema de referencia geodésico de las coordenadas geográficas del sitio de recolecta u observación del ejemplar.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
+    </notes>
     <dataRules>
+      <rule>Cuando las coordenadas originales tienen un datum diferente a WGS84, se transforman al WGS84.</rule>
+      <rule>Cuando el datum original de las coordenadas se desconoce, se asume como WGS84.</rule>
       <rule>El valor vacío significa que el ejemplar no tiene coordenadas geográficas o no están disponibles.</rule>
     </dataRules>
     <syntaxRules>
@@ -181,11 +192,12 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <key>1931d37b096cc2b95139f0151908327d</key>
       <key>74a1986f7ec121ef7a71b7ba5ad700c1</key>
       <key>74a1fbb33a8eae7e038afa316e8bdab8</key>
+      <key>c41de431933e0556fa3599ae2965895b</key>
     </ejemplar>
     <campos>
-      <campo>longitud</campo>
-      <campo>latitud</campo>
       <campo>datum</campo>
+      <campo>latitud</campo>
+      <campo>longitud</campo>
       <campo>paisoriginal</campo>
     </campos>
   </snibTerm>
@@ -679,6 +691,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <description>Nombre del municipio en el que el ejemplar fue recolectado u observado.</description>
     <datatype>varchar (80)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
+      <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
+    </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato que no fue proporcionado en la base de datos original.</rule>
     </dataRules>
@@ -689,11 +705,12 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>bc9377c20bbc24ce985ef4c4e7b8cbbc</key>
       <key>3eff5e1231a1960f30bfbe6d32eef1f1</key>
       <key>026aecd38043e4d00effbb98365cadf8</key>
+      <key>81aa987c65ef7c873df11f2b7c8ed8a0</key>
     </ejemplar>
     <campos>
-      <campo>paisoriginal</campo>
-      <campo>estadooriginal</campo>
       <campo>municipiooriginal</campo>
+      <campo>estadooriginal</campo>
+      <campo>paisoriginal</campo>
     </campos>
   </snibTerm>
   <snibTerm>
@@ -2128,9 +2145,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>estatustax</prev>
-      <next/>
       <next>FINAL</next>
       <next/>
+      <next>FINAL</next>
+      <next></next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
