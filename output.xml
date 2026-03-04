@@ -53,7 +53,6 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <key>8fb42940fd0605c50291867788df16ad</key>
       <key>6c650786a59c81a8bdeb97efbf3403a1</key>
       <key>75c3fc57516b3b6c9e0e46d5db3b7cb1</key>
-      <key>00e7cbf9117e93172c13f50d261fcb48</key>
     </ejemplar>
     <campos>
       <campo>region</campo>
@@ -2148,7 +2147,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <next>FINAL</next>
       <next/>
       <next>FINAL</next>
-      <next></next>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
