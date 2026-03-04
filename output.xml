@@ -41,11 +41,6 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
     </dataRules>
     <syntaxRules>
-      <rule>Los nombres de los países están escritos en español.</rule>
-      <rule>Los datos están escritos en mayúsculas y sin utilizar acentos.</rule>
-      <rule>Este campo se conforma con la concatenación de los valores de los campos país, estado y municipio.</rule>
-      <rule>Cada dato de la división política se separa con una diagonal entre espacios “ / “ .</rule>
-      <rule>Si no se cuenta con el dato de alguna de las regiones, se indica como “NO DISPONIBLE”.</rule>
       <rule>En el caso de que el sitio de recolecta u observación del ejemplar se ubique en más de una región, los valores se separan con un pipe seguido de un espacio " | ".</rule>
     </syntaxRules>
     <ejemplar>
@@ -53,7 +48,6 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <key>8fb42940fd0605c50291867788df16ad</key>
       <key>6c650786a59c81a8bdeb97efbf3403a1</key>
       <key>75c3fc57516b3b6c9e0e46d5db3b7cb1</key>
-      <key>00e7cbf9117e93172c13f50d261fcb48</key>
     </ejemplar>
     <campos>
       <campo>region</campo>
@@ -2145,7 +2139,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <orden>
       <prev>estatustax</prev>
       <next>FINAL</next>
-      <next></next>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
