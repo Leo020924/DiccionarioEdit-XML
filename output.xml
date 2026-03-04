@@ -685,10 +685,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <description>Nombre del municipio en el que el ejemplar fue recolectado u observado.</description>
     <datatype>varchar (80)</datatype>
     <encoding>UTF-8</encoding>
-    <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
-      <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
-    </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato que no fue proporcionado en la base de datos original.</rule>
     </dataRules>
@@ -699,12 +695,11 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>bc9377c20bbc24ce985ef4c4e7b8cbbc</key>
       <key>3eff5e1231a1960f30bfbe6d32eef1f1</key>
       <key>026aecd38043e4d00effbb98365cadf8</key>
-      <key>81aa987c65ef7c873df11f2b7c8ed8a0</key>
     </ejemplar>
     <campos>
-      <campo>municipiooriginal</campo>
-      <campo>estadooriginal</campo>
       <campo>paisoriginal</campo>
+      <campo>estadooriginal</campo>
+      <campo>municipiooriginal</campo>
     </campos>
   </snibTerm>
   <snibTerm>
