@@ -370,19 +370,22 @@ Sin coordenadas. Sin localidad</subregla></rule>
 <p>Los mapas utilizados son:</p>
 <p><strong>M&eacute;xico:</strong></p>
 <p>INEGI. 2022.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.&nbsp;</p>
-<p>URL:&nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
+<p>URL:&nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
 <p>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. 2011. 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. L&iacute;mite Nacional 1:250000. Modificado de Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fern&aacute;ndez-Equiarte, A., Gallegos-Garc&iacute;a, A., Zavala-H, J. y otros (1990). 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. Extra&iacute;do de Hipsometr&iacute;a y Batimetr&iacute;a, I.1.1. Atlas Nacional de M&eacute;xico. Vol. I. Escala 1:4000000. Instituto de Geograf&iacute;a, UNAM. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</a></p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</a></p>
 <p><strong>Centroam&eacute;rica:</strong></p>
 <p>CONABIO. 2020. Limites administrativos Centroam&eacute;rica. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</a></p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</a></p>
 <p>CONABIO. 2019. Mapa de validaci&oacute;n en la Zona econ&oacute;mica exclusiva para los sitios marinos de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixtoC">http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</a></p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixtoC" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</a></p>
 <p><strong>Colombia, El Caribe, Estados Unidos de Am&eacute;rica e Isla Clipperton:</strong></p>
 <p>CONABIO. 2019. Mapa de validaci&oacute;n por divisiones pol&iacute;ticas para los sitios terrestres de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
-<p>URL:&nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</a></p>
+<p>URL:&nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</a></p>
 <p>CONABIO. 2019. Mapa de validaci&oacute;n en la Zona econ&oacute;mica exclusiva para los sitios marinos de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
 <p>URL: http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</p>]]></note>
+      <note><![CDATA[<p>hola</p>
+<p>vomo etsaas&nbsp;</p>
+<p>&nbsp;</p>]]></note>
     </notes>
     <dataRules>
       <rule>Si el ejemplar no tiene coordenada geográfica no se asigna valor.</rule>
