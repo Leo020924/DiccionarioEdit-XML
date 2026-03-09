@@ -23,7 +23,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <category>Información geográfica</category>
     <subcategory>Geografía original</subcategory>
     <orden>
-      <prev/>
+      <prev>LEONARDO</prev>
       <next>paisoriginal</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -2147,7 +2147,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <prev>estatustax</prev>
       <next/>
       <next>FINAL</next>
-      <next></next>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4359,6 +4359,29 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <downloadSnib>true</downloadSnib>
     <campos>
       <campo>region</campo>
+    </campos>
+    <ejemplar>
+      <key>d2d26f3bc8a7741448336dd76c61086a</key>
+      <key>8fb42940fd0605c50291867788df16ad</key>
+      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica</category>
+    <orden>
+      <prev/>
+      <next>region</next>
+    </orden>
+    <fieldName>LEONARDO</fieldName>
+    <fieldid>LEONARDO</fieldid>
+    <subcategory>Geografía original</subcategory>
+    <dwcField>LEONARDO</dwcField>
+    <description>LEONARDO</description>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <campos>
+      <campo>region</campo>
+      <campo>localidad</campo>
     </campos>
     <ejemplar>
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
