@@ -249,7 +249,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <subcategory>Validación geográfica</subcategory>
     <orden>
       <prev>validacionambiente</prev>
-      <next></next>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4314,35 +4314,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <campo>grupobio</campo>
       <campo>especievalida</campo>
     </campos>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica</category>
-    <category>Categoría de protección</category>
-    <orden>
-      <prev>municipiooriginal</prev>
-      <next>localidad</next>
-      <prev/>
-      <next>nom059</next>
-    </orden>
-    <fieldName>prueba</fieldName>
-    <fieldid>prueba1</fieldid>
-    <subcategory>Geografía original</subcategory>
-    <downloadGeoportal>false</downloadGeoportal>
-    <fieldName>INICIOOO</fieldName>
-    <fieldid>INICIOOO</fieldid>
-    <dwcField>INICIOOO</dwcField>
-    <description>INICIOOO</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>region</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>00e7cbf9117e93172c13f50d261fcb48</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Información taxonómica</category>
