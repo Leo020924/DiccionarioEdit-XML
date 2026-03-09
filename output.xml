@@ -249,7 +249,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <subcategory>Validación geográfica</subcategory>
     <orden>
       <prev>validacionambiente</prev>
-      <next>LEONARDOALFINAL</next>
+      <next>da</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4386,7 +4386,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información geográfica</category>
     <orden>
       <next/>
-      <prev>geovalidacion</prev>
+      <prev>da</prev>
     </orden>
     <fieldName>LEONARDO AL FINAL</fieldName>
     <fieldid>LEONARDOALFINAL</fieldid>
@@ -4572,5 +4572,25 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <campos>
       <campo>region</campo>
     </campos>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica</category>
+    <orden>
+      <prev>geovalidacion</prev>
+      <next>LEONARDOALFINAL</next>
+    </orden>
+    <fieldName>inicio</fieldName>
+    <fieldid>da</fieldid>
+    <subcategory>Geografía original</subcategory>
+    <downloadGeoportal>false</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <campos>
+      <campo>localidad</campo>
+    </campos>
+    <ejemplar>
+      <key>d2d26f3bc8a7741448336dd76c61086a</key>
+      <key>8fb42940fd0605c50291867788df16ad</key>
+      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
+    </ejemplar>
   </snibTerm>
 </snibDictionary>
