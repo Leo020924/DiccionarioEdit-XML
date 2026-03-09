@@ -23,7 +23,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <category>Información geográfica</category>
     <subcategory>Geografía original</subcategory>
     <orden>
-      <prev>PRUEBA</prev>
+      <prev/>
       <next>paisoriginal</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -53,6 +53,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <key>8fb42940fd0605c50291867788df16ad</key>
       <key>6c650786a59c81a8bdeb97efbf3403a1</key>
       <key>75c3fc57516b3b6c9e0e46d5db3b7cb1</key>
+      <key>00e7cbf9117e93172c13f50d261fcb48</key>
     </ejemplar>
     <campos>
       <campo>region</campo>
@@ -78,6 +79,9 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <dwcField>decimalLongitude</dwcField>
     <description>Longitud de la coordenada geográfica del sitio de recolecta u observación del ejemplar.</description>
     <datatype>double</datatype>
+    <notes>
+      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
+    </notes>
     <dataRules>
       <rule>El valor está en el intervalo de -180 a 180.</rule>
       <rule>Cuando las coordenadas originales están en grados, minutos y segundos, se realiza una conversión a grados decimales; si se desconoce el valor de los segundos se asignan 30’’ para no sesgar el dato desconocido hacia los extremos (0 - 59).</rule>
@@ -92,17 +96,18 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <rule>Para el este del meridiano de Greenwich el dato es positivo (por ejemplo, Alemania).</rule>
       <rule>Para el oeste del meridiano de Greenwich el dato es negativo (por ejemplo, México).</rule>
     </infoRules>
-    <ejemplar>
-      <key>33bb9337b6040b8d2b5e41d1d53100a2</key>
-      <key>9197122bd76a7dc066742f9e484779b2</key>
-      <key>1e681ab0f796b63c5dd5f0f9856b5d9f</key>
-    </ejemplar>
     <campos>
       <campo>longitud</campo>
       <campo>latitud</campo>
       <campo>paisoriginal</campo>
       <campo>estadooriginal</campo>
     </campos>
+    <ejemplar>
+      <key>33bb9337b6040b8d2b5e41d1d53100a2</key>
+      <key>9197122bd76a7dc066742f9e484779b2</key>
+      <key>1e681ab0f796b63c5dd5f0f9856b5d9f</key>
+      <key>1931d37b096cc2b95139f0151908327d</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
@@ -244,7 +249,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <subcategory>Validación geográfica</subcategory>
     <orden>
       <prev>validacionambiente</prev>
-      <next>PRUEBAALFINAL</next>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -370,22 +375,19 @@ Sin coordenadas. Sin localidad</subregla></rule>
 <p>Los mapas utilizados son:</p>
 <p><strong>M&eacute;xico:</strong></p>
 <p>INEGI. 2022.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.&nbsp;</p>
-<p>URL:&nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
+<p>URL:&nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
 <p>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. 2011. 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. L&iacute;mite Nacional 1:250000. Modificado de Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fern&aacute;ndez-Equiarte, A., Gallegos-Garc&iacute;a, A., Zavala-H, J. y otros (1990). 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. Extra&iacute;do de Hipsometr&iacute;a y Batimetr&iacute;a, I.1.1. Atlas Nacional de M&eacute;xico. Vol. I. Escala 1:4000000. Instituto de Geograf&iacute;a, UNAM. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</a></p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</a></p>
 <p><strong>Centroam&eacute;rica:</strong></p>
 <p>CONABIO. 2020. Limites administrativos Centroam&eacute;rica. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</a></p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</a></p>
 <p>CONABIO. 2019. Mapa de validaci&oacute;n en la Zona econ&oacute;mica exclusiva para los sitios marinos de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixtoC" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</a></p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixtoC">http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</a></p>
 <p><strong>Colombia, El Caribe, Estados Unidos de Am&eacute;rica e Isla Clipperton:</strong></p>
 <p>CONABIO. 2019. Mapa de validaci&oacute;n por divisiones pol&iacute;ticas para los sitios terrestres de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
-<p>URL:&nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</a></p>
+<p>URL:&nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</a></p>
 <p>CONABIO. 2019. Mapa de validaci&oacute;n en la Zona econ&oacute;mica exclusiva para los sitios marinos de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
 <p>URL: http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</p>]]></note>
-      <note><![CDATA[<p>hola</p>
-<p>vomo etsaas&nbsp;</p>
-<p>&nbsp;</p>]]></note>
     </notes>
     <dataRules>
       <rule>Si el ejemplar no tiene coordenada geográfica no se asigna valor.</rule>
@@ -417,7 +419,7 @@ un dato de país en el campo país original.</subregla></rule>
     <subcategory>Geografía original</subcategory>
     <orden>
       <prev>paisoriginal</prev>
-      <next>Leo</next>
+      <next>municipiooriginal</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -674,8 +676,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información geográfica</category>
     <subcategory>Geografía original</subcategory>
     <orden>
-      <prev>Leo</prev>
-      <next>PRUEBADESPUESDE</next>
+      <prev>estadooriginal</prev>
+      <next>prueba1</next>
       <next>localidad</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
@@ -2144,9 +2146,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <orden>
       <prev>estatustax</prev>
       <next/>
-      <next/>
       <next>FINAL</next>
-      <next/>
+      <next></next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4103,7 +4104,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Datos del recurso</category>
     <orden>
       <prev>urlorigen</prev>
-      <next>asas</next>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4318,7 +4319,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información geográfica</category>
     <category>Categoría de protección</category>
     <orden>
-      <prev>PRUEBADESPUESDE</prev>
+      <prev>municipiooriginal</prev>
       <next>localidad</next>
       <prev/>
       <next>nom059</next>
@@ -4344,132 +4345,20 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
+    <category>Información taxonómica</category>
     <orden>
-      <prev>estadooriginal</prev>
-      <next>municipiooriginal</next>
+      <next/>
+      <prev>reftax</prev>
     </orden>
-    <fieldName>Leo</fieldName>
-    <fieldid>Leo</fieldid>
-    <subcategory>Geografía original</subcategory>
-    <dwcField>Leo</dwcField>
-    <description>Leo</description>
-    <downloadGeoportal>false</downloadGeoportal>
+    <fieldName>FINAL</fieldName>
+    <fieldid>FINAL</fieldid>
+    <subcategory>Taxonomía original</subcategory>
+    <dwcField>FINAL</dwcField>
+    <description>FINAL</description>
+    <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
-    <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, incluyendo la zona econ&oacute;mica exclusiva, realizado por la CONABIO.</p>
-<p>Los mapas utilizados son:</p>
-<p><strong>M&eacute;xico:</strong></p>
-<p>INEGI. 2022.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.&nbsp;</p>
-<p>URL:&nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto" target="_blank" rel="noreferrer noopener" title="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto" aria-label="V&iacute;nculo http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
-<p>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. 2011. 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. L&iacute;mite Nacional 1:250000. Modificado de Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fern&aacute;ndez-Equiarte, A., Gallegos-Garc&iacute;a, A., Zavala-H, J. y otros (1990). 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. Extra&iacute;do de Hipsometr&iacute;a y Batimetr&iacute;a, I.1.1. Atlas Nacional de M&eacute;xico. Vol. I. Escala 1:4000000. Instituto de Geograf&iacute;a, UNAM. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto" target="_blank" rel="noreferrer noopener" title="http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto" aria-label="V&iacute;nculo http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</a></p>
-<p><strong>Centroam&eacute;rica:</strong></p>
-<p>CONABIO. 2020. Limites administrativos Centroam&eacute;rica. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto" target="_blank" rel="noreferrer noopener" title="http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto" aria-label="V&iacute;nculo http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</a></p>
-<p>CONABIO. 2019. Mapa de validaci&oacute;n en la Zona econ&oacute;mica exclusiva para los sitios marinos de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixtoC" target="_blank" rel="noreferrer noopener" title="http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixtoc" aria-label="V&iacute;nculo http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</a></p>
-<p><strong>Colombia, El Caribe, Estados Unidos de Am&eacute;rica e Isla Clipperton:</strong></p>
-<p>CONABIO. 2019. Mapa de validaci&oacute;n por divisiones pol&iacute;ticas para los sitios terrestres de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
-<p>URL:&nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto" target="_blank" rel="noreferrer noopener" title="http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto" aria-label="V&iacute;nculo http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</a></p>
-<p>CONABIO. 2019. Mapa de validaci&oacute;n en la Zona econ&oacute;mica exclusiva para los sitios marinos de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto" target="_blank" rel="noreferrer noopener" title="http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto" aria-label="V&iacute;nculo http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</a></p>]]></note>
-    </notes>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
     <campos>
       <campo>region</campo>
-      <campo>localidad</campo>
-    </campos>
-  </snibTerm>
-  <snibTerm>
-    <category>Datos del recurso</category>
-    <orden>
-      <next/>
-      <prev>urlproyecto</prev>
-    </orden>
-    <fieldName>asa</fieldName>
-    <fieldid>asas</fieldid>
-    <dwcField>qas</dwcField>
-    <description>as</description>
-    <datatype>String</datatype>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <notes>
-      <note><![CDATA[<p>Nota prueba</p>]]></note>
-    </notes>
-    <campos>
-      <campo>localidad</campo>
-      <campo>region</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica</category>
-    <orden>
-      <prev/>
-      <next>region</next>
-    </orden>
-    <fieldName>PRUEBA</fieldName>
-    <fieldid>PRUEBA</fieldid>
-    <subcategory>Geografía original</subcategory>
-    <dwcField>PRUEBA</dwcField>
-    <description>PRUEBA</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>region</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica</category>
-    <orden>
-      <prev>municipiooriginal</prev>
-      <next>prueba1</next>
-    </orden>
-    <fieldName>PRUEBA DESPUES DE</fieldName>
-    <fieldid>PRUEBADESPUESDE</fieldid>
-    <subcategory>Geografía original</subcategory>
-    <dwcField>PRUEBA DESPUES DE</dwcField>
-    <description>PRUEBA DESPUES DE</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica</category>
-    <orden>
-      <next/>
-      <prev>geovalidacion</prev>
-    </orden>
-    <fieldName>PRUEBA AL FINAL</fieldName>
-    <fieldid>PRUEBAALFINAL</fieldid>
-    <subcategory>Geografía original</subcategory>
-    <dwcField>PRUEBA AL FINAL</dwcField>
-    <description>PRUEBA AL FINAL</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>longitud</campo>
     </campos>
     <ejemplar>
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
