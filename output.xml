@@ -4564,13 +4564,13 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Geografía original</subcategory>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>region</campo>
-    </campos>
     <ejemplar>
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
       <key>8fb42940fd0605c50291867788df16ad</key>
       <key>6c650786a59c81a8bdeb97efbf3403a1</key>
     </ejemplar>
+    <campos>
+      <campo>region</campo>
+    </campos>
   </snibTerm>
 </snibDictionary>
