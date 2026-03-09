@@ -4450,13 +4450,34 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del recurso</category>
     <orden>
-      <next/>
+      <next>PRUEBADELAPRUEBAALFINAL</next>
       <prev>urlproyecto</prev>
     </orden>
     <fieldName>PRUEBA AL FINAL</fieldName>
     <fieldid>PRUEBAALFINAL</fieldid>
     <dwcField>PRUEBA AL FINAL</dwcField>
     <description>PRUEBA AL FINAL</description>
+    <downloadGeoportal>false</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <campos>
+      <campo>localidad</campo>
+    </campos>
+    <ejemplar>
+      <key>d2d26f3bc8a7741448336dd76c61086a</key>
+      <key>8fb42940fd0605c50291867788df16ad</key>
+      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Datos del recurso</category>
+    <orden>
+      <next/>
+      <prev>PRUEBAALFINAL</prev>
+    </orden>
+    <fieldName>PRUEBA DE LA PRUEBA AL FINAL</fieldName>
+    <fieldid>PRUEBADELAPRUEBAALFINAL</fieldid>
+    <dwcField>PRUEBA DE LA PRUEBA AL FINAL</dwcField>
+    <description>PRUEBA DE LA PRUEBA AL FINAL</description>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <campos>
