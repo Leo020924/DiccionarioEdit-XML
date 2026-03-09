@@ -2793,7 +2793,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Taxonomía válida</subcategory>
     <orden>
       <prev>reftaxvalido</prev>
-      <next>test1</next>
+      <next>idnombrecat</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2831,7 +2831,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información taxonómica</category>
     <subcategory>Taxonomía válida</subcategory>
     <orden>
-      <prev>test1</prev>
+      <prev>nombrecomun</prev>
       <next>idnombrecatvalido</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -4552,44 +4552,5 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>8fb42940fd0605c50291867788df16ad</key>
       <key>6c650786a59c81a8bdeb97efbf3403a1</key>
     </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información taxonómica</category>
-    <orden>
-      <prev>nombrecomun</prev>
-      <next>idnombrecat</next>
-    </orden>
-    <fieldName>prueba</fieldName>
-    <fieldid>test1</fieldid>
-    <subcategory>Taxonomía válida</subcategory>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <notes>
-      <note><![CDATA[<p>agregando nota 1</p>
-<p>nota 1.1</p>
-<p><strong>dasdasdasdd</strong></p>
-<p><strong>😋</strong></p>]]></note>
-      <note><![CDATA[<p>rerererererer</p>]]></note>
-    </notes>
-    <dataRules>
-      <rule>regla general 1<subregla>subrega1</subregla></rule>
-    </dataRules>
-    <syntaxRules>
-      <rule>regla sintaxis<subregla>sub sintax 1</subregla></rule>
-    </syntaxRules>
-    <infoRules>
-      <rule>regla info<subregla>sub regla info 1</subregla></rule>
-    </infoRules>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-    <dwcField>dwc</dwcField>
-    <description>esta es una descripción del campo </description>
-    <datatype>VARCHAR(255)</datatype>
-    <campos>
-      <campo>region</campo>
-    </campos>
   </snibTerm>
 </snibDictionary>
