@@ -930,7 +930,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Geografía original</subcategory>
     <orden>
       <prev>datum</prev>
-      <next></next>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4313,28 +4313,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <campo>grupobio</campo>
       <campo>especievalida</campo>
     </campos>
-  </snibTerm>
-  <snibTerm>
-    <category>Información taxonómica</category>
-    <orden>
-      <next/>
-      <prev>INICIO</prev>
-    </orden>
-    <fieldName>FINAL</fieldName>
-    <fieldid>FINAL</fieldid>
-    <subcategory>Taxonomía original</subcategory>
-    <dwcField>FINAL</dwcField>
-    <description>FINAL</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <campos>
-      <campo>region</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
