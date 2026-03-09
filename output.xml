@@ -3065,7 +3065,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Categoría de protección</category>
     <orden>
-      <prev/>
+      <prev>ALINICIO</prev>
       <prev>INICIOOO</prev>
       <next>cites</next>
     </orden>
@@ -4482,6 +4482,27 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <downloadSnib>false</downloadSnib>
     <campos>
       <campo>localidad</campo>
+    </campos>
+    <ejemplar>
+      <key>d2d26f3bc8a7741448336dd76c61086a</key>
+      <key>8fb42940fd0605c50291867788df16ad</key>
+      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Categoría de protección</category>
+    <orden>
+      <prev/>
+      <next>nom059</next>
+    </orden>
+    <fieldName>AL INICIO</fieldName>
+    <fieldid>ALINICIO</fieldid>
+    <dwcField>AL INICIO</dwcField>
+    <description>AL INICIO</description>
+    <downloadGeoportal>false</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <campos>
+      <campo>longitud</campo>
     </campos>
     <ejemplar>
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
