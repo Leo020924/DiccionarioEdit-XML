@@ -4574,7 +4574,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Información geográfica</category>
     <orden>
-      <next>PRINCIPIO</next>
+      <next></next>
       <prev>LEOFINAL</prev>
     </orden>
     <fieldName>FINAL 22</fieldName>
@@ -4606,28 +4606,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <description>LEO INICIO</description>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
-    <campos>
-      <campo>region</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica</category>
-    <orden>
-      <next/>
-      <prev>FINAL22</prev>
-    </orden>
-    <fieldName>PRINCIPIO</fieldName>
-    <fieldid>PRINCIPIO</fieldid>
-    <subcategory>Geografía original</subcategory>
-    <dwcField>PRINCIPIO</dwcField>
-    <description>PRINCIPIO</description>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
     <campos>
       <campo>region</campo>
     </campos>
