@@ -249,7 +249,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <subcategory>Validación geográfica</subcategory>
     <orden>
       <prev>validacionambiente</prev>
-      <next/>
+      <next></next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
