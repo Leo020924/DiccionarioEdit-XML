@@ -4614,26 +4614,4 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>02cadca47ddf4f8280610d09c4aebfa7</key>
     </ejemplar>
   </snibTerm>
-  <snibTerm>
-    <category>Información taxonómica</category>
-    <orden>
-      <next/>
-      <prev>LEONARDO</prev>
-    </orden>
-    <fieldName>LEONARDO</fieldName>
-    <fieldid>LEONARDO</fieldid>
-    <subcategory>Taxonomía válida</subcategory>
-    <dwcField>LEONARDO</dwcField>
-    <description>LEONARDO</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
-      <key>c4f6623f9ef9c6a65767a675439a91dd</key>
-      <key>02cadca47ddf4f8280610d09c4aebfa7</key>
-    </ejemplar>
-  </snibTerm>
 </snibDictionary>
