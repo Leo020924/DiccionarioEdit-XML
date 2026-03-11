@@ -4640,28 +4640,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información taxonómica</category>
     <orden>
       <prev/>
-      <next>INICIO</next>
-    </orden>
-    <fieldName>INICIO</fieldName>
-    <fieldid>INICIO</fieldid>
-    <subcategory>Taxonomía válida</subcategory>
-    <dwcField>INICIO</dwcField>
-    <description>INICIO</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
-    <campos>
-      <campo>region</campo>
-    </campos>
-    <ejemplar>
-      <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
-      <key>c4f6623f9ef9c6a65767a675439a91dd</key>
-      <key>02cadca47ddf4f8280610d09c4aebfa7</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información taxonómica</category>
-    <orden>
-      <prev/>
       <next>LEONARDO</next>
     </orden>
     <fieldName>LEONARDO</fieldName>
