@@ -249,7 +249,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <subcategory>Validación geográfica</subcategory>
     <orden>
       <prev>validacionambiente</prev>
-      <next>LEOINICIO</next>
+      <next>FINAL</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4465,7 +4465,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información geográfica</category>
     <orden>
       <next/>
-      <prev>LEOINICIO</prev>
+      <prev>geovalidacion</prev>
     </orden>
     <fieldName>FINAL</fieldName>
     <fieldid>FINAL</fieldid>
@@ -4539,28 +4539,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <description>FINAL 22</description>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>region</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica</category>
-    <orden>
-      <prev>geovalidacion</prev>
-      <next>FINAL</next>
-    </orden>
-    <fieldName>LEO INICIO</fieldName>
-    <fieldid>LEOINICIO</fieldid>
-    <subcategory>Geografía original</subcategory>
-    <dwcField>LEO INICIO</dwcField>
-    <description>LEO INICIO</description>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
     <campos>
       <campo>region</campo>
     </campos>
