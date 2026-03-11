@@ -4573,7 +4573,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Información geográfica</category>
     <orden>
-      <prev/>
+      <prev>INICIO33</prev>
       <next>INICIO</next>
     </orden>
     <fieldName>INICIO2</fieldName>
@@ -4585,6 +4585,28 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <downloadSnib>false</downloadSnib>
     <campos>
       <campo>localidad</campo>
+    </campos>
+    <ejemplar>
+      <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
+      <key>c4f6623f9ef9c6a65767a675439a91dd</key>
+      <key>02cadca47ddf4f8280610d09c4aebfa7</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica</category>
+    <orden>
+      <prev/>
+      <next>INICIO2</next>
+    </orden>
+    <fieldName>INICIO33</fieldName>
+    <fieldid>INICIO33</fieldid>
+    <subcategory>Geografía original</subcategory>
+    <dwcField>INICIO33</dwcField>
+    <description>INICIO33</description>
+    <downloadGeoportal>false</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <campos>
+      <campo>longitud</campo>
     </campos>
     <ejemplar>
       <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
