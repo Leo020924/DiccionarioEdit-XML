@@ -4530,7 +4530,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Geografía original</subcategory>
     <orden>
       <prev>FINAL</prev>
-      <next/>
+      <next>dsasdd</next>
     </orden>
     <fieldName>FINAL DEL FINAL</fieldName>
     <fieldid>FINALDELFINAL</fieldid>
@@ -4734,6 +4734,26 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <downloadSnib>false</downloadSnib>
     <campos>
       <campo>localidad</campo>
+    </campos>
+    <ejemplar>
+      <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
+      <key>c4f6623f9ef9c6a65767a675439a91dd</key>
+      <key>c7384a9c911c4458d0aab6087cb335be</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica</category>
+    <subcategory>Geografía original</subcategory>
+    <orden>
+      <prev>FINALDELFINAL</prev>
+      <next/>
+    </orden>
+    <fieldName>prueba5</fieldName>
+    <fieldid>dsasdd</fieldid>
+    <downloadGeoportal>false</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <campos>
+      <campo>longitud</campo>
     </campos>
     <ejemplar>
       <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
