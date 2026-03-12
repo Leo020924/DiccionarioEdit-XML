@@ -623,7 +623,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Geografía inferida</subcategory>
     <orden>
       <prev>municipiomapa</prev>
-      <next>FINAL2</next>
+      <next></next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4522,28 +4522,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
       <key>8fb42940fd0605c50291867788df16ad</key>
       <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica</category>
-    <orden>
-      <next/>
-      <prev>mt24claveestadomapa</prev>
-    </orden>
-    <fieldName>FINAL2</fieldName>
-    <fieldid>FINAL2</fieldid>
-    <subcategory>Geografía original</subcategory>
-    <dwcField>FINAL2</dwcField>
-    <description>FINAL2</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
-      <key>c4f6623f9ef9c6a65767a675439a91dd</key>
-      <key>02cadca47ddf4f8280610d09c4aebfa7</key>
     </ejemplar>
   </snibTerm>
   <snibTerm>
