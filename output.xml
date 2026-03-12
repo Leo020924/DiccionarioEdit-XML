@@ -930,7 +930,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Geografía original</subcategory>
     <orden>
       <prev>datum</prev>
-      <next></next>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4442,35 +4442,13 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información taxonómica</category>
     <subcategory>Taxonomía válida</subcategory>
     <orden>
-      <prev>PRINCIPIODELPRINCIPIO</prev>
+      <prev></prev>
       <next>taxonvalidado</next>
     </orden>
     <fieldName>PRINCIPIO</fieldName>
     <fieldid>PRINCIPIO</fieldid>
     <dwcField>PRINCIPIO</dwcField>
     <description>PRINCIPIO</description>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>region</campo>
-    </campos>
-    <ejemplar>
-      <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
-      <key>c4f6623f9ef9c6a65767a675439a91dd</key>
-      <key>c7384a9c911c4458d0aab6087cb335be</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía válida</subcategory>
-    <orden>
-      <prev/>
-      <next>PRINCIPIO</next>
-    </orden>
-    <fieldName>PRINCIPIO DEL PRINCIPIO</fieldName>
-    <fieldid>PRINCIPIODELPRINCIPIO</fieldid>
-    <dwcField>PRINCIPIO DEL PRINCIPIO</dwcField>
-    <description>PRINCIPIO DEL PRINCIPIO</description>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <campos>
