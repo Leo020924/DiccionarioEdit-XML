@@ -4640,12 +4640,34 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Taxonomía válida</subcategory>
     <orden>
       <prev>idnombrecatvalido</prev>
-      <next/>
+      <next>FINALLLLLLLLLLL22</next>
     </orden>
     <fieldName>FINALLLLLLLL</fieldName>
     <fieldid>FINALLLLLLLL</fieldid>
     <dwcField>FINALLLLLLLL</dwcField>
     <description>FINALLLLLLLL</description>
+    <downloadGeoportal>false</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <campos>
+      <campo>region</campo>
+    </campos>
+    <ejemplar>
+      <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
+      <key>c4f6623f9ef9c6a65767a675439a91dd</key>
+      <key>c7384a9c911c4458d0aab6087cb335be</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía válida</subcategory>
+    <orden>
+      <prev>FINALLLLLLLL</prev>
+      <next/>
+    </orden>
+    <fieldName>FINALLLLLLLLLLL22</fieldName>
+    <fieldid>FINALLLLLLLLLLL22</fieldid>
+    <dwcField>FINALLLLLLLLLLL22</dwcField>
+    <description>FINALLLLLLLLLLL22</description>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <campos>
