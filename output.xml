@@ -23,7 +23,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <category>Información geográfica</category>
     <subcategory>Geografía original</subcategory>
     <orden>
-      <prev>INICIO</prev>
+      <prev/>
       <next>paisoriginal</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -677,7 +677,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Geografía original</subcategory>
     <orden>
       <prev>estadooriginal</prev>
-      <next>swsw</next>
+      <next>DESPUESDE</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4461,28 +4461,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <orden>
-      <prev></prev>
-      <next>region</next>
-    </orden>
-    <fieldName>INICIO</fieldName>
-    <fieldid>INICIO</fieldid>
-    <subcategory>Geografía original</subcategory>
-    <dwcField>INICIO</dwcField>
-    <description>INICIO</description>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
-      <key>c4f6623f9ef9c6a65767a675439a91dd</key>
-      <key>c7384a9c911c4458d0aab6087cb335be</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica</category>
     <subcategory>Geografía original</subcategory>
     <orden>
       <prev>incertidumbrexy</prev>
@@ -4529,7 +4507,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información geográfica</category>
     <subcategory>Geografía original</subcategory>
     <orden>
-      <prev>swsw</prev>
+      <prev>municipiooriginal</prev>
       <next>DESPUESDELDESPUESDE</next>
     </orden>
     <fieldName>DESPUES DE</fieldName>
@@ -4666,26 +4644,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <fieldid>ULTIMO</fieldid>
     <dwcField>ULTIMO</dwcField>
     <description>ULTIMO</description>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
-      <key>c4f6623f9ef9c6a65767a675439a91dd</key>
-      <key>c7384a9c911c4458d0aab6087cb335be</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
-    <orden>
-      <prev>municipiooriginal</prev>
-      <next>DESPUESDE</next>
-    </orden>
-    <fieldName>prueba3</fieldName>
-    <fieldid>swsw</fieldid>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <campos>
