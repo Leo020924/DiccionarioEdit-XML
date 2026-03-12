@@ -2858,7 +2858,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Taxonomía válida</subcategory>
     <orden>
       <prev>idnombrecat</prev>
-      <next>FINALLLLLLLLLLL22</next>
+      <next></next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4436,28 +4436,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
       <key>8fb42940fd0605c50291867788df16ad</key>
       <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía válida</subcategory>
-    <orden>
-      <prev>idnombrecatvalido</prev>
-      <next/>
-    </orden>
-    <fieldName>FINALLLLLLLLLLL22</fieldName>
-    <fieldid>FINALLLLLLLLLLL22</fieldid>
-    <dwcField>FINALLLLLLLLLLL22</dwcField>
-    <description>FINALLLLLLLLLLL22</description>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>region</campo>
-    </campos>
-    <ejemplar>
-      <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
-      <key>c4f6623f9ef9c6a65767a675439a91dd</key>
-      <key>c7384a9c911c4458d0aab6087cb335be</key>
     </ejemplar>
   </snibTerm>
   <snibTerm>
