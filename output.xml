@@ -3063,7 +3063,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Categoría de protección</category>
     <orden>
-      <prev></prev>
+      <prev/>
       <prev>INICIOOO</prev>
       <next>cites</next>
     </orden>
@@ -3140,7 +3140,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Categoría de protección</category>
     <orden>
       <prev>nivelprioridad</prev>
-      <next>ALFINAL</next>
+      <next>ULTIMO</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4315,28 +4315,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Categoría de protección</category>
     <orden>
-      <next>ULTIMO</next>
       <prev>iucn</prev>
-    </orden>
-    <fieldName>AL FINAL</fieldName>
-    <fieldid>ALFINAL</fieldid>
-    <dwcField>AL FINAL</dwcField>
-    <description>AL FINAL</description>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>datum</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Categoría de protección</category>
-    <orden>
-      <prev>ALFINAL</prev>
       <next/>
     </orden>
     <fieldName>ULTIMO</fieldName>
