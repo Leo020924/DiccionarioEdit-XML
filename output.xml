@@ -677,7 +677,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Geografía original</subcategory>
     <orden>
       <prev>estadooriginal</prev>
-      <next>prueb1</next>
+      <next>swsw</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4725,26 +4725,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información geográfica</category>
     <subcategory>Geografía original</subcategory>
     <orden>
-      <prev>municipiooriginal</prev>
-      <next>swsw</next>
-    </orden>
-    <fieldName>pureba</fieldName>
-    <fieldid>prueb1</fieldid>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>region</campo>
-    </campos>
-    <ejemplar>
-      <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
-      <key>c4f6623f9ef9c6a65767a675439a91dd</key>
-      <key>c7384a9c911c4458d0aab6087cb335be</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
-    <orden>
       <prev>swsw</prev>
       <next>DESPUESDE</next>
     </orden>
@@ -4782,7 +4762,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información geográfica</category>
     <subcategory>Geografía original</subcategory>
     <orden>
-      <prev>prueb1</prev>
+      <prev>municipiooriginal</prev>
       <next>prueba2</next>
     </orden>
     <fieldName>prueba3</fieldName>
