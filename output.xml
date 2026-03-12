@@ -4488,20 +4488,20 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <prev>ANTESDELANTESDEINICIO</prev>
       <next>INICIO</next>
     </orden>
-    <fieldName>ANTES DE INICIO</fieldName>
+    <fieldName>ANTES DE INICIOOO</fieldName>
     <fieldid>ANTESDEINICIO</fieldid>
-    <dwcField>ANTES DE INICIO</dwcField>
-    <description>ANTES DE INICIO</description>
+    <dwcField>ANTES DE INICIOOO</dwcField>
+    <description>ANTES DE INICIOOO</description>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>region</campo>
-    </campos>
     <ejemplar>
       <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
       <key>c4f6623f9ef9c6a65767a675439a91dd</key>
       <key>c7384a9c911c4458d0aab6087cb335be</key>
     </ejemplar>
+    <campos>
+      <campo>region</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
