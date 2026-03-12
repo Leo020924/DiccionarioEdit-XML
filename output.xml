@@ -2144,8 +2144,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>estatustax</prev>
-      <next>INICIO</next>
-      <next>FINAL</next>
       <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
