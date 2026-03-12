@@ -623,7 +623,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Geografía inferida</subcategory>
     <orden>
       <prev>municipiomapa</prev>
-      <next></next>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4527,7 +4527,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Información taxonómica</category>
     <orden>
-      <prev>LEONARDO</prev>
+      <prev></prev>
       <next>taxonvalidado</next>
     </orden>
     <fieldName>INICIO</fieldName>
@@ -4539,28 +4539,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <downloadSnib>false</downloadSnib>
     <campos>
       <campo>region</campo>
-    </campos>
-    <ejemplar>
-      <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
-      <key>c4f6623f9ef9c6a65767a675439a91dd</key>
-      <key>02cadca47ddf4f8280610d09c4aebfa7</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información taxonómica</category>
-    <orden>
-      <prev/>
-      <next>INICIO</next>
-    </orden>
-    <fieldName>LEONARDO</fieldName>
-    <fieldid>LEONARDO</fieldid>
-    <subcategory>Taxonomía válida</subcategory>
-    <dwcField>LEONARDO</dwcField>
-    <description>LEONARDO</description>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>localidad</campo>
     </campos>
     <ejemplar>
       <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
