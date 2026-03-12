@@ -2640,7 +2640,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información taxonómica</category>
     <subcategory>Taxonomía válida</subcategory>
     <orden>
-      <prev/>
+      <prev>PRINCIPIO</prev>
       <next>grupobio</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -4580,6 +4580,28 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <fieldid>DESPUESDE</fieldid>
     <dwcField>DESPUES DE</dwcField>
     <description>DESPUES DE</description>
+    <downloadGeoportal>false</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <campos>
+      <campo>region</campo>
+    </campos>
+    <ejemplar>
+      <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
+      <key>c4f6623f9ef9c6a65767a675439a91dd</key>
+      <key>c7384a9c911c4458d0aab6087cb335be</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía válida</subcategory>
+    <orden>
+      <prev/>
+      <next>taxonvalidado</next>
+    </orden>
+    <fieldName>PRINCIPIO</fieldName>
+    <fieldid>PRINCIPIO</fieldid>
+    <dwcField>PRINCIPIO</dwcField>
+    <description>PRINCIPIO</description>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <campos>
