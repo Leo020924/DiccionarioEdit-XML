@@ -3140,7 +3140,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Categoría de protección</category>
     <orden>
       <prev>nivelprioridad</prev>
-      <next>ULTIMO</next>
+      <next></next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4311,26 +4311,5 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <campo>grupobio</campo>
       <campo>especievalida</campo>
     </campos>
-  </snibTerm>
-  <snibTerm>
-    <category>Categoría de protección</category>
-    <orden>
-      <prev>iucn</prev>
-      <next/>
-    </orden>
-    <fieldName>ULTIMO</fieldName>
-    <fieldid>ULTIMO</fieldid>
-    <dwcField>ULTIMO</dwcField>
-    <description>ULTIMO</description>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
-      <key>c4f6623f9ef9c6a65767a675439a91dd</key>
-      <key>c7384a9c911c4458d0aab6087cb335be</key>
-    </ejemplar>
   </snibTerm>
 </snibDictionary>
