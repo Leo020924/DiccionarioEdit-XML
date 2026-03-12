@@ -4591,26 +4591,4 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>c7384a9c911c4458d0aab6087cb335be</key>
     </ejemplar>
   </snibTerm>
-  <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
-    <orden>
-      <prev>DESPUESDE</prev>
-      <next>prioritaria</next>
-    </orden>
-    <fieldName>DESPUES DEL DESPUES DE</fieldName>
-    <fieldid>DESPUESDELDESPUESDE</fieldid>
-    <dwcField>DESPUES DEL DESPUES DE</dwcField>
-    <description>DESPUES DEL DESPUES DE</description>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
-      <key>c4f6623f9ef9c6a65767a675439a91dd</key>
-      <key>c7384a9c911c4458d0aab6087cb335be</key>
-    </ejemplar>
-  </snibTerm>
 </snibDictionary>
