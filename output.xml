@@ -1662,7 +1662,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información taxonómica</category>
     <subcategory>Taxonomía original</subcategory>
     <orden>
-      <prev>LEOINICIO22</prev>
+      <prev></prev>
       <next>phylumdivision</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -4473,28 +4473,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <downloadSnib>false</downloadSnib>
     <campos>
       <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información taxonómica</category>
-    <orden>
-      <prev></prev>
-      <next>reino</next>
-    </orden>
-    <fieldName>LEOINICIO22</fieldName>
-    <fieldid>LEOINICIO22</fieldid>
-    <subcategory>Taxonomía original</subcategory>
-    <dwcField>LEOINICIO22</dwcField>
-    <description>LEOINICIO22</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>region</campo>
     </campos>
     <ejemplar>
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
