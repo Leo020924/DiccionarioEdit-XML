@@ -973,7 +973,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información geográfica</category>
     <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
-      <prev>mt24nombremunicipiomapa</prev>
+      <prev/>
       <next>anp</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
