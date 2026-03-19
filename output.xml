@@ -205,8 +205,8 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <category>Información geográfica</category>
     <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev/>
-      <next>geovalidacion</next>
+      <prev>geovalidacion</prev>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -354,17 +354,17 @@ Sin coordenadas. Sin localidad</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev/>
-      <next>claveestadomapa</next>
+      <prev>validacionambiente</prev>
+      <next>estadomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>estadooriginal</after>
     </ordenTabla>
-    <fieldName>País asignado</fieldName>
+    <fieldName>País validado</fieldName>
     <fieldid>paismapa</fieldid>
     <dwcField>Incluido en country</dwcField>
     <description>Nombre del país donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política -incluyendo la zona económica exclusiva- utilizados para la validación geográfica realizada por la CONABIO.</description>
@@ -458,17 +458,17 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev>claveestadomapa</prev>
-      <next>clavemunicipiomapa</next>
+      <prev>paismapa</prev>
+      <next>claveestadomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>latitud</after>
     </ordenTabla>
-    <fieldName>Estado asignado</fieldName>
+    <fieldName>Estado validado</fieldName>
     <fieldid>estadomapa</fieldid>
     <dwcField>Incluido en stateProvince</dwcField>
     <description>Nombre del estado o división política equivalente donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política utilizados para la validación geográfica realizada por la CONABIO.</description>
@@ -516,17 +516,17 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev>paismapa</prev>
-      <next>estadomapa</next>
+      <prev>estadomapa</prev>
+      <next>municipiomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>paismapa</after>
     </ordenTabla>
-    <fieldName>Clave estatal asignada</fieldName>
+    <fieldName>Clave estado validado</fieldName>
     <fieldid>claveestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Clave del estado o división política equivalente donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política utilizados para la validación geográfica realizada por la CONABIO.</description>
@@ -570,17 +570,17 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev>mt24claveestadomapa</prev>
-      <next>clavemunicipiomapa</next>
+      <prev>clavemunicipiomapa</prev>
+      <next>mt24claveestadomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>mt24claveestadomapa</after>
     </ordenTabla>
-    <fieldName>Estado asignado como referencia para las ubicaciones en el mar</fieldName>
+    <fieldName>Estado como referencia para las ubicaciones en el mar</fieldName>
     <fieldid>mt24nombreestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Nombre del estado costero o división política equivalente, frente al cual se extiende la franja de 24 millas náuticas (12 de mar territorial y 12 de la zona contigua), y que se asigna como referencia de ubicación de la coordenada geográfica registrada para el ejemplar.</description>
@@ -620,17 +620,17 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev>municipiomapa</prev>
-      <next/>
+      <prev>mt24nombreestadomapa</prev>
+      <next>mt24nombremunicipiomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>claveestadomapa</after>
     </ordenTabla>
-    <fieldName>Clave estatal asignada como referencia para las ubicaciones en el mar </fieldName>
+    <fieldName>Clave estatal por ubicación en el mar </fieldName>
     <fieldid>mt24claveestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Clave del estado costero o división política equivalente, frente al cual se extiende la franja de 24 millas náuticas (12 de mar territorial y 12 de la zona contigua), y que se asigna como referencia de ubicación de la coordenada geográfica registrada para el ejemplar.</description>
@@ -714,17 +714,17 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev>clavemunicipiomapa</prev>
-      <next>mt24clavemunicipiomapa</next>
+      <prev>claveestadomapa</prev>
+      <next>clavemunicipiomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>estadomapa</after>
     </ordenTabla>
-    <fieldName>Municipio asignado</fieldName>
+    <fieldName>Municipio validado</fieldName>
     <fieldid>municipiomapa</fieldid>
     <dwcField>Incluido en county</dwcField>
     <description>Nombre del municipio o división política equivalente donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política utilizados para la validación geográfica realizada por la CONABIO.</description>
@@ -767,10 +767,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev>estadomapa</prev>
-      <next>municipiomapa</next>
+      <prev>municipiomapa</prev>
+      <next>mt24nombreestadomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -823,17 +823,17 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev>mt24clavemunicipiomapa</prev>
-      <next>altitudmapa</next>
+      <prev>mt24claveestadomapa</prev>
+      <next>mt24clavemunicipiomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>mt24clavemunicipiomapa</after>
     </ordenTabla>
-    <fieldName>Municipio asignado como referencia para las ubicaciones en el mar</fieldName>
+    <fieldName>Municipio como referencia para las ubicaciones en el mar</fieldName>
     <fieldid>mt24nombremunicipiomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Nombre del municipio o división política equivalente frente al cual se extiende la franja de 24 millas náuticas (12 de mar territorial y 12 de la zona contigua), y que se asigna como referencia de ubicación de la coordenada geográfica registrada para el ejemplar.</description>
@@ -871,17 +871,17 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev>mt24nombreestadomapa</prev>
-      <next>mt24nombremunicipiomapa</next>
+      <prev>mt24nombremunicipiomapa</prev>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>clavemunicipiomapa</after>
     </ordenTabla>
-    <fieldName>Clave municipal asignada como referencia para las ubicaciones en el mar  </fieldName>
+    <fieldName>Clave municipal por ubicación en el mar  </fieldName>
     <fieldid>mt24clavemunicipiomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Clave del municipio o división política equivalente frente al cual se extiende la franja de 24 millas náuticas (12 de mar territorial y 12 de la zona contigua), y que se asigna como referencia de ubicación de la coordenada geográfica registrada para el ejemplar.</description>
