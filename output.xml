@@ -1439,8 +1439,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información geográfica</category>
     <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
-      <prev>vegetacionserenanalcms</prev>
-      <next>ecorregionterrestremapa</next>
+      <prev>ecorregionterrestremapa</prev>
+      <next>usvserieI</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -1481,8 +1481,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información geográfica</category>
     <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
-      <prev>regionmarinamapa</prev>
-      <next>validacionambiente</next>
+      <prev>cuencahidrograficamapa</prev>
+      <next>regionmarinamapa</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
