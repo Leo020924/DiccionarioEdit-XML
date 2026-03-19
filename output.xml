@@ -354,7 +354,7 @@ Sin coordenadas. Sin localidad</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev/>
       <next>claveestadomapa</next>
@@ -458,7 +458,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>claveestadomapa</prev>
       <next>clavemunicipiomapa</next>
@@ -516,7 +516,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>paismapa</prev>
       <next>estadomapa</next>
@@ -570,7 +570,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>mt24claveestadomapa</prev>
       <next>clavemunicipiomapa</next>
@@ -620,7 +620,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>municipiomapa</prev>
       <next/>
@@ -714,7 +714,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>clavemunicipiomapa</prev>
       <next>mt24clavemunicipiomapa</next>
@@ -767,7 +767,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>estadomapa</prev>
       <next>municipiomapa</next>
@@ -823,7 +823,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>mt24clavemunicipiomapa</prev>
       <next>altitudmapa</next>
@@ -871,7 +871,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>mt24nombreestadomapa</prev>
       <next>mt24nombremunicipiomapa</next>
@@ -971,7 +971,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>mt24nombremunicipiomapa</prev>
       <next>anp</next>
@@ -1011,7 +1011,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>cuencahidrograficamapa</prev>
       <next>usvserieII</next>
@@ -1056,7 +1056,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieI</prev>
       <next>usvserieIII</next>
@@ -1102,7 +1102,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieII</prev>
       <next>usvserieIV</next>
@@ -1149,7 +1149,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieIII</prev>
       <next>usvserieV</next>
@@ -1197,7 +1197,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieIV</prev>
       <next>usvserieVI</next>
@@ -1246,7 +1246,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieV</prev>
       <next>usvserieVII</next>
@@ -1296,7 +1296,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieVI</prev>
       <next>vegetacionserenanalcms</next>
@@ -1345,7 +1345,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieVII</prev>
       <next>regionmarinamapa</next>
@@ -1385,7 +1385,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>altitudmapa</prev>
       <next>cuencahidrograficamapa</next>
@@ -1437,7 +1437,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>vegetacionserenanalcms</prev>
       <next>ecorregionterrestremapa</next>
@@ -1479,7 +1479,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>regionmarinamapa</prev>
       <next>validacionambiente</next>
@@ -1522,7 +1522,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía inferida</subcategory>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>anp</prev>
       <next>usvserieI</next>
