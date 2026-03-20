@@ -874,7 +874,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Validación geográfica</subcategory>
     <orden>
       <prev>mt24nombremunicipiomapa</prev>
-      <next/>
+      <next>TESTFINAL</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4379,6 +4379,30 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <ejemplar>
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
       <key>8fb42940fd0605c50291867788df16ad</key>
+      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica</category>
+    <subcategory>Validación geográfica</subcategory>
+    <orden>
+      <prev>mt24clavemunicipiomapa</prev>
+      <next/>
+    </orden>
+    <fieldName>TEST FINAL</fieldName>
+    <fieldid>TESTFINAL</fieldid>
+    <dwcField>TEST FINAL</dwcField>
+    <description>TEST FINAL</description>
+    <datatype>String</datatype>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <campos>
+      <campo>datum</campo>
+      <campo>longitud</campo>
+    </campos>
+    <ejemplar>
+      <key>75c3fc57516b3b6c9e0e46d5db3b7cb1</key>
+      <key>d2d26f3bc8a7741448336dd76c61086a</key>
       <key>6c650786a59c81a8bdeb97efbf3403a1</key>
     </ejemplar>
   </snibTerm>
