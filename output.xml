@@ -248,7 +248,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <category>Información geográfica</category>
     <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev/>
+      <prev>TEST</prev>
       <next>validacionambiente</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -4352,6 +4352,29 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <campos>
       <campo>localidad</campo>
       <campo>longitud</campo>
+    </campos>
+    <ejemplar>
+      <key>d2d26f3bc8a7741448336dd76c61086a</key>
+      <key>8fb42940fd0605c50291867788df16ad</key>
+      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica</category>
+    <subcategory>Validación geográfica</subcategory>
+    <orden>
+      <prev/>
+      <next>geovalidacion</next>
+    </orden>
+    <fieldName>TEST</fieldName>
+    <fieldid>TEST</fieldid>
+    <dwcField>TEST</dwcField>
+    <description>TEST</description>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <campos>
+      <campo>datum</campo>
+      <campo>latitud</campo>
     </campos>
     <ejemplar>
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
