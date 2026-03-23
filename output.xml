@@ -1559,9 +1559,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>0dae4e0c03c01615135d15bdba1b522c</key>
     </ejemplar>
     <campos>
-      <campo>cuenca</campo>
-      <campo>latitud</campo>
       <campo>longitud</campo>
+      <campo>latitud</campo>
+      <campo>cuencahidrograficamapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
