@@ -4,9 +4,9 @@
 <titulo>Información de especímenes publicados en el Sistema Nacional de Información sobre Biodiversidad (SNIB) y en el Geoportal de la CONABIO.</titulo>
 <ultimaFechaActualizacion>2026-01-27</ultimaFechaActualizacion>
 <version>2025-12</version>
-<abstracto>El Sistema Nacional de Información sobre Biodiversidad (SNIB), a través del geoportal de CONABIO http://www.conabio.gob.mx/informacion/gis/ y su propia página web https://snib.mx/ , proporciona acceso abierto a datos sobre ejemplares biológicos provenientes de proyectos financiados, desarrollados o integrados por la CONABIO. &#13; Este documento describe los campos de datos que se proporcionan. La información que contienen ha sido revisada por CONABIO para estandarizarla y mejorar su calidad. &#13; Se explica la relación con el estándar Darwin Core y se proporciona la estructura de la base de datos y la sentencia SQL correspondiente en los anexos.</abstracto>
-<licenciaUso>Este documento se publica y distribuye bajo una licencia Creative Commons Atribución 4.0 Internacional CC-BY compatible&#13; con la Licencia Libre Uso MX.</licenciaUso>
-<formaDeCitar>CONABIO. 2026. Diccionario de datos. Información de especímenes publicados en el Geoportal y en el Sistema Nacional de&#13; Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar>
+<abstracto>El Sistema Nacional de Información sobre Biodiversidad (SNIB), a través del geoportal de CONABIO http://www.conabio.gob.mx/informacion/gis/ y su propia página web https://snib.mx/ , proporciona acceso abierto a datos sobre ejemplares biológicos provenientes de proyectos financiados, desarrollados o integrados por la CONABIO. Este documento describe los campos de datos que se proporcionan. La información que contienen ha sido revisada por CONABIO para estandarizarla y mejorar su calidad. Se explica la relación con el estándar Darwin Core y se proporciona la estructura de la base de datos y la sentencia SQL correspondiente en los anexos.</abstracto>
+<licenciaUso>Este documento se publica y distribuye bajo una licencia Creative Commons Atribución 4.0 Internacional CC-BY compatible con la Licencia Libre Uso MX.</licenciaUso>
+<formaDeCitar>CONABIO. 2026. Diccionario de datos. Información de especímenes publicados en el Geoportal y en el Sistema Nacional de Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar>
 <anexo1>En la siguiente tabla se muestran los campos del SNIB incluidos para descarga en el geoportal y la página del SNIB de la CONABIO.</anexo1>
 <anexo2>En este anexo se proporciona la sentencia SQL para MySQL mediante la cual se puede crear la estructura de la tabla de descarga del geoportal y de la tabla de descarga del snib.mx.</anexo2>
 <creador>
@@ -323,7 +323,7 @@ El dominio de los valores permitidos está dado por:
 <subregla>No procesado</subregla>
 <subregla>No aplica validación de país</subregla>
 <subregla>No válido localidad</subregla>
-<subregla>Sin coordenadas o Sin coordenadas. Información con incongruencia para georreferenciar o&#13; Sin coordenadas. Información insuficiente para georreferenciar o&#13; Sin coordenadas. Sin localidad</subregla>
+<subregla>Sin coordenadas o Sin coordenadas. Información con incongruencia para georreferenciar o Sin coordenadas. Información insuficiente para georreferenciar o Sin coordenadas. Sin localidad</subregla>
 </rule>
 <rule>El valor Válido localidad significa que el ejemplar tiene coordenadas que se ubican en las referencias indicadas en la localidad.</rule>
 <rule>El valor Válido municipio significa que el ejemplar tiene coordenadas válidas a nivel de país, estado y municipio que se ubican en el país, estado y municipio registrados en el campo región.</rule>
@@ -442,10 +442,10 @@ El valor Sin coordenadas significa que la localidad del ejemplar no cuenta con c
 <rule>Si el ejemplar no tiene coordenada geográfica no se asigna valor.</rule>
 <rule>
 Si el ejemplar tiene coordenada geográfica:
-<subregla>Se asigna el mismo país del campo país original cuando la coordenada se ubica dentro de los límites&#13; &#13; del país registrado para el ejemplar o a una distancia menor a 2 km del límite.</subregla>
-<subregla>Se asigna el país donde se ubica la coordenada geográfica cuando está afuera, a más de 2 km del&#13; &#13; límite, del país registrado para el ejemplar. En este caso el dato es diferente al del campo país original.</subregla>
+<subregla>Se asigna el mismo país del campo país original cuando la coordenada se ubica dentro de los límites del país registrado para el ejemplar o a una distancia menor a 2 km del límite.</subregla>
+<subregla>Se asigna el país donde se ubica la coordenada geográfica cuando está afuera, a más de 2 km del límite, del país registrado para el ejemplar. En este caso el dato es diferente al del campo país original.</subregla>
 <subregla>No se asigna valor, si se ubican en otro país o en aguas internacionales.</subregla>
-<subregla>Se asigna el país donde se ubica la coordenada geográfica cuando el ejemplar no tiene registrado&#13; &#13; un dato de país en el campo país original.</subregla>
+<subregla>Se asigna el país donde se ubica la coordenada geográfica cuando el ejemplar no tiene registrado un dato de país en el campo país original.</subregla>
 </rule>
 </dataRules>
 <syntaxRules>
@@ -530,10 +530,10 @@ Si el ejemplar tiene coordenada geográfica:
 <rule>Si el ejemplar no tiene coordenada geográfica no se asigna valor</rule>
 <rule>
 Si el ejemplar tiene coordenada geográfica:
-<subregla>Se asigna el mismo estado -o división política equivalente- del campo estado original cuando la&#13; coordenada se ubica dentro de los límites del estado registrado para el ejemplar o a una distancia&#13; menor a 2 km del límite. Excepto para aquellos ejemplares de México que tienen registrado un&#13; estado anterior al año 2022, se asigna el estado del mapa 2022.</subregla>
-<subregla>Se asigna el estado -o división política equivalente- donde se ubica la coordenada geográfica cuando&#13; está fuera, a más de 2 km, del límite del estado registrado para el ejemplar. En este caso el dato es&#13; diferente al del campo estado original.</subregla>
-<subregla>No se asigna valor, si se ubican en la zona económica exclusiva del país registrado para el ejemplar,&#13; o en otro país o en aguas internacionales.</subregla>
-<subregla>Se asigna el estado -o división política equivalente- donde se ubica la coordenada geográfica cuando&#13; el ejemplar no tiene registrado un dato de estado en el campo estado original.</subregla>
+<subregla>Se asigna el mismo estado -o división política equivalente- del campo estado original cuando la coordenada se ubica dentro de los límites del estado registrado para el ejemplar o a una distancia menor a 2 km del límite. Excepto para aquellos ejemplares de México que tienen registrado un estado anterior al año 2022, se asigna el estado del mapa 2022.</subregla>
+<subregla>Se asigna el estado -o división política equivalente- donde se ubica la coordenada geográfica cuando está fuera, a más de 2 km, del límite del estado registrado para el ejemplar. En este caso el dato es diferente al del campo estado original.</subregla>
+<subregla>No se asigna valor, si se ubican en la zona económica exclusiva del país registrado para el ejemplar, o en otro país o en aguas internacionales.</subregla>
+<subregla>Se asigna el estado -o división política equivalente- donde se ubica la coordenada geográfica cuando el ejemplar no tiene registrado un dato de estado en el campo estado original.</subregla>
 </rule>
 </dataRules>
 <syntaxRules>
@@ -3110,7 +3110,6 @@ El dominio de los valores permitidos está dado por:
 </campos>
 </snibTerm>
 <snibTerm>
-<category>Atributos biológicos y ecológicos</category>
 <orden>
 <prev>endemismo</prev>
 <next>ambiente</next>
@@ -3793,7 +3792,6 @@ El mapeo realizado a los datos originales para su equivalencia en Darwin Core es
 </campos>
 </snibTerm>
 <snibTerm>
-<category>Taxonomía</category>
 <orden>
 <prev>especie</prev>
 <next>categoriainfraespecie</next>
