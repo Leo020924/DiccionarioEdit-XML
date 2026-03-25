@@ -16,11 +16,11 @@
 </metadata>
 <snibTerm>
 <category>Información geográfica del ejemplar</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev/>
 <next>paisoriginal</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>nivelprioridad</after>
@@ -58,45 +58,11 @@
 </snibTerm>
 <snibTerm>
 <category>Información geográfica del ejemplar</category>
-<orden>
-<prev>municipiooriginal</prev>
-<next>latitud</next>
-</orden>
 <downloadGeoportal>true</downloadGeoportal>
-<downloadSnib>true</downloadSnib>
-<ordenTabla>
-<after>municipiomapa</after>
-</ordenTabla>
-<fieldName>Localidad de recolecta u observación</fieldName>
-<fieldid>localidad</fieldid>
-<dwcField>locality</dwcField>
-<description>Referencia geográfica que describe la ubicación del lugar de recolecta u observación.</description>
-<datatype>varchar (2048)</datatype>
-<encoding>UTF-8</encoding>
-<dataRules>
-<rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
-</dataRules>
-<ejemplar>
-<key>51212213e6a86c3aba53df6ffc9f7750</key>
-<key>0dae4e0c03c01615135d15bdba1b522c</key>
-<key>81aa987c65ef7c873df11f2b7c8ed8a0</key>
-<key>3eff5e1231a1960f30bfbe6d32eef1f1</key>
-<key>09f933df3498699b921e0d63273bf1bd</key>
-</ejemplar>
-<campos>
-<campo>localidad</campo>
-<campo>paisoriginal</campo>
-<campo>estadooriginal</campo>
-<campo>municipiooriginal</campo>
-</campos>
-</snibTerm>
-<snibTerm>
-<category>Información geográfica del ejemplar</category>
 <orden>
 <prev>latitud</prev>
 <next>datum</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>exoticainvasora</after>
@@ -138,11 +104,11 @@
 </snibTerm>
 <snibTerm>
 <category>Información geográfica del ejemplar</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>DESPUESDE</prev>
 <next>longitud</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>longitud</after>
@@ -184,11 +150,11 @@
 </snibTerm>
 <snibTerm>
 <category>Información geográfica del ejemplar</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>longitud</prev>
 <next>incertidumbrexy</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>region</after>
@@ -228,11 +194,11 @@
 </snibTerm>
 <snibTerm>
 <category>Validación de la información geográfica</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>geovalidacion</prev>
 <next>paismapa</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>ambiente</after>
@@ -278,11 +244,11 @@ El valor No válido significa que el ambiente del taxón no coincidió con el de
 </snibTerm>
 <snibTerm>
 <category>Validación de la información geográfica</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev/>
 <next>validacionambiente</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>datum</after>
@@ -373,11 +339,11 @@ El valor Sin coordenadas significa que la localidad del ejemplar no cuenta con c
 </snibTerm>
 <snibTerm>
 <category>Información geográfica del ejemplar</category>
+<downloadGeoportal>false</downloadGeoportal>
 <orden>
 <prev>region</prev>
 <next>estadooriginal</next>
 </orden>
-<downloadGeoportal>false</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>geovalidacion</after>
@@ -410,11 +376,11 @@ El valor Sin coordenadas significa que la localidad del ejemplar no cuenta con c
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>validacionambiente</prev>
 <next>estadomapa</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>estadooriginal</after>
@@ -455,11 +421,11 @@ Si el ejemplar tiene coordenada geográfica:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica del ejemplar</category>
+<downloadGeoportal>false</downloadGeoportal>
 <orden>
 <prev>paisoriginal</prev>
 <next>municipiooriginal</next>
 </orden>
-<downloadGeoportal>false</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>municipiooriginal</after>
@@ -496,11 +462,11 @@ Si el ejemplar tiene coordenada geográfica:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>paismapa</prev>
 <next>claveestadomapa</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>latitud</after>
@@ -541,11 +507,11 @@ Si el ejemplar tiene coordenada geográfica:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>estadomapa</prev>
 <next>municipiomapa</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>paismapa</after>
@@ -584,11 +550,11 @@ Si el ejemplar tiene coordenada geográfica:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>clavemunicipiomapa</prev>
 <next>mt24claveestadomapa</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>mt24claveestadomapa</after>
@@ -624,11 +590,11 @@ Si el ejemplar tiene coordenada geográfica:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>mt24nombreestadomapa</prev>
 <next>mt24nombremunicipiomapa</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>claveestadomapa</after>
@@ -668,11 +634,11 @@ Si el ejemplar tiene coordenada geográfica:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica del ejemplar</category>
+<downloadGeoportal>false</downloadGeoportal>
 <orden>
 <prev>estadooriginal</prev>
 <next>DESPUESDE</next>
 </orden>
-<downloadGeoportal>false</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>paisoriginal</after>
@@ -707,11 +673,11 @@ Si el ejemplar tiene coordenada geográfica:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>claveestadomapa</prev>
 <next>clavemunicipiomapa</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>estadomapa</after>
@@ -747,11 +713,11 @@ Si el ejemplar tiene coordenada geográfica:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>municipiomapa</prev>
 <next>mt24nombreestadomapa</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>mt24nombreestadomapa</after>
@@ -792,11 +758,11 @@ Si el ejemplar tiene coordenada geográfica:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>mt24claveestadomapa</prev>
 <next>mt24clavemunicipiomapa</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>mt24clavemunicipiomapa</after>
@@ -829,11 +795,11 @@ Si el ejemplar tiene coordenada geográfica:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>mt24nombremunicipiomapa</prev>
 <next/>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>clavemunicipiomapa</after>
@@ -874,11 +840,11 @@ Si el ejemplar tiene coordenada geográfica:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica del ejemplar</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>datum</prev>
 <next/>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>mt24nombremunicipiomapa</after>
@@ -916,11 +882,11 @@ El valor proviene de:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev/>
 <next>anp</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>incertidumbrexy</after>
@@ -954,11 +920,11 @@ El valor proviene de:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>cuencahidrograficamapa</prev>
 <next>usvserieII</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>altitudmapa</after>
@@ -999,11 +965,11 @@ El valor proviene de:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>usvserieI</prev>
 <next>usvserieIII</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>usvserieI</after>
@@ -1045,11 +1011,11 @@ El valor proviene de:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>usvserieII</prev>
 <next>usvserieIV</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>usvserieII</after>
@@ -1092,11 +1058,11 @@ El valor proviene de:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>usvserieIII</prev>
 <next>usvserieV</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>usvserieIII</after>
@@ -1140,11 +1106,11 @@ El valor proviene de:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>usvserieIV</prev>
 <next>usvserieVI</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>usvserieIV</after>
@@ -1189,11 +1155,11 @@ El valor proviene de:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>usvserieV</prev>
 <next>usvserieVII</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>usvserieV</after>
@@ -1239,11 +1205,11 @@ El valor proviene de:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>usvserieVI</prev>
 <next>vegetacionserenanalcms</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>taxonextinto</after>
@@ -1288,11 +1254,11 @@ El valor proviene de:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>usvserieVII</prev>
 <next>regionmarinamapa</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>usvserieVII</after>
@@ -1328,11 +1294,11 @@ El valor proviene de:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>altitudmapa</prev>
 <next>cuencahidrograficamapa</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>fechacolecta</after>
@@ -1374,11 +1340,11 @@ El valor proviene de:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>false</downloadGeoportal>
 <orden>
 <prev>vegetacionserenanalcms</prev>
 <next>usvserieI</next>
 </orden>
-<downloadGeoportal>false</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>version</after>
@@ -1426,11 +1392,11 @@ El dominio de los valores está dado por:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>false</downloadGeoportal>
 <orden>
 <prev>cuencahidrograficamapa</prev>
 <next>regionmarinamapa</next>
 </orden>
-<downloadGeoportal>false</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>regionmarinamapa</after>
@@ -1469,11 +1435,11 @@ El dominio de los valores está dado por:
 </snibTerm>
 <snibTerm>
 <category>Información geográfica por ubicación de la coordenada</category>
+<downloadGeoportal>false</downloadGeoportal>
 <orden>
 <prev>anp</prev>
 <next>ecorregionterrestremapa</next>
 </orden>
-<downloadGeoportal>false</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>ecorregionterrestremapa</after>
@@ -1513,11 +1479,11 @@ El dominio de los valores está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>taxonvalidado</prev>
 <next>subgrupobio</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <first/>
@@ -1578,11 +1544,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>grupobio</prev>
 <next>reinovalido</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>grupobio</after>
@@ -1620,11 +1586,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev/>
 <next>phylumdivision</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>idnombrecat</after>
@@ -1660,11 +1626,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>reino</prev>
 <next>clase</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>reino</after>
@@ -1705,11 +1671,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>phylumdivision</prev>
 <next>orden</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>phylumdivision</after>
@@ -1755,11 +1721,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>clase</prev>
 <next>familia</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>clase</after>
@@ -1805,11 +1771,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>orden</prev>
 <next>genero</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>orden</after>
@@ -1855,11 +1821,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>familia</prev>
 <next>especie</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>familia</after>
@@ -1904,11 +1870,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>genero</prev>
 <next>categoriainfraespecie</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>genero</after>
@@ -1948,11 +1914,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>especie</prev>
 <next>categoriainfraespecie2</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>calificadordeterminacion</after>
@@ -1999,11 +1965,11 @@ El dominio de los valores permitidos está dado principalmente por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>categoriainfraespecie</prev>
 <next>autor</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>categoriainfraespecie</after>
@@ -2043,11 +2009,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>categoriainfraespecie2</prev>
 <next>estatustax</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>categoriainfraespecie2</after>
@@ -2075,11 +2041,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>autor</prev>
 <next>reftax</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>autor</after>
@@ -2122,11 +2088,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>estatustax</prev>
 <next/>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>estatustax</after>
@@ -2158,11 +2124,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>subgrupobio</prev>
 <next>phylumdivisionvalido</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>taxonvalidado</after>
@@ -2194,11 +2160,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>reinovalido</prev>
 <next>clasevalida</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>reinovalido</after>
@@ -2234,11 +2200,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>phylumdivisionvalido</prev>
 <next>ordenvalido</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>phylumdivisionvalido</after>
@@ -2278,11 +2244,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>clasevalida</prev>
 <next>familiavalida</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>clasevalida</after>
@@ -2322,11 +2288,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>ordenvalido</prev>
 <next>generovalido</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>subgrupobio</after>
@@ -2366,11 +2332,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>familiavalida</prev>
 <next>especievalida</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>familiavalida</after>
@@ -2408,11 +2374,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>generovalido</prev>
 <next>categoriainfraespecievalida</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>generovalido</after>
@@ -2454,11 +2420,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>especievalida</prev>
 <next>categoriainfraespecie2valida</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>ordenvalido</after>
@@ -2496,11 +2462,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>categoriainfraespecievalida</prev>
 <next>autorvalido</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>categoriainfraespecievalida</after>
@@ -2532,11 +2498,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>categoriainfraespecie2valida</prev>
 <next>reftaxvalido</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>categoriainfraespecie2valida</after>
@@ -2577,11 +2543,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>autorvalido</prev>
 <next>nombrecomun</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>autorvalido</after>
@@ -2614,11 +2580,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev/>
 <next>grupobio</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>reftax</after>
@@ -2648,11 +2614,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Atributos biológicos y ecológicos</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>ambiente</prev>
 <next>exoticainvasora</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>validacionambiente</after>
@@ -2694,11 +2660,11 @@ El dominio de los valores permitido está dado por:
 </snibTerm>
 <snibTerm>
 <category>Atributos biológicos y ecológicos</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>categoriaresidenciaaves</prev>
 <next/>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>fuente</after>
@@ -2734,11 +2700,11 @@ El dominio de los valores permitido está dado por:
 </snibTerm>
 <snibTerm>
 <category>Atributos biológicos y ecológicos</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev/>
 <next>endemismo</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>nombrecomun</after>
@@ -2778,11 +2744,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Atributos biológicos y ecológicos</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>reftaxvalido</prev>
 <next>idnombrecat</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>reftaxvalido</after>
@@ -2816,11 +2782,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>nombrecomun</prev>
 <next>idnombrecatvalido</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>idnombrecatvalido</after>
@@ -2844,11 +2810,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Taxonomía</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>idnombrecat</prev>
 <next/>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>ultimafechaactualizacion</after>
@@ -2872,11 +2838,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Atributos biológicos y ecológicos</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>exoticainvasora</prev>
 <next>categoriaresidenciaaves</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>categoriaresidenciaaves</after>
@@ -2957,11 +2923,11 @@ El dominio de los valores permitidos está dado por los siguientes datos o combi
 </snibTerm>
 <snibTerm>
 <category>Estatus de conservación y riesgo</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>DESPUESDELDESPUESDE</prev>
 <next>nivelprioridad</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>iucn</after>
@@ -3003,11 +2969,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Estatus de conservación y riesgo</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>prioritaria</prev>
 <next>iucn</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>endemismo</after>
@@ -3048,11 +3014,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Atributos biológicos y ecológicos</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>endemismo</prev>
 <next>formadecrecimiento</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>prioritaria</after>
@@ -3093,12 +3059,12 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Estatus de conservación y riesgo</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev/>
 <prev>INICIOOO</prev>
 <next>cites</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>especievalida</after>
@@ -3136,11 +3102,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Estatus de conservación y riesgo</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>nom059</prev>
 <next>DESPUESDE</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>nom059</after>
@@ -3180,11 +3146,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Estatus de conservación y riesgo</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>nivelprioridad</prev>
 <next/>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>cites</after>
@@ -3231,11 +3197,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Atributos biológicos y ecológicos</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>formadecrecimiento</prev>
 <next>taxonextinto</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>anp</after>
@@ -3278,11 +3244,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev/>
 <next>formadecitar</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>urlorigen</after>
@@ -3312,13 +3278,13 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>idejemplar</prev>
 <next>obsusoinfo</next>
 <prev>numcolecta</prev>
 <next>institucion</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>usvserieVI</after>
@@ -3354,13 +3320,13 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>obsusoinfo</prev>
 <next>numcatalogo</next>
 <prev>coleccion</prev>
 <next>colector</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>coleccion</after>
@@ -3397,13 +3363,13 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>fechacolecta</prev>
 <next>procedenciaejemplar</next>
 <prev>ejemplarfosil</prev>
 <next/>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>institucion</after>
@@ -3436,12 +3402,12 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>institucion</prev>
 <prev>idejemplar</prev>
 <next>numcolecta</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>paiscoleccion</after>
@@ -3471,12 +3437,12 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>numcatalogo</prev>
 <next>colector</next>
 <next>coleccion</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>numcatalogo</after>
@@ -3506,12 +3472,12 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>paiscoleccion</prev>
 <prev>aniocolecta</prev>
 <next>determinador</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>numcolecta</after>
@@ -3560,12 +3526,12 @@ El mapeo realizado a los datos originales para su equivalencia en Darwin Core es
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>procedenciaejemplar</prev>
 <next>aniodeterminacion</next>
 <next>calificadordeterminacion</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>procedenciaejemplar</after>
@@ -3595,13 +3561,13 @@ El mapeo realizado a los datos originales para su equivalencia en Darwin Core es
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>determinador</prev>
 <next>mesdeterminacion</next>
 <prev>mesdeterminacion</prev>
 <next>tipovegetacion</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>mesdeterminacion</after>
@@ -3631,13 +3597,13 @@ El mapeo realizado a los datos originales para su equivalencia en Darwin Core es
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>aniodeterminacion</prev>
 <next>diadeterminacion</next>
 <prev>diadeterminacion</prev>
 <next>aniodeterminacion</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>diadeterminacion</after>
@@ -3667,13 +3633,13 @@ El mapeo realizado a los datos originales para su equivalencia en Darwin Core es
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>mesdeterminacion</prev>
 <next>fechadeterminacion</next>
 <prev>fechadeterminacion</prev>
 <next>mesdeterminacion</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>fechadeterminacion</after>
@@ -3702,13 +3668,13 @@ El mapeo realizado a los datos originales para su equivalencia en Darwin Core es
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>diadeterminacion</prev>
 <next>tipo</next>
 <prev>determinador</prev>
 <next>diadeterminacion</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>determinador</after>
@@ -3738,46 +3704,14 @@ El mapeo realizado a los datos originales para su equivalencia en Darwin Core es
 </campos>
 </snibTerm>
 <snibTerm>
-<category>Taxonomía</category>
-<orden>
-<prev>especie</prev>
-<next>categoriainfraespecie</next>
-</orden>
-<downloadGeoportal>true</downloadGeoportal>
-<downloadSnib>true</downloadSnib>
-<ordenTabla>
-<after>especie</after>
-</ordenTabla>
-<fieldName>Calificador de la determinación</fieldName>
-<fieldid>calificadordeterminacion</fieldid>
-<dwcField>identificationQualifier</dwcField>
-<description>Anotación acerca de la incertidumbre en la identificación taxonómica del ejemplar.</description>
-<datatype>varchar (100).</datatype>
-<encoding>UTF-8</encoding>
-<dataRules>
-<rule>El valor vacío significa que el dato no es aplicable para el registro.</rule>
-</dataRules>
-<ejemplar>
-<key>643abc99493c60c1e8550a0834f23b4d</key>
-<key>26bab587f513a8746c828e90783d5af9</key>
-<key>e4b94c057a9cbb6283aff3c88fe09f3a</key>
-<key>4becce2d275f1e3ac7faef0278846eae</key>
-<key>498e5d597bc941694e47d1e8c8f4401b</key>
-</ejemplar>
-<campos>
-<campo>especie</campo>
-<campo>calificadordeterminacion</campo>
-</campos>
-</snibTerm>
-<snibTerm>
 <category>Datos del ejemplar/observación</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>numcolecta</prev>
 <next>aniocolecta</next>
 <prev>institucion</prev>
 <next>fechacolecta</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>aniodeterminacion</after>
@@ -3809,13 +3743,13 @@ El mapeo realizado a los datos originales para su equivalencia en Darwin Core es
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>colector</prev>
 <next>mescolecta</next>
 <prev>mescolecta</prev>
 <next>procedenciaejemplar</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>mescolecta</after>
@@ -3845,13 +3779,13 @@ El mapeo realizado a los datos originales para su equivalencia en Darwin Core es
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>aniocolecta</prev>
 <next>diacolecta</next>
 <prev>diacolecta</prev>
 <next>aniocolecta</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>diacolecta</after>
@@ -3884,13 +3818,13 @@ El mapeo realizado a los datos originales para su equivalencia en Darwin Core es
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>mescolecta</prev>
 <next>fechacolecta</next>
 <prev>fechacolecta</prev>
 <next>mescolecta</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>colector</after>
@@ -3923,13 +3857,13 @@ El mapeo realizado a los datos originales para su equivalencia en Darwin Core es
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>diacolecta</prev>
 <next>paiscoleccion</next>
 <prev>colector</prev>
 <next>diacolecta</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>localidad</after>
@@ -3963,12 +3897,12 @@ El mapeo realizado a los datos originales para su equivalencia en Darwin Core es
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>fechadeterminacion</prev>
 <prev>tipovegetacion</prev>
 <next>ejemplarfosil</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>aniocolecta</after>
@@ -3997,13 +3931,13 @@ El mapeo realizado a los datos originales para su equivalencia en Darwin Core es
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<fieldName>Tipo de vegetación</fieldName>
 <orden>
 <prev>ejemplarfosil</prev>
 <next/>
 <prev>aniodeterminacion</prev>
 <next>tipo</next>
 </orden>
-<fieldName>Tipo de vegetación</fieldName>
 <fieldid>tipovegetacion</fieldid>
 <dwcField>Sin equivalencia</dwcField>
 <description>Tipo de vegetación del sitio de recolecta u observación del ejemplar.</description>
@@ -4028,12 +3962,12 @@ El mapeo realizado a los datos originales para su equivalencia en Darwin Core es
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>tipo</prev>
 <next>tipovegetacion</next>
 <next>paiscoleccion</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>tipo</after>
@@ -4065,11 +3999,11 @@ El dominio de los valores permitido está dado por:
 </snibTerm>
 <snibTerm>
 <category>Otros</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>geoportal</prev>
 <next>fuente</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>ejemplarfosil</after>
@@ -4096,11 +4030,11 @@ El dominio de los valores permitido está dado por:
 </snibTerm>
 <snibTerm>
 <category>Otros</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>proyecto</prev>
 <next>urlejemplar</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>formadecrecimiento</after>
@@ -4128,11 +4062,11 @@ El dominio de los valores permitido está dado por:
 </snibTerm>
 <snibTerm>
 <category>Otros</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>obsusoinfo</prev>
 <next>licenciauso</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>proyecto</after>
@@ -4155,11 +4089,11 @@ El dominio de los valores permitido está dado por:
 </snibTerm>
 <snibTerm>
 <category>Otros</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>formadecitar</prev>
 <next>version</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>formadecitar</after>
@@ -4214,11 +4148,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Otros</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>urlorigen</prev>
 <next/>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>licenciauso</after>
@@ -4243,11 +4177,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Otros</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>urlejemplar</prev>
 <next>urlproyecto</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>urlproyecto</after>
@@ -4269,11 +4203,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Otros</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>fuente</prev>
 <next>urlorigen</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>false</downloadSnib>
 <ordenTabla>
 <after>vegetacionserenanalcms</after>
@@ -4298,11 +4232,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Otros</category>
+<downloadGeoportal>false</downloadGeoportal>
 <orden>
 <prev>ultimafechaactualizacion</prev>
 <next>proyecto</next>
 </orden>
-<downloadGeoportal>false</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>cuencahidrograficamapa</after>
@@ -4334,11 +4268,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Otros</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>version</prev>
 <next>geoportal</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>idejemplar</after>
@@ -4365,11 +4299,11 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Otros</category>
+<downloadGeoportal>true</downloadGeoportal>
 <orden>
 <prev>licenciauso</prev>
 <next>ultimafechaactualizacion</next>
 </orden>
-<downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <ordenTabla>
 <after>obsusoinfo</after>
@@ -4394,14 +4328,14 @@ El dominio de los valores permitidos está dado por:
 </snibTerm>
 <snibTerm>
 <category>Datos del ejemplar/observación</category>
+<ordenTabla>
+<after>urlejemplar</after>
+</ordenTabla>
 <orden>
 <prev/>
 <next>coleccion</next>
 <next>numcatalogo</next>
 </orden>
-<ordenTabla>
-<after>urlejemplar</after>
-</ordenTabla>
 <downloadGeoportal>true</downloadGeoportal>
 <downloadSnib>true</downloadSnib>
 <fieldName>Identificador del ejemplar</fieldName>
@@ -4424,6 +4358,72 @@ El dominio de los valores permitidos está dado por:
 <campos>
 <campo>grupobio</campo>
 <campo>especievalida</campo>
+</campos>
+</snibTerm>
+<snibTerm>
+<category>Información geográfica del ejemplar</category>
+<orden>
+<prev>municipiooriginal</prev>
+<next>latitud</next>
+</orden>
+<downloadGeoportal>true</downloadGeoportal>
+<downloadSnib>true</downloadSnib>
+<ordenTabla>
+<after>municipiomapa</after>
+</ordenTabla>
+<fieldName>Localidad de recolecta u observación</fieldName>
+<fieldid>localidad</fieldid>
+<dwcField>locality</dwcField>
+<description>Referencia geográfica que describe la ubicación del lugar de recolecta u observación.</description>
+<datatype>varchar (2048)</datatype>
+<encoding>UTF-8</encoding>
+<dataRules>
+<rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
+</dataRules>
+<ejemplar>
+<key>51212213e6a86c3aba53df6ffc9f7750</key>
+<key>0dae4e0c03c01615135d15bdba1b522c</key>
+<key>81aa987c65ef7c873df11f2b7c8ed8a0</key>
+<key>3eff5e1231a1960f30bfbe6d32eef1f1</key>
+<key>09f933df3498699b921e0d63273bf1bd</key>
+</ejemplar>
+<campos>
+<campo>localidad</campo>
+<campo>paisoriginal</campo>
+<campo>estadooriginal</campo>
+<campo>municipiooriginal</campo>
+</campos>
+</snibTerm>
+<snibTerm>
+<category>Taxonomía</category>
+<orden>
+<prev>especie</prev>
+<next>categoriainfraespecie</next>
+</orden>
+<downloadGeoportal>true</downloadGeoportal>
+<downloadSnib>true</downloadSnib>
+<ordenTabla>
+<after>especie</after>
+</ordenTabla>
+<fieldName>Calificador de la determinación</fieldName>
+<fieldid>calificadordeterminacion</fieldid>
+<dwcField>identificationQualifier</dwcField>
+<description>Anotación acerca de la incertidumbre en la identificación taxonómica del ejemplar.</description>
+<datatype>varchar (100).</datatype>
+<encoding>UTF-8</encoding>
+<dataRules>
+<rule>El valor vacío significa que el dato no es aplicable para el registro.</rule>
+</dataRules>
+<ejemplar>
+<key>643abc99493c60c1e8550a0834f23b4d</key>
+<key>26bab587f513a8746c828e90783d5af9</key>
+<key>e4b94c057a9cbb6283aff3c88fe09f3a</key>
+<key>4becce2d275f1e3ac7faef0278846eae</key>
+<key>498e5d597bc941694e47d1e8c8f4401b</key>
+</ejemplar>
+<campos>
+<campo>especie</campo>
+<campo>calificadordeterminacion</campo>
 </campos>
 </snibTerm>
 </snibDictionary>
