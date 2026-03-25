@@ -3110,6 +3110,7 @@ El dominio de los valores permitidos está dado por:
 </campos>
 </snibTerm>
 <snibTerm>
+<category>Origen, distribución, rasgos funcionales</category>
 <orden>
 <prev>endemismo</prev>
 <next>ambiente</next>
@@ -3792,6 +3793,8 @@ El mapeo realizado a los datos originales para su equivalencia en Darwin Core es
 </campos>
 </snibTerm>
 <snibTerm>
+<category>Información taxonómica</category>
+<subcategory>Taxonomía original</subcategory>
 <orden>
 <prev>especie</prev>
 <next>categoriainfraespecie</next>
