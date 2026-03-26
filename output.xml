@@ -20,8 +20,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     </creador>
   </metadata>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
+    <category>Información geográfica del ejemplar</category>
     <orden>
       <prev/>
       <next>paisoriginal</next>
@@ -44,9 +43,9 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <rule>Los nombres de los países están escritos en español.</rule>
       <rule>Los datos están escritos en mayúsculas y sin utilizar acentos.</rule>
       <rule>Este campo se conforma con la concatenación de los valores de los campos país, estado y municipio.</rule>
-      <rule>Cada dato de la división política se separa con una diagonal entre espacios “ / “ .</rule>
-      <rule>Si no se cuenta con el dato de alguna de las regiones, se indica como “NO DISPONIBLE”.</rule>
-      <rule>En el caso de que el sitio de recolecta u observación del ejemplar se ubique en más de una región, los valores se separan con un pipe seguido de un espacio " | ".</rule>
+      <rule>Cada dato de la división política se separa con un pipe entre espacios "|" .</rule>
+      <rule>Si no se cuenta con el dato de alguna de las regiones, se indica como "NO DISPONIBLE".</rule>
+      <rule>En el caso de que el sitio de recolecta u observación del ejemplar se ubique en más de una región, los valores se separan con una coma ",".</rule>
     </syntaxRules>
     <ejemplar>
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
@@ -63,8 +62,41 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
+    <category>Información geográfica del ejemplar</category>
+    <orden>
+      <prev>municipiooriginal</prev>
+      <next>latitud</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>true</downloadSnib>
+    <ordenTabla>
+      <after>municipiomapa</after>
+    </ordenTabla>
+    <fieldName>Localidad de recolecta u observación</fieldName>
+    <fieldid>localidad</fieldid>
+    <dwcField>locality</dwcField>
+    <description>Referencia geográfica que describe la ubicación del lugar de recolecta u observación.</description>
+    <datatype>varchar (2048)</datatype>
+    <encoding>UTF-8</encoding>
+    <dataRules>
+      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
+    </dataRules>
+    <ejemplar>
+      <key>51212213e6a86c3aba53df6ffc9f7750</key>
+      <key>0dae4e0c03c01615135d15bdba1b522c</key>
+      <key>81aa987c65ef7c873df11f2b7c8ed8a0</key>
+      <key>3eff5e1231a1960f30bfbe6d32eef1f1</key>
+      <key>09f933df3498699b921e0d63273bf1bd</key>
+    </ejemplar>
+    <campos>
+      <campo>localidad</campo>
+      <campo>paisoriginal</campo>
+      <campo>estadooriginal</campo>
+      <campo>municipiooriginal</campo>
+    </campos>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica del ejemplar</category>
     <orden>
       <prev>latitud</prev>
       <next>datum</next>
@@ -110,10 +142,9 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
+    <category>Información geográfica del ejemplar</category>
     <orden>
-      <prev>DESPUESDE</prev>
+      <prev>localidad</prev>
       <next>longitud</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -157,8 +188,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
+    <category>Información geográfica del ejemplar</category>
     <orden>
       <prev>longitud</prev>
       <next>incertidumbrexy</next>
@@ -202,11 +232,10 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Validación geográfica</subcategory>
+    <category>Validación de la información geográfica</category>
     <orden>
       <prev>geovalidacion</prev>
-      <next>paismapa</next>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -216,7 +245,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <fieldName>Validación de la ubicación respecto al ambiente</fieldName>
     <fieldid>validacionambiente</fieldid>
     <dwcField>Incluido en georeferenceVerificationStatus</dwcField>
-    <description>Resultado de la revisión de la ubicación de la coordenada tomando en cuenta el ambiente conocido para el taxón asociado al ejemplar.</description>
+    <description>Resultado de la validación de la ubicación de la coordenada geográfica con respecto al ambiente conocido para el taxón asociado al ejemplar, realizada por la CONABIO.</description>
     <datatype>varchar (100)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
@@ -245,8 +274,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Validación geográfica</subcategory>
+    <category>Validación de la información geográfica</category>
     <orden>
       <prev/>
       <next>validacionambiente</next>
@@ -259,11 +287,32 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <fieldName>Validación de la ubicación geográfica</fieldName>
     <fieldid>geovalidacion</fieldid>
     <dwcField>Incluido en georeferenceVerificationStatus</dwcField>
-    <description>Resultado de la revisión de la ubicación de la coordenada geográfica, tomando en cuenta la región asignada al ejemplar y el mapa de divisiones políticas y de localidades, esta puede realizarse hasta en cuatro niveles país/estado/municipio/localidad.</description>
+    <description>Resultado de la validación geográfica realizada por la CONABIO, considerando la ubicación de la coordenada geográfica, la región asignada al ejemplar y el mapa de divisiones políticas, incluyendo la ZEE y mapas de localidades, esta puede realizarse hasta en cuatro niveles país/estado/municipio/localidad.</description>
     <datatype>varchar (200)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Para los ejemplares que resultaron no v&aacute;lidos a nivel de municipio, en el campo Observaciones del uso de la informaci&oacute;n se especifica la distancia de desfase respecto al municipio (campo municipiooriginal).</p>]]></note>
+      <note><![CDATA[<p>Los mapas utilizados para la validaci&oacute;n geogr&aacute;fica de los ejemplares recolectados u observados en M&eacute;xico son:</p>
+<p>INEGI. 2024.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2024, escala 1:250000. Instituto Nacional de<br>Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun24gw@m=mixto</a></p>
+<p>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. (2011). Zona Econ&oacute;mica Exclusiva de<br>M&eacute;xico. L&iacute;mite Nacional 1:250000. Modificado de Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica<br>(INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fern&aacute;ndez-Equiarte, A., Gallegos-Garc&iacute;a, A., Zavala-H, J. y otros<br>(1990). 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. Extra&iacute;do de Hipsometr&iacute;a y Batimetr&iacute;a, I.1.1. Atlas Nacional de<br>M&eacute;xico. Vol. I. Escala 1:4000000. Instituto de Geograf&iacute;a, UNAM. M&eacute;xico.<br>URL: http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</p>
+<p>INEGI. 2022.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de<br>Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
+<p>INEGI. 2021.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2020, escala 1:2500000. Instituto Nacional de<br>Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun20gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun20gw:1@m=mixto</a></p>
+<p>INEGI. 2018. Divisi&oacute;n pol&iacute;tica municipal, escala 1:250000. 2018. Instituto Nacional de Estad&iacute;stica<br>Geograf&iacute;a e Inform&aacute;tica. M&eacute;xico.</p>
+<p>URL: http://geoportal.conabio.gob.mx/#!l=muni_2018gw:1@m=mixto</p>
+<p>INEGI. 2016. Divisi&oacute;n pol&iacute;tica municipal, escala 1:250000. 2016. Instituto Nacional de Estad&iacute;stica<br>Geograf&iacute;a e Inform&aacute;tica. M&eacute;xico<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=muni_2016gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=muni_2016gw:1@m=mixto</a></p>
+<p>INEGI. 2015. Divisi&oacute;n pol&iacute;tica municipal, escala 1:250000. 2015. Instituto Nacional de Estad&iacute;stica<br>Geograf&iacute;a e Inform&aacute;tica. M&eacute;xico.<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=muni_2015gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=muni_2015gw:1@m=mixto</a></p>
+<p>INEGI. 2010. Divisi&oacute;n pol&iacute;tica municipal, escala 1:250000. 2010. Instituto Nacional de Estad&iacute;stica<br>Geograf&iacute;a e Inform&aacute;tica. M&eacute;xico.<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=muni_2010gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=muni_2010gw:1@m=mixto</a></p>
+<p>INEGI. 2005. Divisi&oacute;n pol&iacute;tica municipal, escala 1:250000. 2005. Instituto Nacional de Estad&iacute;stica<br>Geograf&iacute;a e Inform&aacute;tica. M&eacute;xico.<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=muni_2005gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=muni_2005gw:1@m=mixto</a></p>
+<p>INEGI. 2000. Divisi&oacute;n pol&iacute;tica municipal, escala 1:250000. 2000. Instituto Nacional de Estad&iacute;stica<br>Geograf&iacute;a e Inform&aacute;tica. M&eacute;xico.<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=muni_2000gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=muni_2000gw:1@m=mixto</a></p>
+<p>CONABIO. 2000. Divisi&oacute;n pol&iacute;tica municipal, escala 1:250000. 1995. Comisi&oacute;n Nacional para el<br>Conocimiento y Uso de la Biodiversidad, Instituto de Geograf&iacute;a, Universidad Nacional Aut&oacute;noma de M&eacute;xico.<br>M&eacute;xico.<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=muni_ig1995gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=muni_ig1995gw:1@m=mixto</a></p>
+<p>INEGI. 1995. Divisi&oacute;n pol&iacute;tica municipal, escala 1:250000. 1995. Instituto Nacional de Estad&iacute;stica<br>Geograf&iacute;a e Inform&aacute;tica. M&eacute;xico.<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=muni_1995gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=muni_1995gw:1@m=mixto</a></p>
+<p>INEGI. 1990. Divisi&oacute;n pol&iacute;tica municipal, escala 1:250000. 1990. Instituto Nacional de Estad&iacute;stica<br>Geograf&iacute;a e Inform&aacute;tica. M&eacute;xico.<br>URL: http://geoportal.conabio.gob.mx/#!l=muni_1990gw:1@m=mixto</p>]]></note>
+      <note><![CDATA[<p>Los mapas utilizados para la validaci&oacute;n geogr&aacute;fica de los ejemplares recolectados u observados en Centroam&eacute;rica, Colombia, El Caribe, Estados Unidos de Am&eacute;rica e Isla Clipperton son:<br><br></p>
+<p>CONABIO. 2020. Limites administrativos Centroam&eacute;rica. edici&oacute;n: 1. Comisi&oacute;n Nacional para el<br>Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico. M&eacute;xico.</p>
+<p>URL:&nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</a></p>
+<p>CONABIO, 2019. Mapa de validaci&oacute;n por divisiones pol&iacute;ticas para los sitios terrestres de Estados Unidos<br>de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de<br>la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</a></p>
+<p>CONABIO, 2019. Mapa de validaci&oacute;n en la Zona econ&oacute;mica exclusiva para los sitios marinos de Estados<br>Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y<br>Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></note>
       <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
     </notes>
     <dataRules>
@@ -289,6 +338,10 @@ Sin coordenadas. Sin localidad</subregla></rule>
     <syntaxRules>
       <rule>El dato contiene el resultado de la validación geográfica “Válido localidad” o “Válido” seguido del nivel (“país, “estado”, “municipio”) a continuación presenta el año del mapa de división política municipal utilizado y si se usó tolerancia de 2 Km en la validación {2024 | 2024 con tolerancia, 2022 | 2022 con tolerancia, 2020 | 2020 con tolerancia, 2018 | 2018 con tolerancia, 2016 | 2016 con tolerancia, 2015 | 2015 con tolerancia, 2010 | 2010 con tolerancia, 2005 | 2005 con tolerancia, 2000 | 2000 con tolerancia, 1995 | 1995 con tolerancia | 1995ig | 1995ig con tolerancia | 1990 | 1990 con tolerancia }. Finalmente se indica el detalle del nivel de validación “No válido municipio”, “No procesado municipio”, “No válido estado y municipio” , “No procesado estado y municipio”, “No válido estado y no procesado municipio”, “No aplica validación de estado y municipio”, o “No aplica validación de país”.</rule>
     </syntaxRules>
+    <infoRules>
+      <rule>Los ejemplares que resultaron válidos a nivel de municipio pueden tener un nombre diferente en el estado y/o municipio asignado con respecto al estado y municipio asociado al ejemplar, debido a los cambios territoriales en la división política o a modificaciones de los nombres.</rule>
+      <rule>Los ejemplares que resultaron no válidos a nivel de municipio, en el campo Observaciones del uso de la información se especifica la distancia de desfase respecto al municipio asociado al ejemplar (campo municipiooriginal).</rule>
+    </infoRules>
     <ejemplar>
       <key>000000fce20896c0d5c13b5475d24717</key>
       <key>0000010278ed24a49835a2272d40ff11</key>
@@ -312,11 +365,11 @@ Sin coordenadas. Sin localidad</subregla></rule>
       <campo>paismapa</campo>
       <campo>estadomapa</campo>
       <campo>municipiomapa</campo>
+      <campo>obsusoinfo</campo>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
+    <category>Información geográfica del ejemplar</category>
     <orden>
       <prev>region</prev>
       <next>estadooriginal</next>
@@ -353,18 +406,17 @@ Sin coordenadas. Sin localidad</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Validación geográfica</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <prev>validacionambiente</prev>
-      <next>estadomapa</next>
+      <prev/>
+      <next>claveestadomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>estadooriginal</after>
     </ordenTabla>
-    <fieldName>País validado</fieldName>
+    <fieldName>País asignado</fieldName>
     <fieldid>paismapa</fieldid>
     <dwcField>Incluido en country</dwcField>
     <description>Nombre del país donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política -incluyendo la zona económica exclusiva- utilizados para la validación geográfica realizada por la CONABIO.</description>
@@ -374,9 +426,9 @@ Sin coordenadas. Sin localidad</subregla></rule>
       <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, incluyendo la zona econ&oacute;mica exclusiva, realizado por la CONABIO.</p>
 <p>Los mapas utilizados son:</p>
 <p><strong>M&eacute;xico:</strong></p>
-<p>INEGI. 2022.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.&nbsp;</p>
-<p>URL:&nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
-<p>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. 2011. 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. L&iacute;mite Nacional 1:250000. Modificado de Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fern&aacute;ndez-Equiarte, A., Gallegos-Garc&iacute;a, A., Zavala-H, J. y otros (1990). 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. Extra&iacute;do de Hipsometr&iacute;a y Batimetr&iacute;a, I.1.1. Atlas Nacional de M&eacute;xico. Vol. I. Escala 1:4000000. Instituto de Geograf&iacute;a, UNAM. M&eacute;xico.</p>
+<p>INEGI. 2024.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2024, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.&nbsp;</p>
+<p>URL:&nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun24gw@m=mixto</a></p>
+<p>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. 2011. Zona Econ&oacute;mica Exclusiva de M&eacute;xico. L&iacute;mite Nacional 1:250000. Modificado de Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fern&aacute;ndez-Equiarte, A., Gallegos-Garc&iacute;a, A., Zavala-H, J. y otros (1990). Zona Econ&oacute;mica Exclusiva de M&eacute;xico. Extra&iacute;do de Hipsometr&iacute;a y Batimetr&iacute;a, I.1.1. Atlas Nacional de M&eacute;xico. Vol. I. Escala 1:4000000. Instituto de Geograf&iacute;a, UNAM. M&eacute;xico.</p>
 <p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</a></p>
 <p><strong>Centroam&eacute;rica:</strong></p>
 <p>CONABIO. 2020. Limites administrativos Centroam&eacute;rica. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico. M&eacute;xico.</p>
@@ -415,8 +467,7 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
+    <category>Información geográfica del ejemplar</category>
     <orden>
       <prev>paisoriginal</prev>
       <next>municipiooriginal</next>
@@ -457,35 +508,33 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Validación geográfica</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <prev>paismapa</prev>
-      <next>claveestadomapa</next>
+      <prev>claveestadomapa</prev>
+      <next>mt24claveestadomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>latitud</after>
     </ordenTabla>
-    <fieldName>Estado validado</fieldName>
+    <fieldName>Estado asignado</fieldName>
     <fieldid>estadomapa</fieldid>
     <dwcField>Incluido en stateProvince</dwcField>
     <description>Nombre del estado o división política equivalente donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política utilizados para la validación geográfica realizada por la CONABIO.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales,&nbsp;realizado por la CONABIO.</p>
-<p>Los mapas utilizados son:</p>
+      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, realizado por la CONABIO. Los mapas utilizados son:</p>
 <p><strong>M&eacute;xico:</strong></p>
-<p>INEGI. 2022.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
+<p>INEGI. 2024.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2024, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun24gw@m=mixto</a></p>
 <p><strong>Centroam&eacute;rica:</strong></p>
 <p>CONABIO. 2020. Limites administrativos Centroam&eacute;rica. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</a></p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</a></p>
 <p><strong>Colombia, El Caribe, Estados Unidos de Am&eacute;rica e Isla Clipperton:</strong></p>
 <p>CONABIO, 2019. Mapa de validaci&oacute;n por divisiones pol&iacute;ticas para los sitios terrestres de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</a></p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</a></p>
 <p>&nbsp;</p>]]></note>
     </notes>
     <dataRules>
@@ -515,32 +564,30 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Validación geográfica</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <prev>estadomapa</prev>
-      <next>municipiomapa</next>
+      <prev>paismapa</prev>
+      <next>estadomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>paismapa</after>
     </ordenTabla>
-    <fieldName>Clave estado validado</fieldName>
+    <fieldName>Clave estatal asignada</fieldName>
     <fieldid>claveestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Clave del estado o división política equivalente donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política utilizados para la validación geográfica realizada por la CONABIO.</description>
     <datatype>varchar (10)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales,&nbsp;realizado por la CONABIO.</p>
-<p>Los mapas utilizados son:</p>
+      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, realizado por la CONABIO. Los mapas utilizados son:</p>
 <p><strong>M&eacute;xico:</strong></p>
-<p>INEGI. 2022.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
-<p>URL:&nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
+<p>INEGI. 2024.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2024, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
+<p>URL:&nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun24gw@m=mixto</a></p>
 <p><strong>Centroam&eacute;rica:</strong></p>
 <p>CONABIO. 2020. Limites administrativos Centroam&eacute;rica. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</a></p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</a></p>
 <p><strong>Colombia, El Caribe, Estados Unidos de Am&eacute;rica e Isla Clipperton:</strong></p>
 <p>CONABIO. 2019. Mapa de validaci&oacute;n por divisiones pol&iacute;ticas para los sitios terrestres de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
 <p>URL: http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</p>]]></note>
@@ -569,31 +616,29 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Validación geográfica</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <prev>clavemunicipiomapa</prev>
-      <next>mt24claveestadomapa</next>
+      <prev>mt24claveestadomapa</prev>
+      <next>clavemunicipiomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>mt24claveestadomapa</after>
     </ordenTabla>
-    <fieldName>Estado como referencia para las ubicaciones en el mar</fieldName>
+    <fieldName>Estado asignado como referencia para las ubicaciones en el mar</fieldName>
     <fieldid>mt24nombreestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Nombre del estado costero o división política equivalente, frente al cual se extiende la franja de 24 millas náuticas (12 de mar territorial y 12 de la zona contigua), y que se asigna como referencia de ubicación de la coordenada geográfica registrada para el ejemplar.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales,&nbsp;realizado por la CONABIO.</p>
-<p>Los mapas utilizados son:</p>
+      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, realizado por la CONABIO. Los mapas utilizados son:</p>
 <p><strong>M&eacute;xico:</strong></p>
-<p>INEGI. 2022.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
-<p>URL:&nbsp; <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
-<p>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. 2011. 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. L&iacute;mite Nacional 1:250000. Modificado de Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fern&aacute;ndez-Equiarte, A., Gallegos-Garc&iacute;a, A., Zavala-H, J. y otros (1990). 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. Extra&iacute;do de Hipsometr&iacute;a y Batimetr&iacute;a, I.1.1. Atlas Nacional de M&eacute;xico. Vol. I. Escala 1:4000000. Instituto de Geograf&iacute;a, UNAM. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</a></p>
+<p>INEGI. 2024.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2024, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
+<p>URL:&nbsp; <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun24gw@m=mixto</a></p>
+<p>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. 2011. Zona Econ&oacute;mica Exclusiva de M&eacute;xico. L&iacute;mite Nacional 1:250000. Modificado de Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fern&aacute;ndez-Equiarte, A., Gallegos-Garc&iacute;a, A., Zavala-H, J. y otros (1990). Zona Econ&oacute;mica Exclusiva de M&eacute;xico. Extra&iacute;do de Hipsometr&iacute;a y Batimetr&iacute;a, I.1.1. Atlas Nacional de M&eacute;xico. Vol. I. Escala 1:4000000. Instituto de Geograf&iacute;a, UNAM. M&eacute;xico.</p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</a></p>
 <p><strong>Colombia, El Caribe, Estados Unidos de Am&eacute;rica e Isla Clipperton:</strong></p>
 <p>CONABIO. 2019. Mapa de validaci&oacute;n en la Zona econ&oacute;mica exclusiva para los sitios marinos de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
 <p>URL: http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</p>]]></note>
@@ -619,31 +664,29 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Validación geográfica</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <prev>mt24nombreestadomapa</prev>
-      <next>mt24nombremunicipiomapa</next>
+      <prev>estadomapa</prev>
+      <next>mt24nombreestadomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>claveestadomapa</after>
     </ordenTabla>
-    <fieldName>Clave estatal por ubicación en el mar </fieldName>
+    <fieldName>Clave estatal asignada como referencia para las ubicaciones en el mar </fieldName>
     <fieldid>mt24claveestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Clave del estado costero o división política equivalente, frente al cual se extiende la franja de 24 millas náuticas (12 de mar territorial y 12 de la zona contigua), y que se asigna como referencia de ubicación de la coordenada geográfica registrada para el ejemplar.</description>
     <datatype>varchar (10)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales,&nbsp;realizado por la CONABIO.</p>
-<p>Los mapas utilizados son:</p>
+      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, realizado por la CONABIO. Los mapas utilizados son:</p>
 <p><strong>M&eacute;xico:</strong></p>
-<p>INEGI. 2022.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
-<p>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. (2011). 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. L&iacute;mite Nacional 1:250000. Modificado de Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fern&aacute;ndez-Equiarte, A., Gallegos-Garc&iacute;a, A., Zavala-H, J. y otros (1990). 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. Extra&iacute;do de Hipsometr&iacute;a y Batimetr&iacute;a, I.1.1. Atlas Nacional de M&eacute;xico. Vol. I. Escala 1:4000000. Instituto de Geograf&iacute;a, UNAM. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</a></p>
+<p>INEGI. 2024.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2024, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun24gw@m=mixto</a></p>
+<p>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. (2011). Zona Econ&oacute;mica Exclusiva de M&eacute;xico. L&iacute;mite Nacional 1:250000. Modificado de Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fern&aacute;ndez-Equiarte, A., Gallegos-Garc&iacute;a, A., Zavala-H, J. y otros (1990). Zona Econ&oacute;mica Exclusiva de M&eacute;xico. Extra&iacute;do de Hipsometr&iacute;a y Batimetr&iacute;a, I.1.1. Atlas Nacional de M&eacute;xico. Vol. I. Escala 1:4000000. Instituto de Geograf&iacute;a, UNAM. M&eacute;xico.</p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</a></p>
 <p><strong>Colombia, El Caribe, Estados Unidos de Am&eacute;rica e Isla Clipperton:</strong></p>
 <p>CONABIO, 2019. Mapa de validaci&oacute;n en la Zona econ&oacute;mica exclusiva para los sitios marinos de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
 <p>URL: http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</p>]]></note>
@@ -673,11 +716,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
+    <category>Información geográfica del ejemplar</category>
     <orden>
       <prev>estadooriginal</prev>
-      <next>DESPUESDE</next>
+      <next>localidad</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -713,32 +755,30 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Validación geográfica</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <prev>claveestadomapa</prev>
-      <next>clavemunicipiomapa</next>
+      <prev>clavemunicipiomapa</prev>
+      <next>mt24clavemunicipiomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>estadomapa</after>
     </ordenTabla>
-    <fieldName>Municipio validado</fieldName>
+    <fieldName>Municipio asignado</fieldName>
     <fieldid>municipiomapa</fieldid>
     <dwcField>Incluido en county</dwcField>
     <description>Nombre del municipio o división política equivalente donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política utilizados para la validación geográfica realizada por la CONABIO.</description>
     <datatype>varchar (80)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, realizado en CONABIO.</p>
-<p>Los mapas utilizados son:</p>
+      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, realizado en CONABIO. Los mapas utilizados son:</p>
 <p><strong>M&eacute;xico:</strong></p>
-<p>INEGI. 2022.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
+<p>INEGI. 2024.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2024, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun24gw@m=mixto</a></p>
 <p><strong>Centroam&eacute;rica:</strong></p>
 <p>CONABIO. 2020. Limites administrativos Centroam&eacute;rica. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</a></p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</a></p>
 <p><strong>Colombia, El Caribe, Estados Unidos de Am&eacute;rica e Isla Clipperton:</strong></p>
 <p>CONABIO., 2019. Mapa de validaci&oacute;n por divisiones pol&iacute;ticas para los sitios terrestres de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
 <p>URL: http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</p>
@@ -766,32 +806,30 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Validación geográfica</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <prev>municipiomapa</prev>
-      <next>mt24nombreestadomapa</next>
+      <prev>mt24nombreestadomapa</prev>
+      <next>municipiomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>mt24nombreestadomapa</after>
     </ordenTabla>
-    <fieldName>Clave municipio validado</fieldName>
+    <fieldName>Clave municipal asignada</fieldName>
     <fieldid>clavemunicipiomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Clave del municipio o división política equivalente donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política utilizados para la validación geográfica realizada por la CONABIO.</description>
     <datatype>varchar (10)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, realizado por la CONABIO.</p>
-<p>Los mapas utilizados son:</p>
+      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, realizado por la CONABIO. Los mapas utilizados son:</p>
 <p><strong>M&eacute;xico:</strong></p>
-<p>INEGI. 2022.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
+<p>INEGI. 2024.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2024, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun24gw@m=mixto</a></p>
 <p><strong>Centroam&eacute;rica:</strong></p>
 <p>CONABIO. 2020. Limites administrativos Centroam&eacute;rica. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</a></p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</a></p>
 <p><strong>Colombia, El Caribe, Estados Unidos de Am&eacute;rica e Isla Clipperton:</strong></p>
 <p>CONABIO., 2019. Mapa de validaci&oacute;n por divisiones pol&iacute;ticas para los sitios terrestres de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
 <p>URL: http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</p>]]></note>
@@ -822,31 +860,29 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Validación geográfica</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <prev>mt24claveestadomapa</prev>
-      <next>mt24clavemunicipiomapa</next>
+      <prev>mt24clavemunicipiomapa</prev>
+      <next>altitudmapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>mt24clavemunicipiomapa</after>
     </ordenTabla>
-    <fieldName>Municipio como referencia para las ubicaciones en el mar</fieldName>
+    <fieldName>Municipio asignado como referencia para las ubicaciones en el mar</fieldName>
     <fieldid>mt24nombremunicipiomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Nombre del municipio o división política equivalente frente al cual se extiende la franja de 24 millas náuticas (12 de mar territorial y 12 de la zona contigua), y que se asigna como referencia de ubicación de la coordenada geográfica registrada para el ejemplar.</description>
     <datatype>varchar (80)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, realizado en CONABIO, los mapas utilizados son:</p>
-<p>Los mapas utilizados son:</p>
+      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, realizado en CONABIO. Los mapas utilizados son:</p>
 <p><strong>M&eacute;xico:</strong></p>
-<p>INEGI. 2022.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
-<p>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. 2011. 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. L&iacute;mite Nacional 1:250000. Modificado de Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fern&aacute;ndez-Equiarte, A., Gallegos-Garc&iacute;a, A., Zavala-H, J. y otros (1990). 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. Extra&iacute;do de Hipsometr&iacute;a y Batimetr&iacute;a, I.1.1. Atlas Nacional de M&eacute;xico. Vol. I. Escala 1:4000000. Instituto de Geograf&iacute;a, UNAM. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</a></p>
+<p>INEGI. 2024.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2024, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun24gw@m=mixto</a></p>
+<p>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. 2011. Zona Econ&oacute;mica Exclusiva de M&eacute;xico. L&iacute;mite Nacional 1:250000. Modificado de Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fern&aacute;ndez-Equiarte, A., Gallegos-Garc&iacute;a, A., Zavala-H, J. y otros (1990). Zona Econ&oacute;mica Exclusiva de M&eacute;xico. Extra&iacute;do de Hipsometr&iacute;a y Batimetr&iacute;a, I.1.1. Atlas Nacional de M&eacute;xico. Vol. I. Escala 1:4000000. Instituto de Geograf&iacute;a, UNAM. M&eacute;xico.</p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</a></p>
 <p><strong>Centroam&eacute;rica, Colombia, El Caribe, Estados Unidos de Am&eacute;rica e Isla Clipperton:</strong></p>
 <p>CONABIO. 2019. Mapa de validaci&oacute;n en la Zona econ&oacute;mica exclusiva para los sitios marinos de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
 <p>URL: http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</p>
@@ -870,34 +906,32 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Validación geográfica</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <prev>mt24nombremunicipiomapa</prev>
-      <next/>
+      <prev>municipiomapa</prev>
+      <next>mt24nombremunicipiomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>clavemunicipiomapa</after>
     </ordenTabla>
-    <fieldName>Clave municipal por ubicación en el mar  </fieldName>
+    <fieldName>Clave municipal asignada como referencia para las ubicaciones en el mar  </fieldName>
     <fieldid>mt24clavemunicipiomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Clave del municipio o división política equivalente frente al cual se extiende la franja de 24 millas náuticas (12 de mar territorial y 12 de la zona contigua), y que se asigna como referencia de ubicación de la coordenada geográfica registrada para el ejemplar.</description>
     <datatype>varchar (10)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, realizado en CONABIO.</p>
-<p>Los mapas utilizados son:</p>
+      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, realizado en CONABIO. Los mapas utilizados son:</p>
 <p><strong>M&eacute;xico:</strong></p>
-<p>INEGI. 2022.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
-<p>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. (2011). 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. L&iacute;mite Nacional 1:250000. Modificado de Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fern&aacute;ndez-Equiarte, A., Gallegos-Garc&iacute;a, A., Zavala-H, J. y otros (1990). 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. Extra&iacute;do de Hipsometr&iacute;a y Batimetr&iacute;a, I.1.1. Atlas Nacional de M&eacute;xico. Vol. I. Escala 1:4000000. Instituto de Geograf&iacute;a, UNAM. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</a></p>
+<p>INEGI. 2024.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2024, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun24gw@m=mixto</a></p>
+<p>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. (2011). Zona Econ&oacute;mica Exclusiva de M&eacute;xico. L&iacute;mite Nacional 1:250000. Modificado de Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fern&aacute;ndez-Equiarte, A., Gallegos-Garc&iacute;a, A., Zavala-H, J. y otros (1990). Zona Econ&oacute;mica Exclusiva de M&eacute;xico. Extra&iacute;do de Hipsometr&iacute;a y Batimetr&iacute;a, I.1.1. Atlas Nacional de M&eacute;xico. Vol. I. Escala 1:4000000. Instituto de Geograf&iacute;a, UNAM. M&eacute;xico.</p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</a></p>
 <p><strong>Colombia, El Caribe, Estados Unidos de Am&eacute;rica e Isla Clipperton:</strong></p>
 <p>CONABIO., 2019. Mapa de validaci&oacute;n en la Zona econ&oacute;mica exclusiva para los sitios marinos de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</a></p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</a></p>
 <p>&nbsp;</p>]]></note>
     </notes>
     <dataRules>
@@ -926,8 +960,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
+    <category>Información geográfica del ejemplar</category>
     <orden>
       <prev>datum</prev>
       <next/>
@@ -970,10 +1003,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <prev/>
+      <prev>mt24nombremunicipiomapa</prev>
       <next>anp</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -1010,8 +1042,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
       <prev>cuencahidrograficamapa</prev>
       <next>usvserieII</next>
@@ -1037,6 +1068,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso del suelo y vegetación serie I del INE-INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
+    <infoRules>
+      <rule>El valor solo existe para el país México.</rule>
+    </infoRules>
     <ejemplar>
       <key>09f933df3498699b921e0d63273bf1bd</key>
       <key>0dae4e0c03c01615135d15bdba1b522c</key>
@@ -1055,8 +1089,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
       <prev>usvserieI</prev>
       <next>usvserieIII</next>
@@ -1082,6 +1115,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso del suelo y vegetación serie II del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
+    <infoRules>
+      <rule>El valor solo existe para el país México.</rule>
+    </infoRules>
     <ejemplar>
       <key>09f933df3498699b921e0d63273bf1bd</key>
       <key>0dae4e0c03c01615135d15bdba1b522c</key>
@@ -1101,8 +1137,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
       <prev>usvserieII</prev>
       <next>usvserieIV</next>
@@ -1128,6 +1163,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso de suelo y vegetación serie III del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
+    <infoRules>
+      <rule>El valor solo existe para el país México.</rule>
+    </infoRules>
     <ejemplar>
       <key>09f933df3498699b921e0d63273bf1bd</key>
       <key>0dae4e0c03c01615135d15bdba1b522c</key>
@@ -1148,8 +1186,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
       <prev>usvserieIII</prev>
       <next>usvserieV</next>
@@ -1175,6 +1212,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso del suelo y vegetación serie IV del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
+    <infoRules>
+      <rule>El valor solo existe para el país México.</rule>
+    </infoRules>
     <ejemplar>
       <key>09f933df3498699b921e0d63273bf1bd</key>
       <key>0dae4e0c03c01615135d15bdba1b522c</key>
@@ -1196,8 +1236,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
       <prev>usvserieIV</prev>
       <next>usvserieVI</next>
@@ -1223,6 +1262,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso de suelo y vegetación serie V del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
+    <infoRules>
+      <rule>El valor solo existe para el país México.</rule>
+    </infoRules>
     <ejemplar>
       <key>09f933df3498699b921e0d63273bf1bd</key>
       <key>0dae4e0c03c01615135d15bdba1b522c</key>
@@ -1245,8 +1287,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
       <prev>usvserieV</prev>
       <next>usvserieVII</next>
@@ -1272,6 +1313,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso de suelo y vegetación serie VI del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
+    <infoRules>
+      <rule>El valor solo existe para el país México.</rule>
+    </infoRules>
     <ejemplar>
       <key>09f933df3498699b921e0d63273bf1bd</key>
       <key>0dae4e0c03c01615135d15bdba1b522c</key>
@@ -1295,8 +1339,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
       <prev>usvserieVI</prev>
       <next>vegetacionserenanalcms</next>
@@ -1322,6 +1365,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso de suelo y vegetación serie VII del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
+    <infoRules>
+      <rule>El valor solo existe para el país México.</rule>
+    </infoRules>
     <ejemplar>
       <key>09f933df3498699b921e0d63273bf1bd</key>
       <key>0dae4e0c03c01615135d15bdba1b522c</key>
@@ -1344,8 +1390,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
       <prev>usvserieVII</prev>
       <next>regionmarinamapa</next>
@@ -1368,9 +1413,12 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
 <p>URL: https://www.biodiversidad.gob.mx/monitoreo/cobertura-suelo/baja-resolucion/SERENA</p>]]></note>
     </notes>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por la cobertura de suelo, según el mapa de SERENA.</rule>
+      <rule>El dominio de los valores permitidos está dado por la cobertura de suelo, según el mapa de La Red Latinoamericana de Seguimiento y Estudio de los Recursos Naturales (SERENA).</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
+    <infoRules>
+      <rule>El valor sólo existe para Centroamérica, Colombia, El Caribe y Estados Unidos de América.</rule>
+    </infoRules>
     <ejemplar>
       <key>bcd8f9dc49e31b1e73f7859f9d7ce0f9</key>
       <key>1aa291ae5522e7d96292f50f0c4e953b</key>
@@ -1384,8 +1432,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
       <prev>altitudmapa</prev>
       <next>cuencahidrograficamapa</next>
@@ -1402,13 +1449,17 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <datatype>varchar (250)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n de las ANP de M&eacute;xico, v&eacute;ase:</p>
-<p>CONABIO 2020. &Aacute;reas Naturales Protegidas Estatales, Municipales, Ejidales, Comunitarias y Privadas de M&eacute;xico 2020. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=anpest20gw:1">http://geoportal.conabio.gob.mx/#!l=anpest20gw:1</a></p>
-<p>CONANP. 2024. &Aacute;reas Naturales Protegidas Federales de M&eacute;xico, septiembre 2024, Comisi&oacute;n Nacional de &Aacute;reas Naturales Protegidas. Ciudad de M&eacute;xico, M&eacute;xico.</p>
-<p>URL: http://geoportal.conabio.gob.mx/#!l=anpsp2024gw:1@m=mixto</p>]]></note>
-      <note><![CDATA[<p>Para las ANP de otros pa&iacute;ses v&eacute;ase:</p>
-<p>UNEP-WCMC y UICN. 2024, Protected Planet: The World Database on Protected Areas (WDPA) [Online], octubre de 2024, Cambridge, UK: UNEP-WCMC y UICN. URL: https://www.protectedplanet.net/en</p>]]></note>
+      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n de las &aacute;reas naturales protegidas de M&eacute;xico, v&eacute;ase:</p>
+<p><span class="acronym-highlight">CONANP 2025</span>. &Aacute;reas Naturales Protegidas Federales de M&eacute;xico, julio 2025, Comisi&oacute;n Nacional de &Aacute;reas Naturales Protegidas. Ciudad de M&eacute;xico, M&eacute;xico.</p>
+<p>URL: <span class="TextRun SCXW13831329 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun SCXW13831329 BCX0">&nbsp;</span></span><a href="http://geoportal.conabio.gob.mx/#!l=anpsp20254gw:1@m=mixto" target="_blank" rel="noopener"><span class="TextRun Underlined SCXW13831329 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun SCXW13831329 BCX0">http://geoportal.conabio.gob.mx/#!l=anpsp202</span></span><span class="TrackChangeTextInsertion TrackedChange SCXW13831329 BCX0"><span class="TextRun Underlined SCXW13831329 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun SCXW13831329 BCX0">5</span></span></span><span class="TrackChangeTextDeletionMarker TrackedChange SCXW13831329 BCX0"><span class="TextRun Underlined SCXW13831329 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun TrackChangeTextDeletion SCXW13831329 BCX0">4</span></span></span><span class="TextRun Underlined SCXW13831329 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun SCXW13831329 BCX0">gw:1@m=mixto</span></span></a><span class="EOP SCXW13831329 BCX0" data-ccp-props="{&quot;335559739&quot;:0}">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p>CONABIO 2025. &Aacute;reas Naturales Protegidas Estatales, Municipales, Ejidales, Comunitarias y Privadas de M&eacute;xico 2025, edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=anpest20gw:1@m=mixto" target="_blank" rel="noreferrer noopener"><span class="TextRun Underlined SCXW42127131 BCX0" lang="ES-ES" xml:lang="ES-ES" data-contrast="auto"><span class="NormalTextRun SCXW42127131 BCX0">http://geoportal.conabio.gob.mx/#!l=anpest2</span></span><span class="TrackChangeTextInsertion TrackedChange SCXW42127131 BCX0"><span class="TextRun Underlined SCXW42127131 BCX0" lang="ES-ES" xml:lang="ES-ES" data-contrast="auto"><span class="NormalTextRun SCXW42127131 BCX0">5</span></span></span><span class="TrackChangeTextDeletionMarker TrackedChange SCXW42127131 BCX0"><span class="TextRun Underlined SCXW42127131 BCX0" lang="ES-ES" xml:lang="ES-ES" data-contrast="auto"><span class="NormalTextRun TrackChangeTextDeletion SCXW42127131 BCX0">0</span></span></span><span class="TextRun Underlined SCXW42127131 BCX0" lang="ES-ES" xml:lang="ES-ES" data-contrast="auto"><span class="NormalTextRun SCXW42127131 BCX0">gw:1</span></span><span class="TextRun Underlined SCXW42127131 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun SCXW42127131 BCX0">@m=mixto</span></span></a></p>
+<p>&nbsp;</p>]]></note>
+      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n de las &aacute;reas naturales protegidas de Centroam&eacute;rica, Colombia, El Caribe, Estados Unidos de Am&eacute;rica e Isla Clipperton vease:</p>
+<p>UNEP-WCMC and <span class="acronym-highlight">UICN</span> 2025. Protected Planet: The World Database on Protected Areas (<span class="acronym-highlight">WDPA</span>) [Online], october 2025, Cambridge, UK: UNEP-WCMC and UICN.</p>
+<p>URL:&nbsp;<span class="TextRun SCXW121057435 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="none"><span class="NormalTextRun SCXW121057435 BCX0" data-ccp-charstyle="Hyperlink">&nbsp;</span></span><a href="https://www.protectedplanet.net/en" target="_blank" rel="noreferrer noopener"><span class="TextRun Underlined SCXW121057435 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="none"><span class="NormalTextRun SCXW121057435 BCX0" data-ccp-charstyle="Hyperlink">https://www.protectedplanet.net/en</span></span></a></p>
+<p>&nbsp;</p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el ejemplar está ubicado a más de 5 km de alguna ANP o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
@@ -1419,7 +1470,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El valor se conforma por la jurisdicción del ANP “Internacional“, “International”, “Nacional“, “National”, “Federal“, “Estatal”, “Regional“, “Municipal”, ”Estatal y Municipal”, “Ejidal”, “Privado” y “Comunitaria“, seguido de comilla angular derecha y un espacio “» ”, posteriormente el nombre y al final se puede presentar la distancia a la ANP más cercana.</rule>
       <rule>Cuando la coordenada registrada para el ejemplar se ubica en más de un ANP  se concatena aplicando la regla 1 separando cada ANP con un pipe  “|” con un espacio antes y después.</rule>
       <rule>Se incluye entre llaves “{ }” la distancia en kilómetros a la que se encuentra la coordenada de la ANP.</rule>
-      <rule>Como parte del nombre de las ANP se pueden encontrar los siguientes caracteres especiales (),-&amp;amp;amp;amp;./–"[]'\_´ ̃ ̃:@#+?*!% ; `</rule>
+      <rule>Como parte del nombre de las ANP se pueden encontrar los siguientes caracteres especiales (),-&amp;amp;amp;amp;amp;amp;./–"[]'\_´ ̃ ̃:@#+?*!% ; `</rule>
       <rule>Las ANP que se comparten en más de un país se diferencian en el nombre por la abreviación del país alfa-2 de la ISO 3166.</rule>
     </syntaxRules>
     <ejemplar>
@@ -1436,11 +1487,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
       <prev>vegetacionserenanalcms</prev>
-      <next>usvserieI</next>
+      <next>ecorregionterrestremapa</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -1478,11 +1528,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
-      <prev>cuencahidrograficamapa</prev>
-      <next>regionmarinamapa</next>
+      <prev>regionmarinamapa</prev>
+      <next/>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -1509,23 +1558,25 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y minúsculas y sin acentos.</rule>
     </syntaxRules>
+    <infoRules>
+      <rule>El valor solo existe para el país México.</rule>
+    </infoRules>
     <ejemplar>
       <key>51212213e6a86c3aba53df6ffc9f7750</key>
       <key>0dae4e0c03c01615135d15bdba1b522c</key>
       <key>c4f6623f9ef9c6a65767a675439a91dd</key>
     </ejemplar>
     <campos>
-      <campo>ecorregion</campo>
+      <campo>ecorregionterrestremapa</campo>
       <campo>latitud</campo>
       <campo>longitud</campo>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Información descriptiva complementaria</subcategory>
+    <category>Información geográfica por ubicación de la coordenada</category>
     <orden>
       <prev>anp</prev>
-      <next>ecorregionterrestremapa</next>
+      <next>usvserieI</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -1553,20 +1604,22 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El dato está escrito en mayúsculas y minúsculas y con acentos.</rule>
       <rule>El valor se conforma por el código de la cuenca, seguido del nombre separando con una coma.</rule>
     </syntaxRules>
+    <infoRules>
+      <rule>El valor solo existe para el país México.</rule>
+    </infoRules>
     <ejemplar>
       <key>51212213e6a86c3aba53df6ffc9f7750</key>
       <key>6c650786a59c81a8bdeb97efbf3403a1</key>
       <key>0dae4e0c03c01615135d15bdba1b522c</key>
     </ejemplar>
     <campos>
-      <campo>cuenca</campo>
+      <campo>cuencahidrograficamapa</campo>
       <campo>latitud</campo>
       <campo>longitud</campo>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía válida</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>taxonvalidado</prev>
       <next>subgrupobio</next>
@@ -1616,11 +1669,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía válida</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>grupobio</prev>
-      <next>reinovalido</next>
+      <next>idnombrecat</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -1659,10 +1711,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía original</subcategory>
+    <category>Taxonomía</category>
     <orden>
-      <prev/>
+      <prev>idnombrecat</prev>
       <next>phylumdivision</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -1700,8 +1751,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía original</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>reino</prev>
       <next>clase</next>
@@ -1746,8 +1796,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía original</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>phylumdivision</prev>
       <next>orden</next>
@@ -1797,8 +1846,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía original</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>clase</prev>
       <next>familia</next>
@@ -1848,8 +1896,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía original</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>orden</prev>
       <next>genero</next>
@@ -1899,8 +1946,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía original</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>familia</prev>
       <next>especie</next>
@@ -1949,11 +1995,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía original</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>genero</prev>
-      <next>categoriainfraespecie</next>
+      <next>calificadordeterminacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -1994,10 +2039,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía original</subcategory>
+    <category>Taxonomía</category>
     <orden>
-      <prev>especie</prev>
+      <prev>calificadordeterminacion</prev>
       <next>categoriainfraespecie2</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -2029,8 +2073,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía original</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>categoriainfraespecie</prev>
       <next>autor</next>
@@ -2066,8 +2109,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía original</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>categoriainfraespecie2</prev>
       <next>estatustax</next>
@@ -2099,8 +2141,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía original</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>autor</prev>
       <next>reftax</next>
@@ -2140,11 +2181,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía original</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>estatustax</prev>
-      <next/>
+      <next>idnombrecatvalido</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2177,10 +2217,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía válida</subcategory>
+    <category>Taxonomía</category>
     <orden>
-      <prev>subgrupobio</prev>
+      <prev>idnombrecatvalido</prev>
       <next>phylumdivisionvalido</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -2214,8 +2253,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía válida</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>reinovalido</prev>
       <next>clasevalida</next>
@@ -2255,8 +2293,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía válida</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>phylumdivisionvalido</prev>
       <next>ordenvalido</next>
@@ -2300,8 +2337,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía válida</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>clasevalida</prev>
       <next>familiavalida</next>
@@ -2345,8 +2381,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía válida</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>ordenvalido</prev>
       <next>generovalido</next>
@@ -2390,8 +2425,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía válida</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>familiavalida</prev>
       <next>especievalida</next>
@@ -2433,8 +2467,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía válida</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>generovalido</prev>
       <next>categoriainfraespecievalida</next>
@@ -2480,8 +2513,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía válida</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>especievalida</prev>
       <next>categoriainfraespecie2valida</next>
@@ -2517,8 +2549,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía válida</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>categoriainfraespecievalida</prev>
       <next>autorvalido</next>
@@ -2550,8 +2581,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía válida</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>categoriainfraespecie2valida</prev>
       <next>reftaxvalido</next>
@@ -2599,11 +2629,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía válida</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev>autorvalido</prev>
-      <next>nombrecomun</next>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2637,8 +2666,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía válida</subcategory>
+    <category>Taxonomía</category>
     <orden>
       <prev/>
       <next>grupobio</next>
@@ -2672,9 +2700,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Origen, distribución, rasgos funcionales</category>
+    <category>Atributos biológicos y ecológicos</category>
     <orden>
-      <prev>ambiente</prev>
+      <prev>taxonextinto</prev>
       <next>exoticainvasora</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -2713,10 +2741,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Origen, distribución, rasgos funcionales</category>
+    <category>Atributos biológicos y ecológicos</category>
     <orden>
-      <prev>categoriaresidenciaaves</prev>
-      <next/>
+      <prev>nombrecomun</prev>
+      <next>endemismo</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2749,10 +2777,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Origen, distribución, rasgos funcionales</category>
+    <category>Atributos biológicos y ecológicos</category>
     <orden>
-      <prev/>
-      <next>endemismo</next>
+      <prev>exoticainvasora</prev>
+      <next>formadecrecimiento</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2786,11 +2814,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía válida</subcategory>
+    <category>Atributos biológicos y ecológicos</category>
     <orden>
-      <prev>reftaxvalido</prev>
-      <next>idnombrecat</next>
+      <prev/>
+      <next>taxonextinto</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2825,11 +2852,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía válida</subcategory>
+    <category>Taxonomía</category>
     <orden>
-      <prev>nombrecomun</prev>
-      <next>idnombrecatvalido</next>
+      <prev>subgrupobio</prev>
+      <next>reino</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2854,11 +2880,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información taxonómica</category>
-    <subcategory>Taxonomía válida</subcategory>
+    <category>Taxonomía</category>
     <orden>
-      <prev>idnombrecat</prev>
-      <next/>
+      <prev>reftax</prev>
+      <next>reinovalido</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2883,9 +2908,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Origen, distribución, rasgos funcionales</category>
+    <category>Atributos biológicos y ecológicos</category>
     <orden>
-      <prev>exoticainvasora</prev>
+      <prev>ambiente</prev>
       <next>categoriaresidenciaaves</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -2938,9 +2963,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Categoría de protección</category>
+    <category>Estatus de conservación y riesgo</category>
     <orden>
-      <prev>DESPUESDELDESPUESDE</prev>
+      <prev>cites</prev>
       <next>nivelprioridad</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -2980,7 +3005,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Categoría de protección</category>
+    <category>Estatus de conservación y riesgo</category>
     <orden>
       <prev>prioritaria</prev>
       <next>iucn</next>
@@ -3020,10 +3045,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Origen, distribución, rasgos funcionales</category>
+    <category>Atributos biológicos y ecológicos</category>
     <orden>
       <prev>endemismo</prev>
-      <next>formadecrecimiento</next>
+      <next>ambiente</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3061,10 +3086,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Categoría de protección</category>
+    <category>Estatus de conservación y riesgo</category>
     <orden>
       <prev/>
-      <prev>INICIOOO</prev>
       <next>cites</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -3099,10 +3123,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Categoría de protección</category>
+    <category>Estatus de conservación y riesgo</category>
     <orden>
       <prev>nom059</prev>
-      <next>DESPUESDE</next>
+      <next>prioritaria</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3137,7 +3161,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Categoría de protección</category>
+    <category>Estatus de conservación y riesgo</category>
     <orden>
       <prev>nivelprioridad</prev>
       <next/>
@@ -3177,10 +3201,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Origen, distribución, rasgos funcionales</category>
+    <category>Atributos biológicos y ecológicos</category>
     <orden>
       <prev>formadecrecimiento</prev>
-      <next>taxonextinto</next>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3216,10 +3240,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
-      <prev/>
-      <next>formadecitar</next>
+      <prev>coleccion</prev>
+      <next>institucion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3251,12 +3275,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev>idejemplar</prev>
       <next>obsusoinfo</next>
-      <prev>numcolecta</prev>
-      <next>institucion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3294,12 +3315,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev>obsusoinfo</prev>
       <next>numcatalogo</next>
-      <prev>coleccion</prev>
-      <next>colector</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3338,12 +3356,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev>fechacolecta</prev>
       <next>procedenciaejemplar</next>
-      <prev>ejemplarfosil</prev>
-      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3378,10 +3393,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev>institucion</prev>
-      <prev>idejemplar</prev>
       <next>numcolecta</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -3414,11 +3427,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev>numcatalogo</prev>
       <next>colector</next>
-      <next>coleccion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3450,10 +3461,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev>paiscoleccion</prev>
-      <prev>aniocolecta</prev>
       <next>determinador</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -3471,7 +3480,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <note><![CDATA[<p>M&aacute;s informaci&oacute;n del dominio de valores se encuentra en http://rs.tdwg.org/dwc/terms.htm#basisOfRecord</p>]]></note>
     </notes>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por:<subregla>HumanObservation</subregla><subregla>PreservedSpecimen</subregla><subregla>FossilSpecimen</subregla><subregla>MaterialCitation</subregla><subregla>Occurrence</subregla><subregla>MaterialSample</subregla><subregla>MachineObservation</subregla><subregla>LivingSpecimen</subregla></rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>HumanObservation</subregla><subregla>PreservedSpecimen</subregla><subregla>FossilSpecimen</subregla><subregla>MaterialCitation</subregla><subregla>Occurrence</subregla><subregla>MaterialSample</subregla><subregla>MachineObservation</subregla><subregla>LivingSpecimen</subregla><subregla>MaterialEntity</subregla></rule>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
       <rule>El mapeo realizado a los datos originales para su equivalencia en Darwin Core es el siguiente:<subregla>Observado = HumanObservation</subregla><subregla>Colectado = PreservedSpecimen</subregla><subregla>Reportado = MaterialCitation</subregla></rule>
     </dataRules>
@@ -3489,11 +3498,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev>procedenciaejemplar</prev>
       <next>aniodeterminacion</next>
-      <next>calificadordeterminacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3525,12 +3532,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev>determinador</prev>
       <next>mesdeterminacion</next>
-      <prev>mesdeterminacion</prev>
-      <next>tipovegetacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3562,12 +3566,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev>aniodeterminacion</prev>
       <next>diadeterminacion</next>
-      <prev>diadeterminacion</prev>
-      <next>aniodeterminacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3599,12 +3600,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev>mesdeterminacion</prev>
       <next>fechadeterminacion</next>
-      <prev>fechadeterminacion</prev>
-      <next>mesdeterminacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3635,12 +3633,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev>diadeterminacion</prev>
       <next>tipo</next>
-      <prev>determinador</prev>
-      <next>diadeterminacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3672,13 +3667,42 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
+    <category>Taxonomía</category>
+    <orden>
+      <prev>especie</prev>
+      <next>categoriainfraespecie</next>
+    </orden>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>true</downloadSnib>
+    <ordenTabla>
+      <after>especie</after>
+    </ordenTabla>
+    <fieldName>Calificador de la determinación</fieldName>
+    <fieldid>calificadordeterminacion</fieldid>
+    <dwcField>identificationQualifier</dwcField>
+    <description>Anotación acerca de la incertidumbre en la identificación taxonómica del ejemplar.</description>
+    <datatype>varchar (100).</datatype>
+    <encoding>UTF-8</encoding>
+    <dataRules>
+      <rule>El valor vacío significa que el dato no es aplicable para el registro.</rule>
+    </dataRules>
+    <ejemplar>
+      <key>643abc99493c60c1e8550a0834f23b4d</key>
+      <key>26bab587f513a8746c828e90783d5af9</key>
+      <key>e4b94c057a9cbb6283aff3c88fe09f3a</key>
+      <key>4becce2d275f1e3ac7faef0278846eae</key>
+      <key>498e5d597bc941694e47d1e8c8f4401b</key>
+    </ejemplar>
+    <campos>
+      <campo>especie</campo>
+      <campo>calificadordeterminacion</campo>
+    </campos>
+  </snibTerm>
+  <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev>numcolecta</prev>
       <next>aniocolecta</next>
-      <prev>institucion</prev>
-      <next>fechacolecta</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3712,12 +3736,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev>colector</prev>
       <next>mescolecta</next>
-      <prev>mescolecta</prev>
-      <next>procedenciaejemplar</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3749,12 +3770,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev>aniocolecta</prev>
       <next>diacolecta</next>
-      <prev>diacolecta</prev>
-      <next>aniocolecta</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3789,12 +3807,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev>mescolecta</prev>
       <next>fechacolecta</next>
-      <prev>fechacolecta</prev>
-      <next>mescolecta</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3829,12 +3844,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev>diacolecta</prev>
       <next>paiscoleccion</next>
-      <prev>colector</prev>
-      <next>diacolecta</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3870,10 +3882,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev>fechadeterminacion</prev>
-      <prev>tipovegetacion</prev>
       <next>ejemplarfosil</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -3905,12 +3915,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev>ejemplarfosil</prev>
       <next/>
-      <prev>aniodeterminacion</prev>
-      <next>tipo</next>
     </orden>
     <fieldName>Tipo de vegetación</fieldName>
     <fieldid>tipovegetacion</fieldid>
@@ -3918,20 +3925,28 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <description>Tipo de vegetación del sitio de recolecta u observación del ejemplar.</description>
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules>
-      <rule>El dato está escrito con mayúsculas y minúsculas según corresponda.</rule>
-    </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <downloadGeoportal>false</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <dataRules>
+      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
+    </dataRules>
+    <ejemplar>
+      <key>0ac222198a72cbed6b99674ee459f887</key>
+      <key>0778b73557daf1252da2946ab3bcfa94</key>
+      <key>5d21d44c2b5d2df90869c379dbc12fe9</key>
+      <key>0037aad010ef63dfd65ba72f34f4f65d</key>
+    </ejemplar>
+    <campos>
+      <campo>tipovegetacion</campo>
+      <campo>grupobio</campo>
+      <campo>especievalida</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev>tipo</prev>
       <next>tipovegetacion</next>
-      <next>paiscoleccion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3961,10 +3976,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
       <prev>geoportal</prev>
-      <next>fuente</next>
+      <next>urlejemplar</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3992,10 +4007,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
-      <prev>proyecto</prev>
-      <next>urlejemplar</next>
+      <prev>urlejemplar</prev>
+      <next>licenciauso</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4024,10 +4039,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
-      <prev>obsusoinfo</prev>
-      <next>licenciauso</next>
+      <prev>licenciauso</prev>
+      <next>urlproyecto</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4051,10 +4066,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
-      <prev>formadecitar</prev>
-      <next>version</next>
+      <prev>fuente</prev>
+      <next>formadecitar</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4098,10 +4113,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
-      <prev>urlorigen</prev>
-      <next/>
+      <prev>formadecitar</prev>
+      <next>version</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4127,10 +4142,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
-      <prev>urlejemplar</prev>
-      <next>urlproyecto</next>
+      <prev>version</prev>
+      <next>ultimafechaactualizacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4153,10 +4168,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
-      <prev>fuente</prev>
-      <next>urlorigen</next>
+      <prev>proyecto</prev>
+      <next>fuente</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4182,9 +4197,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
-      <prev>ultimafechaactualizacion</prev>
+      <prev/>
       <next>proyecto</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
@@ -4218,10 +4233,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
-      <prev>version</prev>
-      <next>geoportal</next>
+      <prev>urlorigen</prev>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4249,10 +4264,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
-      <prev>licenciauso</prev>
-      <next>ultimafechaactualizacion</next>
+      <prev>urlproyecto</prev>
+      <next>urlorigen</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4279,11 +4294,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
-    <category>Información curatorial</category>
     <orden>
       <prev/>
       <next>coleccion</next>
-      <next>numcatalogo</next>
     </orden>
     <ordenTabla>
       <after>urlejemplar</after>
