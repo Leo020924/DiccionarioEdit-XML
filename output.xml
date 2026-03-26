@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <snibDictionary>
   <metadata>
@@ -1021,7 +1022,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>mt24nombremunicipiomapa</prev>
       <next>anp</next>
@@ -1060,7 +1062,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>cuencahidrograficamapa</prev>
       <next>usvserieII</next>
@@ -1107,7 +1110,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieI</prev>
       <next>usvserieIII</next>
@@ -1155,7 +1159,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieII</prev>
       <next>usvserieIV</next>
@@ -1204,7 +1209,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieIII</prev>
       <next>usvserieV</next>
@@ -1254,7 +1260,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieIV</prev>
       <next>usvserieVI</next>
@@ -1305,7 +1312,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieV</prev>
       <next>usvserieVII</next>
@@ -1357,7 +1365,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieVI</prev>
       <next>vegetacionserenanalcms</next>
@@ -1408,7 +1417,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieVII</prev>
       <next>regionmarinamapa</next>
@@ -1450,7 +1460,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>altitudmapa</prev>
       <next>cuencahidrograficamapa</next>
@@ -1505,7 +1516,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>vegetacionserenanalcms</prev>
       <next>ecorregionterrestremapa</next>
@@ -1546,7 +1558,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>regionmarinamapa</prev>
       <next/>
@@ -1591,7 +1604,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>anp</prev>
       <next>usvserieI</next>
@@ -2743,7 +2757,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Origen, distribución, rasgos funcionales</category>
+    <category>Atributos biológicos y ecológicos</category>
     <orden>
       <prev>taxonextinto</prev>
       <next>exoticainvasora</next>
@@ -2784,7 +2798,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Origen, distribución, rasgos funcionales</category>
+    <category>Atributos biológicos y ecológicos</category>
     <orden>
       <prev>nombrecomun</prev>
       <next>endemismo</next>
@@ -2820,7 +2834,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Origen, distribución, rasgos funcionales</category>
+    <category>Atributos biológicos y ecológicos</category>
     <orden>
       <prev>exoticainvasora</prev>
       <next>formadecrecimiento</next>
@@ -2954,7 +2968,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Origen, distribución, rasgos funcionales</category>
+    <category>Atributos biológicos y ecológicos</category>
     <orden>
       <prev>ambiente</prev>
       <next>categoriaresidenciaaves</next>
@@ -3009,7 +3023,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Categoría de protección</category>
+    <category>Estatus de conservación y riesgo</category>
     <orden>
       <prev>cites</prev>
       <next>nivelprioridad</next>
@@ -3051,7 +3065,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Categoría de protección</category>
+    <category>Estatus de conservación y riesgo</category>
     <orden>
       <prev>prioritaria</prev>
       <next>iucn</next>
@@ -3091,7 +3105,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Origen, distribución, rasgos funcionales</category>
+    <category>Atributos biológicos y ecológicos</category>
     <orden>
       <prev>endemismo</prev>
       <next>ambiente</next>
@@ -3132,7 +3146,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Categoría de protección</category>
+    <category>Estatus de conservación y riesgo</category>
     <orden>
       <prev/>
       <next>cites</next>
@@ -3169,7 +3183,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Categoría de protección</category>
+    <category>Estatus de conservación y riesgo</category>
     <orden>
       <prev>nom059</prev>
       <next>prioritaria</next>
@@ -3207,7 +3221,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Categoría de protección</category>
+    <category>Estatus de conservación y riesgo</category>
     <orden>
       <prev>nivelprioridad</prev>
       <next/>
@@ -3247,7 +3261,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Origen, distribución, rasgos funcionales</category>
+    <category>Atributos biológicos y ecológicos</category>
     <orden>
       <prev>formadecrecimiento</prev>
       <next/>
@@ -4023,7 +4037,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
       <prev>geoportal</prev>
       <next>urlejemplar</next>
@@ -4054,7 +4068,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
       <prev>urlejemplar</prev>
       <next>licenciauso</next>
@@ -4086,7 +4100,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
       <prev>licenciauso</prev>
       <next>urlproyecto</next>
@@ -4113,7 +4127,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
       <prev>fuente</prev>
       <next>formadecitar</next>
@@ -4160,7 +4174,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
       <prev>formadecitar</prev>
       <next>version</next>
@@ -4189,7 +4203,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
       <prev>version</prev>
       <next>ultimafechaactualizacion</next>
@@ -4215,7 +4229,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
       <prev>proyecto</prev>
       <next>fuente</next>
@@ -4244,7 +4258,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
       <prev/>
       <next>proyecto</next>
@@ -4280,7 +4294,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
       <prev>urlorigen</prev>
       <next/>
@@ -4311,7 +4325,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Datos del recurso</category>
+    <category>Otros</category>
     <orden>
       <prev>urlproyecto</prev>
       <next>urlorigen</next>
