@@ -4608,7 +4608,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
     <orden>
-      <prev/>
+      <prev>PRUEBA13</prev>
       <next>idejemplar</next>
     </orden>
     <fieldName>PRUEBA 11</fieldName>
@@ -4641,6 +4641,27 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <downloadSnib>false</downloadSnib>
     <campos>
       <campo>validacionambiente</campo>
+    </campos>
+    <ejemplar>
+      <key>d2d26f3bc8a7741448336dd76c61086a</key>
+      <key>8fb42940fd0605c50291867788df16ad</key>
+      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Datos del ejemplar/observación</category>
+    <orden>
+      <prev/>
+      <next>PRUEBA11</next>
+    </orden>
+    <fieldName>PRUEBA 13</fieldName>
+    <fieldid>PRUEBA13</fieldid>
+    <dwcField>PRUEBA 13</dwcField>
+    <description>PRUEBA 13</description>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <campos>
+      <campo>localidad</campo>
     </campos>
     <ejemplar>
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
