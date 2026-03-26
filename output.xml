@@ -1026,7 +1026,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información geográfica</category>
     <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
-      <prev>mt24nombremunicipiomapa</prev>
+      <prev/>
       <next>anp</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -1066,7 +1066,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información geográfica</category>
     <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
-      <prev>cuencahidrograficamapa</prev>
+      <prev>regionmarinamapa</prev>
       <next>usvserieII</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -1422,7 +1422,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieVII</prev>
-      <next>regionmarinamapa</next>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -1520,8 +1520,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información geográfica</category>
     <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
-      <prev>vegetacionserenanalcms</prev>
-      <next>ecorregionterrestremapa</next>
+      <prev>ecorregionterrestremapa</prev>
+      <next>usvserieI</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -1562,8 +1562,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información geográfica</category>
     <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
-      <prev>regionmarinamapa</prev>
-      <next/>
+      <prev>cuencahidrograficamapa</prev>
+      <next>regionmarinamapa</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -1609,7 +1609,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>anp</prev>
-      <next>usvserieI</next>
+      <next>ecorregionterrestremapa</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
