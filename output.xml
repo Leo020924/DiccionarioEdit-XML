@@ -4406,13 +4406,22 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
 <p><strong>como</strong></p>
 <p><em>estas</em></p>]]></note>
     </notes>
-    <campos>
-      <campo>vegetacionserenanalcms</campo>
-    </campos>
+    <dataRules>
+      <rule>fsfsddfs</rule>
+    </dataRules>
+    <syntaxRules>
+      <rule>fsdfsd</rule>
+    </syntaxRules>
+    <infoRules>
+      <rule>fsdfs</rule>
+    </infoRules>
     <ejemplar>
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
       <key>8fb42940fd0605c50291867788df16ad</key>
       <key>75c3fc57516b3b6c9e0e46d5db3b7cb1</key>
     </ejemplar>
+    <campos>
+      <campo>vegetacionserenanalcms</campo>
+    </campos>
   </snibTerm>
 </snibDictionary>
