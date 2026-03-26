@@ -3979,7 +3979,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
     <orden>
-      <prev>PRUEBA12</prev>
+      <prev>PRUEBA14</prev>
       <next/>
     </orden>
     <fieldName>Tipo de vegetación</fieldName>
@@ -4631,7 +4631,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Datos del ejemplar/observación</category>
     <orden>
       <prev>ejemplarfosil</prev>
-      <next>tipovegetacion</next>
+      <next>PRUEBA14</next>
     </orden>
     <fieldName>PRUEBA 12</fieldName>
     <fieldid>PRUEBA12</fieldid>
@@ -4662,6 +4662,27 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <downloadSnib>false</downloadSnib>
     <campos>
       <campo>localidad</campo>
+    </campos>
+    <ejemplar>
+      <key>d2d26f3bc8a7741448336dd76c61086a</key>
+      <key>8fb42940fd0605c50291867788df16ad</key>
+      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Datos del ejemplar/observación</category>
+    <orden>
+      <prev>PRUEBA12</prev>
+      <next>tipovegetacion</next>
+    </orden>
+    <fieldName>PRUEBA 14</fieldName>
+    <fieldid>PRUEBA14</fieldid>
+    <dwcField>PRUEBA 14</dwcField>
+    <description>PRUEBA 14</description>
+    <downloadGeoportal>true</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <campos>
+      <campo>orden</campo>
     </campos>
     <ejemplar>
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
