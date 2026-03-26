@@ -13,7 +13,7 @@ con la Licencia Libre Uso MX.</licenciaUso>
 Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar>
     <anexo1>En la siguiente tabla se muestran los campos del SNIB incluidos para descarga en el geoportal y la página del SNIB de la CONABIO.</anexo1>
     <anexo2>En este anexo se proporciona la sentencia SQL para MySQL mediante la cual se puede crear la estructura de la tabla de descarga del geoportal y de la tabla de descarga del snib.mx.</anexo2>
-    <anexo3>Tabla de equivalencias de uso de suelo y vegetación de todas las series del INEGI 1212212</anexo3>
+    <anexo3>Tabla de equivalencias de uso de suelo y vegetación de todas las series del INEGI</anexo3>
     <creador>
       <nombre/>
       <sitioWeb/>
@@ -24,7 +24,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <category>Información geográfica</category>
     <subcategory>Geografía original</subcategory>
     <orden>
-      <prev>PRUEBA1</prev>
+      <prev></prev>
       <next>paisoriginal</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -67,7 +67,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <category>Información geográfica</category>
     <subcategory>Geografía original</subcategory>
     <orden>
-      <prev>PRUEBA5</prev>
+      <prev>municipiooriginal</prev>
       <next>latitud</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -735,7 +735,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Geografía original</subcategory>
     <orden>
       <prev>estadooriginal</prev>
-      <next>PRUEBA5</next>
+      <next>localidad</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -984,7 +984,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Geografía original</subcategory>
     <orden>
       <prev>datum</prev>
-      <next>PRUEBA3</next>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3028,7 +3028,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Categoría de protección</category>
     <orden>
-      <prev>PRUEBA10</prev>
+      <prev>cites</prev>
       <next>nivelprioridad</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -3151,7 +3151,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Categoría de protección</category>
     <orden>
-      <prev>PRUEBA6</prev>
+      <prev/>
       <next>cites</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -3189,7 +3189,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Categoría de protección</category>
     <orden>
       <prev>nom059</prev>
-      <next>PRUEBA10</next>
+      <next>prioritaria</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3227,7 +3227,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Categoría de protección</category>
     <orden>
       <prev>nivelprioridad</prev>
-      <next>PRUEBA7</next>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3979,13 +3979,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
     <orden>
-<<<<<<< HEAD
-      <prev>PRUEBA14</prev>
-      <next/>
-=======
       <prev>tipo</prev>
       <next>ejemplarfosil</next>
->>>>>>> 22bf07f7665f1a33e9b333b8ce2d14d5b3eca803
     </orden>
     <fieldName>Tipo de vegetación</fieldName>
     <fieldid>tipovegetacion</fieldid>
@@ -4013,13 +4008,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
     <orden>
-<<<<<<< HEAD
-      <prev>tipo</prev>
-      <next>PRUEBA12</next>
-=======
       <prev>tipovegetacion</prev>
       <next/>
->>>>>>> 22bf07f7665f1a33e9b333b8ce2d14d5b3eca803
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4368,7 +4358,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
     <orden>
-      <prev>PRUEBA11</prev>
+      <prev/>
       <next>coleccion</next>
     </orden>
     <ordenTabla>
@@ -4397,307 +4387,5 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <campo>grupobio</campo>
       <campo>especievalida</campo>
     </campos>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
-    <orden>
-      <prev>PRUEBA2</prev>
-      <next>region</next>
-    </orden>
-    <fieldName>PRUEBA 1</fieldName>
-    <fieldid>PRUEBA1</fieldid>
-    <dwcField>PRUEBA 1</dwcField>
-    <description>PRUEBA 1</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
-    <orden>
-      <prev/>
-      <next>PRUEBA1</next>
-    </orden>
-    <fieldName>PRUEBA 2</fieldName>
-    <fieldid>PRUEBA2</fieldid>
-    <dwcField>PRUEBA 2</dwcField>
-    <description>PRUEBA 2</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>mt24idestadomapa</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
-    <orden>
-      <prev>incertidumbrexy</prev>
-      <next>PRUEBA4</next>
-    </orden>
-    <fieldName>PRUEBA 3</fieldName>
-    <fieldid>PRUEBA3</fieldid>
-    <dwcField>PRUEBA 3</dwcField>
-    <description>PRUEBA 3</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
-    <orden>
-      <prev>PRUEBA3</prev>
-      <next/>
-    </orden>
-    <fieldName>PRUEBA 4</fieldName>
-    <fieldid>PRUEBA4</fieldid>
-    <dwcField>PRUEBA 4</dwcField>
-    <description>PRUEBA 4</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>longitud</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
-    <orden>
-      <prev>municipiooriginal</prev>
-      <next>localidad</next>
-    </orden>
-    <fieldName>PRUEBA 5</fieldName>
-    <fieldid>PRUEBA5</fieldid>
-    <dwcField>PRUEBA 5</dwcField>
-    <description>PRUEBA 5</description>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>usvserieV</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Categoría de protección</category>
-    <orden>
-      <prev>PRUEBA8</prev>
-      <next>nom059</next>
-    </orden>
-    <fieldName>PRUEBA 6</fieldName>
-    <fieldid>PRUEBA6</fieldid>
-    <dwcField>PRUEBA 6</dwcField>
-    <description>PRUEBA 6</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>longitud</campo>
-      <campo>datum</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Categoría de protección</category>
-    <orden>
-      <prev>iucn</prev>
-      <next>PRUEBA9</next>
-    </orden>
-    <fieldName>PRUEBA 7</fieldName>
-    <fieldid>PRUEBA7</fieldid>
-    <dwcField>PRUEBA 7</dwcField>
-    <description>PRUEBA 7</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Categoría de protección</category>
-    <orden>
-      <prev/>
-      <next>PRUEBA6</next>
-    </orden>
-    <fieldName>PRUEBA 8</fieldName>
-    <fieldid>PRUEBA8</fieldid>
-    <dwcField>PRUEBA 8</dwcField>
-    <description>PRUEBA 8</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>localidad</campo>
-      <campo>cuencahidrograficamapa</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Categoría de protección</category>
-    <orden>
-      <prev>PRUEBA7</prev>
-      <next/>
-    </orden>
-    <fieldName>PRUEBA 9</fieldName>
-    <fieldid>PRUEBA9</fieldid>
-    <dwcField>PRUEBA 9</dwcField>
-    <description>PRUEBA 9</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>grupobio</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Categoría de protección</category>
-    <orden>
-      <prev>cites</prev>
-      <next>prioritaria</next>
-    </orden>
-    <fieldName>PRUEBA 10</fieldName>
-    <fieldid>PRUEBA10</fieldid>
-    <dwcField>PRUEBA 10</dwcField>
-    <description>PRUEBA 10</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>reino</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Datos del ejemplar/observación</category>
-    <orden>
-      <prev>PRUEBA13</prev>
-      <next>idejemplar</next>
-    </orden>
-    <fieldName>PRUEBA 11</fieldName>
-    <fieldid>PRUEBA11</fieldid>
-    <dwcField>PRUEBA 11</dwcField>
-    <description>PRUEBA 11</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>region</campo>
-      <campo>longitud</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Datos del ejemplar/observación</category>
-    <orden>
-      <prev>ejemplarfosil</prev>
-      <next>PRUEBA14</next>
-    </orden>
-    <fieldName>PRUEBA 12</fieldName>
-    <fieldid>PRUEBA12</fieldid>
-    <dwcField>PRUEBA 12</dwcField>
-    <description>PRUEBA 12</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>validacionambiente</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Datos del ejemplar/observación</category>
-    <orden>
-      <prev/>
-      <next>PRUEBA11</next>
-    </orden>
-    <fieldName>PRUEBA 13</fieldName>
-    <fieldid>PRUEBA13</fieldid>
-    <dwcField>PRUEBA 13</dwcField>
-    <description>PRUEBA 13</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Datos del ejemplar/observación</category>
-    <orden>
-      <prev>PRUEBA12</prev>
-      <next>tipovegetacion</next>
-    </orden>
-    <fieldName>PRUEBA 14</fieldName>
-    <fieldid>PRUEBA14</fieldid>
-    <dwcField>PRUEBA 14</dwcField>
-    <description>PRUEBA 14</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>orden</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
   </snibTerm>
 </snibDictionary>
