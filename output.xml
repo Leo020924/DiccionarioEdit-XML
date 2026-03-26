@@ -3009,7 +3009,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>cites</prev>
       <next>nivelprioridad</next>
@@ -3051,7 +3051,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>prioritaria</prev>
       <next>iucn</next>
@@ -3132,7 +3132,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev/>
       <next>cites</next>
@@ -3169,7 +3169,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>nom059</prev>
       <next>prioritaria</next>
@@ -3207,7 +3207,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>nivelprioridad</prev>
       <next/>
