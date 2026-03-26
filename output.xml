@@ -677,17 +677,18 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev>estadomapa</prev>
-      <next>mt24nombreestadomapa</next>
+      <prev>mt24nombreestadomapa</prev>
+      <next>mt24nombremunicipiomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>claveestadomapa</after>
     </ordenTabla>
-    <fieldName>Clave estatal asignada como referencia para las ubicaciones en el mar </fieldName>
+    <fieldName>Clave estatal por ubicación en el mar </fieldName>
     <fieldid>mt24claveestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Clave del estado costero o división política equivalente, frente al cual se extiende la franja de 24 millas náuticas (12 de mar territorial y 12 de la zona contigua), y que se asigna como referencia de ubicación de la coordenada geográfica registrada para el ejemplar.</description>
