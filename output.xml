@@ -2759,7 +2759,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>ambiente</prev>
       <next>exoticainvasora</next>
@@ -2800,7 +2800,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>categoriaresidenciaaves</prev>
       <next/>
@@ -2836,7 +2836,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev/>
       <next>endemismo</next>
@@ -2970,7 +2970,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>exoticainvasora</prev>
       <next>categoriaresidenciaaves</next>
@@ -3025,7 +3025,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>cites</prev>
       <next>nivelprioridad</next>
@@ -3067,7 +3067,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>prioritaria</prev>
       <next>iucn</next>
@@ -3107,7 +3107,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>endemismo</prev>
       <next>formadecrecimiento</next>
@@ -3148,7 +3148,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev/>
       <next>cites</next>
@@ -3185,7 +3185,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>nom059</prev>
       <next>prioritaria</next>
@@ -3223,7 +3223,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>nivelprioridad</prev>
       <next/>
@@ -3263,7 +3263,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>formadecrecimiento</prev>
       <next/>
@@ -4038,7 +4038,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>geoportal</prev>
       <next>urlejemplar</next>
@@ -4069,7 +4069,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>urlejemplar</prev>
       <next>licenciauso</next>
@@ -4101,7 +4101,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>licenciauso</prev>
       <next>urlproyecto</next>
@@ -4128,7 +4128,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>fuente</prev>
       <next>formadecitar</next>
@@ -4175,7 +4175,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>formadecitar</prev>
       <next>version</next>
@@ -4204,7 +4204,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>version</prev>
       <next>ultimafechaactualizacion</next>
@@ -4230,7 +4230,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>proyecto</prev>
       <next>fuente</next>
@@ -4259,7 +4259,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev/>
       <next>proyecto</next>
@@ -4295,7 +4295,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>urlorigen</prev>
       <next/>
@@ -4326,7 +4326,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>urlproyecto</prev>
       <next>urlorigen</next>
