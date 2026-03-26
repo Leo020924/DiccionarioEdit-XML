@@ -13,6 +13,7 @@ con la Licencia Libre Uso MX.</licenciaUso>
 Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar>
     <anexo1>En la siguiente tabla se muestran los campos del SNIB incluidos para descarga en el geoportal y la página del SNIB de la CONABIO.</anexo1>
     <anexo2>En este anexo se proporciona la sentencia SQL para MySQL mediante la cual se puede crear la estructura de la tabla de descarga del geoportal y de la tabla de descarga del snib.mx.</anexo2>
+    <anexo3>Tabla de equivalencias de uso de suelo y vegetación de todas las series del INEGI</anexo3>
     <creador>
       <nombre/>
       <sitioWeb/>
