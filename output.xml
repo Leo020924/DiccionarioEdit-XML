@@ -3028,7 +3028,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Categoría de protección</category>
     <orden>
-      <prev>PRUEBA8</prev>
+      <prev>cites</prev>
       <next>nivelprioridad</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -3151,7 +3151,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Categoría de protección</category>
     <orden>
-      <prev></prev>
+      <prev/>
       <next>cites</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -3189,7 +3189,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Categoría de protección</category>
     <orden>
       <prev>nom059</prev>
-      <next>PRUEBA8</next>
+      <next>prioritaria</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4398,27 +4398,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <fieldid>PRUEBA7</fieldid>
     <dwcField>PRUEBA 7</dwcField>
     <description>PRUEBA 7</description>
-    <downloadGeoportal>false</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Categoría de protección</category>
-    <orden>
-      <prev>cites</prev>
-      <next>prioritaria</next>
-    </orden>
-    <fieldName>PRUEBA 8</fieldName>
-    <fieldid>PRUEBA8</fieldid>
-    <dwcField>PRUEBA 8</dwcField>
-    <description>PRUEBA 8</description>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <campos>
