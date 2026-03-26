@@ -4023,7 +4023,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>geoportal</prev>
       <next>urlejemplar</next>
@@ -4054,7 +4054,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>urlejemplar</prev>
       <next>licenciauso</next>
@@ -4086,7 +4086,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>licenciauso</prev>
       <next>urlproyecto</next>
@@ -4113,7 +4113,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>fuente</prev>
       <next>formadecitar</next>
@@ -4160,7 +4160,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>formadecitar</prev>
       <next>version</next>
@@ -4189,7 +4189,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>version</prev>
       <next>ultimafechaactualizacion</next>
@@ -4215,7 +4215,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>proyecto</prev>
       <next>fuente</next>
@@ -4244,7 +4244,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev/>
       <next>proyecto</next>
@@ -4280,7 +4280,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>urlorigen</prev>
       <next/>
@@ -4311,7 +4311,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>urlproyecto</prev>
       <next>urlorigen</next>
