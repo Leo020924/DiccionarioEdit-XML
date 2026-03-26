@@ -2743,7 +2743,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>taxonextinto</prev>
       <next>exoticainvasora</next>
@@ -2784,7 +2784,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>nombrecomun</prev>
       <next>endemismo</next>
@@ -2820,7 +2820,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>exoticainvasora</prev>
       <next>formadecrecimiento</next>
@@ -2954,7 +2954,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>ambiente</prev>
       <next>categoriaresidenciaaves</next>
@@ -3091,7 +3091,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>endemismo</prev>
       <next>ambiente</next>
@@ -3247,7 +3247,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>formadecrecimiento</prev>
       <next/>
