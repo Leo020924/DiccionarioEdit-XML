@@ -67,7 +67,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <category>Información geográfica</category>
     <subcategory>Geografía original</subcategory>
     <orden>
-      <prev>municipiooriginal</prev>
+      <prev>PRUEBA5</prev>
       <next>latitud</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -735,7 +735,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Geografía original</subcategory>
     <orden>
       <prev>estadooriginal</prev>
-      <next>localidad</next>
+      <next>PRUEBA5</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4469,6 +4469,28 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <downloadSnib>false</downloadSnib>
     <campos>
       <campo>longitud</campo>
+    </campos>
+    <ejemplar>
+      <key>d2d26f3bc8a7741448336dd76c61086a</key>
+      <key>8fb42940fd0605c50291867788df16ad</key>
+      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica</category>
+    <subcategory>Geografía original</subcategory>
+    <orden>
+      <prev>municipiooriginal</prev>
+      <next>localidad</next>
+    </orden>
+    <fieldName>PRUEBA 5</fieldName>
+    <fieldid>PRUEBA5</fieldid>
+    <dwcField>PRUEBA 5</dwcField>
+    <description>PRUEBA 5</description>
+    <downloadGeoportal>false</downloadGeoportal>
+    <downloadSnib>false</downloadSnib>
+    <campos>
+      <campo>localidad</campo>
     </campos>
     <ejemplar>
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
