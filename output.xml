@@ -3340,7 +3340,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Datos del ejemplar/observación</category>
     <orden>
       <prev>idejemplar</prev>
-      <next>obsusoinfo</next>
+      <next>institucion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3379,8 +3379,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
     <orden>
-      <prev>obsusoinfo</prev>
-      <next>numcatalogo</next>
+      <prev>coleccion</prev>
+      <next>paiscoleccion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3420,8 +3420,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
     <orden>
-      <prev>fechacolecta</prev>
-      <next>procedenciaejemplar</next>
+      <prev>Institución</prev>
+      <next>numcatalogo</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3457,7 +3457,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
     <orden>
-      <prev>institucion</prev>
+      <prev>paiscoleccion</prev>
       <next>numcolecta</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -3492,7 +3492,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Datos del ejemplar/observación</category>
     <orden>
       <prev>numcatalogo</prev>
-      <next>colector</next>
+      <next>procedenciaejemplar</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3525,7 +3525,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
     <orden>
-      <prev>paiscoleccion</prev>
+      <prev>numcolecta</prev>
       <next>determinador</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -3698,7 +3698,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Datos del ejemplar/observación</category>
     <orden>
       <prev>diadeterminacion</prev>
-      <next>tipo</next>
+      <next>calificadordeterminacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3732,8 +3732,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
     <orden>
-      <prev>especie</prev>
-      <next>categoriainfraespecie</next>
+      <prev>fechadeterminacion</prev>
+      <next>colector</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3764,7 +3764,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
     <orden>
-      <prev>numcolecta</prev>
+      <prev>calificadordeterminacion</prev>
       <next>aniocolecta</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -3909,7 +3909,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Datos del ejemplar/observación</category>
     <orden>
       <prev>diacolecta</prev>
-      <next>paiscoleccion</next>
+      <next>tipo</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3946,8 +3946,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
     <orden>
-      <prev>fechadeterminacion</prev>
-      <next>ejemplarfosil</next>
+      <prev>fechacolecta</prev>
+      <next>tipovegetacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -3979,8 +3979,13 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
     <orden>
+<<<<<<< HEAD
       <prev>PRUEBA14</prev>
       <next/>
+=======
+      <prev>tipo</prev>
+      <next>ejemplarfosil</next>
+>>>>>>> 22bf07f7665f1a33e9b333b8ce2d14d5b3eca803
     </orden>
     <fieldName>Tipo de vegetación</fieldName>
     <fieldid>tipovegetacion</fieldid>
@@ -4008,8 +4013,13 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
     <orden>
+<<<<<<< HEAD
       <prev>tipo</prev>
       <next>PRUEBA12</next>
+=======
+      <prev>tipovegetacion</prev>
+      <next/>
+>>>>>>> 22bf07f7665f1a33e9b333b8ce2d14d5b3eca803
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
