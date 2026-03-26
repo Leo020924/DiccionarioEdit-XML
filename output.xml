@@ -1707,7 +1707,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Taxonomía válida</subcategory>
     <orden>
       <prev>grupobio</prev>
-      <next>idnombrecat</next>
+      <next>reinovalido</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -2267,7 +2267,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información taxonómica</category>
     <subcategory>Taxonomía válida</subcategory>
     <orden>
-      <prev>idnombrecatvalido</prev>
+      <prev>subgrupobio</prev>
       <next>phylumdivisionvalido</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -2690,7 +2690,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Taxonomía válida</subcategory>
     <orden>
       <prev>autorvalido</prev>
-      <next/>
+      <next>nombrecomun</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2876,8 +2876,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información taxonómica</category>
     <subcategory>Taxonomía válida</subcategory>
     <orden>
-      <prev/>
-      <next>taxonextinto</next>
+      <prev>reftaxvalido</prev>
+      <next>idnombrecat</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2915,8 +2915,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información taxonómica</category>
     <subcategory>Taxonomía válida</subcategory>
     <orden>
-      <prev>subgrupobio</prev>
-      <next>reino</next>
+      <prev>nombrecomun</prev>
+      <next>idnombrecatvalido</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2944,8 +2944,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Información taxonómica</category>
     <subcategory>Taxonomía válida</subcategory>
     <orden>
-      <prev>reftax</prev>
-      <next>reinovalido</next>
+      <prev>idnombrecat</prev>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
