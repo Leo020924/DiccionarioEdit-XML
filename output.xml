@@ -4393,7 +4393,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <subcategory>Geografía original</subcategory>
     <orden>
       <prev>incertidumbrexy</prev>
-      <next>PRUEBA4</next>
+      <next></next>
     </orden>
     <fieldName>PRUEBA 2</fieldName>
     <fieldid>PRUEBA2</fieldid>
@@ -4403,28 +4403,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <downloadSnib>false</downloadSnib>
     <campos>
       <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
-      <key>8fb42940fd0605c50291867788df16ad</key>
-      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
-    <orden>
-      <prev>PRUEBA2</prev>
-      <next/>
-    </orden>
-    <fieldName>PRUEBA 4</fieldName>
-    <fieldid>PRUEBA4</fieldid>
-    <dwcField>PRUEBA 4</dwcField>
-    <description>PRUEBA 4</description>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <campos>
-      <campo>longitud</campo>
     </campos>
     <ejemplar>
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
