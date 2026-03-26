@@ -3302,10 +3302,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Datos del recurso</category>
     <orden>
-      <prev>coleccion</prev>
-      <next>institucion</next>
+      <prev/>
+      <next>formadecitar</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4041,7 +4041,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Datos del recurso</category>
     <orden>
       <prev>geoportal</prev>
-      <next>urlejemplar</next>
+      <next>fuente</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4071,8 +4071,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del recurso</category>
     <orden>
-      <prev>urlejemplar</prev>
-      <next>licenciauso</next>
+      <prev>proyecto</prev>
+      <next>urlejemplar</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4103,8 +4103,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del recurso</category>
     <orden>
-      <prev>licenciauso</prev>
-      <next>urlproyecto</next>
+      <prev>obsusoinfo</prev>
+      <next>licenciauso</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4130,8 +4130,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del recurso</category>
     <orden>
-      <prev>fuente</prev>
-      <next>formadecitar</next>
+      <prev>formadecitar</prev>
+      <next>version</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4177,8 +4177,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del recurso</category>
     <orden>
-      <prev>formadecitar</prev>
-      <next>version</next>
+      <prev>urlorigen</prev>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4206,8 +4206,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del recurso</category>
     <orden>
-      <prev>version</prev>
-      <next>ultimafechaactualizacion</next>
+      <prev>urlejemplar</prev>
+      <next>urlproyecto</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4232,8 +4232,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del recurso</category>
     <orden>
-      <prev>proyecto</prev>
-      <next>fuente</next>
+      <prev>fuente</prev>
+      <next>urlorigen</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4297,8 +4297,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del recurso</category>
     <orden>
-      <prev>urlorigen</prev>
-      <next/>
+      <prev>version</prev>
+      <next>geoportal</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4328,8 +4328,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   <snibTerm>
     <category>Datos del recurso</category>
     <orden>
-      <prev>urlproyecto</prev>
-      <next>urlorigen</next>
+      <prev>licenciauso</prev>
+      <next>ultimafechaactualizacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
