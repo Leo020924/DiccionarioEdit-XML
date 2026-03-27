@@ -22,7 +22,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
   </metadata>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
+    <subcategory>Información Geográfica original. </subcategory>
     <orden>
       <prev></prev>
       <next>paisoriginal</next>
@@ -65,7 +65,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
+    <subcategory>Información Geográfica original. </subcategory>
     <orden>
       <prev>municipiooriginal</prev>
       <next>latitud</next>
@@ -100,7 +100,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
+    <subcategory>Información Geográfica original. </subcategory>
     <orden>
       <prev>latitud</prev>
       <next>datum</next>
@@ -147,7 +147,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
+    <subcategory>Información Geográfica original. </subcategory>
     <orden>
       <prev>localidad</prev>
       <next>longitud</next>
@@ -194,7 +194,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
+    <subcategory>Información Geográfica original. </subcategory>
     <orden>
       <prev>longitud</prev>
       <next>incertidumbrexy</next>
@@ -378,7 +378,7 @@ Sin coordenadas. Sin localidad</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
+    <subcategory>Información Geográfica original. </subcategory>
     <orden>
       <prev>region</prev>
       <next>estadooriginal</next>
@@ -478,7 +478,7 @@ un dato de país en el campo país original.</subregla></rule>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
+    <subcategory>Información Geográfica original. </subcategory>
     <orden>
       <prev>paisoriginal</prev>
       <next>municipiooriginal</next>
@@ -732,7 +732,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
+    <subcategory>Información Geográfica original. </subcategory>
     <orden>
       <prev>estadooriginal</prev>
       <next>localidad</next>
@@ -981,7 +981,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
   </snibTerm>
   <snibTerm>
     <category>Información geográfica</category>
-    <subcategory>Geografía original</subcategory>
+    <subcategory>Información Geográfica original. </subcategory>
     <orden>
       <prev>datum</prev>
       <next/>
