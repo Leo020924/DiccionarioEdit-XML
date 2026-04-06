@@ -4121,15 +4121,15 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <description>Forma de citar los datos al hacer uso de estos o parte de estos.</description>
     <datatype>text</datatype>
     <encoding>UTF-8</encoding>
-    <campos>
-      <campo>formadecitar</campo>
-      <campo>proyecto</campo>
-    </campos>
     <ejemplar>
       <key>27f71bf7fe8827a301956f7cc5e72082</key>
       <key>00000542ffe016e66a6defb8977d1e32</key>
       <key>23ca79caa3b1539a3d43d44423e356ae</key>
     </ejemplar>
+    <campos>
+      <campo>formadecitar</campo>
+      <campo>proyecto</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Datos del recurso</category>
