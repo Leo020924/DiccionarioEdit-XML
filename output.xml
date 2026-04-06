@@ -572,9 +572,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>09f933df3498699b921e0d63273bf1bd</key>
     </ejemplar>
     <campos>
+      <campo>paismapa</campo>
       <campo>estadomapa</campo>
       <campo>claveestadomapa</campo>
-      <campo>paismapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
