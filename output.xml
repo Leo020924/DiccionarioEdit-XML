@@ -61,8 +61,8 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <campo>region</campo>
       <campo>estadooriginal</campo>
       <campo>municipiooriginal</campo>
-      <campo>altitudmapa</campo>
       <campo>estadomapa</campo>
+      <campo>usvserieI</campo>
     </campos>
   </snibTerm>
   <snibTerm>
