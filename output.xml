@@ -365,15 +365,15 @@ Sin coordenadas. Sin localidad</subregla></rule>
       <key>25b8f18fade8259b41ea3130f9393942</key>
     </ejemplar>
     <campos>
-      <campo>geovalidacion</campo>
-      <campo>region</campo>
       <campo>localidad</campo>
-      <campo>latitud</campo>
       <campo>longitud</campo>
+      <campo>latitud</campo>
+      <campo>geovalidacion</campo>
       <campo>paismapa</campo>
       <campo>estadomapa</campo>
       <campo>municipiomapa</campo>
       <campo>obsusoinfo</campo>
+      <campo>region</campo>
     </campos>
   </snibTerm>
   <snibTerm>
@@ -3227,7 +3227,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <category>Categoría de protección</category>
     <orden>
       <prev>nivelprioridad</prev>
-      <next></next>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
