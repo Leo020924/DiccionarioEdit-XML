@@ -575,6 +575,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <campo>paismapa</campo>
       <campo>estadomapa</campo>
       <campo>claveestadomapa</campo>
+      <campo>usvserieVI</campo>
     </campos>
   </snibTerm>
   <snibTerm>
