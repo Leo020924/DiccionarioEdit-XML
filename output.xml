@@ -57,10 +57,10 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <key>00e7cbf9117e93172c13f50d261fcb48</key>
     </ejemplar>
     <campos>
-      <campo>region</campo>
       <campo>paisoriginal</campo>
       <campo>estadooriginal</campo>
       <campo>municipiooriginal</campo>
+      <campo>region</campo>
     </campos>
   </snibTerm>
   <snibTerm>
