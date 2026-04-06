@@ -367,15 +367,15 @@ Sin coordenadas. Sin localidad</subregla></rule>
       <key>25b8f18fade8259b41ea3130f9393942</key>
     </ejemplar>
     <campos>
-      <campo>localidad</campo>
-      <campo>longitud</campo>
-      <campo>latitud</campo>
       <campo>geovalidacion</campo>
       <campo>paismapa</campo>
       <campo>estadomapa</campo>
       <campo>municipiomapa</campo>
       <campo>obsusoinfo</campo>
       <campo>region</campo>
+      <campo>localidad</campo>
+      <campo>longitud</campo>
+      <campo>latitud</campo>
     </campos>
   </snibTerm>
   <snibTerm>
