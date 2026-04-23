@@ -401,7 +401,7 @@ Sin coordenadas. Sin localidad</subregla></rule>
       <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en <a href="../ejemplares/descarga/" target="_blank" rel="noopener">https://www.snib.mx/ejemplares/descarga/</a></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>SNIB MX eNhttp://172.16.3.63/editadiccionario/index.php</p>]]></note>
+<p>SNIB MX eN&nbsp; http://172.16.3.63/editadiccionario/index.php</p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
