@@ -398,7 +398,9 @@ Sin coordenadas. Sin localidad</subregla></rule>
     <encoding>UTF-8</encoding>
     <notes>
       <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
-      <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en <a href="../ejemplares/descarga/" target="_blank" rel="noopener">https://www.snib.mx/ejemplares/descarga/</a></p>]]></note>
+      <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en <a href="../ejemplares/descarga/" target="_blank" rel="noopener">https://www.snib.mx/ejemplares/descarga/</a></p>
+<p>&nbsp;</p>
+<p>LINK DE PRUEBA http://172.16.3.63/editadiccionario/</p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
