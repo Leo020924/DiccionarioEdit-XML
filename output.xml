@@ -13,7 +13,11 @@ con la Licencia Libre Uso MX.</licenciaUso>
 Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar>
     <anexo1>En la siguiente tabla se muestran los campos del SNIB incluidos para descarga en el geoportal y la página del SNIB de la CONABIO.</anexo1>
     <anexo2>En este anexo se proporciona la sentencia SQL para MySQL mediante la cual se puede crear la estructura de la tabla de descarga del geoportal y de la tabla de descarga del snib.mx.</anexo2>
+<<<<<<< HEAD
     <anexo3>Tabla de equivalencias de uso de suelo y vegetación de todas las series del INEGI. www.conabio.gob.mx/informacion/gis/</anexo3>
+=======
+    <anexo3>En la columna usvseries se encuentran los usos de suelo y vegetación del INEGI de la serie I a la VII. Esta información se incluye en el SNIB y sus descargas a selección del usuario https://www.snib.mx/ejemplares/descarga/ (sección Campos disponibles para descarga, campos usvserieI a usvserieVII), asimismo se integra en la descarga de ejemplares a través del geoportal http://www.conabio.gob.mx/informacion/gis/?vns=gis_root/snib. En la columna clasesusvseries se presenta una clasificación más general, con el fin de facilitar la consulta y el manejo de la información. </anexo3>
+>>>>>>> 91a1742404bcf2b6411ebe67d2def27fda5cf719
     <creador>
       <nombre></nombre>
       <sitioWeb></sitioWeb>
